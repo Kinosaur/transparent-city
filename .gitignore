@@ -1,0 +1,28 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# ── Backend data (CSVs are large — download manually, see README) ─────────────
+backend/data/*.csv
+# Intermediate pipeline output — frontend/public/data/ is the canonical copy
+backend/public/
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# ── OS / editors ──────────────────────────────────────────────────────────────
+.DS_Store
+*.pem
+npm-debug.log*
+
+# ── Claude Code ───────────────────────────────────────────────────────────────
+.claude/
+Traffy-Community-Dashboard-Execution-Plan.pdf

@@ -1,0 +1,81 @@
+{
+  "site": {
+    "name": "Transparent City",
+    "tagline": "A better city starts with asking the right questions"
+  },
+  "nav": {
+    "overview": "Overview",
+    "districts": "District Report",
+    "leaderboard": "Agency Rankings",
+    "gallery": "Before / After",
+    "map": "Map"
+  },
+  "overview": {
+    "title": "Bangkok Overview",
+    "subtitle": "Real-time statistics from the Traffy Fondue platform",
+    "provocative_label": "tickets still unresolved",
+    "data_as_of": "Data from",
+    "to": "to"
+  },
+  "kpi": {
+    "total_tickets": "Total Tickets",
+    "resolution_rate": "Resolution Rate",
+    "median_resolution_days": "Median Fix Time",
+    "avg_satisfaction": "Avg. Satisfaction",
+    "stale_tickets": "Stale Tickets",
+    "days": "days",
+    "out_of_5": "/ 5",
+    "of_total": "of all tickets"
+  },
+  "charts": {
+    "monthly_trend_title": "Monthly Trend",
+    "monthly_trend_subtitle": "Tickets reported and resolved each month",
+    "resolved": "Resolved",
+    "pending": "Pending",
+    "total": "Total",
+    "top_types_title": "Top 10 Problem Types",
+    "top_types_subtitle": "Ranked by ticket volume",
+    "count": "Count",
+    "res_rate": "Resolved",
+    "med_days": "Median days"
+  },
+  "districts": {
+    "title": "District Report Card",
+    "subtitle": "Select a district to view its detailed report",
+    "select_placeholder": "Select a district...",
+    "grade_label": "Overall Grade",
+    "vs_bkk": "vs Bangkok Average",
+    "resolution_rate": "Resolution Rate",
+    "median_days": "Median Fix Time",
+    "avg_satisfaction": "Satisfaction",
+    "stale_pct": "Stale Tickets",
+    "top_types": "Top Problem Types",
+    "worst_stale": "Longest Unresolved Tickets",
+    "days_open": "Days open",
+    "bkk_avg": "BKK Avg.",
+    "this_district": "This District",
+    "days": "days",
+    "tickets": "tickets",
+    "total_tickets": "Total Tickets",
+    "improving": "Improving",
+    "worsening": "Worsening",
+    "stable": "Stable",
+    "no_stale": "No stale tickets",
+    "select_prompt": "Select a district above to view its report card",
+    "grade_excellent": "Excellent",
+    "grade_good": "Good",
+    "grade_average": "Average",
+    "grade_below": "Below Average",
+    "grade_poor": "Poor",
+    "score_label": "Score",
+    "trend_3mo": "Trend (3mo)",
+    "stale_label": "Stale",
+    "comparison_subtitle": "District vs Bangkok average",
+    "bkk_prefix": "BKK"
+  },
+  "footer": {
+    "source": "Data source",
+    "credit": "Data from Traffy Fondue (traffy.in.th) — Bangkok's civic reporting platform",
+    "disclaimer": "This is a community project. Not affiliated with or endorsed by the government."
+  }
+}

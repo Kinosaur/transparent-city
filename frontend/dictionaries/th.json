@@ -1,0 +1,81 @@
+{
+  "site": {
+    "name": "เมืองโปร่งใส",
+    "tagline": "เพราะเมืองที่ดี ต้องเริ่มจากการตั้งคำถามที่ถูก"
+  },
+  "nav": {
+    "overview": "ภาพรวม",
+    "districts": "ผลงานเขต",
+    "leaderboard": "จัดอันดับหน่วยงาน",
+    "gallery": "ก่อน-หลัง",
+    "map": "แผนที่"
+  },
+  "overview": {
+    "title": "ภาพรวมกรุงเทพฯ",
+    "subtitle": "สถิติเรียลไทม์จากระบบ Traffy Fondue",
+    "provocative_label": "ตั๋วค้างคาที่ยังไม่ได้รับการแก้ไข",
+    "data_as_of": "ข้อมูลตั้งแต่",
+    "to": "ถึง"
+  },
+  "kpi": {
+    "total_tickets": "จำนวนตั๋วทั้งหมด",
+    "resolution_rate": "อัตราการแก้ไข",
+    "median_resolution_days": "เวลาแก้ไขเฉลี่ย",
+    "avg_satisfaction": "คะแนนความพึงพอใจ",
+    "stale_tickets": "ตั๋วค้างคา",
+    "days": "วัน",
+    "out_of_5": "/ 5",
+    "of_total": "จากตั๋วทั้งหมด"
+  },
+  "charts": {
+    "monthly_trend_title": "แนวโน้มรายเดือน",
+    "monthly_trend_subtitle": "จำนวนตั๋วที่รับแจ้งและแก้ไขในแต่ละเดือน",
+    "resolved": "แก้ไขแล้ว",
+    "pending": "รอดำเนินการ",
+    "total": "ทั้งหมด",
+    "top_types_title": "ประเภทปัญหาหลัก 10 อันดับ",
+    "top_types_subtitle": "จัดอันดับตามจำนวนตั๋ว",
+    "count": "จำนวน",
+    "res_rate": "แก้ไขได้",
+    "med_days": "เวลาเฉลี่ย"
+  },
+  "districts": {
+    "title": "ผลงานเขต",
+    "subtitle": "เลือกเขตเพื่อดูรายงานละเอียด",
+    "select_placeholder": "เลือกเขต...",
+    "grade_label": "เกรดภาพรวม",
+    "vs_bkk": "เทียบกับค่าเฉลี่ยกรุงเทพฯ",
+    "resolution_rate": "อัตราการแก้ไข",
+    "median_days": "เวลาแก้ไขเฉลี่ย",
+    "avg_satisfaction": "ความพึงพอใจ",
+    "stale_pct": "ตั๋วค้างคา",
+    "top_types": "ประเภทปัญหาหลัก",
+    "worst_stale": "ตั๋วค้างคานานที่สุด",
+    "days_open": "วันที่ค้างอยู่",
+    "bkk_avg": "ค่าเฉลี่ย กทม.",
+    "this_district": "เขตนี้",
+    "days": "วัน",
+    "tickets": "ตั๋ว",
+    "total_tickets": "จำนวนตั๋วทั้งหมด",
+    "improving": "ดีขึ้น",
+    "worsening": "แย่ลง",
+    "stable": "คงที่",
+    "no_stale": "ไม่มีตั๋วค้างคา",
+    "select_prompt": "เลือกเขตด้านบนเพื่อดูรายงาน",
+    "grade_excellent": "ดีเยี่ยม",
+    "grade_good": "ดี",
+    "grade_average": "ปานกลาง",
+    "grade_below": "ต่ำกว่าเกณฑ์",
+    "grade_poor": "ต้องปรับปรุง",
+    "score_label": "คะแนน",
+    "trend_3mo": "แนวโน้ม (3 เดือน)",
+    "stale_label": "ค้างคา",
+    "comparison_subtitle": "เขต vs ค่าเฉลี่ยทั้งกรุงเทพฯ",
+    "bkk_prefix": "กทม."
+  },
+  "footer": {
+    "source": "แหล่งข้อมูล",
+    "credit": "ข้อมูลจาก Traffy Fondue (traffy.in.th) — แพลตฟอร์มรับเรื่องร้องเรียนของกรุงเทพมหานคร",
+    "disclaimer": "เว็บไซต์นี้เป็นโครงการของชุมชน ไม่ได้รับการรับรองจากรัฐบาล"
+  }
+}

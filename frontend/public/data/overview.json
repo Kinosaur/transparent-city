@@ -1,0 +1,503 @@
+{
+  "total_tickets": 1139430,
+  "resolved_tickets": 895019,
+  "resolution_rate": 78.5,
+  "pending_tickets": 244411,
+  "stale_tickets": 219592,
+  "stale_rate": 19.3,
+  "median_resolution_days": 5.5,
+  "avg_satisfaction": 3.97,
+  "avg_reopen_rate": 0.11,
+  "reopen_pct": 6.2,
+  "data_range": {
+    "from": "2021-09-19",
+    "to": "2026-02-28"
+  },
+  "top_problem_types": [
+    {
+      "type": "อื่นๆ",
+      "count": 131448,
+      "resolution_rate": 83.3,
+      "median_resolution_days": 6.9
+    },
+    {
+      "type": "ทางเท้า",
+      "count": 129451,
+      "resolution_rate": 81.0,
+      "median_resolution_days": 4.4
+    },
+    {
+      "type": "ถนน",
+      "count": 104182,
+      "resolution_rate": 68.7,
+      "median_resolution_days": 6.6
+    },
+    {
+      "type": "ผิดกฎจราจร",
+      "count": 73845,
+      "resolution_rate": 58.7,
+      "median_resolution_days": 3.3
+    },
+    {
+      "type": "ไฟฟ้า",
+      "count": 69959,
+      "resolution_rate": 68.5,
+      "median_resolution_days": 30.9
+    },
+    {
+      "type": "ความสะอาด",
+      "count": 59221,
+      "resolution_rate": 91.0,
+      "median_resolution_days": 2.5
+    },
+    {
+      "type": "อุปกรณ์ชำรุด",
+      "count": 37253,
+      "resolution_rate": 70.9,
+      "median_resolution_days": 4.8
+    },
+    {
+      "type": "ความปลอดภัย",
+      "count": 35591,
+      "resolution_rate": 79.1,
+      "median_resolution_days": 18.9
+    },
+    {
+      "type": "จราจร",
+      "count": 34276,
+      "resolution_rate": 86.4,
+      "median_resolution_days": 20.0
+    },
+    {
+      "type": "อาคารสถานที่ชำรุด",
+      "count": 32835,
+      "resolution_rate": 80.1,
+      "median_resolution_days": 0.8
+    }
+  ],
+  "monthly_trends": [
+    {
+      "ym": "2021-09",
+      "total": 2,
+      "resolved": 2,
+      "stale": 0,
+      "avg_star": 4.0,
+      "pending": 0,
+      "resolution_rate": 100.0
+    },
+    {
+      "ym": "2022-01",
+      "total": 21,
+      "resolved": 19,
+      "stale": 2,
+      "avg_star": 4.5,
+      "pending": 2,
+      "resolution_rate": 90.5
+    },
+    {
+      "ym": "2022-04",
+      "total": 17,
+      "resolved": 16,
+      "stale": 1,
+      "avg_star": 3.38,
+      "pending": 1,
+      "resolution_rate": 94.1
+    },
+    {
+      "ym": "2022-07",
+      "total": 40617,
+      "resolved": 36165,
+      "stale": 4452,
+      "avg_star": 3.8,
+      "pending": 4452,
+      "resolution_rate": 89.0
+    },
+    {
+      "ym": "2022-08",
+      "total": 26861,
+      "resolved": 24202,
+      "stale": 2659,
+      "avg_star": 3.78,
+      "pending": 2659,
+      "resolution_rate": 90.1
+    },
+    {
+      "ym": "2022-09",
+      "total": 22275,
+      "resolved": 20426,
+      "stale": 1849,
+      "avg_star": 3.86,
+      "pending": 1849,
+      "resolution_rate": 91.7
+    },
+    {
+      "ym": "2022-10",
+      "total": 13494,
+      "resolved": 12257,
+      "stale": 1237,
+      "avg_star": 3.87,
+      "pending": 1237,
+      "resolution_rate": 90.8
+    },
+    {
+      "ym": "2022-11",
+      "total": 11442,
+      "resolved": 10266,
+      "stale": 1176,
+      "avg_star": 3.88,
+      "pending": 1176,
+      "resolution_rate": 89.7
+    },
+    {
+      "ym": "2022-12",
+      "total": 11286,
+      "resolved": 10092,
+      "stale": 1194,
+      "avg_star": 3.89,
+      "pending": 1194,
+      "resolution_rate": 89.4
+    },
+    {
+      "ym": "2023-01",
+      "total": 18535,
+      "resolved": 16911,
+      "stale": 1624,
+      "avg_star": 3.84,
+      "pending": 1624,
+      "resolution_rate": 91.2
+    },
+    {
+      "ym": "2023-02",
+      "total": 18612,
+      "resolved": 16837,
+      "stale": 1775,
+      "avg_star": 3.9,
+      "pending": 1775,
+      "resolution_rate": 90.5
+    },
+    {
+      "ym": "2023-03",
+      "total": 18099,
+      "resolved": 16159,
+      "stale": 1940,
+      "avg_star": 3.86,
+      "pending": 1940,
+      "resolution_rate": 89.3
+    },
+    {
+      "ym": "2023-04",
+      "total": 17600,
+      "resolved": 15649,
+      "stale": 1951,
+      "avg_star": 3.9,
+      "pending": 1951,
+      "resolution_rate": 88.9
+    },
+    {
+      "ym": "2023-05",
+      "total": 21702,
+      "resolved": 18865,
+      "stale": 2837,
+      "avg_star": 3.9,
+      "pending": 2837,
+      "resolution_rate": 86.9
+    },
+    {
+      "ym": "2023-06",
+      "total": 26355,
+      "resolved": 22948,
+      "stale": 3407,
+      "avg_star": 3.88,
+      "pending": 3407,
+      "resolution_rate": 87.1
+    },
+    {
+      "ym": "2023-07",
+      "total": 26578,
+      "resolved": 23189,
+      "stale": 3389,
+      "avg_star": 3.9,
+      "pending": 3389,
+      "resolution_rate": 87.2
+    },
+    {
+      "ym": "2023-08",
+      "total": 24196,
+      "resolved": 20990,
+      "stale": 3206,
+      "avg_star": 3.94,
+      "pending": 3206,
+      "resolution_rate": 86.7
+    },
+    {
+      "ym": "2023-09",
+      "total": 25158,
+      "resolved": 21853,
+      "stale": 3305,
+      "avg_star": 3.92,
+      "pending": 3305,
+      "resolution_rate": 86.9
+    },
+    {
+      "ym": "2023-10",
+      "total": 27991,
+      "resolved": 24212,
+      "stale": 3779,
+      "avg_star": 3.91,
+      "pending": 3779,
+      "resolution_rate": 86.5
+    },
+    {
+      "ym": "2023-11",
+      "total": 27832,
+      "resolved": 24014,
+      "stale": 3818,
+      "avg_star": 3.89,
+      "pending": 3818,
+      "resolution_rate": 86.3
+    },
+    {
+      "ym": "2023-12",
+      "total": 22670,
+      "resolved": 19712,
+      "stale": 2958,
+      "avg_star": 3.8,
+      "pending": 2958,
+      "resolution_rate": 87.0
+    },
+    {
+      "ym": "2024-01",
+      "total": 25319,
+      "resolved": 21788,
+      "stale": 3531,
+      "avg_star": 3.84,
+      "pending": 3531,
+      "resolution_rate": 86.1
+    },
+    {
+      "ym": "2024-02",
+      "total": 22922,
+      "resolved": 19342,
+      "stale": 3580,
+      "avg_star": 3.89,
+      "pending": 3580,
+      "resolution_rate": 84.4
+    },
+    {
+      "ym": "2024-03",
+      "total": 24050,
+      "resolved": 20136,
+      "stale": 3914,
+      "avg_star": 3.88,
+      "pending": 3914,
+      "resolution_rate": 83.7
+    },
+    {
+      "ym": "2024-04",
+      "total": 19493,
+      "resolved": 16421,
+      "stale": 3072,
+      "avg_star": 3.91,
+      "pending": 3072,
+      "resolution_rate": 84.2
+    },
+    {
+      "ym": "2024-05",
+      "total": 27190,
+      "resolved": 22189,
+      "stale": 5001,
+      "avg_star": 3.91,
+      "pending": 5001,
+      "resolution_rate": 81.6
+    },
+    {
+      "ym": "2024-06",
+      "total": 27312,
+      "resolved": 21692,
+      "stale": 5620,
+      "avg_star": 3.87,
+      "pending": 5620,
+      "resolution_rate": 79.4
+    },
+    {
+      "ym": "2024-07",
+      "total": 27899,
+      "resolved": 22143,
+      "stale": 5756,
+      "avg_star": 3.92,
+      "pending": 5756,
+      "resolution_rate": 79.4
+    },
+    {
+      "ym": "2024-08",
+      "total": 28671,
+      "resolved": 22253,
+      "stale": 6418,
+      "avg_star": 3.88,
+      "pending": 6418,
+      "resolution_rate": 77.6
+    },
+    {
+      "ym": "2024-09",
+      "total": 26622,
+      "resolved": 20282,
+      "stale": 6340,
+      "avg_star": 3.97,
+      "pending": 6340,
+      "resolution_rate": 76.2
+    },
+    {
+      "ym": "2024-10",
+      "total": 25565,
+      "resolved": 19771,
+      "stale": 5794,
+      "avg_star": 4.03,
+      "pending": 5794,
+      "resolution_rate": 77.3
+    },
+    {
+      "ym": "2024-11",
+      "total": 26561,
+      "resolved": 20112,
+      "stale": 6449,
+      "avg_star": 4.06,
+      "pending": 6449,
+      "resolution_rate": 75.7
+    },
+    {
+      "ym": "2024-12",
+      "total": 24689,
+      "resolved": 18510,
+      "stale": 6179,
+      "avg_star": 3.98,
+      "pending": 6179,
+      "resolution_rate": 75.0
+    },
+    {
+      "ym": "2025-01",
+      "total": 28294,
+      "resolved": 20412,
+      "stale": 7882,
+      "avg_star": 4.09,
+      "pending": 7882,
+      "resolution_rate": 72.1
+    },
+    {
+      "ym": "2025-02",
+      "total": 27185,
+      "resolved": 18812,
+      "stale": 8373,
+      "avg_star": 4.09,
+      "pending": 8373,
+      "resolution_rate": 69.2
+    },
+    {
+      "ym": "2025-03",
+      "total": 49247,
+      "resolved": 37736,
+      "stale": 11511,
+      "avg_star": 4.34,
+      "pending": 11511,
+      "resolution_rate": 76.6
+    },
+    {
+      "ym": "2025-04",
+      "total": 34190,
+      "resolved": 23832,
+      "stale": 10358,
+      "avg_star": 4.18,
+      "pending": 10358,
+      "resolution_rate": 69.7
+    },
+    {
+      "ym": "2025-05",
+      "total": 36972,
+      "resolved": 24660,
+      "stale": 12312,
+      "avg_star": 4.07,
+      "pending": 12312,
+      "resolution_rate": 66.7
+    },
+    {
+      "ym": "2025-06",
+      "total": 29288,
+      "resolved": 20184,
+      "stale": 9104,
+      "avg_star": 4.1,
+      "pending": 9104,
+      "resolution_rate": 68.9
+    },
+    {
+      "ym": "2025-07",
+      "total": 30166,
+      "resolved": 19691,
+      "stale": 10475,
+      "avg_star": 4.08,
+      "pending": 10475,
+      "resolution_rate": 65.3
+    },
+    {
+      "ym": "2025-08",
+      "total": 28057,
+      "resolved": 18285,
+      "stale": 9772,
+      "avg_star": 4.11,
+      "pending": 9772,
+      "resolution_rate": 65.2
+    },
+    {
+      "ym": "2025-09",
+      "total": 29397,
+      "resolved": 19616,
+      "stale": 9781,
+      "avg_star": 4.08,
+      "pending": 9781,
+      "resolution_rate": 66.7
+    },
+    {
+      "ym": "2025-10",
+      "total": 30892,
+      "resolved": 20655,
+      "stale": 10057,
+      "avg_star": 4.15,
+      "pending": 10237,
+      "resolution_rate": 66.9
+    },
+    {
+      "ym": "2025-11",
+      "total": 27177,
+      "resolved": 17909,
+      "stale": 8029,
+      "avg_star": 4.18,
+      "pending": 9268,
+      "resolution_rate": 65.9
+    },
+    {
+      "ym": "2025-12",
+      "total": 22855,
+      "resolved": 15465,
+      "stale": 3725,
+      "avg_star": 4.18,
+      "pending": 7390,
+      "resolution_rate": 67.7
+    },
+    {
+      "ym": "2026-01",
+      "total": 29326,
+      "resolved": 20727,
+      "stale": 0,
+      "avg_star": 4.15,
+      "pending": 8599,
+      "resolution_rate": 70.7
+    },
+    {
+      "ym": "2026-02",
+      "total": 28748,
+      "resolved": 17612,
+      "stale": 0,
+      "avg_star": 4.21,
+      "pending": 11136,
+      "resolution_rate": 61.3
+    }
+  ]
+}

@@ -1,0 +1,6852 @@
+[
+  {
+    "district": "จตุจักร",
+    "total_tickets": 63224,
+    "resolved_tickets": 48518,
+    "resolution_rate": 76.7,
+    "median_resolution_days": 6.0,
+    "avg_satisfaction": 4.05,
+    "stale_tickets": 13134,
+    "reopen_rate": 5.6,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 7297
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 6815
+      },
+      {
+        "type": "ถนน",
+        "count": 5809
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 3513,
+        "resolved": 2830,
+        "resolution_rate": 80.6
+      },
+      {
+        "ym": "2025-04",
+        "total": 2043,
+        "resolved": 1390,
+        "resolution_rate": 68.0
+      },
+      {
+        "ym": "2025-05",
+        "total": 2227,
+        "resolved": 1358,
+        "resolution_rate": 61.0
+      },
+      {
+        "ym": "2025-06",
+        "total": 1870,
+        "resolved": 1281,
+        "resolution_rate": 68.5
+      },
+      {
+        "ym": "2025-07",
+        "total": 1838,
+        "resolved": 1052,
+        "resolution_rate": 57.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 1661,
+        "resolved": 1014,
+        "resolution_rate": 61.0
+      },
+      {
+        "ym": "2025-09",
+        "total": 1708,
+        "resolved": 1221,
+        "resolution_rate": 71.5
+      },
+      {
+        "ym": "2025-10",
+        "total": 1781,
+        "resolved": 1338,
+        "resolution_rate": 75.1
+      },
+      {
+        "ym": "2025-11",
+        "total": 1660,
+        "resolved": 1129,
+        "resolution_rate": 68.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 1249,
+        "resolved": 804,
+        "resolution_rate": 64.4
+      },
+      {
+        "ym": "2026-01",
+        "total": 1762,
+        "resolved": 1181,
+        "resolution_rate": 67.0
+      },
+      {
+        "ym": "2026-02",
+        "total": 1782,
+        "resolved": 1090,
+        "resolution_rate": 61.2
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-8QL8RE",
+        "type": "ถนน",
+        "days_open": 1444,
+        "address": "93 ถ. ลาดพร้าว แขวง จอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
+        "last_activity": "2024-03-06 06:39:54.014906"
+      },
+      {
+        "ticket_id": "2022-GHX4QT",
+        "type": "ไฟฟ้า",
+        "days_open": 1363,
+        "address": "1 ถ. กำแพงเพชร 6 แขวง ลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
+        "last_activity": "2023-07-07 13:30:05.813649"
+      },
+      {
+        "ticket_id": "2022-E4GVVN",
+        "type": "ทางเท้า",
+        "days_open": 1363,
+        "address": "1418 11 ถ. พหลโยธิน แขวง จอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
+        "last_activity": "2024-07-30 15:41:49.487318"
+      },
+      {
+        "ticket_id": "2022-9MYKLQ",
+        "type": "ความสะอาด",
+        "days_open": 1363,
+        "address": "พหลโยธิน 24 แขวง จตุจักร เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
+        "last_activity": "2023-06-29 12:16:20.696392"
+      },
+      {
+        "ticket_id": "2022-Q8PQ6L",
+        "type": "ไฟฟ้า",
+        "days_open": 1363,
+        "address": "ถ. รัชดาภิเษก แขวง จอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
+        "last_activity": "2023-01-27 14:44:50.275589"
+      }
+    ],
+    "composite_score": 78.1,
+    "grade": "B"
+  },
+  {
+    "district": "คลองเตย",
+    "total_tickets": 38597,
+    "resolved_tickets": 28307,
+    "resolution_rate": 73.3,
+    "median_resolution_days": 4.2,
+    "avg_satisfaction": 3.75,
+    "stale_tickets": 9356,
+    "reopen_rate": 5.7,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 5696
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 4765
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 3709
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 2083,
+        "resolved": 1421,
+        "resolution_rate": 68.2
+      },
+      {
+        "ym": "2025-04",
+        "total": 1225,
+        "resolved": 754,
+        "resolution_rate": 61.6
+      },
+      {
+        "ym": "2025-05",
+        "total": 1240,
+        "resolved": 651,
+        "resolution_rate": 52.5
+      },
+      {
+        "ym": "2025-06",
+        "total": 955,
+        "resolved": 575,
+        "resolution_rate": 60.2
+      },
+      {
+        "ym": "2025-07",
+        "total": 945,
+        "resolved": 536,
+        "resolution_rate": 56.7
+      },
+      {
+        "ym": "2025-08",
+        "total": 1159,
+        "resolved": 636,
+        "resolution_rate": 54.9
+      },
+      {
+        "ym": "2025-09",
+        "total": 937,
+        "resolved": 518,
+        "resolution_rate": 55.3
+      },
+      {
+        "ym": "2025-10",
+        "total": 973,
+        "resolved": 520,
+        "resolution_rate": 53.4
+      },
+      {
+        "ym": "2025-11",
+        "total": 746,
+        "resolved": 389,
+        "resolution_rate": 52.1
+      },
+      {
+        "ym": "2025-12",
+        "total": 694,
+        "resolved": 373,
+        "resolution_rate": 53.7
+      },
+      {
+        "ym": "2026-01",
+        "total": 892,
+        "resolved": 535,
+        "resolution_rate": 60.0
+      },
+      {
+        "ym": "2026-02",
+        "total": 902,
+        "resolved": 481,
+        "resolution_rate": 53.3
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-9FD6XK",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "764 ถ. สุขุมวิท แขวง คลองตัน เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2023-03-15 13:23:52.208901"
+      },
+      {
+        "ticket_id": "2022-83D2R8",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "211 ซอย นภาศัพท์ แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2022-07-01 19:55:56.271001"
+      },
+      {
+        "ticket_id": "2022-4G7Y34",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "211 ซอย นภาศัพท์ แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2022-07-01 19:57:01.119222"
+      },
+      {
+        "ticket_id": "2022-EUDD2G",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "211 ซอย นภาศัพท์ แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2022-07-01 20:06:31.032782"
+      },
+      {
+        "ticket_id": "2022-HR36EL",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "1 ซ. สุขุมวิท 26 แขวง คลองตัน เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2022-07-02 06:34:03.316105"
+      }
+    ],
+    "composite_score": 77.3,
+    "grade": "B"
+  },
+  {
+    "district": "ประเวศ",
+    "total_tickets": 38129,
+    "resolved_tickets": 31263,
+    "resolution_rate": 82.0,
+    "median_resolution_days": 7.8,
+    "avg_satisfaction": 3.84,
+    "stale_tickets": 6086,
+    "reopen_rate": 8.3,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 4281
+      },
+      {
+        "type": "ถนน",
+        "count": 3513
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 2644
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1306,
+        "resolved": 870,
+        "resolution_rate": 66.6
+      },
+      {
+        "ym": "2025-04",
+        "total": 1010,
+        "resolved": 750,
+        "resolution_rate": 74.3
+      },
+      {
+        "ym": "2025-05",
+        "total": 1308,
+        "resolved": 922,
+        "resolution_rate": 70.5
+      },
+      {
+        "ym": "2025-06",
+        "total": 802,
+        "resolved": 546,
+        "resolution_rate": 68.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 916,
+        "resolved": 555,
+        "resolution_rate": 60.6
+      },
+      {
+        "ym": "2025-08",
+        "total": 822,
+        "resolved": 517,
+        "resolution_rate": 62.9
+      },
+      {
+        "ym": "2025-09",
+        "total": 1100,
+        "resolved": 752,
+        "resolution_rate": 68.4
+      },
+      {
+        "ym": "2025-10",
+        "total": 1219,
+        "resolved": 863,
+        "resolution_rate": 70.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 819,
+        "resolved": 523,
+        "resolution_rate": 63.9
+      },
+      {
+        "ym": "2025-12",
+        "total": 719,
+        "resolved": 479,
+        "resolution_rate": 66.6
+      },
+      {
+        "ym": "2026-01",
+        "total": 903,
+        "resolved": 584,
+        "resolution_rate": 64.7
+      },
+      {
+        "ym": "2026-02",
+        "total": 734,
+        "resolved": 430,
+        "resolution_rate": 58.6
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-GKFTKX",
+        "type": "เสนอแนะ",
+        "days_open": 1362,
+        "address": "223/12 ม.5 ถนนศรีนครินทร์ ตำบลสำโรงเหนือ อำเภอเมือง สมุทรปราการ 10270 แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2022-07-11 08:29:40.255346"
+      },
+      {
+        "ticket_id": "2022-9Q4D48",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "223/12 ม.5 ถนนศรีนครินทร์ ตำบลสำโรงเหนือ อำเภอเมือง สมุทรปราการ 10270 แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2023-05-30 14:47:01.377816"
+      },
+      {
+        "ticket_id": "2022-6HHYNU",
+        "type": "เสนอแนะ",
+        "days_open": 1362,
+        "address": "223/12 ม.5 ถนนศรีนครินทร์ ตำบลสำโรงเหนือ อำเภอเมือง สมุทรปราการ 10270 แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2023-05-30 14:46:45.818026"
+      },
+      {
+        "ticket_id": "2022-9EUTK8",
+        "type": "จราจร",
+        "days_open": 1361,
+        "address": "ถนน ศรีนครินทร์ - ซอย ศรีนครินทร์ 56 แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2022-07-07 08:54:08.958271"
+      },
+      {
+        "ticket_id": "2022-HEHEXR",
+        "type": "ถนน",
+        "days_open": 1361,
+        "address": "576 ถนน ศรีนครินทร์ แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2022-08-10 15:28:40.560480"
+      }
+    ],
+    "composite_score": 76.2,
+    "grade": "B"
+  },
+  {
+    "district": "บางกะปิ",
+    "total_tickets": 38093,
+    "resolved_tickets": 28315,
+    "resolution_rate": 74.3,
+    "median_resolution_days": 9.9,
+    "avg_satisfaction": 3.96,
+    "stale_tickets": 8847,
+    "reopen_rate": 5.4,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 4436
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 4387
+      },
+      {
+        "type": "ถนน",
+        "count": 3845
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1894,
+        "resolved": 1441,
+        "resolution_rate": 76.1
+      },
+      {
+        "ym": "2025-04",
+        "total": 1242,
+        "resolved": 831,
+        "resolution_rate": 66.9
+      },
+      {
+        "ym": "2025-05",
+        "total": 1280,
+        "resolved": 752,
+        "resolution_rate": 58.8
+      },
+      {
+        "ym": "2025-06",
+        "total": 978,
+        "resolved": 654,
+        "resolution_rate": 66.9
+      },
+      {
+        "ym": "2025-07",
+        "total": 1300,
+        "resolved": 770,
+        "resolution_rate": 59.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 1051,
+        "resolved": 591,
+        "resolution_rate": 56.2
+      },
+      {
+        "ym": "2025-09",
+        "total": 1161,
+        "resolved": 741,
+        "resolution_rate": 63.8
+      },
+      {
+        "ym": "2025-10",
+        "total": 1198,
+        "resolved": 745,
+        "resolution_rate": 62.2
+      },
+      {
+        "ym": "2025-11",
+        "total": 962,
+        "resolved": 583,
+        "resolution_rate": 60.6
+      },
+      {
+        "ym": "2025-12",
+        "total": 784,
+        "resolved": 499,
+        "resolution_rate": 63.6
+      },
+      {
+        "ym": "2026-01",
+        "total": 1081,
+        "resolved": 781,
+        "resolution_rate": 72.2
+      },
+      {
+        "ym": "2026-02",
+        "total": 1052,
+        "resolved": 657,
+        "resolution_rate": 62.5
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-MMTVYB",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "69 ถนน สุขาภิบาล 2 แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2023-12-09 12:54:49.546008"
+      },
+      {
+        "ticket_id": "2022-38PPN8",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "50 ถนน รามคำแหง แขวง หัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2023-02-01 11:59:36.070944"
+      },
+      {
+        "ticket_id": "2022-9FVKK8",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "QM92+764 ถ. เสรีไทย แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2022-07-01 12:43:27.181209"
+      },
+      {
+        "ticket_id": "2022-NRTUVR",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "เดอะมอลล์บางกะปิ แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2022-07-01 14:24:51.059550"
+      },
+      {
+        "ticket_id": "2022-AL9G2H",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "RJ8J+F36 ซอย โยธินพัฒนา 3 แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2023-02-01 13:36:09.683140"
+      }
+    ],
+    "composite_score": 73.0,
+    "grade": "B"
+  },
+  {
+    "district": "วัฒนา",
+    "total_tickets": 37713,
+    "resolved_tickets": 28735,
+    "resolution_rate": 76.2,
+    "median_resolution_days": 9.2,
+    "avg_satisfaction": 3.77,
+    "stale_tickets": 8040,
+    "reopen_rate": 5.9,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 5259
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 3773
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 3598
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 2003,
+        "resolved": 1622,
+        "resolution_rate": 81.0
+      },
+      {
+        "ym": "2025-04",
+        "total": 1226,
+        "resolved": 826,
+        "resolution_rate": 67.4
+      },
+      {
+        "ym": "2025-05",
+        "total": 1190,
+        "resolved": 786,
+        "resolution_rate": 66.1
+      },
+      {
+        "ym": "2025-06",
+        "total": 970,
+        "resolved": 664,
+        "resolution_rate": 68.5
+      },
+      {
+        "ym": "2025-07",
+        "total": 998,
+        "resolved": 565,
+        "resolution_rate": 56.6
+      },
+      {
+        "ym": "2025-08",
+        "total": 1026,
+        "resolved": 538,
+        "resolution_rate": 52.4
+      },
+      {
+        "ym": "2025-09",
+        "total": 1025,
+        "resolved": 608,
+        "resolution_rate": 59.3
+      },
+      {
+        "ym": "2025-10",
+        "total": 969,
+        "resolved": 587,
+        "resolution_rate": 60.6
+      },
+      {
+        "ym": "2025-11",
+        "total": 867,
+        "resolved": 460,
+        "resolution_rate": 53.1
+      },
+      {
+        "ym": "2025-12",
+        "total": 688,
+        "resolved": 427,
+        "resolution_rate": 62.1
+      },
+      {
+        "ym": "2026-01",
+        "total": 913,
+        "resolved": 567,
+        "resolution_rate": 62.1
+      },
+      {
+        "ym": "2026-02",
+        "total": 966,
+        "resolved": 519,
+        "resolution_rate": 53.7
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-KED6KW",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "76/1 ซอย เอกมัย 22 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2023-03-13 14:01:28.287975"
+      },
+      {
+        "ticket_id": "2022-A7GUZP",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "921 ถ. สุขุมวิท แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2023-11-24 20:23:05.948154"
+      },
+      {
+        "ticket_id": "2022-6FDZVP",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "145 สุขุมวิท ซ. 63 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2023-02-23 10:03:58.289428"
+      },
+      {
+        "ticket_id": "2022-APGUUT",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "582/3-4 สุขุมวิท ซ. 63 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2023-12-14 15:21:08.616215"
+      },
+      {
+        "ticket_id": "2022-K7MNWB",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "139 ชั้น 2 ห้อง 205-206 อาคาร ดิโอพลัส ซอย ทองหล่อ 10 แขวง คลองตันเหนือ เขต วัฒนา กรุงเทพมหานคร 10110 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
+        "last_activity": "2023-03-13 14:02:21.558316"
+      }
+    ],
+    "composite_score": 73.4,
+    "grade": "B"
+  },
+  {
+    "district": "ปทุมวัน",
+    "total_tickets": 35208,
+    "resolved_tickets": 26188,
+    "resolution_rate": 74.4,
+    "median_resolution_days": 9.0,
+    "avg_satisfaction": 3.38,
+    "stale_tickets": 8193,
+    "reopen_rate": 7.4,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 6688
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 3971
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 3495
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1443,
+        "resolved": 1077,
+        "resolution_rate": 74.6
+      },
+      {
+        "ym": "2025-04",
+        "total": 1153,
+        "resolved": 734,
+        "resolution_rate": 63.7
+      },
+      {
+        "ym": "2025-05",
+        "total": 1151,
+        "resolved": 795,
+        "resolution_rate": 69.1
+      },
+      {
+        "ym": "2025-06",
+        "total": 987,
+        "resolved": 706,
+        "resolution_rate": 71.5
+      },
+      {
+        "ym": "2025-07",
+        "total": 936,
+        "resolved": 580,
+        "resolution_rate": 62.0
+      },
+      {
+        "ym": "2025-08",
+        "total": 881,
+        "resolved": 566,
+        "resolution_rate": 64.2
+      },
+      {
+        "ym": "2025-09",
+        "total": 830,
+        "resolved": 565,
+        "resolution_rate": 68.1
+      },
+      {
+        "ym": "2025-10",
+        "total": 990,
+        "resolved": 655,
+        "resolution_rate": 66.2
+      },
+      {
+        "ym": "2025-11",
+        "total": 666,
+        "resolved": 485,
+        "resolution_rate": 72.8
+      },
+      {
+        "ym": "2025-12",
+        "total": 765,
+        "resolved": 484,
+        "resolution_rate": 63.3
+      },
+      {
+        "ym": "2026-01",
+        "total": 854,
+        "resolved": 599,
+        "resolution_rate": 70.1
+      },
+      {
+        "ym": "2026-02",
+        "total": 840,
+        "resolved": 470,
+        "resolution_rate": 56.0
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-MN6CP8",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "1873 ถ. อังรีดูนังต์ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
+        "last_activity": "2023-03-09 09:51:40.703793"
+      },
+      {
+        "ticket_id": "2022-LQB8H4",
+        "type": "ทางเท้า",
+        "days_open": 1363,
+        "address": "อาคาร Q House เพลินจิต ชั้น 11 ถนน เพลินจิต แขวง ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
+        "last_activity": "2023-03-03 21:34:00.775636"
+      },
+      {
+        "ticket_id": "2022-E2E7G6",
+        "type": "ทางเท้า",
+        "days_open": 1363,
+        "address": "162 ถนน จรัสเมือง แขวง รองเมือง เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
+        "last_activity": "2023-01-24 06:59:37.796475"
+      },
+      {
+        "ticket_id": "2022-43DRGF",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "เลขที่ 6 หมู่บ้าน ตลาดสามย่าน แขวง วังใหม่ เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
+        "last_activity": "2022-07-10 11:46:12.026544"
+      },
+      {
+        "ticket_id": "2022-797GPT",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "20 ซอย ร่วมฤดี 2 แขวง ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
+        "last_activity": "2023-03-03 21:30:54.238924"
+      }
+    ],
+    "composite_score": 70.6,
+    "grade": "B"
+  },
+  {
+    "district": "บางแค",
+    "total_tickets": 31055,
+    "resolved_tickets": 25514,
+    "resolution_rate": 82.2,
+    "median_resolution_days": 2.9,
+    "avg_satisfaction": 4.2,
+    "stale_tickets": 5205,
+    "reopen_rate": 6.2,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 5926
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 3028
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 1961
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 915,
+        "resolved": 668,
+        "resolution_rate": 73.0
+      },
+      {
+        "ym": "2025-04",
+        "total": 844,
+        "resolved": 597,
+        "resolution_rate": 70.7
+      },
+      {
+        "ym": "2025-05",
+        "total": 745,
+        "resolved": 524,
+        "resolution_rate": 70.3
+      },
+      {
+        "ym": "2025-06",
+        "total": 691,
+        "resolved": 491,
+        "resolution_rate": 71.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 839,
+        "resolved": 431,
+        "resolution_rate": 51.4
+      },
+      {
+        "ym": "2025-08",
+        "total": 704,
+        "resolved": 387,
+        "resolution_rate": 55.0
+      },
+      {
+        "ym": "2025-09",
+        "total": 676,
+        "resolved": 450,
+        "resolution_rate": 66.6
+      },
+      {
+        "ym": "2025-10",
+        "total": 706,
+        "resolved": 550,
+        "resolution_rate": 77.9
+      },
+      {
+        "ym": "2025-11",
+        "total": 640,
+        "resolved": 531,
+        "resolution_rate": 83.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 553,
+        "resolved": 435,
+        "resolution_rate": 78.7
+      },
+      {
+        "ym": "2026-01",
+        "total": 629,
+        "resolved": 535,
+        "resolution_rate": 85.1
+      },
+      {
+        "ym": "2026-02",
+        "total": 600,
+        "resolved": 437,
+        "resolution_rate": 72.8
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-CMAYGV",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "60 พัฒนาการ แขวง บางแค เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-08-29 14:34:20.116533"
+      },
+      {
+        "ticket_id": "2022-GGYMEH",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "104/3 ซอย หมู่บ้านคาซ่ายูเรก้า แขวง หลักสอง เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-07-04 20:45:18.416766"
+      },
+      {
+        "ticket_id": "2022-6LPVAY",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "1145 2 ถ. บางแวก แขวง บางไผ่ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-12-21 11:59:49.828740"
+      },
+      {
+        "ticket_id": "2022-CP99MY",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "34 ถ. บางแวก แขวง บางไผ่ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2024-12-23 14:15:30.528287"
+      },
+      {
+        "ticket_id": "2022-HCFGMT",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "836 ถ. เพชรเกษม แขวง บางแคเหนือ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-09-04 14:36:06.357655"
+      }
+    ],
+    "composite_score": 83.7,
+    "grade": "A"
+  },
+  {
+    "district": "ราชเทวี",
+    "total_tickets": 30123,
+    "resolved_tickets": 22690,
+    "resolution_rate": 75.3,
+    "median_resolution_days": 8.1,
+    "avg_satisfaction": 3.8,
+    "stale_tickets": 6750,
+    "reopen_rate": 5.7,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 3675
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2902
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 2859
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1915,
+        "resolved": 1567,
+        "resolution_rate": 81.8
+      },
+      {
+        "ym": "2025-04",
+        "total": 977,
+        "resolved": 662,
+        "resolution_rate": 67.8
+      },
+      {
+        "ym": "2025-05",
+        "total": 887,
+        "resolved": 598,
+        "resolution_rate": 67.4
+      },
+      {
+        "ym": "2025-06",
+        "total": 821,
+        "resolved": 527,
+        "resolution_rate": 64.2
+      },
+      {
+        "ym": "2025-07",
+        "total": 867,
+        "resolved": 552,
+        "resolution_rate": 63.7
+      },
+      {
+        "ym": "2025-08",
+        "total": 783,
+        "resolved": 469,
+        "resolution_rate": 59.9
+      },
+      {
+        "ym": "2025-09",
+        "total": 765,
+        "resolved": 456,
+        "resolution_rate": 59.6
+      },
+      {
+        "ym": "2025-10",
+        "total": 830,
+        "resolved": 460,
+        "resolution_rate": 55.4
+      },
+      {
+        "ym": "2025-11",
+        "total": 675,
+        "resolved": 367,
+        "resolution_rate": 54.4
+      },
+      {
+        "ym": "2025-12",
+        "total": 652,
+        "resolved": 392,
+        "resolution_rate": 60.1
+      },
+      {
+        "ym": "2026-01",
+        "total": 798,
+        "resolved": 587,
+        "resolution_rate": 73.6
+      },
+      {
+        "ym": "2026-02",
+        "total": 778,
+        "resolved": 513,
+        "resolution_rate": 65.9
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-7V4WWM",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "1087/168 ถนน เพชรบุรี แขวง มักกะสัน เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2023-04-13 16:33:28.485138"
+      },
+      {
+        "ticket_id": "2022-FNP6KU",
+        "type": "จราจร",
+        "days_open": 1362,
+        "address": "362/2-3 Phetburi Rd. Rajthevee,Bangkok 10400 แขวง ถนนเพชรบุรี เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2022-07-01 18:50:07.114493"
+      },
+      {
+        "ticket_id": "2022-FULD4P",
+        "type": "ถนน",
+        "days_open": 1362,
+        "address": "เลขที่ 0099 หมู่ ชั้น G หมู่บ้าน ห้างซิตี้คอมเพล็กซ์ ถนน เพชรบุรี แขวง ถนนพญาไท เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2022-07-01 22:35:54.721147"
+      },
+      {
+        "ticket_id": "2022-GTEQ2B",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "46/15 ถนน เพชรบุรี แขวง ถนนเพชรบุรี เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2022-07-05 09:10:14.609756"
+      },
+      {
+        "ticket_id": "2022-AEZ22X",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "1217 ถ. ศรีอยุธยา แขวง ทุ่งพญาไท เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2022-07-05 09:10:51.118258"
+      }
+    ],
+    "composite_score": 74.4,
+    "grade": "B"
+  },
+  {
+    "district": "บางเขน",
+    "total_tickets": 29288,
+    "resolved_tickets": 24729,
+    "resolution_rate": 84.4,
+    "median_resolution_days": 4.2,
+    "avg_satisfaction": 4.06,
+    "stale_tickets": 4151,
+    "reopen_rate": 6.6,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 4384
+      },
+      {
+        "type": "ถนน",
+        "count": 2669
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 2436
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 935,
+        "resolved": 724,
+        "resolution_rate": 77.4
+      },
+      {
+        "ym": "2025-04",
+        "total": 787,
+        "resolved": 653,
+        "resolution_rate": 83.0
+      },
+      {
+        "ym": "2025-05",
+        "total": 879,
+        "resolved": 658,
+        "resolution_rate": 74.9
+      },
+      {
+        "ym": "2025-06",
+        "total": 736,
+        "resolved": 532,
+        "resolution_rate": 72.3
+      },
+      {
+        "ym": "2025-07",
+        "total": 833,
+        "resolved": 586,
+        "resolution_rate": 70.3
+      },
+      {
+        "ym": "2025-08",
+        "total": 610,
+        "resolved": 449,
+        "resolution_rate": 73.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 661,
+        "resolved": 475,
+        "resolution_rate": 71.9
+      },
+      {
+        "ym": "2025-10",
+        "total": 612,
+        "resolved": 465,
+        "resolution_rate": 76.0
+      },
+      {
+        "ym": "2025-11",
+        "total": 566,
+        "resolved": 416,
+        "resolution_rate": 73.5
+      },
+      {
+        "ym": "2025-12",
+        "total": 541,
+        "resolved": 403,
+        "resolution_rate": 74.5
+      },
+      {
+        "ym": "2026-01",
+        "total": 699,
+        "resolved": 570,
+        "resolution_rate": 81.5
+      },
+      {
+        "ym": "2026-02",
+        "total": 596,
+        "resolved": 413,
+        "resolution_rate": 69.3
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-6XCUP2",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "97 1-2 ถ. วัชรพล แขวง ท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2022-07-11 09:31:38.892870"
+      },
+      {
+        "ticket_id": "2022-KZQ4EM",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "9/50 พหลโยธิน แขวง อนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2022-07-07 22:40:15.670477"
+      },
+      {
+        "ticket_id": "2022-KETR4P",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "28 91 หมู่4 ซอย รามอินทรา 19 แขวง ท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2023-09-15 10:48:18.751881"
+      },
+      {
+        "ticket_id": "2022-CKRWXH",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "51/22 รามอินทรา 19 แยก 15 แขวง อนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2022-07-12 14:37:24.851237"
+      },
+      {
+        "ticket_id": "2022-KDNGDM",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "79/10 หมู่ 4 ถนนรามอินทรา แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 แขวง อนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2022-07-10 18:30:41.248061"
+      }
+    ],
+    "composite_score": 82.5,
+    "grade": "A"
+  },
+  {
+    "district": "ดินแดง",
+    "total_tickets": 28889,
+    "resolved_tickets": 21344,
+    "resolution_rate": 73.9,
+    "median_resolution_days": 8.7,
+    "avg_satisfaction": 3.85,
+    "stale_tickets": 6767,
+    "reopen_rate": 6.5,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 3225
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 3172
+      },
+      {
+        "type": "ถนน",
+        "count": 2402
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1190,
+        "resolved": 877,
+        "resolution_rate": 73.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 1208,
+        "resolved": 828,
+        "resolution_rate": 68.5
+      },
+      {
+        "ym": "2025-05",
+        "total": 960,
+        "resolved": 618,
+        "resolution_rate": 64.4
+      },
+      {
+        "ym": "2025-06",
+        "total": 673,
+        "resolved": 437,
+        "resolution_rate": 64.9
+      },
+      {
+        "ym": "2025-07",
+        "total": 841,
+        "resolved": 475,
+        "resolution_rate": 56.5
+      },
+      {
+        "ym": "2025-08",
+        "total": 699,
+        "resolved": 417,
+        "resolution_rate": 59.7
+      },
+      {
+        "ym": "2025-09",
+        "total": 785,
+        "resolved": 456,
+        "resolution_rate": 58.1
+      },
+      {
+        "ym": "2025-10",
+        "total": 738,
+        "resolved": 450,
+        "resolution_rate": 61.0
+      },
+      {
+        "ym": "2025-11",
+        "total": 651,
+        "resolved": 407,
+        "resolution_rate": 62.5
+      },
+      {
+        "ym": "2025-12",
+        "total": 569,
+        "resolved": 383,
+        "resolution_rate": 67.3
+      },
+      {
+        "ym": "2026-01",
+        "total": 844,
+        "resolved": 591,
+        "resolution_rate": 70.0
+      },
+      {
+        "ym": "2026-02",
+        "total": 797,
+        "resolved": 456,
+        "resolution_rate": 57.2
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-L8T3K2",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "1038 ซอย ริมคลองสะพาน 1 แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2023-03-23 15:38:17.456664"
+      },
+      {
+        "ticket_id": "2022-KNKGE9",
+        "type": "ความสะอาด",
+        "days_open": 1363,
+        "address": "670/3 ถนน ดินแดง แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2023-09-13 15:05:31.872224"
+      },
+      {
+        "ticket_id": "2022-PBM3A8",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "7 ถนน ประชาสงเคราะห์ แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2022-07-06 10:30:48.546517"
+      },
+      {
+        "ticket_id": "2022-9Z8EVV",
+        "type": "ถนน",
+        "days_open": 1362,
+        "address": "245/6 ซอย อยู่เจริญแยก 10 แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2024-01-31 13:57:44.409326"
+      },
+      {
+        "ticket_id": "2022-8TWLXK",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "90 ซอย รัชดาภิเษก 7 แขวง ห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2024-01-03 12:29:03.045913"
+      }
+    ],
+    "composite_score": 73.0,
+    "grade": "B"
+  },
+  {
+    "district": "บางกอกน้อย",
+    "total_tickets": 28155,
+    "resolved_tickets": 22251,
+    "resolution_rate": 79.0,
+    "median_resolution_days": 4.1,
+    "avg_satisfaction": 3.92,
+    "stale_tickets": 5190,
+    "reopen_rate": 5.5,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 6645
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 3367
+      },
+      {
+        "type": "ถนน",
+        "count": 2195
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 975,
+        "resolved": 768,
+        "resolution_rate": 78.8
+      },
+      {
+        "ym": "2025-04",
+        "total": 844,
+        "resolved": 612,
+        "resolution_rate": 72.5
+      },
+      {
+        "ym": "2025-05",
+        "total": 902,
+        "resolved": 594,
+        "resolution_rate": 65.9
+      },
+      {
+        "ym": "2025-06",
+        "total": 911,
+        "resolved": 592,
+        "resolution_rate": 65.0
+      },
+      {
+        "ym": "2025-07",
+        "total": 958,
+        "resolved": 659,
+        "resolution_rate": 68.8
+      },
+      {
+        "ym": "2025-08",
+        "total": 800,
+        "resolved": 602,
+        "resolution_rate": 75.2
+      },
+      {
+        "ym": "2025-09",
+        "total": 814,
+        "resolved": 542,
+        "resolution_rate": 66.6
+      },
+      {
+        "ym": "2025-10",
+        "total": 796,
+        "resolved": 536,
+        "resolution_rate": 67.3
+      },
+      {
+        "ym": "2025-11",
+        "total": 876,
+        "resolved": 573,
+        "resolution_rate": 65.4
+      },
+      {
+        "ym": "2025-12",
+        "total": 613,
+        "resolved": 423,
+        "resolution_rate": 69.0
+      },
+      {
+        "ym": "2026-01",
+        "total": 842,
+        "resolved": 614,
+        "resolution_rate": 72.9
+      },
+      {
+        "ym": "2026-02",
+        "total": 741,
+        "resolved": 445,
+        "resolution_rate": 60.1
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-ELD6EQ",
+        "type": "สำรวจขึ้นทะเบียน",
+        "days_open": 1360,
+        "address": "8 Moo 4Taling Chan แขวง บางขุนนนท์ เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2023-03-13 15:05:42.574468"
+      },
+      {
+        "ticket_id": "2022-HZR9K7",
+        "type": "ถนน",
+        "days_open": 1358,
+        "address": "81 8-9 ถนน อิสรภาพ แขวง บ้านช่างหล่อ เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2023-03-15 13:49:00.514532"
+      },
+      {
+        "ticket_id": "2022-7BYKX6",
+        "type": "ไฟฟ้า",
+        "days_open": 1358,
+        "address": "1066 ถ. พรานนก แขวง บ้านช่างหล่อ เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2024-04-28 01:41:51.234454"
+      },
+      {
+        "ticket_id": "2022-FK9LPZ",
+        "type": "อื่นๆ",
+        "days_open": 1355,
+        "address": "94 ถนนบรมราชชนนี แขวง บางบำหรุ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2024-05-07 16:11:44.898516"
+      },
+      {
+        "ticket_id": "2022-49ANWV",
+        "type": "อื่นๆ",
+        "days_open": 1355,
+        "address": "94 ถนนบรมราชชนนี แขวง บางบำหรุ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2024-05-09 14:30:54.500741"
+      }
+    ],
+    "composite_score": 80.4,
+    "grade": "A"
+  },
+  {
+    "district": "พระนคร",
+    "total_tickets": 27803,
+    "resolved_tickets": 22832,
+    "resolution_rate": 82.1,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 4.04,
+    "stale_tickets": 4485,
+    "reopen_rate": 7.5,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 4025
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2976
+      },
+      {
+        "type": "ข้อเสนอแนะ",
+        "count": 1772
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 886,
+        "resolved": 644,
+        "resolution_rate": 72.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 739,
+        "resolved": 531,
+        "resolution_rate": 71.9
+      },
+      {
+        "ym": "2025-05",
+        "total": 779,
+        "resolved": 573,
+        "resolution_rate": 73.6
+      },
+      {
+        "ym": "2025-06",
+        "total": 672,
+        "resolved": 523,
+        "resolution_rate": 77.8
+      },
+      {
+        "ym": "2025-07",
+        "total": 758,
+        "resolved": 603,
+        "resolution_rate": 79.6
+      },
+      {
+        "ym": "2025-08",
+        "total": 668,
+        "resolved": 489,
+        "resolution_rate": 73.2
+      },
+      {
+        "ym": "2025-09",
+        "total": 719,
+        "resolved": 536,
+        "resolution_rate": 74.5
+      },
+      {
+        "ym": "2025-10",
+        "total": 852,
+        "resolved": 637,
+        "resolution_rate": 74.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 686,
+        "resolved": 485,
+        "resolution_rate": 70.7
+      },
+      {
+        "ym": "2025-12",
+        "total": 614,
+        "resolved": 482,
+        "resolution_rate": 78.5
+      },
+      {
+        "ym": "2026-01",
+        "total": 703,
+        "resolved": 540,
+        "resolution_rate": 76.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 684,
+        "resolved": 480,
+        "resolution_rate": 70.2
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-6NFTEU",
+        "type": "ทางเท้า",
+        "days_open": 1361,
+        "address": "PGX3+V4Q แขวง สำราญราษฎร์ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
+        "last_activity": "2023-02-15 19:38:55.507952"
+      },
+      {
+        "ticket_id": "2022-H8P34Q",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "ถ. มหาไชย แขวง วัดบวรนิเวศ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
+        "last_activity": "2023-03-14 22:29:33.153211"
+      },
+      {
+        "ticket_id": "2022-9MHEZT",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "ถนนมหาไชย แขวงวังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 902 แขวง วังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
+        "last_activity": "2023-03-08 14:16:26.128571"
+      },
+      {
+        "ticket_id": "2022-GQ3F92",
+        "type": "ความปลอดภัย",
+        "days_open": 1359,
+        "address": "116 ถนน วิสุทธิกษัตริย์ แขวง บางขุนพรหม เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
+        "last_activity": "2024-04-03 17:43:10.952103"
+      },
+      {
+        "ticket_id": "2022-4NTCCW",
+        "type": "ถนน",
+        "days_open": 1358,
+        "address": "24/3 ถนนบ้านหม้อ แขวง วังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
+        "last_activity": "2024-02-27 08:45:01.099182"
+      }
+    ],
+    "composite_score": 81.4,
+    "grade": "A"
+  },
+  {
+    "district": "ลาดกระบัง",
+    "total_tickets": 27408,
+    "resolved_tickets": 21684,
+    "resolution_rate": 79.1,
+    "median_resolution_days": 9.4,
+    "avg_satisfaction": 3.83,
+    "stale_tickets": 4969,
+    "reopen_rate": 5.9,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 3694
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 3629
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 2840
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1152,
+        "resolved": 707,
+        "resolution_rate": 61.4
+      },
+      {
+        "ym": "2025-04",
+        "total": 664,
+        "resolved": 507,
+        "resolution_rate": 76.4
+      },
+      {
+        "ym": "2025-05",
+        "total": 984,
+        "resolved": 484,
+        "resolution_rate": 49.2
+      },
+      {
+        "ym": "2025-06",
+        "total": 528,
+        "resolved": 335,
+        "resolution_rate": 63.4
+      },
+      {
+        "ym": "2025-07",
+        "total": 577,
+        "resolved": 390,
+        "resolution_rate": 67.6
+      },
+      {
+        "ym": "2025-08",
+        "total": 636,
+        "resolved": 379,
+        "resolution_rate": 59.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 572,
+        "resolved": 399,
+        "resolution_rate": 69.8
+      },
+      {
+        "ym": "2025-10",
+        "total": 532,
+        "resolved": 343,
+        "resolution_rate": 64.5
+      },
+      {
+        "ym": "2025-11",
+        "total": 527,
+        "resolved": 297,
+        "resolution_rate": 56.4
+      },
+      {
+        "ym": "2025-12",
+        "total": 411,
+        "resolved": 237,
+        "resolution_rate": 57.7
+      },
+      {
+        "ym": "2026-01",
+        "total": 500,
+        "resolved": 351,
+        "resolution_rate": 70.2
+      },
+      {
+        "ym": "2026-02",
+        "total": 1032,
+        "resolved": 544,
+        "resolution_rate": 52.7
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-BVMK8Z",
+        "type": "ทางเท้า",
+        "days_open": 1363,
+        "address": "Latkrabang PPHW+4WH แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย",
+        "last_activity": "2022-07-05 08:53:06.232987"
+      },
+      {
+        "ticket_id": "2022-9BV82K",
+        "type": "จราจร",
+        "days_open": 1363,
+        "address": "PQJ6+36 กรุงเทพมหานคร ประเทศไทย",
+        "last_activity": "2022-07-02 09:51:58.732139"
+      },
+      {
+        "ticket_id": "2022-GAT8X8",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "Latkrabang PPHW+4WH แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย",
+        "last_activity": "2022-07-05 08:54:31.719441"
+      },
+      {
+        "ticket_id": "2022-GTUACD",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "Latkrabang PPHW+4WH แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย",
+        "last_activity": "2022-07-05 08:54:00.743328"
+      },
+      {
+        "ticket_id": "2022-CHZNEC",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "พระจอมเกล้าลาดกระบัง แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย",
+        "last_activity": "2022-07-05 08:53:32.713444"
+      }
+    ],
+    "composite_score": 74.6,
+    "grade": "B"
+  },
+  {
+    "district": "สวนหลวง",
+    "total_tickets": 27300,
+    "resolved_tickets": 19719,
+    "resolution_rate": 72.2,
+    "median_resolution_days": 6.8,
+    "avg_satisfaction": 3.95,
+    "stale_tickets": 6944,
+    "reopen_rate": 5.0,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 3339
+      },
+      {
+        "type": "ถนน",
+        "count": 3074
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 2376
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1225,
+        "resolved": 804,
+        "resolution_rate": 65.6
+      },
+      {
+        "ym": "2025-04",
+        "total": 659,
+        "resolved": 370,
+        "resolution_rate": 56.1
+      },
+      {
+        "ym": "2025-05",
+        "total": 823,
+        "resolved": 493,
+        "resolution_rate": 59.9
+      },
+      {
+        "ym": "2025-06",
+        "total": 602,
+        "resolved": 351,
+        "resolution_rate": 58.3
+      },
+      {
+        "ym": "2025-07",
+        "total": 629,
+        "resolved": 372,
+        "resolution_rate": 59.1
+      },
+      {
+        "ym": "2025-08",
+        "total": 725,
+        "resolved": 425,
+        "resolution_rate": 58.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 672,
+        "resolved": 426,
+        "resolution_rate": 63.4
+      },
+      {
+        "ym": "2025-10",
+        "total": 698,
+        "resolved": 433,
+        "resolution_rate": 62.0
+      },
+      {
+        "ym": "2025-11",
+        "total": 570,
+        "resolved": 340,
+        "resolution_rate": 59.6
+      },
+      {
+        "ym": "2025-12",
+        "total": 577,
+        "resolved": 396,
+        "resolution_rate": 68.6
+      },
+      {
+        "ym": "2026-01",
+        "total": 614,
+        "resolved": 413,
+        "resolution_rate": 67.3
+      },
+      {
+        "ym": "2026-02",
+        "total": 624,
+        "resolved": 335,
+        "resolution_rate": 53.7
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-HFZVKH",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "1315 ถนน รามคำแหง แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2022-08-06 20:00:45.876899"
+      },
+      {
+        "ticket_id": "2022-CZNKL3",
+        "type": "ถนน",
+        "days_open": 1363,
+        "address": "88 ถนน กำแพงเพชร ๗ แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2022-08-06 20:01:58.435140"
+      },
+      {
+        "ticket_id": "2022-4NEYC2",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "992 ซอย อ่อนนุช 30 แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2023-12-26 13:45:06.795494"
+      },
+      {
+        "ticket_id": "2022-UKREG3",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "1106 ซ. ศรีนครินทร์ 24 แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2023-09-25 11:34:40.868898"
+      },
+      {
+        "ticket_id": "2022-EDUQ2D",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "1 ถ. พัฒนาการ แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
+        "last_activity": "2023-01-09 11:19:31.828227"
+      }
+    ],
+    "composite_score": 75.4,
+    "grade": "B"
+  },
+  {
+    "district": "ห้วยขวาง",
+    "total_tickets": 27034,
+    "resolved_tickets": 18356,
+    "resolution_rate": 67.9,
+    "median_resolution_days": 7.1,
+    "avg_satisfaction": 4.01,
+    "stale_tickets": 7938,
+    "reopen_rate": 4.5,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 3040
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2878
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 2682
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 2208,
+        "resolved": 1859,
+        "resolution_rate": 84.2
+      },
+      {
+        "ym": "2025-04",
+        "total": 1032,
+        "resolved": 608,
+        "resolution_rate": 58.9
+      },
+      {
+        "ym": "2025-05",
+        "total": 895,
+        "resolved": 403,
+        "resolution_rate": 45.0
+      },
+      {
+        "ym": "2025-06",
+        "total": 663,
+        "resolved": 331,
+        "resolution_rate": 49.9
+      },
+      {
+        "ym": "2025-07",
+        "total": 682,
+        "resolved": 316,
+        "resolution_rate": 46.3
+      },
+      {
+        "ym": "2025-08",
+        "total": 702,
+        "resolved": 373,
+        "resolution_rate": 53.1
+      },
+      {
+        "ym": "2025-09",
+        "total": 681,
+        "resolved": 333,
+        "resolution_rate": 48.9
+      },
+      {
+        "ym": "2025-10",
+        "total": 683,
+        "resolved": 347,
+        "resolution_rate": 50.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 609,
+        "resolved": 327,
+        "resolution_rate": 53.7
+      },
+      {
+        "ym": "2025-12",
+        "total": 477,
+        "resolved": 250,
+        "resolution_rate": 52.4
+      },
+      {
+        "ym": "2026-01",
+        "total": 750,
+        "resolved": 488,
+        "resolution_rate": 65.1
+      },
+      {
+        "ym": "2026-02",
+        "total": 691,
+        "resolved": 361,
+        "resolution_rate": 52.2
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-DHHF3E",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "ถนน พระราม 9 แขวง บางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2023-03-26 11:56:32.849450"
+      },
+      {
+        "ticket_id": "2022-LBXBCK",
+        "type": "ความสะอาด",
+        "days_open": 1363,
+        "address": "1831/10 ถนน เพชรบุรี แขวง บางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2022-07-01 08:40:02.525790"
+      },
+      {
+        "ticket_id": "2022-GMKHCQ",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "12 Thanon Rama 9 แขวง ห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2022-07-01 10:28:12.131424"
+      },
+      {
+        "ticket_id": "2022-A8D2D4",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "225 ถ. สุทธิสารวินิจฉัย แขวง สามเสนนอก เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2024-05-04 07:48:19.545302"
+      },
+      {
+        "ticket_id": "2022-3YYFXE",
+        "type": "ถนน",
+        "days_open": 1363,
+        "address": "100/11 ถ. อโศก - ดินแดง แขวง บางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2024-07-08 17:37:18.143285"
+      }
+    ],
+    "composite_score": 73.8,
+    "grade": "B"
+  },
+  {
+    "district": "บางรัก",
+    "total_tickets": 26689,
+    "resolved_tickets": 20146,
+    "resolution_rate": 75.5,
+    "median_resolution_days": 3.7,
+    "avg_satisfaction": 3.74,
+    "stale_tickets": 5804,
+    "reopen_rate": 7.2,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 4526
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 2526
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2378
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1204,
+        "resolved": 876,
+        "resolution_rate": 72.8
+      },
+      {
+        "ym": "2025-04",
+        "total": 901,
+        "resolved": 574,
+        "resolution_rate": 63.7
+      },
+      {
+        "ym": "2025-05",
+        "total": 861,
+        "resolved": 581,
+        "resolution_rate": 67.5
+      },
+      {
+        "ym": "2025-06",
+        "total": 674,
+        "resolved": 411,
+        "resolution_rate": 61.0
+      },
+      {
+        "ym": "2025-07",
+        "total": 708,
+        "resolved": 446,
+        "resolution_rate": 63.0
+      },
+      {
+        "ym": "2025-08",
+        "total": 663,
+        "resolved": 411,
+        "resolution_rate": 62.0
+      },
+      {
+        "ym": "2025-09",
+        "total": 740,
+        "resolved": 485,
+        "resolution_rate": 65.5
+      },
+      {
+        "ym": "2025-10",
+        "total": 748,
+        "resolved": 469,
+        "resolution_rate": 62.7
+      },
+      {
+        "ym": "2025-11",
+        "total": 541,
+        "resolved": 291,
+        "resolution_rate": 53.8
+      },
+      {
+        "ym": "2025-12",
+        "total": 581,
+        "resolved": 338,
+        "resolution_rate": 58.2
+      },
+      {
+        "ym": "2026-01",
+        "total": 620,
+        "resolved": 352,
+        "resolution_rate": 56.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 663,
+        "resolved": 321,
+        "resolution_rate": 48.4
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-KD7DLW",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "166/4 สีลม แขวง สุริยวงศ์ เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
+        "last_activity": "2022-07-01 09:09:26.002987"
+      },
+      {
+        "ticket_id": "2022-GVF92C",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "131 ถนน ศรีเวียง แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
+        "last_activity": "2024-03-06 10:05:55.444606"
+      },
+      {
+        "ticket_id": "2022-P6VU2L",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "ป้ายรถประจำทาง สถานีรถไฟฟ้าสุรศักดิ์ แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
+        "last_activity": "2022-11-03 11:01:54.866106"
+      },
+      {
+        "ticket_id": "2022-C2XZB6",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "เลขที่ 160 ถ. สาทรเหนือ แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
+        "last_activity": "2023-03-29 15:37:27.925480"
+      },
+      {
+        "ticket_id": "2022-7ZNGZU",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "สีลม แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
+        "last_activity": "2022-08-18 20:20:04.139649"
+      }
+    ],
+    "composite_score": 77.9,
+    "grade": "B"
+  },
+  {
+    "district": "บางขุนเทียน",
+    "total_tickets": 25456,
+    "resolved_tickets": 19355,
+    "resolution_rate": 76.0,
+    "median_resolution_days": 4.7,
+    "avg_satisfaction": 4.07,
+    "stale_tickets": 5632,
+    "reopen_rate": 6.1,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 5342
+      },
+      {
+        "type": "ถนน",
+        "count": 2612
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1501
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 621,
+        "resolved": 445,
+        "resolution_rate": 71.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 542,
+        "resolved": 388,
+        "resolution_rate": 71.6
+      },
+      {
+        "ym": "2025-05",
+        "total": 613,
+        "resolved": 434,
+        "resolution_rate": 70.8
+      },
+      {
+        "ym": "2025-06",
+        "total": 615,
+        "resolved": 462,
+        "resolution_rate": 75.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 535,
+        "resolved": 365,
+        "resolution_rate": 68.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 523,
+        "resolved": 369,
+        "resolution_rate": 70.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 434,
+        "resolved": 289,
+        "resolution_rate": 66.6
+      },
+      {
+        "ym": "2025-10",
+        "total": 642,
+        "resolved": 473,
+        "resolution_rate": 73.7
+      },
+      {
+        "ym": "2025-11",
+        "total": 504,
+        "resolved": 355,
+        "resolution_rate": 70.4
+      },
+      {
+        "ym": "2025-12",
+        "total": 409,
+        "resolved": 282,
+        "resolution_rate": 68.9
+      },
+      {
+        "ym": "2026-01",
+        "total": 573,
+        "resolved": 414,
+        "resolution_rate": 72.3
+      },
+      {
+        "ym": "2026-02",
+        "total": 631,
+        "resolved": 401,
+        "resolution_rate": 63.5
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-LW6P9U",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "JFG8+QH กรุงเทพมหานคร ประเทศไทย",
+        "last_activity": "2022-08-18 08:15:58.944610"
+      },
+      {
+        "ticket_id": "2022-BKKVD3",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "698 1 ถ. พระราม 2 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-05 07:19:03.015714"
+      },
+      {
+        "ticket_id": "2022-67A8CK",
+        "type": "เสนอแนะ",
+        "days_open": 1362,
+        "address": "696/2 ถ. พระราม 2 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-03 06:10:15.307770"
+      },
+      {
+        "ticket_id": "2022-7MVAGF",
+        "type": "จราจร",
+        "days_open": 1362,
+        "address": "35 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-01 15:59:16.809459"
+      },
+      {
+        "ticket_id": "2022-442KC9",
+        "type": "จราจร",
+        "days_open": 1362,
+        "address": "47/5 ซอย 73 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-03 22:41:04.389616"
+      }
+    ],
+    "composite_score": 78.9,
+    "grade": "B"
+  },
+  {
+    "district": "สาทร",
+    "total_tickets": 25424,
+    "resolved_tickets": 20202,
+    "resolution_rate": 79.5,
+    "median_resolution_days": 3.1,
+    "avg_satisfaction": 3.9,
+    "stale_tickets": 4376,
+    "reopen_rate": 5.9,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 4996
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 3191
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2903
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1336,
+        "resolved": 1094,
+        "resolution_rate": 81.9
+      },
+      {
+        "ym": "2025-04",
+        "total": 946,
+        "resolved": 729,
+        "resolution_rate": 77.1
+      },
+      {
+        "ym": "2025-05",
+        "total": 788,
+        "resolved": 538,
+        "resolution_rate": 68.3
+      },
+      {
+        "ym": "2025-06",
+        "total": 595,
+        "resolved": 373,
+        "resolution_rate": 62.7
+      },
+      {
+        "ym": "2025-07",
+        "total": 672,
+        "resolved": 470,
+        "resolution_rate": 69.9
+      },
+      {
+        "ym": "2025-08",
+        "total": 749,
+        "resolved": 484,
+        "resolution_rate": 64.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 808,
+        "resolved": 516,
+        "resolution_rate": 63.9
+      },
+      {
+        "ym": "2025-10",
+        "total": 694,
+        "resolved": 467,
+        "resolution_rate": 67.3
+      },
+      {
+        "ym": "2025-11",
+        "total": 641,
+        "resolved": 448,
+        "resolution_rate": 69.9
+      },
+      {
+        "ym": "2025-12",
+        "total": 537,
+        "resolved": 363,
+        "resolution_rate": 67.6
+      },
+      {
+        "ym": "2026-01",
+        "total": 829,
+        "resolved": 556,
+        "resolution_rate": 67.1
+      },
+      {
+        "ym": "2026-02",
+        "total": 869,
+        "resolved": 410,
+        "resolution_rate": 47.2
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-HB7Z8A",
+        "type": "ทางเท้า",
+        "days_open": 1531,
+        "address": "1357/1-4 ซอย จันทน์ 23/2 แขวง ทุ่งวัดดอน เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2022-09-15 22:51:15.433811"
+      },
+      {
+        "ticket_id": "2022-D9Z7ZE",
+        "type": "ทางเท้า",
+        "days_open": 1527,
+        "address": "214 ถนนจันทน์ แขวง ทุ่งวัดดอน เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2024-02-02 17:51:45.865074"
+      },
+      {
+        "ticket_id": "2022-BVCTXW",
+        "type": "ไฟฟ้า",
+        "days_open": 1363,
+        "address": "220 ซอย จันทน์ 18/3 แขวง ทุ่งวัดดอน เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2023-04-10 13:38:01.409699"
+      },
+      {
+        "ticket_id": "2022-ADBRYZ",
+        "type": "เสนอแนะ",
+        "days_open": 1362,
+        "address": "ป้ายรถเมล์ แขวง ทุ่งมหาเมฆ สาธรใต้ แขวง ทุ่งมหาเมฆ เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2023-03-13 18:07:37.934612"
+      },
+      {
+        "ticket_id": "2022-78GBWT",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "33 ซอย สาธร 15 แขวง ยานนาวา เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2023-04-10 13:37:35.990139"
+      }
+    ],
+    "composite_score": 81.4,
+    "grade": "A"
+  },
+  {
+    "district": "บางซื่อ",
+    "total_tickets": 24735,
+    "resolved_tickets": 20323,
+    "resolution_rate": 82.2,
+    "median_resolution_days": 4.8,
+    "avg_satisfaction": 4.13,
+    "stale_tickets": 4039,
+    "reopen_rate": 5.8,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2638
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 2228
+      },
+      {
+        "type": "ถนน",
+        "count": 2199
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1781,
+        "resolved": 1517,
+        "resolution_rate": 85.2
+      },
+      {
+        "ym": "2025-04",
+        "total": 703,
+        "resolved": 530,
+        "resolution_rate": 75.4
+      },
+      {
+        "ym": "2025-05",
+        "total": 760,
+        "resolved": 515,
+        "resolution_rate": 67.8
+      },
+      {
+        "ym": "2025-06",
+        "total": 474,
+        "resolved": 338,
+        "resolution_rate": 71.3
+      },
+      {
+        "ym": "2025-07",
+        "total": 520,
+        "resolved": 346,
+        "resolution_rate": 66.5
+      },
+      {
+        "ym": "2025-08",
+        "total": 490,
+        "resolved": 344,
+        "resolution_rate": 70.2
+      },
+      {
+        "ym": "2025-09",
+        "total": 538,
+        "resolved": 370,
+        "resolution_rate": 68.8
+      },
+      {
+        "ym": "2025-10",
+        "total": 721,
+        "resolved": 483,
+        "resolution_rate": 67.0
+      },
+      {
+        "ym": "2025-11",
+        "total": 645,
+        "resolved": 446,
+        "resolution_rate": 69.1
+      },
+      {
+        "ym": "2025-12",
+        "total": 548,
+        "resolved": 428,
+        "resolution_rate": 78.1
+      },
+      {
+        "ym": "2026-01",
+        "total": 573,
+        "resolved": 464,
+        "resolution_rate": 81.0
+      },
+      {
+        "ym": "2026-02",
+        "total": 609,
+        "resolved": 439,
+        "resolution_rate": 72.1
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-78AFKK",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "174 ถนน เตชะวณิช แขวง บางซื่อ เขตบางซื่อ กรุงเทพมหานคร 10300 ประเทศไทย",
+        "last_activity": "2022-07-01 15:26:52.088370"
+      },
+      {
+        "ticket_id": "2022-9KHZEU",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "10 ซอย ประชานุกูล 1 แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย",
+        "last_activity": "2025-04-01 10:57:35.540650"
+      },
+      {
+        "ticket_id": "2022-FWEN62",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "102/104 ซอย เลียบทางรถไฟ แขวง บางซื่อ เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย",
+        "last_activity": "2023-04-12 03:32:00.927255"
+      },
+      {
+        "ticket_id": "2022-CBREL7",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "Soi Nopphakao 4  Bang Sue  Bang Sue  Bangkok แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย",
+        "last_activity": "2022-12-06 14:58:42.029211"
+      },
+      {
+        "ticket_id": "2022-MRKBN8",
+        "type": "ความปลอดภัย",
+        "days_open": 1360,
+        "address": "2-4 ถนน วงศ์สว่าง แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย",
+        "last_activity": "2023-01-30 16:22:19.317837"
+      }
+    ],
+    "composite_score": 81.7,
+    "grade": "A"
+  },
+  {
+    "district": "ธนบุรี",
+    "total_tickets": 23713,
+    "resolved_tickets": 20184,
+    "resolution_rate": 85.1,
+    "median_resolution_days": 2.9,
+    "avg_satisfaction": 4.0,
+    "stale_tickets": 3106,
+    "reopen_rate": 8.3,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 2938
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2379
+      },
+      {
+        "type": "ถนน",
+        "count": 1965
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1393,
+        "resolved": 1234,
+        "resolution_rate": 88.6
+      },
+      {
+        "ym": "2025-04",
+        "total": 679,
+        "resolved": 567,
+        "resolution_rate": 83.5
+      },
+      {
+        "ym": "2025-05",
+        "total": 641,
+        "resolved": 495,
+        "resolution_rate": 77.2
+      },
+      {
+        "ym": "2025-06",
+        "total": 614,
+        "resolved": 519,
+        "resolution_rate": 84.5
+      },
+      {
+        "ym": "2025-07",
+        "total": 646,
+        "resolved": 511,
+        "resolution_rate": 79.1
+      },
+      {
+        "ym": "2025-08",
+        "total": 557,
+        "resolved": 433,
+        "resolution_rate": 77.7
+      },
+      {
+        "ym": "2025-09",
+        "total": 556,
+        "resolved": 444,
+        "resolution_rate": 79.9
+      },
+      {
+        "ym": "2025-10",
+        "total": 596,
+        "resolved": 452,
+        "resolution_rate": 75.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 573,
+        "resolved": 427,
+        "resolution_rate": 74.5
+      },
+      {
+        "ym": "2025-12",
+        "total": 590,
+        "resolved": 439,
+        "resolution_rate": 74.4
+      },
+      {
+        "ym": "2026-01",
+        "total": 629,
+        "resolved": 482,
+        "resolution_rate": 76.6
+      },
+      {
+        "ym": "2026-02",
+        "total": 625,
+        "resolved": 435,
+        "resolution_rate": 69.6
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-HNE3UN",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "172/8 ถนน สมเด็จพระเจ้าตากสิน แขวง บุคคโล เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-08-10 17:46:52.624751"
+      },
+      {
+        "ticket_id": "2022-8BLT86",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "10600 ซอย เทอดไท 34 แขวง ตลาดพลู เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-07-12 12:34:29.296648"
+      },
+      {
+        "ticket_id": "2022-MTNGVY",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "575/1 ถนน สมเด็จพระเจ้าตากสิน แขวง บุคคโล เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-07-11 12:26:08.049719"
+      },
+      {
+        "ticket_id": "2022-BRQT2R",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "ห้างหุ้นส่วนจำกัด เวิลด์ สติ๊กเกอร์ แขวง บางยี่เรือ เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2024-09-03 10:26:30.038793"
+      },
+      {
+        "ticket_id": "2022-DDDUB2",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "124 ซอย สมเด็จพระเจ้าตากสิน 22 แขวง บุคคโล เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-08-10 17:50:45.294871"
+      }
+    ],
+    "composite_score": 83.0,
+    "grade": "A"
+  },
+  {
+    "district": "ลาดพร้าว",
+    "total_tickets": 23040,
+    "resolved_tickets": 19239,
+    "resolution_rate": 83.5,
+    "median_resolution_days": 5.1,
+    "avg_satisfaction": 4.19,
+    "stale_tickets": 3347,
+    "reopen_rate": 6.3,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2503
+      },
+      {
+        "type": "ถนน",
+        "count": 2119
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 1605
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 883,
+        "resolved": 682,
+        "resolution_rate": 77.2
+      },
+      {
+        "ym": "2025-04",
+        "total": 712,
+        "resolved": 557,
+        "resolution_rate": 78.2
+      },
+      {
+        "ym": "2025-05",
+        "total": 835,
+        "resolved": 623,
+        "resolution_rate": 74.6
+      },
+      {
+        "ym": "2025-06",
+        "total": 914,
+        "resolved": 703,
+        "resolution_rate": 76.9
+      },
+      {
+        "ym": "2025-07",
+        "total": 731,
+        "resolved": 604,
+        "resolution_rate": 82.6
+      },
+      {
+        "ym": "2025-08",
+        "total": 557,
+        "resolved": 433,
+        "resolution_rate": 77.7
+      },
+      {
+        "ym": "2025-09",
+        "total": 678,
+        "resolved": 565,
+        "resolution_rate": 83.3
+      },
+      {
+        "ym": "2025-10",
+        "total": 658,
+        "resolved": 542,
+        "resolution_rate": 82.4
+      },
+      {
+        "ym": "2025-11",
+        "total": 773,
+        "resolved": 611,
+        "resolution_rate": 79.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 590,
+        "resolved": 426,
+        "resolution_rate": 72.2
+      },
+      {
+        "ym": "2026-01",
+        "total": 570,
+        "resolved": 415,
+        "resolution_rate": 72.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 591,
+        "resolved": 401,
+        "resolution_rate": 67.9
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-MVZC4P",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "60 ถนนสังคมสงเคราะห์ 24 แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-01 16:17:26.376273"
+      },
+      {
+        "ticket_id": "2022-4G86AA",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "2 ซอย นาคนิวาส 48 แยก 8 แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-01 16:14:21.262718"
+      },
+      {
+        "ticket_id": "2022-6W7MMV",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "62/4 เสนานิคม แขวง จรเข้บัว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-03 14:22:17.254341"
+      },
+      {
+        "ticket_id": "2022-NWW2CW",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "6/218 ซอย นาคนิวาส 38 แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-02 20:01:27.817630"
+      },
+      {
+        "ticket_id": "2022-9NYZEM",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "253 ถ. โชคชัย 4 แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2024-07-10 15:47:23.877812"
+      }
+    ],
+    "composite_score": 81.9,
+    "grade": "A"
+  },
+  {
+    "district": "วังทองหลาง",
+    "total_tickets": 22418,
+    "resolved_tickets": 18213,
+    "resolution_rate": 81.2,
+    "median_resolution_days": 4.6,
+    "avg_satisfaction": 4.08,
+    "stale_tickets": 3700,
+    "reopen_rate": 6.4,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2333
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 2301
+      },
+      {
+        "type": "ถนน",
+        "count": 2294
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 843,
+        "resolved": 633,
+        "resolution_rate": 75.1
+      },
+      {
+        "ym": "2025-04",
+        "total": 737,
+        "resolved": 479,
+        "resolution_rate": 65.0
+      },
+      {
+        "ym": "2025-05",
+        "total": 974,
+        "resolved": 740,
+        "resolution_rate": 76.0
+      },
+      {
+        "ym": "2025-06",
+        "total": 788,
+        "resolved": 568,
+        "resolution_rate": 72.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 569,
+        "resolved": 407,
+        "resolution_rate": 71.5
+      },
+      {
+        "ym": "2025-08",
+        "total": 622,
+        "resolved": 424,
+        "resolution_rate": 68.2
+      },
+      {
+        "ym": "2025-09",
+        "total": 639,
+        "resolved": 446,
+        "resolution_rate": 69.8
+      },
+      {
+        "ym": "2025-10",
+        "total": 783,
+        "resolved": 555,
+        "resolution_rate": 70.9
+      },
+      {
+        "ym": "2025-11",
+        "total": 670,
+        "resolved": 500,
+        "resolution_rate": 74.6
+      },
+      {
+        "ym": "2025-12",
+        "total": 497,
+        "resolved": 364,
+        "resolution_rate": 73.2
+      },
+      {
+        "ym": "2026-01",
+        "total": 613,
+        "resolved": 428,
+        "resolution_rate": 69.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 653,
+        "resolved": 449,
+        "resolution_rate": 68.8
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-N9WZUH",
+        "type": "ทางเท้า",
+        "days_open": 1361,
+        "address": "2773 ถ. ลาดพร้าว แขวง คลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2022-08-17 13:30:05.848532"
+      },
+      {
+        "ticket_id": "2022-P4GLVM",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "ร้านอาหารทิพวรรณ แขวง คลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2022-08-25 10:56:22.499164"
+      },
+      {
+        "ticket_id": "2022-LBWVHQ",
+        "type": "ถนน",
+        "days_open": 1361,
+        "address": "QJP5+FFV South Expressway Ratchaprasong Park แขวง วังทองหลาง เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2022-07-06 11:28:11.970648"
+      },
+      {
+        "ticket_id": "2022-ACTREE",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "340/1 ถนน ศรีวรา แขวง พลับพลา เขตวังทองหลาง กรุงเทพมหานคร 10312 ประเทศไทย",
+        "last_activity": "2023-04-05 23:23:57.136592"
+      },
+      {
+        "ticket_id": "2022-8NFP3V",
+        "type": "อื่นๆ",
+        "days_open": 1360,
+        "address": "424 ซอย ร่วมน้ำใจ แยก 4 แขวง คลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย",
+        "last_activity": "2022-07-03 11:49:39.208524"
+      }
+    ],
+    "composite_score": 81.0,
+    "grade": "A"
+  },
+  {
+    "district": "บึงกุ่ม",
+    "total_tickets": 22378,
+    "resolved_tickets": 19035,
+    "resolution_rate": 85.1,
+    "median_resolution_days": 5.8,
+    "avg_satisfaction": 4.08,
+    "stale_tickets": 2938,
+    "reopen_rate": 4.8,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 5612
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 2475
+      },
+      {
+        "type": "ถนน",
+        "count": 1635
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 541,
+        "resolved": 408,
+        "resolution_rate": 75.4
+      },
+      {
+        "ym": "2025-04",
+        "total": 615,
+        "resolved": 462,
+        "resolution_rate": 75.1
+      },
+      {
+        "ym": "2025-05",
+        "total": 782,
+        "resolved": 551,
+        "resolution_rate": 70.5
+      },
+      {
+        "ym": "2025-06",
+        "total": 497,
+        "resolved": 385,
+        "resolution_rate": 77.5
+      },
+      {
+        "ym": "2025-07",
+        "total": 452,
+        "resolved": 297,
+        "resolution_rate": 65.7
+      },
+      {
+        "ym": "2025-08",
+        "total": 463,
+        "resolved": 350,
+        "resolution_rate": 75.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 399,
+        "resolved": 288,
+        "resolution_rate": 72.2
+      },
+      {
+        "ym": "2025-10",
+        "total": 455,
+        "resolved": 321,
+        "resolution_rate": 70.5
+      },
+      {
+        "ym": "2025-11",
+        "total": 442,
+        "resolved": 297,
+        "resolution_rate": 67.2
+      },
+      {
+        "ym": "2025-12",
+        "total": 392,
+        "resolved": 233,
+        "resolution_rate": 59.4
+      },
+      {
+        "ym": "2026-01",
+        "total": 463,
+        "resolved": 318,
+        "resolution_rate": 68.7
+      },
+      {
+        "ym": "2026-02",
+        "total": 411,
+        "resolved": 265,
+        "resolution_rate": 64.5
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-MZQ9T6",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "81 ถ. เสรีไทย แขวง คลองกุ่ม เขต บึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2023-03-14 22:16:18.909219"
+      },
+      {
+        "ticket_id": "2022-LYCW2B",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "44/249 หมู่ที่ 8 ซอยรามอินทรา 65 ถนนรามอินทรา แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 แขวง ท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2022-07-07 23:59:19.818296"
+      },
+      {
+        "ticket_id": "2022-NB8TUU",
+        "type": "จราจร",
+        "days_open": 1361,
+        "address": "99 ถ. คลองลำเจียก แขวง นวลจันทร์ เขต บึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-02 17:11:12.635581"
+      },
+      {
+        "ticket_id": "2022-HQX3RW",
+        "type": "จราจร",
+        "days_open": 1361,
+        "address": "10240 ถนน นวมินทร์ แขวง นวลจันทร์ เขต บึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-02 17:09:41.747349"
+      },
+      {
+        "ticket_id": "2022-87TVHU",
+        "type": "ถนน",
+        "days_open": 1361,
+        "address": "10240 ถนน นวมินทร์ แขวง นวลจันทร์ เขต บึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-02 17:07:26.186892"
+      }
+    ],
+    "composite_score": 82.2,
+    "grade": "A"
+  },
+  {
+    "district": "พญาไท",
+    "total_tickets": 21805,
+    "resolved_tickets": 16565,
+    "resolution_rate": 76.0,
+    "median_resolution_days": 6.6,
+    "avg_satisfaction": 3.88,
+    "stale_tickets": 4867,
+    "reopen_rate": 6.5,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 2456
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2172
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 2053
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1313,
+        "resolved": 1036,
+        "resolution_rate": 78.9
+      },
+      {
+        "ym": "2025-04",
+        "total": 758,
+        "resolved": 463,
+        "resolution_rate": 61.1
+      },
+      {
+        "ym": "2025-05",
+        "total": 705,
+        "resolved": 427,
+        "resolution_rate": 60.6
+      },
+      {
+        "ym": "2025-06",
+        "total": 560,
+        "resolved": 357,
+        "resolution_rate": 63.7
+      },
+      {
+        "ym": "2025-07",
+        "total": 595,
+        "resolved": 367,
+        "resolution_rate": 61.7
+      },
+      {
+        "ym": "2025-08",
+        "total": 497,
+        "resolved": 327,
+        "resolution_rate": 65.8
+      },
+      {
+        "ym": "2025-09",
+        "total": 497,
+        "resolved": 310,
+        "resolution_rate": 62.4
+      },
+      {
+        "ym": "2025-10",
+        "total": 611,
+        "resolved": 384,
+        "resolution_rate": 62.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 487,
+        "resolved": 337,
+        "resolution_rate": 69.2
+      },
+      {
+        "ym": "2025-12",
+        "total": 436,
+        "resolved": 323,
+        "resolution_rate": 74.1
+      },
+      {
+        "ym": "2026-01",
+        "total": 534,
+        "resolved": 388,
+        "resolution_rate": 72.7
+      },
+      {
+        "ym": "2026-02",
+        "total": 512,
+        "resolved": 363,
+        "resolution_rate": 70.9
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-EM2GLN",
+        "type": "จราจร",
+        "days_open": 1363,
+        "address": "กรมโยธาธิการและผังเมือง แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2023-03-10 11:20:24.600746"
+      },
+      {
+        "ticket_id": "2022-FFFDE9",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "16 ซอย อารีย์สัมพันธ์ 7 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2023-11-07 07:43:16.048957"
+      },
+      {
+        "ticket_id": "2022-A4VEVB",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "943 Phyathai Hospital 2 Phaholyothin Road Samsen Nai Khet Phya Thai แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2024-07-20 16:30:03.460148"
+      },
+      {
+        "ticket_id": "2022-M7YWBQ",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "35 ซอย พหลโยธิน 2 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2023-08-25 14:40:16.083125"
+      },
+      {
+        "ticket_id": "2022-CT3XBD",
+        "type": "ฝุ่นควัน&กลิ่น&PM2.5",
+        "days_open": 1362,
+        "address": "14ถนนพหลโยธินซอย 3 เขตพญาไท กทม 10400 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
+        "last_activity": "2022-07-02 11:07:21.758888"
+      }
+    ],
+    "composite_score": 76.1,
+    "grade": "B"
+  },
+  {
+    "district": "บางนา",
+    "total_tickets": 21388,
+    "resolved_tickets": 15717,
+    "resolution_rate": 73.5,
+    "median_resolution_days": 11.5,
+    "avg_satisfaction": 3.91,
+    "stale_tickets": 5116,
+    "reopen_rate": 4.9,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2612
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 2224
+      },
+      {
+        "type": "ถนน",
+        "count": 1860
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 961,
+        "resolved": 640,
+        "resolution_rate": 66.6
+      },
+      {
+        "ym": "2025-04",
+        "total": 554,
+        "resolved": 314,
+        "resolution_rate": 56.7
+      },
+      {
+        "ym": "2025-05",
+        "total": 656,
+        "resolved": 430,
+        "resolution_rate": 65.5
+      },
+      {
+        "ym": "2025-06",
+        "total": 555,
+        "resolved": 409,
+        "resolution_rate": 73.7
+      },
+      {
+        "ym": "2025-07",
+        "total": 536,
+        "resolved": 312,
+        "resolution_rate": 58.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 943,
+        "resolved": 678,
+        "resolution_rate": 71.9
+      },
+      {
+        "ym": "2025-09",
+        "total": 577,
+        "resolved": 362,
+        "resolution_rate": 62.7
+      },
+      {
+        "ym": "2025-10",
+        "total": 575,
+        "resolved": 254,
+        "resolution_rate": 44.2
+      },
+      {
+        "ym": "2025-11",
+        "total": 397,
+        "resolved": 195,
+        "resolution_rate": 49.1
+      },
+      {
+        "ym": "2025-12",
+        "total": 363,
+        "resolved": 192,
+        "resolution_rate": 52.9
+      },
+      {
+        "ym": "2026-01",
+        "total": 517,
+        "resolved": 322,
+        "resolution_rate": 62.3
+      },
+      {
+        "ym": "2026-02",
+        "total": 547,
+        "resolved": 266,
+        "resolution_rate": 48.6
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-NNHTVQ",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "ทางแยกต่างระดับศรีเอี่ยม แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2022-07-01 08:47:44.246457"
+      },
+      {
+        "ticket_id": "2022-3KUNRX",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "825 ทางคู่ขนาน ถนนบางนา-ตราด แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2022-07-22 17:19:25.534611"
+      },
+      {
+        "ticket_id": "2022-MTYAQ4",
+        "type": "ถนน",
+        "days_open": 1362,
+        "address": "34 ถ. เทพรัตน แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2022-07-01 16:06:17.624223"
+      },
+      {
+        "ticket_id": "2022-K67ZKR",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "33 ซอย ลาซาล แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2022-09-21 08:19:54.259293"
+      },
+      {
+        "ticket_id": "2022-32FQUC",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "ตึกเนชั่น (อินเตอร์ลิ้งค์ ทาวเวอร์) แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2022-07-01 19:23:26.194241"
+      }
+    ],
+    "composite_score": 71.1,
+    "grade": "B"
+  },
+  {
+    "district": "หนองจอก",
+    "total_tickets": 21001,
+    "resolved_tickets": 17070,
+    "resolution_rate": 81.3,
+    "median_resolution_days": 6.1,
+    "avg_satisfaction": 4.22,
+    "stale_tickets": 3481,
+    "reopen_rate": 4.2,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 3858
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2359
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 2273
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 478,
+        "resolved": 380,
+        "resolution_rate": 79.5
+      },
+      {
+        "ym": "2025-04",
+        "total": 544,
+        "resolved": 422,
+        "resolution_rate": 77.6
+      },
+      {
+        "ym": "2025-05",
+        "total": 895,
+        "resolved": 600,
+        "resolution_rate": 67.0
+      },
+      {
+        "ym": "2025-06",
+        "total": 677,
+        "resolved": 482,
+        "resolution_rate": 71.2
+      },
+      {
+        "ym": "2025-07",
+        "total": 592,
+        "resolved": 431,
+        "resolution_rate": 72.8
+      },
+      {
+        "ym": "2025-08",
+        "total": 555,
+        "resolved": 410,
+        "resolution_rate": 73.9
+      },
+      {
+        "ym": "2025-09",
+        "total": 603,
+        "resolved": 437,
+        "resolution_rate": 72.5
+      },
+      {
+        "ym": "2025-10",
+        "total": 630,
+        "resolved": 454,
+        "resolution_rate": 72.1
+      },
+      {
+        "ym": "2025-11",
+        "total": 484,
+        "resolved": 307,
+        "resolution_rate": 63.4
+      },
+      {
+        "ym": "2025-12",
+        "total": 424,
+        "resolved": 295,
+        "resolution_rate": 69.6
+      },
+      {
+        "ym": "2026-01",
+        "total": 487,
+        "resolved": 344,
+        "resolution_rate": 70.6
+      },
+      {
+        "ym": "2026-02",
+        "total": 528,
+        "resolved": 325,
+        "resolution_rate": 61.6
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-47F6H2",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "31/10 ซอย คู้คลองสิบ 11 แขวง คลองสิบ เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
+        "last_activity": "2022-12-08 14:17:07.592654"
+      },
+      {
+        "ticket_id": "2022-LXX3HT",
+        "type": "จราจร",
+        "days_open": 1362,
+        "address": "26 ถ. สุวินทวงศ์ แขวง กระทุ่มราย เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
+        "last_activity": "2022-07-07 15:30:56.021160"
+      },
+      {
+        "ticket_id": "2022-7NFHBQ",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "66/1199 มิตรไมตรี แขวง คู้ฝั่งเหนือ เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
+        "last_activity": "2022-07-06 15:32:11.052171"
+      },
+      {
+        "ticket_id": "2022-HAMYV4",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "164 ถนน สกุลดี แขวง หนองจอก เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
+        "last_activity": "2023-11-16 22:24:39.204924"
+      },
+      {
+        "ticket_id": "2022-A2NK86",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "121/1 ถนน สกุลดี แขวง หนองจอก เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
+        "last_activity": "2025-03-28 09:39:43.468185"
+      }
+    ],
+    "composite_score": 81.2,
+    "grade": "A"
+  },
+  {
+    "district": "คลองสามวา",
+    "total_tickets": 20741,
+    "resolved_tickets": 17476,
+    "resolution_rate": 84.3,
+    "median_resolution_days": 8.7,
+    "avg_satisfaction": 4.04,
+    "stale_tickets": 2929,
+    "reopen_rate": 6.3,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 2759
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2438
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 1548
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 499,
+        "resolved": 391,
+        "resolution_rate": 78.4
+      },
+      {
+        "ym": "2025-04",
+        "total": 456,
+        "resolved": 351,
+        "resolution_rate": 77.0
+      },
+      {
+        "ym": "2025-05",
+        "total": 706,
+        "resolved": 516,
+        "resolution_rate": 73.1
+      },
+      {
+        "ym": "2025-06",
+        "total": 581,
+        "resolved": 401,
+        "resolution_rate": 69.0
+      },
+      {
+        "ym": "2025-07",
+        "total": 507,
+        "resolved": 366,
+        "resolution_rate": 72.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 479,
+        "resolved": 350,
+        "resolution_rate": 73.1
+      },
+      {
+        "ym": "2025-09",
+        "total": 537,
+        "resolved": 327,
+        "resolution_rate": 60.9
+      },
+      {
+        "ym": "2025-10",
+        "total": 518,
+        "resolved": 361,
+        "resolution_rate": 69.7
+      },
+      {
+        "ym": "2025-11",
+        "total": 377,
+        "resolved": 245,
+        "resolution_rate": 65.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 381,
+        "resolved": 283,
+        "resolution_rate": 74.3
+      },
+      {
+        "ym": "2026-01",
+        "total": 468,
+        "resolved": 356,
+        "resolution_rate": 76.1
+      },
+      {
+        "ym": "2026-02",
+        "total": 419,
+        "resolved": 261,
+        "resolution_rate": 62.3
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-GWFDFE",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "99/114 ซอย หทัยราษฏร์ 33 แขวง บางชัน เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2023-09-13 15:31:53.307232"
+      },
+      {
+        "ticket_id": "2022-78WAKW",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "34/14 ซอย หทัยราษฎร์ 34/2 แขวง สามวาตะวันตก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2023-09-13 15:31:30.817811"
+      },
+      {
+        "ticket_id": "2022-84CWKC",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "49/282 ซอย นิมิตใหม่ 40 แขวง สามวาตะวันออก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2023-09-13 15:31:10.996616"
+      },
+      {
+        "ticket_id": "2022-4MKCN6",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "58 ถ. หนองระแหง แขวง สามวาตะวันตก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2023-09-06 16:20:03.684969"
+      },
+      {
+        "ticket_id": "2022-HBFB63",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "27 ถ. หทัยราษฎร์ แขวง สามวาตะวันตก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2023-09-13 15:30:32.133145"
+      }
+    ],
+    "composite_score": 78.0,
+    "grade": "B"
+  },
+  {
+    "district": "บางพลัด",
+    "total_tickets": 20645,
+    "resolved_tickets": 13398,
+    "resolution_rate": 64.9,
+    "median_resolution_days": 4.4,
+    "avg_satisfaction": 3.68,
+    "stale_tickets": 6572,
+    "reopen_rate": 7.1,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 3370
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 2927
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2373
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 881,
+        "resolved": 556,
+        "resolution_rate": 63.1
+      },
+      {
+        "ym": "2025-04",
+        "total": 707,
+        "resolved": 269,
+        "resolution_rate": 38.0
+      },
+      {
+        "ym": "2025-05",
+        "total": 700,
+        "resolved": 364,
+        "resolution_rate": 52.0
+      },
+      {
+        "ym": "2025-06",
+        "total": 575,
+        "resolved": 265,
+        "resolution_rate": 46.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 648,
+        "resolved": 259,
+        "resolution_rate": 40.0
+      },
+      {
+        "ym": "2025-08",
+        "total": 489,
+        "resolved": 241,
+        "resolution_rate": 49.3
+      },
+      {
+        "ym": "2025-09",
+        "total": 561,
+        "resolved": 239,
+        "resolution_rate": 42.6
+      },
+      {
+        "ym": "2025-10",
+        "total": 560,
+        "resolved": 233,
+        "resolution_rate": 41.6
+      },
+      {
+        "ym": "2025-11",
+        "total": 743,
+        "resolved": 249,
+        "resolution_rate": 33.5
+      },
+      {
+        "ym": "2025-12",
+        "total": 460,
+        "resolved": 253,
+        "resolution_rate": 55.0
+      },
+      {
+        "ym": "2026-01",
+        "total": 581,
+        "resolved": 310,
+        "resolution_rate": 53.4
+      },
+      {
+        "ym": "2026-02",
+        "total": 582,
+        "resolved": 266,
+        "resolution_rate": 45.7
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-LLFNYE",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "191 ถ. ราชวิถี แขวง บางยี่ขัน เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2023-03-13 14:10:43.523339"
+      },
+      {
+        "ticket_id": "2022-676DQH",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "284 ซอย จรัญสนิทวงศ์ 67 แขวง บางพลัด เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2022-07-01 09:25:32.839719"
+      },
+      {
+        "ticket_id": "2022-N4XZYC",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "191 ถ. ราชวิถี แขวง บางยี่ขัน เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2023-03-13 14:21:32.097326"
+      },
+      {
+        "ticket_id": "2022-ANGMD7",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "486 ถ. จรัญสนิทวงศ์ แขวง บางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2022-07-09 18:47:43.065692"
+      },
+      {
+        "ticket_id": "2022-FB4UXN",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "213 ถนน จรัญสนิทวงศ์ แขวง บางบำหรุ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
+        "last_activity": "2022-07-02 13:25:19.712593"
+      }
+    ],
+    "composite_score": 72.7,
+    "grade": "B"
+  },
+  {
+    "district": "ยานนาวา",
+    "total_tickets": 19707,
+    "resolved_tickets": 15174,
+    "resolution_rate": 77.0,
+    "median_resolution_days": 4.1,
+    "avg_satisfaction": 4.12,
+    "stale_tickets": 4103,
+    "reopen_rate": 5.0,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 2954
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 2298
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 2088
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 1008,
+        "resolved": 744,
+        "resolution_rate": 73.8
+      },
+      {
+        "ym": "2025-04",
+        "total": 710,
+        "resolved": 525,
+        "resolution_rate": 73.9
+      },
+      {
+        "ym": "2025-05",
+        "total": 611,
+        "resolved": 398,
+        "resolution_rate": 65.1
+      },
+      {
+        "ym": "2025-06",
+        "total": 523,
+        "resolved": 365,
+        "resolution_rate": 69.8
+      },
+      {
+        "ym": "2025-07",
+        "total": 615,
+        "resolved": 463,
+        "resolution_rate": 75.3
+      },
+      {
+        "ym": "2025-08",
+        "total": 518,
+        "resolved": 354,
+        "resolution_rate": 68.3
+      },
+      {
+        "ym": "2025-09",
+        "total": 586,
+        "resolved": 365,
+        "resolution_rate": 62.3
+      },
+      {
+        "ym": "2025-10",
+        "total": 630,
+        "resolved": 410,
+        "resolution_rate": 65.1
+      },
+      {
+        "ym": "2025-11",
+        "total": 512,
+        "resolved": 344,
+        "resolution_rate": 67.2
+      },
+      {
+        "ym": "2025-12",
+        "total": 386,
+        "resolved": 246,
+        "resolution_rate": 63.7
+      },
+      {
+        "ym": "2026-01",
+        "total": 543,
+        "resolved": 409,
+        "resolution_rate": 75.3
+      },
+      {
+        "ym": "2026-02",
+        "total": 573,
+        "resolved": 370,
+        "resolution_rate": 64.6
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-KPG2XA",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "949 ถนน รัชดาภิเษก แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2022-07-01 10:24:52.162332"
+      },
+      {
+        "ticket_id": "2022-LNLQMH",
+        "type": "ถนน",
+        "days_open": 1363,
+        "address": "3/4 Ratchadaphisek Rd., Chongnonsi Yannawa,Bangkok 10120 แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2023-07-21 15:48:52.906036"
+      },
+      {
+        "ticket_id": "2022-K928PR",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "46 5 พระราม 3 ซอย 57 แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2023-05-30 14:48:21.368657"
+      },
+      {
+        "ticket_id": "2022-FK7GKM",
+        "type": "จราจร",
+        "days_open": 1362,
+        "address": "41/65 พระรามที่ 3 แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2022-07-02 08:52:51.135706"
+      },
+      {
+        "ticket_id": "2022-8DYPA6",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "11 ถนน รัชดาภิเษก แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2022-07-02 20:04:14.341347"
+      }
+    ],
+    "composite_score": 80.7,
+    "grade": "A"
+  },
+  {
+    "district": "ภาษีเจริญ",
+    "total_tickets": 19090,
+    "resolved_tickets": 15285,
+    "resolution_rate": 80.1,
+    "median_resolution_days": 3.8,
+    "avg_satisfaction": 4.13,
+    "stale_tickets": 3412,
+    "reopen_rate": 6.9,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 2627
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 1922
+      },
+      {
+        "type": "ถนน",
+        "count": 1476
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 982,
+        "resolved": 821,
+        "resolution_rate": 83.6
+      },
+      {
+        "ym": "2025-04",
+        "total": 558,
+        "resolved": 414,
+        "resolution_rate": 74.2
+      },
+      {
+        "ym": "2025-05",
+        "total": 516,
+        "resolved": 350,
+        "resolution_rate": 67.8
+      },
+      {
+        "ym": "2025-06",
+        "total": 440,
+        "resolved": 325,
+        "resolution_rate": 73.9
+      },
+      {
+        "ym": "2025-07",
+        "total": 471,
+        "resolved": 324,
+        "resolution_rate": 68.8
+      },
+      {
+        "ym": "2025-08",
+        "total": 450,
+        "resolved": 333,
+        "resolution_rate": 74.0
+      },
+      {
+        "ym": "2025-09",
+        "total": 513,
+        "resolved": 380,
+        "resolution_rate": 74.1
+      },
+      {
+        "ym": "2025-10",
+        "total": 447,
+        "resolved": 303,
+        "resolution_rate": 67.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 409,
+        "resolved": 282,
+        "resolution_rate": 68.9
+      },
+      {
+        "ym": "2025-12",
+        "total": 391,
+        "resolved": 252,
+        "resolution_rate": 64.5
+      },
+      {
+        "ym": "2026-01",
+        "total": 490,
+        "resolved": 345,
+        "resolution_rate": 70.4
+      },
+      {
+        "ym": "2026-02",
+        "total": 429,
+        "resolved": 280,
+        "resolution_rate": 65.3
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-82UPDW",
+        "type": "ทางเท้า",
+        "days_open": 1363,
+        "address": "125/12 ถนน เพชรเกษมสายเก่า แขวง ปากคลองภาษีเจริญ เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-07-01 14:11:52.596107"
+      },
+      {
+        "ticket_id": "2022-77QMRR",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "39 ถ. บางแวก แขวง บางแวก เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-07-02 14:26:29.003015"
+      },
+      {
+        "ticket_id": "2022-FT6VXD",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "PF86+4F6 แขวง ปากคลองภาษีเจริญ เขตภาษีเจริญ กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-06 15:39:07.727199"
+      },
+      {
+        "ticket_id": "2022-7EUBAD",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "7 ถนน กัลปพฤกษ์ แขวง บางหว้า เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-07-02 07:39:37.095461"
+      },
+      {
+        "ticket_id": "2022-4GHKQL",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "165/1 ซอย เพชรเกษม 36 แยก 2 แขวง ปากคลองภาษีเจริญ เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-07-08 11:45:21.180975"
+      }
+    ],
+    "composite_score": 81.3,
+    "grade": "A"
+  },
+  {
+    "district": "มีนบุรี",
+    "total_tickets": 18504,
+    "resolved_tickets": 15372,
+    "resolution_rate": 83.1,
+    "median_resolution_days": 6.6,
+    "avg_satisfaction": 4.06,
+    "stale_tickets": 2786,
+    "reopen_rate": 4.9,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2213
+      },
+      {
+        "type": "ถนน",
+        "count": 1818
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1502
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 543,
+        "resolved": 449,
+        "resolution_rate": 82.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 464,
+        "resolved": 330,
+        "resolution_rate": 71.1
+      },
+      {
+        "ym": "2025-05",
+        "total": 774,
+        "resolved": 567,
+        "resolution_rate": 73.3
+      },
+      {
+        "ym": "2025-06",
+        "total": 449,
+        "resolved": 328,
+        "resolution_rate": 73.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 449,
+        "resolved": 343,
+        "resolution_rate": 76.4
+      },
+      {
+        "ym": "2025-08",
+        "total": 352,
+        "resolved": 251,
+        "resolution_rate": 71.3
+      },
+      {
+        "ym": "2025-09",
+        "total": 449,
+        "resolved": 300,
+        "resolution_rate": 66.8
+      },
+      {
+        "ym": "2025-10",
+        "total": 464,
+        "resolved": 330,
+        "resolution_rate": 71.1
+      },
+      {
+        "ym": "2025-11",
+        "total": 407,
+        "resolved": 236,
+        "resolution_rate": 58.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 350,
+        "resolved": 241,
+        "resolution_rate": 68.9
+      },
+      {
+        "ym": "2026-01",
+        "total": 402,
+        "resolved": 301,
+        "resolution_rate": 74.9
+      },
+      {
+        "ym": "2026-02",
+        "total": 414,
+        "resolved": 246,
+        "resolution_rate": 59.4
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-KDB6PE",
+        "type": "ไฟฟ้า",
+        "days_open": 1363,
+        "address": "15 ซอย รามคำแหง 185 มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2022-07-02 22:54:03.903560"
+      },
+      {
+        "ticket_id": "2022-D988YK",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "RP9H+CX5 ถนน สุวินทวงศ์ มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2024-04-04 10:50:58.325090"
+      },
+      {
+        "ticket_id": "2022-P4KQRD",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "15 ซอย รามคำแหง 185 มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2022-08-15 09:56:28.399863"
+      },
+      {
+        "ticket_id": "2022-MZDUBW",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "293 ซอย 49 มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2022-07-05 13:11:26.416628"
+      },
+      {
+        "ticket_id": "2022-4RM2VH",
+        "type": "ไฟฟ้า",
+        "days_open": 1361,
+        "address": "แยกสุวินทวงศ์-รามคำแหง แขวง แสนแสบ มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
+        "last_activity": "2022-07-06 12:20:46.036477"
+      }
+    ],
+    "composite_score": 80.4,
+    "grade": "A"
+  },
+  {
+    "district": "พระโขนง",
+    "total_tickets": 18441,
+    "resolved_tickets": 14005,
+    "resolution_rate": 75.9,
+    "median_resolution_days": 7.7,
+    "avg_satisfaction": 4.05,
+    "stale_tickets": 4013,
+    "reopen_rate": 4.9,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 1995
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1784
+      },
+      {
+        "type": "ถนน",
+        "count": 1765
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 913,
+        "resolved": 609,
+        "resolution_rate": 66.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 572,
+        "resolved": 363,
+        "resolution_rate": 63.5
+      },
+      {
+        "ym": "2025-05",
+        "total": 589,
+        "resolved": 365,
+        "resolution_rate": 62.0
+      },
+      {
+        "ym": "2025-06",
+        "total": 426,
+        "resolved": 282,
+        "resolution_rate": 66.2
+      },
+      {
+        "ym": "2025-07",
+        "total": 500,
+        "resolved": 350,
+        "resolution_rate": 70.0
+      },
+      {
+        "ym": "2025-08",
+        "total": 552,
+        "resolved": 298,
+        "resolution_rate": 54.0
+      },
+      {
+        "ym": "2025-09",
+        "total": 559,
+        "resolved": 374,
+        "resolution_rate": 66.9
+      },
+      {
+        "ym": "2025-10",
+        "total": 562,
+        "resolved": 337,
+        "resolution_rate": 60.0
+      },
+      {
+        "ym": "2025-11",
+        "total": 487,
+        "resolved": 283,
+        "resolution_rate": 58.1
+      },
+      {
+        "ym": "2025-12",
+        "total": 409,
+        "resolved": 235,
+        "resolution_rate": 57.5
+      },
+      {
+        "ym": "2026-01",
+        "total": 440,
+        "resolved": 285,
+        "resolution_rate": 64.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 408,
+        "resolved": 230,
+        "resolution_rate": 56.4
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-AW4BYA",
+        "type": "เสนอแนะ",
+        "days_open": 1363,
+        "address": "2479 ถ. สุขุมวิท แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2022-07-01 08:53:14.618772"
+      },
+      {
+        "ticket_id": "2022-LKYNBA",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "299/5 ซอย สุขุมวิท 66/1 แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2023-01-09 11:32:25.391762"
+      },
+      {
+        "ticket_id": "2022-967HX3",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "299/5 ซอย สุขุมวิท 66/1 แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2023-01-09 11:28:19.470342"
+      },
+      {
+        "ticket_id": "2022-LCDAFV",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "28 ซ. สุขุมวิท 62 แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2023-01-09 11:23:03.803383"
+      },
+      {
+        "ticket_id": "2022-AUVUWB",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "ซอย สุขุมวิท 62 แขวง บางจาก เขต พระโขนง กรุงเทพมหานคร 10260 ประเทศไทย แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
+        "last_activity": "2022-07-02 22:36:16.672487"
+      }
+    ],
+    "composite_score": 76.4,
+    "grade": "B"
+  },
+  {
+    "district": "สายไหม",
+    "total_tickets": 18372,
+    "resolved_tickets": 15615,
+    "resolution_rate": 85.0,
+    "median_resolution_days": 4.7,
+    "avg_satisfaction": 4.04,
+    "stale_tickets": 2447,
+    "reopen_rate": 5.9,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2363
+      },
+      {
+        "type": "ถนน",
+        "count": 2001
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 1462
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 636,
+        "resolved": 507,
+        "resolution_rate": 79.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 440,
+        "resolved": 338,
+        "resolution_rate": 76.8
+      },
+      {
+        "ym": "2025-05",
+        "total": 487,
+        "resolved": 365,
+        "resolution_rate": 74.9
+      },
+      {
+        "ym": "2025-06",
+        "total": 463,
+        "resolved": 345,
+        "resolution_rate": 74.5
+      },
+      {
+        "ym": "2025-07",
+        "total": 538,
+        "resolved": 367,
+        "resolution_rate": 68.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 408,
+        "resolved": 282,
+        "resolution_rate": 69.1
+      },
+      {
+        "ym": "2025-09",
+        "total": 431,
+        "resolved": 298,
+        "resolution_rate": 69.1
+      },
+      {
+        "ym": "2025-10",
+        "total": 404,
+        "resolved": 309,
+        "resolution_rate": 76.5
+      },
+      {
+        "ym": "2025-11",
+        "total": 428,
+        "resolved": 299,
+        "resolution_rate": 69.9
+      },
+      {
+        "ym": "2025-12",
+        "total": 313,
+        "resolved": 215,
+        "resolution_rate": 68.7
+      },
+      {
+        "ym": "2026-01",
+        "total": 521,
+        "resolved": 409,
+        "resolution_rate": 78.5
+      },
+      {
+        "ym": "2026-02",
+        "total": 449,
+        "resolved": 311,
+        "resolution_rate": 69.3
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-4Z6EAG",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "27/27 ซอยจตุโชติ 14 ถนน จตุโชติ แขวง ออเงิน เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2023-05-02 09:04:42.511393"
+      },
+      {
+        "ticket_id": "2022-M7PZFG",
+        "type": "เสนอแนะ",
+        "days_open": 1362,
+        "address": "ตรงข้ามหมู่บ้านลานมณี แขวง สายไหม เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2023-05-02 09:05:09.999958"
+      },
+      {
+        "ticket_id": "2022-MVPEBX",
+        "type": "เสนอแนะ",
+        "days_open": 1361,
+        "address": "3902 แขวง ออเงิน เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2024-03-29 11:13:21.347706"
+      },
+      {
+        "ticket_id": "2022-96MBBC",
+        "type": "ถนน",
+        "days_open": 1360,
+        "address": "3902 แขวง ออเงิน เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2023-05-24 16:27:33.581776"
+      },
+      {
+        "ticket_id": "2022-GWVPRD",
+        "type": "ถนน",
+        "days_open": 1360,
+        "address": "3901 แขวง ออเงิน เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
+        "last_activity": "2024-03-29 11:11:55.255048"
+      }
+    ],
+    "composite_score": 82.5,
+    "grade": "A"
+  },
+  {
+    "district": "ตลิ่งชัน",
+    "total_tickets": 18245,
+    "resolved_tickets": 13790,
+    "resolution_rate": 75.6,
+    "median_resolution_days": 4.0,
+    "avg_satisfaction": 4.0,
+    "stale_tickets": 4157,
+    "reopen_rate": 6.3,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 2244
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 1937
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1525
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 561,
+        "resolved": 378,
+        "resolution_rate": 67.4
+      },
+      {
+        "ym": "2025-04",
+        "total": 458,
+        "resolved": 322,
+        "resolution_rate": 70.3
+      },
+      {
+        "ym": "2025-05",
+        "total": 626,
+        "resolved": 447,
+        "resolution_rate": 71.4
+      },
+      {
+        "ym": "2025-06",
+        "total": 502,
+        "resolved": 380,
+        "resolution_rate": 75.7
+      },
+      {
+        "ym": "2025-07",
+        "total": 452,
+        "resolved": 312,
+        "resolution_rate": 69.0
+      },
+      {
+        "ym": "2025-08",
+        "total": 357,
+        "resolved": 245,
+        "resolution_rate": 68.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 497,
+        "resolved": 373,
+        "resolution_rate": 75.1
+      },
+      {
+        "ym": "2025-10",
+        "total": 407,
+        "resolved": 283,
+        "resolution_rate": 69.5
+      },
+      {
+        "ym": "2025-11",
+        "total": 610,
+        "resolved": 430,
+        "resolution_rate": 70.5
+      },
+      {
+        "ym": "2025-12",
+        "total": 313,
+        "resolved": 228,
+        "resolution_rate": 72.8
+      },
+      {
+        "ym": "2026-01",
+        "total": 483,
+        "resolved": 371,
+        "resolution_rate": 76.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 406,
+        "resolved": 277,
+        "resolution_rate": 68.2
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-AKLCU3",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "63/5 ถนน สวนผัก แขวง ตลิ่งชัน เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2022-09-22 10:30:59.174501"
+      },
+      {
+        "ticket_id": "2022-49W8PG",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "73 ถนน อัศวพิเชษฐ์ แขวง ฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2024-12-23 12:08:43.918293"
+      },
+      {
+        "ticket_id": "2022-L2CH62",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "73 ซอย อัศวพิเชษฐ์ 13 แขวง ฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2022-07-01 09:22:40.060924"
+      },
+      {
+        "ticket_id": "2022-L6PA7N",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "54/6 ถนน อัศวพิเชษฐ์ แขวง ฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2022-07-01 09:23:16.175287"
+      },
+      {
+        "ticket_id": "2022-DU87BR",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "27/46 ถนน บรมราชชนนี แขวง ตลิ่งชัน เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2022-07-02 07:50:34.078737"
+      }
+    ],
+    "composite_score": 79.1,
+    "grade": "B"
+  },
+  {
+    "district": "หลักสี่",
+    "total_tickets": 17693,
+    "resolved_tickets": 14325,
+    "resolution_rate": 81.0,
+    "median_resolution_days": 5.4,
+    "avg_satisfaction": 4.02,
+    "stale_tickets": 3047,
+    "reopen_rate": 5.3,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2917
+      },
+      {
+        "type": "ถนน",
+        "count": 1468
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1442
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 491,
+        "resolved": 378,
+        "resolution_rate": 77.0
+      },
+      {
+        "ym": "2025-04",
+        "total": 408,
+        "resolved": 307,
+        "resolution_rate": 75.2
+      },
+      {
+        "ym": "2025-05",
+        "total": 570,
+        "resolved": 378,
+        "resolution_rate": 66.3
+      },
+      {
+        "ym": "2025-06",
+        "total": 433,
+        "resolved": 289,
+        "resolution_rate": 66.7
+      },
+      {
+        "ym": "2025-07",
+        "total": 395,
+        "resolved": 257,
+        "resolution_rate": 65.1
+      },
+      {
+        "ym": "2025-08",
+        "total": 358,
+        "resolved": 221,
+        "resolution_rate": 61.7
+      },
+      {
+        "ym": "2025-09",
+        "total": 397,
+        "resolved": 250,
+        "resolution_rate": 63.0
+      },
+      {
+        "ym": "2025-10",
+        "total": 392,
+        "resolved": 230,
+        "resolution_rate": 58.7
+      },
+      {
+        "ym": "2025-11",
+        "total": 457,
+        "resolved": 325,
+        "resolution_rate": 71.1
+      },
+      {
+        "ym": "2025-12",
+        "total": 288,
+        "resolved": 184,
+        "resolution_rate": 63.9
+      },
+      {
+        "ym": "2026-01",
+        "total": 363,
+        "resolved": 246,
+        "resolution_rate": 67.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 398,
+        "resolved": 263,
+        "resolution_rate": 66.1
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-KE74HR",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "36/12 ถ. แจ้งวัฒนะ แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2024-06-27 14:31:49.607365"
+      },
+      {
+        "ticket_id": "2022-7VTYCU",
+        "type": "ทางเท้า",
+        "days_open": 1363,
+        "address": "100 ถนน แจ้งวัฒนะ แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2024-06-27 14:31:34.051705"
+      },
+      {
+        "ticket_id": "2022-CCVH83",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "123/4 ถ. แจ้งวัฒนะ แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2022-07-03 06:05:08.783699"
+      },
+      {
+        "ticket_id": "2022-ERTXGM",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "2 ถนน กำแพงเพชร 6 แขวง ตลาดบางเขน เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2022-07-01 17:42:56.345110"
+      },
+      {
+        "ticket_id": "2022-4VVH63",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "85/47 ซอย แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2022-07-01 17:41:30.603078"
+      }
+    ],
+    "composite_score": 80.4,
+    "grade": "A"
+  },
+  {
+    "district": "บางคอแหลม",
+    "total_tickets": 17182,
+    "resolved_tickets": 13651,
+    "resolution_rate": 79.4,
+    "median_resolution_days": 3.2,
+    "avg_satisfaction": 4.26,
+    "stale_tickets": 3179,
+    "reopen_rate": 5.9,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2190
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1755
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 1638
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 973,
+        "resolved": 715,
+        "resolution_rate": 73.5
+      },
+      {
+        "ym": "2025-04",
+        "total": 773,
+        "resolved": 575,
+        "resolution_rate": 74.4
+      },
+      {
+        "ym": "2025-05",
+        "total": 520,
+        "resolved": 335,
+        "resolution_rate": 64.4
+      },
+      {
+        "ym": "2025-06",
+        "total": 438,
+        "resolved": 288,
+        "resolution_rate": 65.8
+      },
+      {
+        "ym": "2025-07",
+        "total": 417,
+        "resolved": 245,
+        "resolution_rate": 58.8
+      },
+      {
+        "ym": "2025-08",
+        "total": 320,
+        "resolved": 213,
+        "resolution_rate": 66.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 368,
+        "resolved": 244,
+        "resolution_rate": 66.3
+      },
+      {
+        "ym": "2025-10",
+        "total": 380,
+        "resolved": 266,
+        "resolution_rate": 70.0
+      },
+      {
+        "ym": "2025-11",
+        "total": 458,
+        "resolved": 340,
+        "resolution_rate": 74.2
+      },
+      {
+        "ym": "2025-12",
+        "total": 359,
+        "resolved": 248,
+        "resolution_rate": 69.1
+      },
+      {
+        "ym": "2026-01",
+        "total": 419,
+        "resolved": 287,
+        "resolution_rate": 68.5
+      },
+      {
+        "ym": "2026-02",
+        "total": 399,
+        "resolved": 258,
+        "resolution_rate": 64.7
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-3YXK22",
+        "type": "จราจร",
+        "days_open": 1363,
+        "address": "3769/112 ซอย จันทน์ 23/2 แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2023-03-03 13:43:01.508280"
+      },
+      {
+        "ticket_id": "2022-QXM4WQ",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "467/6 ถ. พระรามที่ 3 แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2023-05-30 14:53:47.736425"
+      },
+      {
+        "ticket_id": "2022-QEBKL6",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "3559/6 ถ. พระรามที่ 3 แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2022-07-02 19:05:47.569275"
+      },
+      {
+        "ticket_id": "2022-N7CHHB",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "14 ถ. สาธุประดิษฐ์ แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2022-09-09 10:33:32.564658"
+      },
+      {
+        "ticket_id": "2022-BD3NLB",
+        "type": "ความปลอดภัย",
+        "days_open": 1360,
+        "address": "3761/241 ซอย เจริญราษฎร์ 7 แยก 7-10 แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
+        "last_activity": "2023-04-04 14:57:32.263177"
+      }
+    ],
+    "composite_score": 82.6,
+    "grade": "A"
+  },
+  {
+    "district": "ป้อมปราบศัตรูพ่าย",
+    "total_tickets": 16905,
+    "resolved_tickets": 14039,
+    "resolution_rate": 83.0,
+    "median_resolution_days": 5.4,
+    "avg_satisfaction": 3.88,
+    "stale_tickets": 2545,
+    "reopen_rate": 14.1,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 3847
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 1503
+      },
+      {
+        "type": "ถนน",
+        "count": 1234
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 494,
+        "resolved": 374,
+        "resolution_rate": 75.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 375,
+        "resolved": 282,
+        "resolution_rate": 75.2
+      },
+      {
+        "ym": "2025-05",
+        "total": 475,
+        "resolved": 340,
+        "resolution_rate": 71.6
+      },
+      {
+        "ym": "2025-06",
+        "total": 445,
+        "resolved": 303,
+        "resolution_rate": 68.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 425,
+        "resolved": 324,
+        "resolution_rate": 76.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 319,
+        "resolved": 225,
+        "resolution_rate": 70.5
+      },
+      {
+        "ym": "2025-09",
+        "total": 372,
+        "resolved": 269,
+        "resolution_rate": 72.3
+      },
+      {
+        "ym": "2025-10",
+        "total": 451,
+        "resolved": 311,
+        "resolution_rate": 69.0
+      },
+      {
+        "ym": "2025-11",
+        "total": 354,
+        "resolved": 249,
+        "resolution_rate": 70.3
+      },
+      {
+        "ym": "2025-12",
+        "total": 332,
+        "resolved": 220,
+        "resolution_rate": 66.3
+      },
+      {
+        "ym": "2026-01",
+        "total": 306,
+        "resolved": 195,
+        "resolution_rate": 63.7
+      },
+      {
+        "ym": "2026-02",
+        "total": 350,
+        "resolved": 228,
+        "resolution_rate": 65.1
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-CPG6UW",
+        "type": "จราจร",
+        "days_open": 1362,
+        "address": "264-268 ถนน หลานหลวง แขวง คลองมหานาค เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2024-06-14 10:33:59.025498"
+      },
+      {
+        "ticket_id": "2022-A26PUD",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "239 ถนนวรจักร แขวง วัดเทพศิรินทร์ เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2022-07-02 23:31:41.828773"
+      },
+      {
+        "ticket_id": "2022-B8VX37",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "37 ซอย อนันตนาค แขวง คลองมหานาค เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2024-07-03 11:46:06.765243"
+      },
+      {
+        "ticket_id": "2022-LA7WVZ",
+        "type": "อื่นๆ",
+        "days_open": 1360,
+        "address": "วรจักร แขวง วัดเทพศิรินทร์ เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2024-04-03 17:30:18.093802"
+      },
+      {
+        "ticket_id": "2022-HF4TCV",
+        "type": "ความปลอดภัย",
+        "days_open": 1360,
+        "address": "68/57 ซอย นาคบำรุง แขวง คลองมหานาค เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2022-07-04 11:53:18.492473"
+      }
+    ],
+    "composite_score": 76.3,
+    "grade": "B"
+  },
+  {
+    "district": "สะพานสูง",
+    "total_tickets": 16728,
+    "resolved_tickets": 13682,
+    "resolution_rate": 81.8,
+    "median_resolution_days": 9.9,
+    "avg_satisfaction": 3.9,
+    "stale_tickets": 2753,
+    "reopen_rate": 6.0,
+    "top_types": [
+      {
+        "type": "ไฟฟ้า",
+        "count": 2031
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 1949
+      },
+      {
+        "type": "ถนน",
+        "count": 1903
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 622,
+        "resolved": 503,
+        "resolution_rate": 80.9
+      },
+      {
+        "ym": "2025-04",
+        "total": 599,
+        "resolved": 499,
+        "resolution_rate": 83.3
+      },
+      {
+        "ym": "2025-05",
+        "total": 505,
+        "resolved": 337,
+        "resolution_rate": 66.7
+      },
+      {
+        "ym": "2025-06",
+        "total": 364,
+        "resolved": 256,
+        "resolution_rate": 70.3
+      },
+      {
+        "ym": "2025-07",
+        "total": 475,
+        "resolved": 277,
+        "resolution_rate": 58.3
+      },
+      {
+        "ym": "2025-08",
+        "total": 445,
+        "resolved": 325,
+        "resolution_rate": 73.0
+      },
+      {
+        "ym": "2025-09",
+        "total": 505,
+        "resolved": 310,
+        "resolution_rate": 61.4
+      },
+      {
+        "ym": "2025-10",
+        "total": 451,
+        "resolved": 306,
+        "resolution_rate": 67.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 472,
+        "resolved": 307,
+        "resolution_rate": 65.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 263,
+        "resolved": 176,
+        "resolution_rate": 66.9
+      },
+      {
+        "ym": "2026-01",
+        "total": 452,
+        "resolved": 346,
+        "resolution_rate": 76.5
+      },
+      {
+        "ym": "2026-02",
+        "total": 519,
+        "resolved": 376,
+        "resolution_rate": 72.4
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-CCPLED",
+        "type": "จราจร",
+        "days_open": 1363,
+        "address": "67 3901 แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2024-06-27 14:32:01.137272"
+      },
+      {
+        "ticket_id": "2022-6QHRQE",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "Opposite Muban Ketsari 2 Ramkhamhaeng 151/1 แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2023-01-30 14:51:31.337598"
+      },
+      {
+        "ticket_id": "2022-F6QURC",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "69 Ramkhamhaeng Road Bangkok แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2023-01-30 14:55:47.366160"
+      },
+      {
+        "ticket_id": "2022-79V4CT",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "QPP4+3H3 ซอย หมู่บ้านเคหะธานี 4 แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2023-01-30 14:56:05.233761"
+      },
+      {
+        "ticket_id": "2022-KTW2MC",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "QPP4+3H3 ซอย หมู่บ้านเคหะธานี 4 แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
+        "last_activity": "2023-01-30 14:57:28.145150"
+      }
+    ],
+    "composite_score": 75.4,
+    "grade": "B"
+  },
+  {
+    "district": "จอมทอง",
+    "total_tickets": 16239,
+    "resolved_tickets": 12341,
+    "resolution_rate": 76.0,
+    "median_resolution_days": 5.0,
+    "avg_satisfaction": 4.09,
+    "stale_tickets": 3488,
+    "reopen_rate": 6.4,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 1937
+      },
+      {
+        "type": "ถนน",
+        "count": 1494
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1181
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 702,
+        "resolved": 512,
+        "resolution_rate": 72.9
+      },
+      {
+        "ym": "2025-04",
+        "total": 481,
+        "resolved": 286,
+        "resolution_rate": 59.5
+      },
+      {
+        "ym": "2025-05",
+        "total": 564,
+        "resolved": 356,
+        "resolution_rate": 63.1
+      },
+      {
+        "ym": "2025-06",
+        "total": 391,
+        "resolved": 274,
+        "resolution_rate": 70.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 366,
+        "resolved": 248,
+        "resolution_rate": 67.8
+      },
+      {
+        "ym": "2025-08",
+        "total": 375,
+        "resolved": 239,
+        "resolution_rate": 63.7
+      },
+      {
+        "ym": "2025-09",
+        "total": 395,
+        "resolved": 270,
+        "resolution_rate": 68.4
+      },
+      {
+        "ym": "2025-10",
+        "total": 478,
+        "resolved": 354,
+        "resolution_rate": 74.1
+      },
+      {
+        "ym": "2025-11",
+        "total": 384,
+        "resolved": 265,
+        "resolution_rate": 69.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 346,
+        "resolved": 250,
+        "resolution_rate": 72.3
+      },
+      {
+        "ym": "2026-01",
+        "total": 504,
+        "resolved": 339,
+        "resolution_rate": 67.3
+      },
+      {
+        "ym": "2026-02",
+        "total": 357,
+        "resolved": 191,
+        "resolution_rate": 53.5
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-UBY7A9",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "43/79 ถ. พระราม ๒ แขวง บางมด เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-05 14:38:57.084719"
+      },
+      {
+        "ticket_id": "2022-LG274Z",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "24 ซ. กำนันแม้น แขวง บางขุนเทียน เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-01 14:15:25.842876"
+      },
+      {
+        "ticket_id": "2022-L7WXHQ",
+        "type": "ไฟฟ้า",
+        "days_open": 1362,
+        "address": "75/27 ซ. วุฒากาศ 5 แขวง บางค้อ เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-08-10 17:49:43.280723"
+      },
+      {
+        "ticket_id": "2022-C6F3HV",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "33/1 ถนน วุฒากาศ แขวง บางค้อ เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-08-11 08:49:32.607793"
+      },
+      {
+        "ticket_id": "2022-7PZNEL",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "26 ถนน จอมทอง แขวงจอมทอง เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-09-20 14:21:57.854965"
+      }
+    ],
+    "composite_score": 78.6,
+    "grade": "B"
+  },
+  {
+    "district": "ดอนเมือง",
+    "total_tickets": 15941,
+    "resolved_tickets": 12543,
+    "resolution_rate": 78.7,
+    "median_resolution_days": 7.4,
+    "avg_satisfaction": 3.89,
+    "stale_tickets": 2991,
+    "reopen_rate": 6.2,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2170
+      },
+      {
+        "type": "ถนน",
+        "count": 1804
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1027
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 605,
+        "resolved": 485,
+        "resolution_rate": 80.2
+      },
+      {
+        "ym": "2025-04",
+        "total": 442,
+        "resolved": 305,
+        "resolution_rate": 69.0
+      },
+      {
+        "ym": "2025-05",
+        "total": 520,
+        "resolved": 315,
+        "resolution_rate": 60.6
+      },
+      {
+        "ym": "2025-06",
+        "total": 428,
+        "resolved": 292,
+        "resolution_rate": 68.2
+      },
+      {
+        "ym": "2025-07",
+        "total": 403,
+        "resolved": 292,
+        "resolution_rate": 72.5
+      },
+      {
+        "ym": "2025-08",
+        "total": 349,
+        "resolved": 272,
+        "resolution_rate": 77.9
+      },
+      {
+        "ym": "2025-09",
+        "total": 494,
+        "resolved": 367,
+        "resolution_rate": 74.3
+      },
+      {
+        "ym": "2025-10",
+        "total": 377,
+        "resolved": 252,
+        "resolution_rate": 66.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 535,
+        "resolved": 406,
+        "resolution_rate": 75.9
+      },
+      {
+        "ym": "2025-12",
+        "total": 299,
+        "resolved": 217,
+        "resolution_rate": 72.6
+      },
+      {
+        "ym": "2026-01",
+        "total": 443,
+        "resolved": 315,
+        "resolution_rate": 71.1
+      },
+      {
+        "ym": "2026-02",
+        "total": 522,
+        "resolved": 316,
+        "resolution_rate": 60.5
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-7U6MP6",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "1 ถนน กำแพงเพชร 6 แขวง ดอนเมือง เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2022-07-02 09:58:32.118365"
+      },
+      {
+        "ticket_id": "2022-P2QPBF",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "วิภาวดีซอย 41 แขวง สนามบิน เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2023-01-27 11:36:09.004027"
+      },
+      {
+        "ticket_id": "2022-GGDHKG",
+        "type": "อื่นๆ",
+        "days_open": 1358,
+        "address": "1669 WJJ2+H4R 9 สรณคมน์ 3 แยก 18 แขวง สีกัน เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2023-01-27 11:41:49.796648"
+      },
+      {
+        "ticket_id": "2022-9XCC3N",
+        "type": "ความปลอดภัย",
+        "days_open": 1358,
+        "address": "54/56 Soi Phraphautit Songphapha Rd. Srikun Donmuang,Bangkok 10210 แขวง สีกัน เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2025-03-16 17:06:20.096501"
+      },
+      {
+        "ticket_id": "2022-EQDE4H",
+        "type": "ไฟฟ้า",
+        "days_open": 1358,
+        "address": "10 ซ. ประชาอุทิศ แขวง ดอนเมือง เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
+        "last_activity": "2023-10-05 08:57:23.983882"
+      }
+    ],
+    "composite_score": 76.5,
+    "grade": "B"
+  },
+  {
+    "district": "หนองแขม",
+    "total_tickets": 14916,
+    "resolved_tickets": 13147,
+    "resolution_rate": 88.1,
+    "median_resolution_days": 3.0,
+    "avg_satisfaction": 4.03,
+    "stale_tickets": 1540,
+    "reopen_rate": 6.8,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 1657
+      },
+      {
+        "type": "ป้ายโฆษณา",
+        "count": 1212
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1189
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 442,
+        "resolved": 372,
+        "resolution_rate": 84.2
+      },
+      {
+        "ym": "2025-04",
+        "total": 420,
+        "resolved": 337,
+        "resolution_rate": 80.2
+      },
+      {
+        "ym": "2025-05",
+        "total": 399,
+        "resolved": 310,
+        "resolution_rate": 77.7
+      },
+      {
+        "ym": "2025-06",
+        "total": 269,
+        "resolved": 195,
+        "resolution_rate": 72.5
+      },
+      {
+        "ym": "2025-07",
+        "total": 275,
+        "resolved": 212,
+        "resolution_rate": 77.1
+      },
+      {
+        "ym": "2025-08",
+        "total": 294,
+        "resolved": 216,
+        "resolution_rate": 73.5
+      },
+      {
+        "ym": "2025-09",
+        "total": 414,
+        "resolved": 305,
+        "resolution_rate": 73.7
+      },
+      {
+        "ym": "2025-10",
+        "total": 411,
+        "resolved": 325,
+        "resolution_rate": 79.1
+      },
+      {
+        "ym": "2025-11",
+        "total": 305,
+        "resolved": 243,
+        "resolution_rate": 79.7
+      },
+      {
+        "ym": "2025-12",
+        "total": 282,
+        "resolved": 218,
+        "resolution_rate": 77.3
+      },
+      {
+        "ym": "2026-01",
+        "total": 355,
+        "resolved": 285,
+        "resolution_rate": 80.3
+      },
+      {
+        "ym": "2026-02",
+        "total": 335,
+        "resolved": 219,
+        "resolution_rate": 65.4
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-7GDMQB",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "21/5 Workplace Ma Charoen Alley, แขวง หนองแขม เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-08-05 18:41:09.830792"
+      },
+      {
+        "ticket_id": "2022-GFLADT",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "79/2 ถ. เพชรเกษม แขวง หนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-07-04 21:39:22.337739"
+      },
+      {
+        "ticket_id": "2022-3DMFPU",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "M8HP+FCC ถนนเลียบคลองภาษีเจริญฝั่งเหนือ แขวง หนองแขม เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2023-03-09 11:19:28.756820"
+      },
+      {
+        "ticket_id": "2022-3493FT",
+        "type": "ความปลอดภัย",
+        "days_open": 1360,
+        "address": "44/35 ซอย เพชรเกษม 110 แขวง หนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-07-04 15:00:15.269280"
+      },
+      {
+        "ticket_id": "2022-DBCX97",
+        "type": "อื่นๆ",
+        "days_open": 1360,
+        "address": "ปากทางเข้าถนนพุทธมณฑลสาย 3 แขวง หนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
+        "last_activity": "2022-07-04 09:11:07.477019"
+      }
+    ],
+    "composite_score": 85.0,
+    "grade": "A"
+  },
+  {
+    "district": "คลองสาน",
+    "total_tickets": 14627,
+    "resolved_tickets": 11817,
+    "resolution_rate": 80.8,
+    "median_resolution_days": 6.1,
+    "avg_satisfaction": 3.93,
+    "stale_tickets": 2164,
+    "reopen_rate": 6.4,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 1856
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1765
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 1326
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 790,
+        "resolved": 700,
+        "resolution_rate": 88.6
+      },
+      {
+        "ym": "2025-04",
+        "total": 449,
+        "resolved": 359,
+        "resolution_rate": 80.0
+      },
+      {
+        "ym": "2025-05",
+        "total": 488,
+        "resolved": 362,
+        "resolution_rate": 74.2
+      },
+      {
+        "ym": "2025-06",
+        "total": 385,
+        "resolved": 283,
+        "resolution_rate": 73.5
+      },
+      {
+        "ym": "2025-07",
+        "total": 448,
+        "resolved": 333,
+        "resolution_rate": 74.3
+      },
+      {
+        "ym": "2025-08",
+        "total": 467,
+        "resolved": 325,
+        "resolution_rate": 69.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 492,
+        "resolved": 334,
+        "resolution_rate": 67.9
+      },
+      {
+        "ym": "2025-10",
+        "total": 653,
+        "resolved": 344,
+        "resolution_rate": 52.7
+      },
+      {
+        "ym": "2025-11",
+        "total": 396,
+        "resolved": 305,
+        "resolution_rate": 77.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 519,
+        "resolved": 399,
+        "resolution_rate": 76.9
+      },
+      {
+        "ym": "2026-01",
+        "total": 877,
+        "resolved": 566,
+        "resolution_rate": 64.5
+      },
+      {
+        "ym": "2026-02",
+        "total": 541,
+        "resolved": 297,
+        "resolution_rate": 54.9
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-NZA28C",
+        "type": "เสนอแนะ",
+        "days_open": 1363,
+        "address": "PG96+P8F ถ. เจริญนคร แขวง คลองต้นไทร เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-07-02 22:08:45.141121"
+      },
+      {
+        "ticket_id": "2022-M7FHPC",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "ตลาดเจริญนคร แขวง บางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2023-02-16 13:15:51.182771"
+      },
+      {
+        "ticket_id": "2022-BXU4EA",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "1116 ถ. เจริญนคร แขวง บางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2023-01-24 15:25:13.241687"
+      },
+      {
+        "ticket_id": "2022-Q6UAHM",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "873 ถ. เจริญนคร แขวง คลองสาน เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-07-02 13:42:08.165191"
+      },
+      {
+        "ticket_id": "2022-EQ266B",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "PG52+MW6 ซอย เจริญนคร 39 แขวง บางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-07-02 13:39:33.796446"
+      }
+    ],
+    "composite_score": 78.7,
+    "grade": "B"
+  },
+  {
+    "district": "ดุสิต",
+    "total_tickets": 13825,
+    "resolved_tickets": 10959,
+    "resolution_rate": 79.3,
+    "median_resolution_days": 5.2,
+    "avg_satisfaction": 4.21,
+    "stale_tickets": 2662,
+    "reopen_rate": 4.7,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 1600
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 1379
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 1368
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 459,
+        "resolved": 363,
+        "resolution_rate": 79.1
+      },
+      {
+        "ym": "2025-04",
+        "total": 413,
+        "resolved": 286,
+        "resolution_rate": 69.2
+      },
+      {
+        "ym": "2025-05",
+        "total": 511,
+        "resolved": 349,
+        "resolution_rate": 68.3
+      },
+      {
+        "ym": "2025-06",
+        "total": 325,
+        "resolved": 244,
+        "resolution_rate": 75.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 346,
+        "resolved": 249,
+        "resolution_rate": 72.0
+      },
+      {
+        "ym": "2025-08",
+        "total": 272,
+        "resolved": 195,
+        "resolution_rate": 71.7
+      },
+      {
+        "ym": "2025-09",
+        "total": 415,
+        "resolved": 285,
+        "resolution_rate": 68.7
+      },
+      {
+        "ym": "2025-10",
+        "total": 467,
+        "resolved": 298,
+        "resolution_rate": 63.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 366,
+        "resolved": 264,
+        "resolution_rate": 72.1
+      },
+      {
+        "ym": "2025-12",
+        "total": 321,
+        "resolved": 264,
+        "resolution_rate": 82.2
+      },
+      {
+        "ym": "2026-01",
+        "total": 410,
+        "resolved": 313,
+        "resolution_rate": 76.3
+      },
+      {
+        "ym": "2026-02",
+        "total": 324,
+        "resolved": 252,
+        "resolution_rate": 77.8
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-NTARHU",
+        "type": "จราจร",
+        "days_open": 1363,
+        "address": "120 ถนน ระนอง 1 แขวง ถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
+        "last_activity": "2022-10-08 10:54:16.807861"
+      },
+      {
+        "ticket_id": "2022-NEWVC2",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "828/3 ถ. พระรามที่ ๕ แขวง ถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
+        "last_activity": "2023-08-23 14:55:57.779028"
+      },
+      {
+        "ticket_id": "2022-8Z3FCW",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "26 ถนน ทหาร แขวง ถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
+        "last_activity": "2023-11-13 07:30:33.314549"
+      },
+      {
+        "ticket_id": "2022-7FH3NX",
+        "type": "อื่นๆ",
+        "days_open": 1360,
+        "address": "168 ถ. ศรีอยุธยา แขวง วชิรพยาบาล เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
+        "last_activity": "2024-03-04 10:34:37.664116"
+      },
+      {
+        "ticket_id": "2022-C8FGRY",
+        "type": "ทางเท้า",
+        "days_open": 1360,
+        "address": "799 ถนน สามเสน แขวง ถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
+        "last_activity": "2022-07-04 08:54:40.344510"
+      }
+    ],
+    "composite_score": 81.0,
+    "grade": "A"
+  },
+  {
+    "district": "บางบอน",
+    "total_tickets": 12511,
+    "resolved_tickets": 9890,
+    "resolution_rate": 79.1,
+    "median_resolution_days": 4.8,
+    "avg_satisfaction": 4.12,
+    "stale_tickets": 2345,
+    "reopen_rate": 5.5,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 1603
+      },
+      {
+        "type": "ถนน",
+        "count": 1164
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 812
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 423,
+        "resolved": 297,
+        "resolution_rate": 70.2
+      },
+      {
+        "ym": "2025-04",
+        "total": 341,
+        "resolved": 225,
+        "resolution_rate": 66.0
+      },
+      {
+        "ym": "2025-05",
+        "total": 501,
+        "resolved": 370,
+        "resolution_rate": 73.9
+      },
+      {
+        "ym": "2025-06",
+        "total": 345,
+        "resolved": 230,
+        "resolution_rate": 66.7
+      },
+      {
+        "ym": "2025-07",
+        "total": 253,
+        "resolved": 165,
+        "resolution_rate": 65.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 253,
+        "resolved": 142,
+        "resolution_rate": 56.1
+      },
+      {
+        "ym": "2025-09",
+        "total": 257,
+        "resolved": 165,
+        "resolution_rate": 64.2
+      },
+      {
+        "ym": "2025-10",
+        "total": 403,
+        "resolved": 292,
+        "resolution_rate": 72.5
+      },
+      {
+        "ym": "2025-11",
+        "total": 280,
+        "resolved": 205,
+        "resolution_rate": 73.2
+      },
+      {
+        "ym": "2025-12",
+        "total": 283,
+        "resolved": 191,
+        "resolution_rate": 67.5
+      },
+      {
+        "ym": "2026-01",
+        "total": 323,
+        "resolved": 216,
+        "resolution_rate": 66.9
+      },
+      {
+        "ym": "2026-02",
+        "total": 241,
+        "resolved": 144,
+        "resolution_rate": 59.8
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-MMPX23",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "381 383 ถ. เอกชัย แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-08-29 14:56:45.011669"
+      },
+      {
+        "ticket_id": "2022-E47CD8",
+        "type": "ไฟฟ้า",
+        "days_open": 1361,
+        "address": "เลขที่ 77/228 หมู่ 8 ซอย เอกชัย 46 ถนนเอกชัย แขวงบางบอน เขตบางบอน แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-04 21:28:00.541297"
+      },
+      {
+        "ticket_id": "2022-4EWH96",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "43 ซอย เอกชัย 83/3 แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-04 20:40:37.352263"
+      },
+      {
+        "ticket_id": "2022-LB6ARP",
+        "type": "ทางเท้า",
+        "days_open": 1361,
+        "address": "492 ถ. เอกชัย แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2024-03-03 09:05:48.589008"
+      },
+      {
+        "ticket_id": "2022-GPV3L6",
+        "type": "อื่นๆ",
+        "days_open": 1360,
+        "address": "118/1 ถ. เอกชัย แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
+        "last_activity": "2022-07-04 15:45:09.650563"
+      }
+    ],
+    "composite_score": 80.6,
+    "grade": "A"
+  },
+  {
+    "district": "คันนายาว",
+    "total_tickets": 12459,
+    "resolved_tickets": 9900,
+    "resolution_rate": 79.5,
+    "median_resolution_days": 5.2,
+    "avg_satisfaction": 4.17,
+    "stale_tickets": 2345,
+    "reopen_rate": 4.2,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 2022
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1024
+      },
+      {
+        "type": "ถนน",
+        "count": 986
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 430,
+        "resolved": 334,
+        "resolution_rate": 77.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 403,
+        "resolved": 293,
+        "resolution_rate": 72.7
+      },
+      {
+        "ym": "2025-05",
+        "total": 377,
+        "resolved": 253,
+        "resolution_rate": 67.1
+      },
+      {
+        "ym": "2025-06",
+        "total": 397,
+        "resolved": 255,
+        "resolution_rate": 64.2
+      },
+      {
+        "ym": "2025-07",
+        "total": 375,
+        "resolved": 279,
+        "resolution_rate": 74.4
+      },
+      {
+        "ym": "2025-08",
+        "total": 282,
+        "resolved": 193,
+        "resolution_rate": 68.4
+      },
+      {
+        "ym": "2025-09",
+        "total": 255,
+        "resolved": 180,
+        "resolution_rate": 70.6
+      },
+      {
+        "ym": "2025-10",
+        "total": 304,
+        "resolved": 227,
+        "resolution_rate": 74.7
+      },
+      {
+        "ym": "2025-11",
+        "total": 205,
+        "resolved": 143,
+        "resolution_rate": 69.8
+      },
+      {
+        "ym": "2025-12",
+        "total": 232,
+        "resolved": 162,
+        "resolution_rate": 69.8
+      },
+      {
+        "ym": "2026-01",
+        "total": 345,
+        "resolved": 272,
+        "resolution_rate": 78.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 328,
+        "resolved": 217,
+        "resolution_rate": 66.2
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-FRWQF6",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "10/2 หมู่ 7 ถ. รามอินทรา แขวง คันนายาว เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-01 20:13:49.680186"
+      },
+      {
+        "ticket_id": "2022-3PBRTC",
+        "type": "น้ำท่วม",
+        "days_open": 1362,
+        "address": "673/1 ถ. รามอินทรา แขวง คันนายาว เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-01 20:37:10.797084"
+      },
+      {
+        "ticket_id": "2022-L29NK7",
+        "type": "ความปลอดภัย",
+        "days_open": 1362,
+        "address": "วัดนวลจันทร์ แขวง รามอินทรา เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-07-01 23:25:00.315579"
+      },
+      {
+        "ticket_id": "2022-PEP33R",
+        "type": "ความปลอดภัย",
+        "days_open": 1361,
+        "address": "23 ถนน นวมินทร์ แขวง รามอินทรา เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-08-03 10:44:05.486701"
+      },
+      {
+        "ticket_id": "2022-NLM47C",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "555 ถนน นวมินทร์ แขวง รามอินทรา เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
+        "last_activity": "2022-08-10 16:55:56.336940"
+      }
+    ],
+    "composite_score": 81.2,
+    "grade": "A"
+  },
+  {
+    "district": "ทุ่งครุ",
+    "total_tickets": 12085,
+    "resolved_tickets": 10454,
+    "resolution_rate": 86.5,
+    "median_resolution_days": 3.0,
+    "avg_satisfaction": 4.12,
+    "stale_tickets": 1478,
+    "reopen_rate": 6.6,
+    "top_types": [
+      {
+        "type": "อื่นๆ",
+        "count": 1272
+      },
+      {
+        "type": "ถนน",
+        "count": 1232
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 741
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 387,
+        "resolved": 303,
+        "resolution_rate": 78.3
+      },
+      {
+        "ym": "2025-04",
+        "total": 342,
+        "resolved": 249,
+        "resolution_rate": 72.8
+      },
+      {
+        "ym": "2025-05",
+        "total": 401,
+        "resolved": 335,
+        "resolution_rate": 83.5
+      },
+      {
+        "ym": "2025-06",
+        "total": 313,
+        "resolved": 250,
+        "resolution_rate": 79.9
+      },
+      {
+        "ym": "2025-07",
+        "total": 326,
+        "resolved": 245,
+        "resolution_rate": 75.2
+      },
+      {
+        "ym": "2025-08",
+        "total": 266,
+        "resolved": 202,
+        "resolution_rate": 75.9
+      },
+      {
+        "ym": "2025-09",
+        "total": 314,
+        "resolved": 233,
+        "resolution_rate": 74.2
+      },
+      {
+        "ym": "2025-10",
+        "total": 329,
+        "resolved": 266,
+        "resolution_rate": 80.9
+      },
+      {
+        "ym": "2025-11",
+        "total": 325,
+        "resolved": 259,
+        "resolution_rate": 79.7
+      },
+      {
+        "ym": "2025-12",
+        "total": 255,
+        "resolved": 217,
+        "resolution_rate": 85.1
+      },
+      {
+        "ym": "2026-01",
+        "total": 330,
+        "resolved": 286,
+        "resolution_rate": 86.7
+      },
+      {
+        "ym": "2026-02",
+        "total": 281,
+        "resolved": 205,
+        "resolution_rate": 73.0
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-B4LQNY",
+        "type": "อื่นๆ",
+        "days_open": 1363,
+        "address": "ซอยประชาอุทิศ 54 แขวง บางมด เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2023-05-09 13:16:08.361460"
+      },
+      {
+        "ticket_id": "2022-CEQCB7",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "2/12 ถ. ประชาอุทิศ แขวง ทุ่งครุ เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2023-09-28 08:41:29.019523"
+      },
+      {
+        "ticket_id": "2022-HKNGAB",
+        "type": "อื่นๆ",
+        "days_open": 1360,
+        "address": "79 ถนน พุทธบูชา แขวง บางมด เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2023-02-09 14:38:53.309880"
+      },
+      {
+        "ticket_id": "2022-K8WEDK",
+        "type": "จราจร",
+        "days_open": 1359,
+        "address": "127 ซอย ประชาอุทิศ 91 แขวง ทุ่งครุ เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2023-03-10 13:59:45.774769"
+      },
+      {
+        "ticket_id": "2022-G9HYWH",
+        "type": "ทางเท้า",
+        "days_open": 1358,
+        "address": "14/3 ซอย ประชาอุทิศ 36 แขวง บางมด เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2022-10-25 11:34:53.557990"
+      }
+    ],
+    "composite_score": 84.8,
+    "grade": "A"
+  },
+  {
+    "district": "ทวีวัฒนา",
+    "total_tickets": 11561,
+    "resolved_tickets": 9490,
+    "resolution_rate": 82.1,
+    "median_resolution_days": 4.0,
+    "avg_satisfaction": 4.04,
+    "stale_tickets": 1898,
+    "reopen_rate": 6.4,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 1303
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 1066
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 1019
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 372,
+        "resolved": 275,
+        "resolution_rate": 73.9
+      },
+      {
+        "ym": "2025-04",
+        "total": 360,
+        "resolved": 244,
+        "resolution_rate": 67.8
+      },
+      {
+        "ym": "2025-05",
+        "total": 481,
+        "resolved": 382,
+        "resolution_rate": 79.4
+      },
+      {
+        "ym": "2025-06",
+        "total": 280,
+        "resolved": 219,
+        "resolution_rate": 78.2
+      },
+      {
+        "ym": "2025-07",
+        "total": 274,
+        "resolved": 193,
+        "resolution_rate": 70.4
+      },
+      {
+        "ym": "2025-08",
+        "total": 245,
+        "resolved": 178,
+        "resolution_rate": 72.7
+      },
+      {
+        "ym": "2025-09",
+        "total": 348,
+        "resolved": 284,
+        "resolution_rate": 81.6
+      },
+      {
+        "ym": "2025-10",
+        "total": 305,
+        "resolved": 220,
+        "resolution_rate": 72.1
+      },
+      {
+        "ym": "2025-11",
+        "total": 371,
+        "resolved": 296,
+        "resolution_rate": 79.8
+      },
+      {
+        "ym": "2025-12",
+        "total": 205,
+        "resolved": 161,
+        "resolution_rate": 78.5
+      },
+      {
+        "ym": "2026-01",
+        "total": 284,
+        "resolved": 219,
+        "resolution_rate": 77.1
+      },
+      {
+        "ym": "2026-02",
+        "total": 225,
+        "resolved": 154,
+        "resolution_rate": 68.4
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-MZ3R4T",
+        "type": "ทางเท้า",
+        "days_open": 1362,
+        "address": "1/7 ถ. กาญจนาภิเษก แขวง ศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2023-07-03 17:27:49.503077"
+      },
+      {
+        "ticket_id": "2022-BXELRL",
+        "type": "ประชาสัมพันธ์",
+        "days_open": 1360,
+        "address": "915 1 ถนน เลียบคลองทวีวัฒนา แขวง ทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2022-07-04 10:04:11.400013"
+      },
+      {
+        "ticket_id": "2022-A7KBRM",
+        "type": "อื่นๆ",
+        "days_open": 1360,
+        "address": "เลขที่ 2/3/23 แขวง ทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2022-07-04 10:03:42.601141"
+      },
+      {
+        "ticket_id": "2022-FDDRYN",
+        "type": "อื่นๆ",
+        "days_open": 1357,
+        "address": "244/151 5/1 แขวง ศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2024-08-16 15:10:48.126403"
+      },
+      {
+        "ticket_id": "2022-AVKXG6",
+        "type": "อื่นๆ",
+        "days_open": 1356,
+        "address": "Q93W+9FR แขวง ทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
+        "last_activity": "2022-07-08 08:37:09.274640"
+      }
+    ],
+    "composite_score": 81.8,
+    "grade": "A"
+  },
+  {
+    "district": "ราษฎร์บูรณะ",
+    "total_tickets": 9832,
+    "resolved_tickets": 8062,
+    "resolution_rate": 82.0,
+    "median_resolution_days": 3.1,
+    "avg_satisfaction": 4.06,
+    "stale_tickets": 1655,
+    "reopen_rate": 5.5,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 1271
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 1222
+      },
+      {
+        "type": "ถนน",
+        "count": 987
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 392,
+        "resolved": 293,
+        "resolution_rate": 74.7
+      },
+      {
+        "ym": "2025-04",
+        "total": 281,
+        "resolved": 218,
+        "resolution_rate": 77.6
+      },
+      {
+        "ym": "2025-05",
+        "total": 322,
+        "resolved": 254,
+        "resolution_rate": 78.9
+      },
+      {
+        "ym": "2025-06",
+        "total": 271,
+        "resolved": 218,
+        "resolution_rate": 80.4
+      },
+      {
+        "ym": "2025-07",
+        "total": 237,
+        "resolved": 186,
+        "resolution_rate": 78.5
+      },
+      {
+        "ym": "2025-08",
+        "total": 248,
+        "resolved": 176,
+        "resolution_rate": 71.0
+      },
+      {
+        "ym": "2025-09",
+        "total": 228,
+        "resolved": 170,
+        "resolution_rate": 74.6
+      },
+      {
+        "ym": "2025-10",
+        "total": 276,
+        "resolved": 209,
+        "resolution_rate": 75.7
+      },
+      {
+        "ym": "2025-11",
+        "total": 206,
+        "resolved": 155,
+        "resolution_rate": 75.2
+      },
+      {
+        "ym": "2025-12",
+        "total": 147,
+        "resolved": 112,
+        "resolution_rate": 76.2
+      },
+      {
+        "ym": "2026-01",
+        "total": 236,
+        "resolved": 193,
+        "resolution_rate": 81.8
+      },
+      {
+        "ym": "2026-02",
+        "total": 210,
+        "resolved": 159,
+        "resolution_rate": 75.7
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-36CGEP",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "666 ซอย สุขสวัสดิ์ แขวง บางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2022-08-22 16:16:05.610170"
+      },
+      {
+        "ticket_id": "2022-DPCA96",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "270 ถ. ราษฎร์บูรณะ แขวง ราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2022-07-21 12:32:25.798543"
+      },
+      {
+        "ticket_id": "2022-MHEZW6",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "ต่างระดับวงแหวนอุตสาหกรรม แขวง ราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2022-07-02 16:48:49.520025"
+      },
+      {
+        "ticket_id": "2022-RLWB3Y",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "858 ประชาอุทิศ แขวง ราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2022-07-18 11:55:00.246542"
+      },
+      {
+        "ticket_id": "2022-DWWDPZ",
+        "type": "อื่นๆ",
+        "days_open": 1360,
+        "address": "ตรงข้ามสวนวงแหวนสุขสวัสดิ์ แขวง ราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
+        "last_activity": "2022-07-07 15:54:41.186366"
+      }
+    ],
+    "composite_score": 83.2,
+    "grade": "A"
+  },
+  {
+    "district": "บางกอกใหญ่",
+    "total_tickets": 9722,
+    "resolved_tickets": 7997,
+    "resolution_rate": 82.3,
+    "median_resolution_days": 6.7,
+    "avg_satisfaction": 3.91,
+    "stale_tickets": 1514,
+    "reopen_rate": 7.8,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 1351
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 960
+      },
+      {
+        "type": "ถนน",
+        "count": 724
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 403,
+        "resolved": 344,
+        "resolution_rate": 85.4
+      },
+      {
+        "ym": "2025-04",
+        "total": 231,
+        "resolved": 181,
+        "resolution_rate": 78.4
+      },
+      {
+        "ym": "2025-05",
+        "total": 369,
+        "resolved": 312,
+        "resolution_rate": 84.6
+      },
+      {
+        "ym": "2025-06",
+        "total": 245,
+        "resolved": 206,
+        "resolution_rate": 84.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 286,
+        "resolved": 239,
+        "resolution_rate": 83.6
+      },
+      {
+        "ym": "2025-08",
+        "total": 189,
+        "resolved": 141,
+        "resolution_rate": 74.6
+      },
+      {
+        "ym": "2025-09",
+        "total": 273,
+        "resolved": 184,
+        "resolution_rate": 67.4
+      },
+      {
+        "ym": "2025-10",
+        "total": 306,
+        "resolved": 234,
+        "resolution_rate": 76.5
+      },
+      {
+        "ym": "2025-11",
+        "total": 250,
+        "resolved": 147,
+        "resolution_rate": 58.8
+      },
+      {
+        "ym": "2025-12",
+        "total": 241,
+        "resolved": 177,
+        "resolution_rate": 73.4
+      },
+      {
+        "ym": "2026-01",
+        "total": 330,
+        "resolved": 268,
+        "resolution_rate": 81.2
+      },
+      {
+        "ym": "2026-02",
+        "total": 306,
+        "resolved": 211,
+        "resolution_rate": 69.0
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-L28KYA",
+        "type": "ไฟฟ้า",
+        "days_open": 1363,
+        "address": "31/8 ซอย จรัญสนิทวงศ์ 3 แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2023-03-13 16:32:31.097089"
+      },
+      {
+        "ticket_id": "2022-BX4BCN",
+        "type": "ความปลอดภัย",
+        "days_open": 1363,
+        "address": "365/59 ถ. เพชรเกษม แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-07-08 11:46:43.257460"
+      },
+      {
+        "ticket_id": "2022-NG6LLC",
+        "type": "อื่นๆ",
+        "days_open": 1362,
+        "address": "44/49 ถ. จรัญสนิทวงศ์ แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-07-03 12:52:45.021017"
+      },
+      {
+        "ticket_id": "2022-7GB6CL",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "670 Soi Petkasem 4 Petkasem Road Khwaeng Wudtapra Khet Bangkokyai Bangkok 10600 แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-11-29 10:19:54.199891"
+      },
+      {
+        "ticket_id": "2022-B47G43",
+        "type": "อื่นๆ",
+        "days_open": 1361,
+        "address": "44/49 ถ. จรัญสนิทวงศ์ แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
+        "last_activity": "2022-07-03 10:09:50.596504"
+      }
+    ],
+    "composite_score": 78.0,
+    "grade": "B"
+  },
+  {
+    "district": "สัมพันธวงศ์",
+    "total_tickets": 7393,
+    "resolved_tickets": 6113,
+    "resolution_rate": 82.7,
+    "median_resolution_days": 2.9,
+    "avg_satisfaction": 3.91,
+    "stale_tickets": 1108,
+    "reopen_rate": 9.6,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 1271
+      },
+      {
+        "type": "อื่นๆ",
+        "count": 781
+      },
+      {
+        "type": "หาบเร่แผงลอย",
+        "count": 555
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2025-03",
+        "total": 242,
+        "resolved": 209,
+        "resolution_rate": 86.4
+      },
+      {
+        "ym": "2025-04",
+        "total": 163,
+        "resolved": 136,
+        "resolution_rate": 83.4
+      },
+      {
+        "ym": "2025-05",
+        "total": 200,
+        "resolved": 157,
+        "resolution_rate": 78.5
+      },
+      {
+        "ym": "2025-06",
+        "total": 178,
+        "resolved": 139,
+        "resolution_rate": 78.1
+      },
+      {
+        "ym": "2025-07",
+        "total": 212,
+        "resolved": 165,
+        "resolution_rate": 77.8
+      },
+      {
+        "ym": "2025-08",
+        "total": 224,
+        "resolved": 153,
+        "resolution_rate": 68.3
+      },
+      {
+        "ym": "2025-09",
+        "total": 162,
+        "resolved": 120,
+        "resolution_rate": 74.1
+      },
+      {
+        "ym": "2025-10",
+        "total": 227,
+        "resolved": 172,
+        "resolution_rate": 75.8
+      },
+      {
+        "ym": "2025-11",
+        "total": 163,
+        "resolved": 106,
+        "resolution_rate": 65.0
+      },
+      {
+        "ym": "2025-12",
+        "total": 207,
+        "resolved": 166,
+        "resolution_rate": 80.2
+      },
+      {
+        "ym": "2026-01",
+        "total": 229,
+        "resolved": 176,
+        "resolution_rate": 76.9
+      },
+      {
+        "ym": "2026-02",
+        "total": 274,
+        "resolved": 175,
+        "resolution_rate": 63.9
+      }
+    ],
+    "worst_stale": [
+      {
+        "ticket_id": "2022-6QE6L3",
+        "type": "ความปลอดภัย",
+        "days_open": 1360,
+        "address": "391 ถนน ทรงวาด แขวง จักรวรรดิ์ เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2022-09-03 14:22:36.140790"
+      },
+      {
+        "ticket_id": "2022-NKFZTC",
+        "type": "ทางเท้า",
+        "days_open": 1359,
+        "address": "เลขที่ 69 ซอย โยธา 1 แขวง ตลาดน้อย เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2024-05-01 16:18:31.392340"
+      },
+      {
+        "ticket_id": "2022-6BHGDC",
+        "type": "ความปลอดภัย",
+        "days_open": 1358,
+        "address": "896/6 ถ. เจริญกรุง แขวง ตลาดน้อย เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2022-09-03 09:26:35.566195"
+      },
+      {
+        "ticket_id": "2022-4PLMNP",
+        "type": "ความปลอดภัย",
+        "days_open": 1356,
+        "address": "99-101 สี่แยก ถ. ราชวงศ์ แขวง สัมพันธวงศ์ เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2023-03-15 12:21:51.365153"
+      },
+      {
+        "ticket_id": "2022-P8AB9Q",
+        "type": "อื่นๆ",
+        "days_open": 1354,
+        "address": "550-552 ถนน แปลงนาม แขวง สัมพันธวงศ์ เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
+        "last_activity": "2025-04-01 11:44:31.852466"
+      }
+    ],
+    "composite_score": 81.0,
+    "grade": "A"
+  }
+]
