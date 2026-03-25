@@ -53,4 +53,26 @@ export type DistrictData = {
   }[]
 }
 
+export type OrgData = {
+  organization: string
+  total_tickets: number
+  resolved_tickets: number
+  resolution_rate: number | null
+  median_resolution_days: number | null
+  avg_satisfaction: number | null
+  reopen_rate: number | null
+}
+
+export type GalleryItem = {
+  ticket_id: string
+  type: string
+  district: string
+  photo: string
+  photo_after: string
+  days_to_resolve: number | null
+  star: number | null
+  reported_date: string
+  address: string | null
+}
+
 export type Locale = 'th' | 'en'

@@ -6,7 +6,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-11/f91a51273d31ee08f4b05d864e7a0fb0d58f82b4.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-11/05991c0599ce687578127622fafab73f3ff89922.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-11-01",
     "address": "188/10 ถนน ไกรสีห์ แขวง ตลาดยอด เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย"
   },
@@ -17,7 +17,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/690789a99c0ccdfd3e531d100d8ea68c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/58b59e551b15db67af14e1c3210804d7.jpg",
     "days_to_resolve": 10,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-29",
     "address": "2/41 ซอย นวลจันทร์ 36 แขวงนวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -28,7 +28,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/df1691d9f8c04d00b1cca617a54ce143.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/83742479165372251d8e2ff4ad616c68.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-19",
     "address": "4/326 ซอย ลาดปลาเค้า 66 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -61,7 +61,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1f4315dd702aa0e58e2c5b918c07eb07cd88843e.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1705814418431.jpeg",
     "days_to_resolve": 53,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-29",
     "address": "90 ถ. ลาดพร้าว แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -72,7 +72,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/51b10b22e381cb30b9005c65fcad97afff575eff.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1703579235118.jpeg",
     "days_to_resolve": 7,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-19",
     "address": "22 263 ซอย กรุงเทพกรีฑา 7 แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -83,7 +83,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1700197542984.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1700548921840.jpeg",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-17",
     "address": "46 ซอย เพชรเกษม 54 แขวงบางหว้า เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -105,7 +105,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/344a999f4ae3f0fcb2e9d5460f61745ecae7961e.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/e23212c3c31b0d6b7591abae5c3e1c79.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-10-26",
     "address": "77 ถ. จักรพงษ์ แขวงชนะสงคราม เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย"
   },
@@ -116,7 +116,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/845ca771e2510263201baaba58b30ce5.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/ef6bfbe3c2be938ac566e21fc4441e7a.png",
     "days_to_resolve": 6,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-02-06",
     "address": "828/4 ถ. นิคมมักกะสัน แขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -127,7 +127,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/f98884a7ef301d531a8339cb3f1357b2.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/2bba38da011d36b8aa2c27fb1c448da5.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-29",
     "address": "211 ถ. กรุงเทพ - นนทบุรี แขวงบางซื่อ บางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย"
   },
@@ -138,7 +138,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1701922448343.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1702195041076.jpeg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-07",
     "address": "สำนักงานเขตบางกะปิ Lat Phrao Road, Khlong Chan, Bang Kapi District, Bangkok : 189 ถ. ลาดพร้าว แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -182,7 +182,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/96a9ec0d94c39dff7388d557daffed9b2f6ecd8d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1704684219355.jpeg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-01-06",
     "address": "493 ถ. สาธุประดิษฐ์ แขวงช่องนนทรี เขตยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -193,7 +193,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/aebeb37c3dd68e8ec33f6e1a02ce4825bf4afb28.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1698378561988.jpeg",
     "days_to_resolve": 21,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-10-06",
     "address": "255/55 ถ. หลวงแพ่ง แขวงขุมทอง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -204,7 +204,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/d5e3d1cf45f382a4dc65207fabbe1a34ee78c842.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/cd126fecddc2b9688d5afc66737d8b96.jpg",
     "days_to_resolve": 14,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-09-12",
     "address": "แยกจันทิมา 2369 ลาดพร้าว( ซอย 80 ) แขวง วังทองหลาง เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -226,7 +226,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/1f14c2c6ea941617c6f000a3043c4b3e.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/0a5eff0550ff6067c43be30b0839e25a.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-08-13",
     "address": "24 ซอย กรุงเทพกรีฑา 8 แยก 2 แขวงหัวหมาก บางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -248,7 +248,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/a6d68c3d25805ad7b4738c9b4da4b0ee3f783cb1.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/46fbad46e7ac102e48d9616efddf3076.jpg",
     "days_to_resolve": 896,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-07-07",
     "address": "545/3 สีลม แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -259,7 +259,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/4e8787741e7c1b1c1e45bfa06eecc868.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/668221a870bdfa5474675274affee422.jpg",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-12-24",
     "address": "164 ถนน จรัญสนิทวงศ์ ถนนหน้าบ้าน แขวงบางพลัด บางพลัด กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -270,7 +270,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/49608d186da5e62131433807ce6e5cd67319cc73.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1706869154326.jpeg",
     "days_to_resolve": 160,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-08-26",
     "address": "17 ถ. พหลโยธิน แขวง จอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -336,7 +336,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/331747da5d3a2f5a864651583c4fa27f68a654f5.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/46b4f0c3c090c99279bc9f69bed6859b.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-01-08",
     "address": "19/7 พระรามที่ 2 แขวงบางมด เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -380,7 +380,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-01/509431a77d4da3538ec2a6041e32d56a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-01/38114d8f6c0b036eca208909c4586df9.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2026-01-26",
     "address": "39 ซ. พหลโยธิน แขวงเสนานิคม เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -402,7 +402,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/5cab05237e037d841c88c67ab8dfe9f4388f49f4.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1709192748045.jpeg",
     "days_to_resolve": 130,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-10-22",
     "address": "343 ถ. มิตรพันธ์ แขวงป้อมปราบ เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย"
   },
@@ -413,7 +413,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/40b847bcd12a0b12e8f14501c4839240e3236ace.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/7456362acb35577e0ff37fbe75f25ddb.jpg",
     "days_to_resolve": 674,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-05-28",
     "address": "QGFW+J99 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -446,7 +446,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/c657439f2581d0b04512b5e0f44510a2.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/6a1c4a509aaf1065dea024475c7fec35.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-11",
     "address": "173/22 ซ. หมู่บ้านนครหลวง 1 แขวงช่องนนทรี เขตยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -457,7 +457,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/cd1a2b3f9fe60fa98c8ab4ab6f9c084c7fe5a527.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1708496754295.jpeg",
     "days_to_resolve": 20,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-01",
     "address": "ซอย งามวงศ์วาน 30 ถนน งามวงศ์วาน แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย"
   },
@@ -468,7 +468,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-11/b129b84a1560d2151be9793fcf33bbfda9c6b699.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-11/d883e9a6153a46be72daa2fb2c3811ccbb564552.jpg",
     "days_to_resolve": 22,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-11-02",
     "address": "172 ถ. กรุงเกษม แขวง บางขุนพรหม เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย"
   },
@@ -490,7 +490,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/c60b341479f32c39c872c34afbd28e85.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/b5b0a68d014db9cf68a30b3b36ac2238.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-30",
     "address": "888 ถนน จตุรทิศ แขวงบางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -512,7 +512,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/0ca5b90860ccb925cb533ff21545d2c4.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/165eb19bf47b96780bfd240830f9ecf3.jpg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-18",
     "address": "1193 ซอย พหลโยธิน 34 แขวงเสนานิคม เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -534,7 +534,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/25ea031346dbcc32467e9797c63b088a367da1ba.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/a63bee89fac19d9f8b850ca11ec68432.png",
     "days_to_resolve": 14,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-21",
     "address": "345 ถ. เทพรัตน บางนาเหนือ เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย"
   },
@@ -567,7 +567,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/4916b1fe618b632146b0e1dd669476fc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/4d98526c4e2a9950ae7fe04da130b9e8.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-09",
     "address": "22/4 แขวงคลองสามประเวศ เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -578,7 +578,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/140908bfc90a3331b5bae8a48afd6d7a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/03bb3e26bee823e5f2a4a3dcd44cd1ec.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-06-22",
     "address": "JC4M+5WV ถ. บางขุนเทียน แขวงท่าข้าม เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -589,7 +589,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/11ffbb9f7004437a13f69261bbac1d8b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/3623deec0427ceb7e064950319862051.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-27",
     "address": "59/1 ซอย ปุณณวิถี 43 แขวงบางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย"
   },
@@ -600,7 +600,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/65ef88bc7ea4f5d2d507cbc700c916b1049e3b89.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/7a664f5064045b7e8e8f16e0e395370c.png",
     "days_to_resolve": 11,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-05-18",
     "address": "สถานีรถไฟฟ้าสยาม ถนนพระราม1 แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330 แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -611,7 +611,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/ea54cace10d40f5c632f231fb2e832b1.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/bd86106a6584d1944b4ea92945fa68fb.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-11-13",
     "address": "1821 2 ถ. พหลโยธิน แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -622,7 +622,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/85ec37be04bffa36b6552f3e8ca0ac633ba35b53.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/01f5037b2e0a61a2184b8f7a55739560.png",
     "days_to_resolve": 369,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-27",
     "address": "220 ถนน พระรามที่ ๖ แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -633,7 +633,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1bdf62515891c8af7bc6d845f432a7d378bc1b8a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1701422368501.jpeg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-29",
     "address": "70 Thanon Lasalle บางนาใต้ เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย"
   },
@@ -666,7 +666,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/22d73707723d19dd4d2163b5d4cd8e6c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/b7bd176d24f328ab7fe42ee1f25134c9.png",
     "days_to_resolve": 17,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-10-02",
     "address": "18 ถ. ปั้น แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -688,7 +688,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/4195e55242ae08be69b7da0f71d72f43606318b4.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1690435278911.jpeg",
     "days_to_resolve": 40,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-06-17",
     "address": "27 ซอย นักกีฬาแหลมทอง 13ก แขวงสะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -732,7 +732,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1708854655516.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1709174416434.jpeg",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-25",
     "address": "25/13 ถนน พุทธมณฑลสาย 3 แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -743,7 +743,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/c964f1c4a45bbf8e63590265833d759507938ef1.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/1e86616849d800d3169b62d0c0a288eb.png",
     "days_to_resolve": 10,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-01-02",
     "address": "73 ซอย สุขุมวิท 3/1 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -754,7 +754,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/6007c123e1b2270346a8d936c3e40a94.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/92378743433ea896cdfbfe0971678f7f.png",
     "days_to_resolve": 6,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-10-08",
     "address": "729 ซอย ประชาอุทิศ 19 แขวงสามเสนนอก เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -765,7 +765,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/32ef009bfcbaa4ffa267f2452de948f798e3626d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/e1c92a803d579a18215555805fa89776.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-16",
     "address": "298 ซอย เทพทวี แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -776,7 +776,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/2059db7587453850805ae915a7a01c7f.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/e554096f72c2bb169621cd495abf10c3.jpg",
     "days_to_resolve": 20,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-10-18",
     "address": "1180 ถ. แขวงคลองจั่น บางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -820,7 +820,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/2eb434c603bac9cf256b0076dfa759a1caf3d054.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/ef0b576df43a1fb1233518ce10d5591499750e7e.jpg",
     "days_to_resolve": 57,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-07-06",
     "address": "1301 ถนน กำแพงเพชร 5 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -831,7 +831,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/10cb0e6583d73525c0cfd28261213210360fdb9c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/798d22a489d36e8518624bebfcce066e.png",
     "days_to_resolve": 6,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-10-16",
     "address": "573 ถ. สุขุมวิท แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -853,7 +853,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/35a4129ddb498bb4fedc834ae2af6794.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/e67a7485c8fbfb2a0b6f8538edde9d7a.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2026-02-18",
     "address": "49 ถ. นาคนิวาส แขวงลาดพร้าว ลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -864,7 +864,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/d42d4ba3d612a4ef570c536bd80a9beb.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/1008b5438faa35c4d201d9749930dfc8.jpg",
     "days_to_resolve": 30,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-17",
     "address": "8 ซอยนักกีฬาแหลมทอง 40 แยก 1-5 แขวงทับช้าง สะพานสูง กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -875,7 +875,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/90dc5ceb860dd6552cbb9f601c489ab7.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/acc13b33b768e5734afbdabf8b40093a.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-12-09",
     "address": "103 ตึก ทีดี 14 16 แขวงสุริยวงศ์ เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -886,7 +886,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1703690606678.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1703745345540.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-27",
     "address": "11/1 ซอย บางกระดี่ 1 แยก 3 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -908,7 +908,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/02fed967b9eaa01fb2fcbaa78ccdd15bddcfdea7.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/bd699ec70ce2741f050eb04f482e872c5d24809c.jpg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-09-10",
     "address": "19 Ngam Wongwan 47 Yaek 42 แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย"
   },
@@ -919,7 +919,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695750502571.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695800382898.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-27",
     "address": "45 ซอย สุขุมวิท 103 แขวงหนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -941,7 +941,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/ba6aad925fc0ae8eb8523576e2e76ec281c79264.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-03/1709708833198.jpeg",
     "days_to_resolve": 11,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-24",
     "address": "7/91 พระราม 2 ซอย 46 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -963,7 +963,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/f997854c288cf583f03bee7b24bef0b4cd553604.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1701835112512.jpeg",
     "days_to_resolve": 430,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-10-02",
     "address": "7 ซอย กรุงเทพกรีฑา 8 แยก 3 แขวง หัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -974,7 +974,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/08610fccd6420557300c370d5493a9dfdfb33188.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/f9badea7cae153c301b3327b7326d018.png",
     "days_to_resolve": 427,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-07-04",
     "address": "Soi Sai Mai 85, Khwaeng Sai Mai, Khet Sai Mai, Krung Thep Maha Nakhon 10220"
   },
@@ -985,7 +985,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/9021a4c1e6ebb48d903a9480a8ff5cae595c8f3b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1706791030970.jpeg",
     "days_to_resolve": 326,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-03-12",
     "address": "775/12 ถ. ประชาอุทิศ แขวงทุ่งครุ เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย"
   },
@@ -1018,7 +1018,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/e511d4a6a5aae184a19c88d3d4a5ca38.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/200214a6f113b1662bf692942071820e.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-10",
     "address": "399/160 ถนน สุขุมวิท 101/1 แขวงบางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย"
   },
@@ -1029,7 +1029,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/9b6ce78020b328f4fb541e20f2a434167ee3d3f3.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1701931308747.jpeg",
     "days_to_resolve": 8,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-29",
     "address": "46 ถ. อรุณอมรินทร์ แขวงวัดกัลยา เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -1040,7 +1040,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/1686724720740.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/c55b834115389240ae9a6948b97e690e.jpg",
     "days_to_resolve": 330,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-06-14",
     "address": "673/3 ถ. จรัญสนิทวงศ์ แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -1062,7 +1062,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/a9d4ef64022bef59a6e7998a0c8cb5a2e2f4532d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/4dad95514071ac52d110fff65911e1a6.png",
     "days_to_resolve": 8,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-12-18",
     "address": "38/188 สุขาภิบาล 5 แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -1106,7 +1106,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/04ec7f00bf8fef89357e192bd89f8f1599c90710.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1705911217962.jpeg",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-01-17",
     "address": "397 ถนน สรงประภา แขวง สีกัน เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย"
   },
@@ -1119,7 +1119,7 @@
     "days_to_resolve": 22,
     "star": 2.0,
     "reported_date": "2023-09-17",
-    "address": NaN
+    "address": null
   },
   {
     "ticket_id": "2022-8LD2WH",
@@ -1183,7 +1183,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1678709707649.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1678761234753.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-03-13",
     "address": "ประชาอุทิศ 33 แยก 7 ประชาอุทิศ เขต ทุ่งครุ\nแขวง บางมด\nกรุงเทพมหานครฯ\nเข้าหมู่บ้านไปประมาณ 300 เมตร ซ้ายมือ พบบ้านเลขที่ 98/306-307 : 2/1 ซอย ประชาอุทิศ 33 แยก 7 แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย"
   },
@@ -1194,7 +1194,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/581c13a0992e8c3fa04838c0e8882f31.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/10a08d40429d9fb2e181727499a0c3ea.jpg",
     "days_to_resolve": 10,
-    "star": NaN,
+    "star": null,
     "reported_date": "2026-02-14",
     "address": "17 ถ. วงศ์สว่าง แขวงวงศ์สว่าง บางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย"
   },
@@ -1205,7 +1205,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/c846032dbed22637431b7b891d81b0f231fffd81.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1702115956115.jpeg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-06",
     "address": "1038 จรัญสนิทวงศ์ 75 แยก 6 แขวงบางพลัด เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -1216,7 +1216,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/992da4ebd30cabcea5fb601bb4fc04fe481c8ca1.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/cee8b461b5c45e9140b40594544735ba.png",
     "days_to_resolve": 7,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-12-09",
     "address": "115a ซ. สุขุมวิท 35 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -1227,7 +1227,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695441130946.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1707838686678.jpeg",
     "days_to_resolve": 143,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-23",
     "address": "52 ซอย ลาดพร้าว 57 แขวงสะพานสอง เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -1238,7 +1238,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/0f9414095850e33c474b85457bc7fa975b015b5c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/a75a104a21c51f564e337b2379614be3.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-07-22",
     "address": "492 ถ. พระรามที่ 3 แขวงบางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -1249,7 +1249,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/ffad85f854914dcb538d65eb5720ddd93ad5ac16.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/1938e151831eb475c22720d3cd35e5f9.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-02-14",
     "address": "75/114 ถ จอมทอง แขวงจอมทอง เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -1271,7 +1271,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-01/b95298188f2a312fc69de6826381ff333b9d470b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-01/8f06e6f10c43beb51eea9074e7de4ef8d9f788fb.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-01-23",
     "address": "1 เทียนทะเล 20 แยก 2-7-2 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -1282,7 +1282,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/0d18550e17ccc941751a21ede4973cafc074d863.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1704370195126.jpeg",
     "days_to_resolve": 7,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-28",
     "address": "2 ซอย พหลโยธิน 25 แขวง จตุจักร เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -1304,7 +1304,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/b92dfd84bd7671d2076628904560b682679d94b9.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/1682145845435.jpeg",
     "days_to_resolve": 15,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-04-07",
     "address": "33/290 ถนน สุขาภิบาล 2 แขวงประเวศ เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -1315,7 +1315,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/b4e9dc8a0b0a5978380abe151f5a7745.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/2e1d14f1b6a78c51885eb52cc8ac4445.jpg",
     "days_to_resolve": 11,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-11-13",
     "address": "52/23 ซอย ลาดพร้าว 15 แยก 7-1 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -1337,7 +1337,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/d01b8ccc5c826f3c765cdeef431b57098d360b94.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/084578bb91be85153a4e2dfec0fa4e8c03608523.jpg",
     "days_to_resolve": 11,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-09-10",
     "address": "46/3 ถนน ฉลองกรุง แขวง ลำผักชี เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย"
   },
@@ -1359,7 +1359,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/7060f93d06ba8ff76d36cd371a88e511.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/f811280b0fd78db53c1aaed93905753f.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-10-16",
     "address": "ป้ายรถเมล์ แขวง บางโพงพาง ถ. พระรามที่ 3 แขวงบางโพงพาง เขตยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -1370,7 +1370,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/9e1109d4c343f72045378377aac1a1fbd97ca93a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/0fb99eee0fcdb2f988db89164c0abc2c.jpg",
     "days_to_resolve": 865,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-07-17",
     "address": "PRACHARATSAI RG78+XG5 Pracharach Sai 1 Rd แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย"
   },
@@ -1381,7 +1381,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/1685520332577.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1689844327305.jpeg",
     "days_to_resolve": 50,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-05-31",
     "address": "สุขสวัสดิ์ 26 สุขสวัสดิ์ : 194 ซอย สุวรรณโพธิ์ แขวงบางมด เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -1392,7 +1392,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/9aeecea31fc091f4e10f93312fcf10e3.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/bf7070b96841d048595f1d844e861d45.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-07",
     "address": "74/1-57 ถ. จักรพงษ์ แขวงตลาดยอด เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย"
   },
@@ -1403,7 +1403,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/3da010ce8a03eff81a1aa3168cec2f82.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/6b4bc8061e8c7b718751d02ed4a3f36b.jpg",
     "days_to_resolve": 22,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-13",
     "address": "1236 ถ. กรุงเทพ - นนทบุรี แขวงบางซื่อ บางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย"
   },
@@ -1414,7 +1414,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/6fd59d6d19fb4bc568de8f25a161cd0f2ed3da40.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1696471371708.jpeg",
     "days_to_resolve": 56,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-08-10",
     "address": "QF36+J5C สวนริมคลองชักพระ แขวงคลองชักพระ เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย"
   },
@@ -1447,7 +1447,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/66dc566aa30fe19d305d7df90f07d52ea7736d5f.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/615ff3beb44b43f5d189e3f906a2b068.png",
     "days_to_resolve": 194,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-07",
     "address": "ซอยเจริญราษฎร์ 3 แขวงทุ่งวัดดอน เขตสาทร กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -1458,7 +1458,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/89905b0e83c3b0ca7fee2190b7e10b092200166e.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1696844273725.jpeg",
     "days_to_resolve": 7,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-10-02",
     "address": "2025/49 ถ. เจริญกรุง แขวงวัดพระยาไกร เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -1480,7 +1480,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1689205988780.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1689222827031.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-07-13",
     "address": "314 ถ. ประดิษฐ์มนูธรรม แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -1502,7 +1502,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/0ac0ac5a0af69b25893dc0cb6371d9a9.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/eb05108d7e7bf09ddc5a87d1357e68ef.jpg",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-11-12",
     "address": "charoen nakhon 2, แขวงคลองต้นไทร คลองสาน กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -1513,7 +1513,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/a271938e010c0dce476bd75d432f65d6da5e2397.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1700120268761.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-15",
     "address": "394/726 ถนน เพชรเกษมสายเก่า แขวงบางแคเหนือ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -1557,7 +1557,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/5f16056cee601ee603cdd25418fd35fd7dd9ed4a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695702535958.jpeg",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-22",
     "address": "139 ถนน รองเมือง แขวง รองเมือง เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -1579,7 +1579,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/46d01df573524b234df40a74aff5aad7.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/6e6da236bbab7f4660250a539207c07b.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-10-05",
     "address": "6 ซอย ราษฎร์อุทิศ แขวงแสนแสบ เขตมีนบุรี กรุงเทพมหานคร : 6 ซอย ราษฎร์อุทิศ แขวงแสนแสบ เขตมีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย"
   },
@@ -1601,7 +1601,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/f291bd3433c371f7305e0e55dfd90d96a3ae2aa0.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/b9196e5bd11bdee7214c1d3caf753891.jpg",
     "days_to_resolve": 42,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-15",
     "address": "56/2 ซ. หลวงเเพ่ง 3 แขวงขุมทอง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -1612,7 +1612,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/8ea2bed298a4aabe657b3a8834b40e3cd0c028af.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/5c182391cfa0b7c63a6d8adac6666436.png",
     "days_to_resolve": 14,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-28",
     "address": "1 ถ. พระรามที่ 6 แขวงทุ่งพญาไท เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -1623,7 +1623,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/f39d744c817c4e370b4d97528b97ef80.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/fb03616a2880b8ee41eeb252f012ef2a.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-19",
     "address": "204 สมเด็จพระเจ้าตากสิน 15 แขวงสำเหร่ เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -1634,7 +1634,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-01/ff5c554bcfa3ae561f5245302886d34ba4ed1c72.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1707382791618.jpeg",
     "days_to_resolve": 395,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-01-09",
     "address": "23 ซอย งามวงศ์วาน 47 แยก 42 แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย"
   },
@@ -1645,7 +1645,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/1681248660163.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/1681963343916.jpeg",
     "days_to_resolve": 8,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-04-12",
     "address": "194 ถนน เลียบคลองสอง แขวงบางชัน เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย"
   },
@@ -1656,9 +1656,9 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/TeamChadChart/corruption_photo2.png",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/TeamChadChart/corruption_photo2.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-01-24",
-    "address": NaN
+    "address": null
   },
   {
     "ticket_id": "2024-8RG4C9",
@@ -1678,7 +1678,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1679031104506.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1707465328386.jpeg",
     "days_to_resolve": 329,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-03-17",
     "address": "รามอินทรา 83 กาญจนาภิเษก : เลขที่ 28 16 ถ. กาญจนาภิเษก แขวงรามอินทรา เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -1700,7 +1700,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/9b1fd1689f34b8b5b881bf3ea6907b7a8b4d1a97.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/20d686af1e6c9894cff6ad0c473011e1.png",
     "days_to_resolve": 203,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-15",
     "address": "830 ซ. สุขสวัสดิ์ 30 แขวงบางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย"
   },
@@ -1722,7 +1722,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/e6236031dd4176726a95e49daa0fe87eb475af73.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/bff0c2a2a847ecb9aed98ec4aec1ae8a.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-01-21",
     "address": "238 ซอย เจริญกรุง 79 แยก 12 แขวงวัดพระยาไกร เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -1733,7 +1733,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1697721622998.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1697781087269.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-10-19",
     "address": "BigCชั้น2 พระราม2(ตรงข้ามโลตัส แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -1755,7 +1755,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/12a618dec62eb30bea856c57b9d1cfc29389f53a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/cd1ce3efce86d4642abd8ea5688a92973a7ca26d.jpg",
     "days_to_resolve": 18,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-10-07",
     "address": "PM8W+RR4 แขวง ประเวศ เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -1799,7 +1799,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/4cfcf44d4b36b1cacc4bd155da1d2714.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/f5d90d4dc3faf1ce9d366c3644a9fb14.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-08-06",
     "address": "อาคารบ้านสีลม อาคาร5 ห้องเลขที่ ซี2 ชั้นที่ 3 657 ถ.สีลม แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -1810,7 +1810,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1697290748817.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1697339302004.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-10-14",
     "address": "117/2 ถนน คู้บอน แขวงคันนายาว เขตคลองสามวา กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -1821,7 +1821,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/82746183b56c504c5cf56f8f2e56f1e58352cdc3.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/d4bd492d005d5bcc9d69cf2441c41b8e.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-12-07",
     "address": "53 60 ซอย ลาดพร้าว 15 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -1843,7 +1843,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/3ab26f2a2ff380c8bfb2bf3bbdd766ee.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/055ddc6485e719ce298eee71ebe33162.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-30",
     "address": "1464 ถนน บรรทัดทอง แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -1898,7 +1898,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/fd3d0a24873a1503d3236073395bcfe9.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/89efe71905d3ece6e06641c4d614b6e6.png",
     "days_to_resolve": 9,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-08-24",
     "address": "109/1 เทียนทะแล แขวงท่าข้าม เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -1931,7 +1931,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/1017d78582455a6f65842961ec922dfc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/a71611ba124e95cb00f23921834c953f.jpg",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2026-02-20",
     "address": "12/88 ท่าข้าม 3 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -1942,7 +1942,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/30b4b95d33fa85e1a28b292b29ccafcc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/23f248f9ba2b3a0119c6802e3d58737b.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-26",
     "address": "923 ถ. อรุณอมรินทร์ แขวงศิริราช เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -1964,7 +1964,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/e80786ae6ed338265c300cc4d1b8948835013efb.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/3a2e6e99915166ed773da3d0277c0477.jpg",
     "days_to_resolve": 12,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-31",
     "address": "27/19 ซอย นวมินทร์ 76 แขวงนวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -1975,7 +1975,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1675679093808.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1675738208796.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-02-06",
     "address": "จรัญสนิทวงศ์ 37  - บางขุนศรี บางกอกน้อย กรุงเทพมหานคร เข้าซอยมาประมาณ 10 เมตร : 511/470 จรัญสนิทวงศ์ แขวงบางขุนศรี เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -1986,7 +1986,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/7712ffef9b186a849e4f0a08c6da0880.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/549f79d3da22a85a2fa57e19920d7acf.jpg",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-09",
     "address": "12/44 ถ. นาคนิวาส แขวงลาดพร้าว ลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -2019,7 +2019,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/3424a226b612fd5c71728007b66bdc4ee5f12bc0.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/41fa8b3d9ddc9ff49e673174241c7b88360b1de4.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-07-07",
     "address": "736 ถ. รามอินทรา แขวง ท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -2030,7 +2030,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-01/bcfce365c20ba267037bc6c9318a53bd.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-01/071468091083f0f7e031787ed3e14407.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2026-01-08",
     "address": "VJ76+6RP ถ. ลาดปลาเค้า แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -2052,7 +2052,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/4f071dff89e8fc0fafde8cd27ee0d66ad541fda7.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/f190281897bfe52bb1914a15aacf3a8f.jpg",
     "days_to_resolve": 7,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-01-29",
     "address": "41 Lang Suan Road แขวง ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -2063,7 +2063,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-03/e5e330a0652ee6df431af172c70db3d3709827d5.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/64c54dcd5726f7a4941147343a360255.jpg",
     "days_to_resolve": 303,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-03-11",
     "address": "ป้ายรถประจำทาง สวนลุมไนท์บาร์ซ่าร์ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -2085,7 +2085,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/3cce9843408d750f39f6ae10c31cd791900dc5db.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/6d55c2db78554c4434d3161e4230ad97.png",
     "days_to_resolve": 244,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-07-18",
     "address": "1029/11 ถ. พหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -2107,7 +2107,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-08/0696308596095e74795a267b41306ccab2c69b00.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-08/c16beb2e562f9d881638d1689650377b0ff8aa30.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-08-15",
     "address": "2929 ถ. เจริญกรุง แขวง บางคอแหลม เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -2118,7 +2118,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/e324e24b0cc2537fa5f3d8e3155a748d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/71faafd561eb257e2c1b787a2b0d7cbc.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-08-13",
     "address": "367/66-67 ถ. จรัญสนิทวงศ์ แขวงบางขุนศรี เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -2151,7 +2151,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/6f3669fb862f57e5cb03c72f09841086.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/fb6f932e9efd129175189e51d8854326.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-22",
     "address": "PM86+MHP สวนพัฒนาภิรมย์ แขวงประเวศ เขตประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -2184,7 +2184,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/82fb62143fdc27bbbd01e65b9c531228.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/bc9416641d759ea0805137f719c81a5a.png",
     "days_to_resolve": 237,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-07-17",
     "address": "77 ซอย หมู่บ้านเปรมฤทัย 20 แยก 1 แขวงหนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -2206,7 +2206,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/1686638999960.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1688696086899.jpeg",
     "days_to_resolve": 24,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-06-13",
     "address": "113/4, ซอยคลองชักพระ ถนนถนนบางขุนนนท์, แขวงบางขุนนนท์ เขตบางกอกน้อย กทม, 10700 แขวงบางขุนนนท์ เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -2217,7 +2217,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/4c11c4d3e5d2fbfdf571050e640dc434.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/8a60cb9f0e98ca8044772825d1e0ef4e.jpg",
     "days_to_resolve": 34,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-21",
     "address": "98/27 เฉลิมพระเกีรยติ ร.9 ซอย 67 แขวงประเวศ เขตประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -2228,7 +2228,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/db16c91ad42bb96a2cead681f935f00e50b85a77.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/04b978d5eb4d881e0904b90f129378c928b04b4a.jpg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-10-08",
     "address": "300/27 ซอย เอ็นพี แขวง ทุ่งครุ เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย"
   },
@@ -2250,7 +2250,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-11/81aec6bdde8e8b98ec30328d35dcaebfb081defc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1675814336705.jpeg",
     "days_to_resolve": 88,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-11-12",
     "address": "RGHH+894 แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย"
   },
@@ -2261,7 +2261,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/fd742b78ff075e0fcee772a6b50c4076.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/7d88110e60367213d19715ef7207cf00.jpg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2026-02-05",
     "address": "PP94+GX6 ซอย โรงพยาบาลสิรินธร แขวงประเวศ เขตประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -2272,7 +2272,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/2ab1db3d230061be3b361f498d84b17e400a4dd5.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1703219963310.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-22",
     "address": "703/9 ถ. เพชรบุรี แขวงถนนพญาไท เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -2294,7 +2294,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/6ea1701777856a61786afca2b303cc47d67c143c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/5482124dd7b6075b6fdc096de028517a.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-06-09",
     "address": "69 แขวงหนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -2316,7 +2316,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/73c5b7ae6a23b4d49d85e4e48f811d15021f1c85.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1700917505893.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-25",
     "address": "อ่อนนุช แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -2349,7 +2349,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/57c1476dd96f02aeb67b2883133025df.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/2d9e32bfb010cb2ff9e2b6ee2363c15c.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-11",
     "address": "527/80 ซอยจรัญสนิทวงศ์ 39 แยก 1 แขวงบางขุนศรี เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -2371,7 +2371,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/78d1bccf972e650207de8e241878ec983edfae35.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/fa895b259ad9367cb97de9c31c65885e.png",
     "days_to_resolve": 39,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-22",
     "address": "210 ถ. ลาดพร้าววังหิน แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -2382,7 +2382,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/c2f62d51f2fe36703bc6cf4514acf55d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/131b97073242211dad80703453427a9d.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-31",
     "address": "992 ถ. พหลโยธิน แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -2404,7 +2404,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/59a9065bc088e242e434c0e9a6ff5966.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/02bc174668eeab9a7c57c29e22fcb1cc.png",
     "days_to_resolve": 12,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-12",
     "address": "PGCJ+P4R แยกสาทร–นราธิวาส แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -2459,7 +2459,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-03/cbab41d3e688ec6501fe3f9f1b208f5656ba3786.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-03/8488af3b44813abcdc67090c465d35dc.png",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-03-19",
     "address": "76 ถ. วิทยุ แขวง ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -2492,7 +2492,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/f21725bbedab1ac176900a344f2287d3.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/9b4e91bf444a52e0d4605ba74eeccc15.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-20",
     "address": "สำนักงานเขตหนองแขม ถนนเพชรเกษม แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร : 555 ถ.เพชรเกษม แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -2514,7 +2514,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/206755f310dd1d35311b50e29de4a15c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/e58b4ed89b704bd66d280ed37147246f.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-26",
     "address": "264 ถ. พระรามที่ 6 แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -2536,7 +2536,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/8b1ac0116d87595f411c4752d58b938d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/c92c365536b379f1bb5a6d9a17c0e382.png",
     "days_to_resolve": 7,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-29",
     "address": "544 ถ. อโศก - ดินแดง แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -2547,7 +2547,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/5c9a62be69e4dbf3fe24eb18e721ab533717d209.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/1682577151021.jpeg",
     "days_to_resolve": 83,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-02-03",
     "address": "22/62 เพชรเกษม แขวงบางไผ่ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -2569,7 +2569,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1678700945436.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/a3b920ddf00eee91786ff3facfd62cd4.jpg",
     "days_to_resolve": 745,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-03-13",
     "address": "- เลียบคลองสิบสามผั่งตะวันตก แขวงหนองจอก เขตหนองจอก กรุงเทพมหานคร : 29 ถนน คลองสิบสาม แขวงหนองจอก เขตหนองจอก กรุงเทพมหานคร 10530 ประเทศไทย"
   },
@@ -2591,7 +2591,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/bb41d11b13b951c5a690a4e340f014712202c147.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/de1cd7f91d66dd1a8d85a172bd4ea227.png",
     "days_to_resolve": 56,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-10-09",
     "address": "75/13 ถนน ฉิมพลี แขวง ฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย"
   },
@@ -2613,7 +2613,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/26abccf93b601774ed40a9a7070d14d0bbe5eebc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1706256308516.jpeg",
     "days_to_resolve": 85,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-02",
     "address": "50 ถ. พหลโยธิน แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -2624,7 +2624,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/e3ec121031b9e868a57f203885568702.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/2f7a344dffdceafabe80c2eca1c7d451.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-23",
     "address": "1 ถนน มิตรไมตรี แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -2635,7 +2635,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/986f49923721a304b50fc55ddb7a7a80.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/ce6cdc9c91af5f6adfeaf85e8a391ce6.png",
     "days_to_resolve": 85,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-13",
     "address": "34 ซอย 3 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -2646,7 +2646,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/faa846f3d24a22988dcf667fe2211a2b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/490455881287c7aa23e5d3e39bc6bea2.png",
     "days_to_resolve": 27,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-08",
     "address": "81 เอกชัย แขวงบางบอนเหนือ เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -2657,7 +2657,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1675941969859.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1700211278413.jpeg",
     "days_to_resolve": 281,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-02-09",
     "address": "- ถนนเพชรบุรีตัดใหม่  ห้วยขวาง ห้วยขวาง กรุงเทพมหานคร 300 ถ. ประชาอุทิศ แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310\n, : Supalai Park Ekkamai Thonglor 2882, 9 ถ. เพชรบุรี แขวงบางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -2679,7 +2679,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/af8e3ce27a235987126f3f26615c57396b104c89.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1704946471148.jpeg",
     "days_to_resolve": 35,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-07",
     "address": "99/165 ถนน เทศบาลรังสฤษดิ์เหนือ แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -2701,7 +2701,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/856808d320b09f710302091c6c6769cead33e15c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/17f887e43443f415790a0a7f347b385e.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-13",
     "address": "889/5 ซอย ศาลาธรรมสพน์ 47 แขวงศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย"
   },
@@ -2723,7 +2723,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/afb4799c2168e183cc24ad0ab6da27e8fa0d9ae0.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/984e880757de84fd1caa3492818445f0.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-09-24",
     "address": "3/3 ถ. พุทธมณฑลสาย 2 แขวงทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย"
   },
@@ -2734,7 +2734,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/2e98f544aca1780979136d6c7175dfa5.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/7386d56a1bcf2f8413d40b983a874783.jpg",
     "days_to_resolve": 7,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-02-20",
     "address": "407 ซอย เจริญนคร แขวงคลองต้นไทร เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -2745,7 +2745,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/524dc27b5fe17a834069da80487fbdaf21003fdc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1707890435739.jpeg",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-10",
     "address": "83/3-4  Srinagarindra Road Soi Supha Phong 3  Nong Bon  10250 Prawet Bangkok แขวงหนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -2789,7 +2789,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-04/3db7dbf60e8b73725097186d39373537db05c42c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-04/9cfd6dcf7387bec14ec2e027f16d20e2.png",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-04-13",
     "address": "50 ถ. พหลโยธิน แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -2800,7 +2800,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/23bd91b574b16bc24a885545b1a51529ce4447b3.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/e34907efa7384bda4d201afadb15f7bd.png",
     "days_to_resolve": 651,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-05-13",
     "address": "PGRH+RXC ถ. พญาไท แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -2822,7 +2822,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/448e74a120458455e078fe7bb6d219d12b925560.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/39d4c9342a316e423f304734dc31dec0.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-01-19",
     "address": "455/15 ถ. จรัญสนิทวงศ์ แขวงบางขุนศรี เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -2833,7 +2833,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/57493ef6eda907ffde334231ea7c4f45.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/70a30f35d253e5cbd2447f92eab15cf4.png",
     "days_to_resolve": 6,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-11",
     "address": "59 ซอย 8 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -2844,7 +2844,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/ce2a72984b2ace2d3f38705bd4de5bbc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/1d935d0c05a2b439e4bb817ab5284c1e.jpg",
     "days_to_resolve": 12,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-11-29",
     "address": "3746/44 ซอย จันทน์ 23/2 แขวงบางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -2855,7 +2855,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/f0697425693e920bb110e6509dca2f486bb06070.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1702895801103.jpeg",
     "days_to_resolve": 261,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-04-01",
     "address": "308 ถ. ลาดหญ้า แขวง คลองสาน เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -2866,7 +2866,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/e1405d30a1b9ec3857e3b9e622c2d66b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/b2a9d69097d525322f9e278a3c1396b1.png",
     "days_to_resolve": 8,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-08-31",
     "address": "VJG9+8H7 ซ. พหลโยธิน 48 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -2877,7 +2877,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/c7a5fffb001f660864262da486ac8c99c9b0d410.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695370169164.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-22",
     "address": "52/9 ซอย สุขุมวิท 42 สุขุมวิท 42 แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -2888,7 +2888,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/8db103bc749bce0888e156df67f86d79.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/0bcc68bc333f80faa307530137b99a03.png",
     "days_to_resolve": 57,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-05-19",
     "address": "59/31 เสนานิเวศน์ ซอย 116 แขวงจรเข้บัว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -2899,7 +2899,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/9c5e4e4ce03a3912d56b0c96c42c6d65.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/856dcac8ccbfdc01d3eb2725c22f8471.png",
     "days_to_resolve": 8,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-08-13",
     "address": "10/496 ถ. นวมินทร์ แขวงนวมินทร์ เขตบึงกุ่ม กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -2910,7 +2910,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/341404121dcd39e5a98d8848f7b3e296.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/78f9bc5d289655ad34ef054b035acbc3.png",
     "days_to_resolve": 10,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-27",
     "address": "452 ถ. สิรินธร แขวงบางพลัด บางพลัด กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -2921,7 +2921,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/1a3743b28083c828dd50f2d20133630a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/2f49d6a252a72bb066d5c3a2a593a7d2.png",
     "days_to_resolve": 40,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-30",
     "address": "80/4 ซ. วิภาวดีรังสิต 16 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -2943,7 +2943,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/fc97a4aea4eaa67f670993854f623b85.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/01aa8c5e56f244a6a415ef45377940bc.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-12-20",
     "address": "160/3 ถ.สีลม แขวงสุริยวงศ์ เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -2965,7 +2965,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/dd698d89095bad6f24fd9158d4ed3dfc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/9a1e8dc5f4646af04e0ead6cbbb3bfd9.jpg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-10",
     "address": "100/285 คุ้มเกล้า 7 แขวงลำปลาทิว เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -2976,7 +2976,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/4c2720b60cdd922f0bd6b87734c0ef21.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/97d90afab33d4fd80b8c8515e7115a6a.jpg",
     "days_to_resolve": 27,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-06-07",
     "address": "56/155 พหลโยธิน แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -3009,7 +3009,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/4c9675f33a3042d43b39b5ac714aad418a4c1d0f.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/e254924d238708e9eb88d9775a44deb3.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-07-20",
     "address": "20/2 ซ. 1 แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -3020,7 +3020,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/8209a7e3da91c1ac684588274005cadc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/6da20f91f5e302db93343e61ef93a5a2.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-03",
     "address": "168 ซ. สุขุมวิท 8 แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -3031,7 +3031,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/a3de3a6cf1f2f0012e7fb130500b493532100d49.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/5a796b968d67597a4eb761d0c9018b20.png",
     "days_to_resolve": 108,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-12-03",
     "address": "522 35 ถ. พหลโยธิน แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -3042,7 +3042,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-03/d934f4f25bea1993f5e8978ef8cdef152e840c87.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-03/5b53b5621e3db53311255f3b5a38f3c3.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-03-20",
     "address": "114/1 Chaloem Phrakiat Ratchakan Thi 9 Soi 28 แขวง ดอกไม้ เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -3064,7 +3064,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/1289d3e3928fe75f3163cd4340c55e0acab70e4d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/0302f85109dedc9abd10d63013e9f972.png",
     "days_to_resolve": 6,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-28",
     "address": "320 ถ. มหาราช แขวงพระบรมมหาราชวัง เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย"
   },
@@ -3108,7 +3108,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/e9bc515d4d5fe9e7952a01e8737439926813a0d7.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/a210245be3c67ca5226a7a92a7a27af7e937bdbd.jpg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-09-01",
     "address": "206 ประดิพัทธ์ สะพานควาย สามเสนใน เขตพญาไท กทม 10400 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -3119,7 +3119,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/c7fd3e0c2334cc7fdc651e77a67cd88506712001.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1703125558047.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-21",
     "address": "443 สุขุมวิท ซ. 63 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -3130,7 +3130,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-11/5432086bf5f6da7c2f15183212cce929485061e7.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-11/4d229e5be7ade07b5baac3504f84c2c74bb7e51f.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-11-30",
     "address": "357 ซอย รามคำแหง 51/2 แขวง หัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -3141,7 +3141,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/36e691440ff290aa6ca914439dfab05f.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/9aa5c3b2d82e93edef080941179815e1.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-12-19",
     "address": "23/13 ซอย เอกชัย 34 แยก 14 แขวงบางขุนเทียน เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -3163,7 +3163,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/3809ad10e1366772ad748be042a643259c569c8d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/1685803585247.jpeg",
     "days_to_resolve": 12,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-05-22",
     "address": "19 ซอย นักกีฬาแหลมทอง 15 แขวงสะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -3174,7 +3174,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1692851957559.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695365495469.jpeg",
     "days_to_resolve": 29,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-08-24",
     "address": "ท่าปลอยรถ สาย  14 และ 21 ถนนอังรีดูนังด์ : 5/81 ซอย กาญจนาภิเษก 24 แขวงประเวศ เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -3185,7 +3185,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/7e2ea1fea673c02459eb163ef8c9ffcd.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/e9df48bba9bdc61f0add5b616d64d78c.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-05",
     "address": "MJCV+XWW แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -3196,7 +3196,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/51aec4e24249dcd4890ed4d616418d40bdaaa929.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1678331865712.jpeg",
     "days_to_resolve": 144,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-10-16",
     "address": "17/136 ซ. รามอินทรา 45 แขวง ท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -3207,7 +3207,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/256ab7d1cee2d12cdc40252e39917a0e506d0ef4.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/1680953456625.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-04-07",
     "address": "42/500 ซอย นิมิตใหม่ 40 แขวงสามวาตะวันออก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย"
   },
@@ -3229,7 +3229,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/49784d54f3cb3edb907224d51afced56cabeebde.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/8ee4b08b8eed292c301a7b2ef708ffb4.jpg",
     "days_to_resolve": 24,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-02-02",
     "address": "36-93 ถ. พระรามที่ 1 แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -3240,9 +3240,9 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/TeamChadChart/corruption_photo2.png",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/TeamChadChart/corruption_photo2.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-06",
-    "address": NaN
+    "address": null
   },
   {
     "ticket_id": "2023-EFVVMT",
@@ -3262,7 +3262,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/89bd2854cc0bea973eb501371a9afd28a59e95ba.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1690431374239.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-07-26",
     "address": "135 ถ. อาจณรงค์ แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -3273,7 +3273,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/775eccc55f594f6f19f0240fc7bf12be.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/23ea73ee8d79a41172a6b08673f51aac.jpg",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-26",
     "address": "165/1 ซอย ปรกวัดอรุณ แขวงวัดอรุณ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -3295,7 +3295,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/bdec5ab81a170fdf2044b7f9468e5f461b8eaa55.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1698773569444.jpeg",
     "days_to_resolve": 27,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-10-04",
     "address": "6 ซอย สุขุมวิท 21 แขวง คลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -3306,7 +3306,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1676276399433.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1680144974806.jpeg",
     "days_to_resolve": 45,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-02-13",
     "address": "อ่อนนุช ซอย 10 อ่อนนุช สวนหลวง สวนหลวง กรุงเทพมหานคร : 198 Chinnamat Alley, แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -3317,7 +3317,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/358132674be44e24292d659683bd7232a9d8afb6.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/d7e029ea74a32a013b6610856e45b221.jpg",
     "days_to_resolve": 60,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-07-22",
     "address": "59/168 รามอินทรา 34 แยก 22 แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -3328,7 +3328,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/d377fa4a972528427de54368bd75c2793aec885d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/1683604353595.jpeg",
     "days_to_resolve": 309,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-07-04",
     "address": "62 ถนนปั้น แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -3339,7 +3339,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/e44f11094bf84b033eb5f85347e42506.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/c16c459d120ca7a844c7adc25e08ae98.png",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-22",
     "address": "840 พุทธมณฑลสาย 3 ซอย 18/4 แขวงศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย"
   },
@@ -3372,7 +3372,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/21bcf4846dfde28112d70145893c66e4.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/d07a92720a2f5c9cdef5939e1dc31347.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-29",
     "address": "1362 ถ. ประชาชื่น แขวงวงศ์สว่าง บางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย"
   },
@@ -3383,7 +3383,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/1686564996562.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/1686620325411.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-06-12",
     "address": "106/48 ถ. บางแวก แขวงบางไผ่ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -3416,7 +3416,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/4e385769142a0ac54939d72d60c5a11e.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/4d8566f6a8b10c8c12f56a19569c716f.jpg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-01",
     "address": "208 ถ. ลาดพร้าว แขวงพลับพลา เขตวังทองหลาง กรุงเทพมหานคร 10312 ประเทศไทย"
   },
@@ -3427,7 +3427,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/9332ebea0f19967fdbe3b42348d5e2518844b09f.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695996059090.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-29",
     "address": "33/3 ซอยสุขุมวิท 3 (ซอยนานาเหนือ) ถนนสุขุมวิท แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -3449,7 +3449,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/19a49e641f53699112a11f1376e61d243d888027.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1688613730030.jpeg",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-07-01",
     "address": "120/16 ถนน งามวงศ์วาน แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย"
   },
@@ -3460,7 +3460,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/5cda621752179b343379c1f5f6496897.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/82f9eda49cbe121019fde8874d7f6834.png",
     "days_to_resolve": 63,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-22",
     "address": "12 ถนน สมเด็จพระเจ้าตากสิน แขวงบางยี่เรือ เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -3482,7 +3482,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/8b5f7231382e7531ca9a4252e297558830ec8148.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1693790559394.jpeg",
     "days_to_resolve": 10,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-08-25",
     "address": "1168/18ถ.พระราม 4 ทุ่งมหาเมฆ สาทร กรุงเทพมหานคร  10120 แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -3504,7 +3504,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/3b841d230376a113f3763dee991d5372.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/3a78628c27f6e601b0c050dae38a0fb9.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-22",
     "address": "1201 12 ถนน ศรีวรา แขวงพลับพลา เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -3515,7 +3515,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/4146ad0e9d70a27117a1ee496ce165adbda2ea67.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/156d4ac3b83f9f401b7aeabc5f1fe45e.jpg",
     "days_to_resolve": 467,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-03-29",
     "address": "4924 ถนน โพธิ์แก้ว แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -3526,7 +3526,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/4ff4936097c77e543ab09b4e72750264fdbe0d22.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1707813743274.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-12",
     "address": "154 ซ. จันทน์ 23/2 แขวงทุ่งวัดดอน เขตสาทร กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -3592,7 +3592,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/965716c3f1c8eaa82ce78a4eb2ac833c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/56650779b28a75ecdbe18c77cb5fcdc9.png",
     "days_to_resolve": 8,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-13",
     "address": "442 ถ. พระรามที่ 3 แขวงบางคอแหลม เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -3614,7 +3614,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/51fefe86aa65fbef697fb2be322a18db.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/69de2c05567712d763ddd335d88a5313.png",
     "days_to_resolve": 41,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-11-06",
     "address": "ทางแยกต่างระดับพญาไท (สะพานข้ามแยก) 108 ถ. พญาไท แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -3636,7 +3636,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/c18d02dd8d6a1745c9c4209b62e77d00.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/d55b5b89d14b4b3ca0779e3017a663c1.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-02",
     "address": "109 ถ. กาญจนาภิเษก แขวงราษฎร์พัฒนา สะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -3647,7 +3647,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1691488593422.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1691549494805.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-08-08",
     "address": "24/130 งามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -3680,7 +3680,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/088939aff89587d5901bd605ffea3a7f.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/5335533ca4b4ec77693348c2ab6a4615.png",
     "days_to_resolve": 22,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-21",
     "address": "25 ซอย นภาศัพท์ แยก 1 แขวงคลองตัน เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -3724,7 +3724,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/338181c5816ebb3ddbfcc29a9b7c6ffb.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/09e034ace7e7b3f155cd3c1cc2479679.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-06-07",
     "address": "62 ถนน มิตรไมตรี แขวงรัชดาภิเษก เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -3735,7 +3735,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/95c1e78c941e32c35710df1b4f8d0fda.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/8b31fac6c2cb971e48acf25b4e034b8b.png",
     "days_to_resolve": 96,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-05-24",
     "address": "18 ซอย ทองคำ 5 แขวงคลองสองต้นนุ่น เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -3757,7 +3757,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/bcbe0371223885b7c1277c5b391d9f74ae0e1da8.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/d593621f5975e58d9280f94d30d847f9.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-05-02",
     "address": "378/1 ถนน ลาดกระบัง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -3768,7 +3768,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/d68fbf8c572e20ff063af01923a07140.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/e1ba20b6a7ad96720befb2117c61771b.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-13",
     "address": "44/12 ถนน เพชรเกษมสายเก่า แขวงปากคลองภาษีเจริญ เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -3790,7 +3790,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/86fc9cf52934142355d80265ae91e4f15d6b00ad.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/e620c1db4ccd16223ca084f19f9b700d.png",
     "days_to_resolve": 449,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-19",
     "address": "386/32 ถ. เพชรบุรี แขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -3823,7 +3823,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/94b2c7e45284d1a9f2c829bf2df5b7c2.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/9cff45ccfdd8261f8c9a426679ad0012.png",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-07-08",
     "address": "29 เฉลิมพระเกียรติ ร. 9 ซอย 14 แยก 28 แขวงหนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -3845,7 +3845,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1699327940100.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1699359700646.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-07",
     "address": "1586 ซอย จันทน์ 31 แขวงทุ่งวัดดอน เขตสาทร กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -3856,7 +3856,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1705289026364.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1705633572820.jpeg",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-01-15",
     "address": "VM3R+268 แขวงบางชัน เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย"
   },
@@ -3867,7 +3867,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/1684845511798.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1689824577777.jpeg",
     "days_to_resolve": 58,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-05-23",
     "address": "- ศรีนครินทร์ 13.677813755225882, 100.6460193610946\nแขวงหนองบอน เขตประเวศ กรุงเทพมหานคร\nคุณสุวัฒนา ผู้แจ้ง : แยกศรีอุดม 161 ซอย สุขุมวิท 103 แขวงหนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -3922,7 +3922,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1d7bcd6bd76d982e0c1178ff0e64095167976791.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/9f00dfbc68f3afe1d63674924286ee96.png",
     "days_to_resolve": 99,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-02-23",
     "address": "300/8 ซอย พรไพลิน 1/1 แขวงจันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -3944,7 +3944,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-04/9ed90c6bc8b486b1b44c6c58b56fd0e4351da0e2.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/4f5da660f0c6ebd63749b2d4b2ee27f4.png",
     "days_to_resolve": 141,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-04-27",
     "address": "165 ถนน เลียบคลองสอง แขวงบางชัน เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย"
   },
@@ -3977,7 +3977,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/ab0d3b30bd1e6ad49cf253cfaefae33536ded5e8.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/1685178834995.jpeg",
     "days_to_resolve": 22,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-05-05",
     "address": "18 ถนน วิภาวดีรังสิต แขวงสนามบิน เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย"
   },
@@ -4021,7 +4021,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-08/4a9f5cffaa08c258c419625ff88eff36001d5dc9.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/8b4393ffa2f3df101c7c3a43af9017f7.jpg",
     "days_to_resolve": 726,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-08-15",
     "address": "1/149 ถนนพระราม 2 ตำบลท่าข้าม อำเภอบางขุนเทียน กรุงเทพมหานคร 10150 แขวง ท่าข้าม เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -4032,7 +4032,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-01/1672744421366.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1675752557424.jpeg",
     "days_to_resolve": 35,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-01-03",
     "address": "19/6 ซอย ทวีวัฒนา 6/2 แขวง ทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย"
   },
@@ -4043,7 +4043,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/a18cb3d89932b33de7e8633f600be79d957ce343.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1696215552425.jpeg",
     "days_to_resolve": 375,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-09-22",
     "address": "RGCC+MH6 แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย"
   },
@@ -4076,7 +4076,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-03/ddd25c410ccecbe3aeb605c64a8cf11a5d71f44b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-04/4e87d4d39f9d15586d7dd9885c1e1415.png",
     "days_to_resolve": 6,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-03-29",
     "address": "1059 ถนน อิสรภาพ แขวงวัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -4098,7 +4098,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1679478710359.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1679590544583.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-03-22",
     "address": "จันทน์ 42  จันทน์  ยานนาวา สาทร กรุงเทพมหานคร : 28 ซอย จันทน์ 23/2 แขวงวัดพระยาไกร เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -4142,7 +4142,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-12/60805f131f8e7e5f7fe514a931c9b8cf2b897054.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1691640401896.jpeg",
     "days_to_resolve": 238,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-12-15",
     "address": "PH97+VWM แขวง คลองเตย เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -4153,7 +4153,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/e50bbce96c8653fd148c41ee43f83a75.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/e4e939b57e9b9fa2e110d079862637a8.png",
     "days_to_resolve": 101,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-06",
     "address": "198 ซ. คลองลำเจียก 10 แขวงนวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -4164,7 +4164,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/3efd9413008c1f8ec31ea2de2af3882e26adcbd8.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/768e5946c233bc9a4af613f19da5a2e51056709a.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-10-09",
     "address": "14/4 ซอย เจริญกรุง 40 แขวง บางรัก เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -4175,7 +4175,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1699076314937.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1699178661081.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-04",
     "address": "เลขที่ 268/8 ถนน ถน ถ. นครไชยศรี แขวงถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย"
   },
@@ -4186,7 +4186,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-03/adba3feec9b7801313e0065b571fc016405dc9c3.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/99d7f1bb0ab92df612b623038cfc9d13.jpg",
     "days_to_resolve": 376,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-03-09",
     "address": "35 2 ถ. สุขสวัสดิ์ แขวงราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย"
   },
@@ -4197,7 +4197,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/09222b8f474c83bc4d913938869e95ac68374cb2.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/302f1dd4a23b638826d50c062e3cac65.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-06-03",
     "address": "92/30 ซอย ร่วมมิตรพัฒนา แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -4230,7 +4230,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/0461cfc434f0741fae6a6a8804938dcccf427a37.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/28c0e7fa8f331c2a27e09c27e600b4ce.png",
     "days_to_resolve": 83,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-09-25",
     "address": "ราษฎร์พัฒนา 5 ถ. ราษฎร์พัฒนา แขวงราษฎร์พัฒนา เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -4241,7 +4241,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-01/1673665033315.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1675427868627.jpeg",
     "days_to_resolve": 20,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-01-14",
     "address": "สุขุมวิท พระโขนง คลองเตย กรุงเทพมหานคร : PH7R+VPR ถ. สุขุมวิท แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -4252,7 +4252,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/f46e2ab0f16f639c553fbd0284d7c6d1.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/c38be073652750ed198a5d7f36e73533.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-29",
     "address": "674 ถ. อโศก - ดินแดง แขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -4274,7 +4274,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/38a8c099d34a871a2e4cf61263e7e1fed8a534b7.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695362064559.jpeg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-19",
     "address": "754 ซอย ลาดพร้าว 42/1 แขวงสามเสนนอก เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -4285,9 +4285,9 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/TeamChadChart/corruption_photo2.png",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/TeamChadChart/corruption_photo2.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-10-17",
-    "address": NaN
+    "address": null
   },
   {
     "ticket_id": "2023-6M2KXY",
@@ -4318,7 +4318,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/920197b365243d8ee153ac58e18549a4.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/c93ed3f2bde6c81c54fe5ba1737bb768.jpg",
     "days_to_resolve": 53,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-01",
     "address": "เลขที่ 29/104 ซอย นาคนิวาส 16 แขวงลาดพร้าว ลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -4329,7 +4329,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/fc6b15b6ef19fd42359bdbfc6d08dde7de5d2672.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1678419109933.jpeg",
     "days_to_resolve": 13,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-02-25",
     "address": "187 ซ. สุขุมวิท 39 แขวง คลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -4340,7 +4340,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/362e3a0b046eaa89f1f21b35f8e9675954e1bf2b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/a5b6990d1ac8752ccb09ea723c8bac9b9fcd008c.png",
     "days_to_resolve": 21,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-10-06",
     "address": "167 ซ. พระนคเรศ แขวง มหาพฤฒาราม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -4351,7 +4351,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/faeb8eb3f57f67273a1c72e51075a2ab.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/3f14f84eedecf9c7e8f90c74fd842877.png",
     "days_to_resolve": 13,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-27",
     "address": "635 ซ. เกตุนุติ 12 แขวงวังทองหลาง เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -4373,7 +4373,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/812312f9bb101ac784b9165c23c68531.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/c91a50e953bab7e0c25c62f95ecd017b.png",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-30",
     "address": "20 ถ. วิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -4384,7 +4384,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/ff3be561d1cf0008304f9454e20db0f654e3f64e.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/a55317f7391a805ec375ae1225306f73.jpg",
     "days_to_resolve": 41,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-09-17",
     "address": "แยกวังแดง แขวงดุสิต เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย"
   },
@@ -4395,7 +4395,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/b20a497789a673a3503ed9755d3699301c94f422.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/b0930a50908e12ca0addf8cabf1f44fc.png",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-01-07",
     "address": "259 ซอย สุขุมวิท 19 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -4406,7 +4406,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/8b10a91d3bccb050be4dbd03903f5456b6bee3d9.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1691633896576.jpeg",
     "days_to_resolve": 63,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-06-08",
     "address": "12 ถ. ประชาอุทิศ แขวง ขุมทอง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -4417,7 +4417,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/f0d0491d2e9f57311d83cd6babddcf50cf9daf96.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/950a9307e9fb04af464c4d5249d1bae4.jpg",
     "days_to_resolve": 18,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-07",
     "address": "6169 ซอย ลาดพร้าว 25 แขวงจันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -4428,7 +4428,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1692249855685.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1692331292159.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-08-17",
     "address": "35 ซอย ราชวิถี 4 แขวงสามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -4439,7 +4439,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/eba685ca44cc50c52ff3592dc002e6285f81444e.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1691234147641.jpeg",
     "days_to_resolve": 317,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-09-22",
     "address": "4 ซอย สมปรารถนา 2 แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -4450,7 +4450,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/2488d7a11d16b2dd055189be46e4950c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/9bb0c3966460662602ed7c92d6ee5aad.jpg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2026-02-22",
     "address": "วัดมหาบุศย์ แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -4461,7 +4461,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/1326c0b448b6337354f2dbaa114f9bf0933f40d2.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-12/2245b40829d1afeb01a188074934474b.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-12-19",
     "address": "40 80 ซอย ลาดกระบัง 46 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -4505,7 +4505,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/4584518703355f96b518380764a79fd2944fefea.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1701837920113.jpeg",
     "days_to_resolve": 67,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-30",
     "address": "834 ถ. รามอินทรา แขวงคันนายาว เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -4527,7 +4527,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/1bff2926b536a61693219323f2c43f8842a84167.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/b4878998ee42f401084c1a7eba80f51ced76431a.png",
     "days_to_resolve": 64,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-07-22",
     "address": "1 ถนน ณ ระนอง แขวง คลองเตย เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -4538,7 +4538,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/402eeba87ea4107c3145a9c6603d0ff77becbfae.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-04/6580eb608057e0e970f6fef05bc6f240.jpg",
     "days_to_resolve": 208,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-10-05",
     "address": "1 ถนนตะนาว แขวง วัดบวรนิเวศ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย"
   },
@@ -4549,7 +4549,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/b27b5e42fb73c8065ff7d215a7e668dac8e7502c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/39bfe93c8028abbffcd3cf584c7b7c1e.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-14",
     "address": "113 ซอย จันทน์ 18/7 แขวง ทุ่งวัดดอน เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -4560,7 +4560,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/a093e9a20c9315bcb7c3e388955ae196aa40f9c3.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/1689568738935.jpeg",
     "days_to_resolve": 40,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-06-07",
     "address": "ซอย งามวงศ์วาน 30 ถนน งามวงศ์วาน แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย"
   },
@@ -4593,7 +4593,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-07/f9da7d031d59ece6069f89b3ead330c04ab27070.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-08/1691478162443.jpeg",
     "days_to_resolve": 19,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-07-20",
     "address": "15/23 รัชดาภิเษก แขวงจันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -4604,7 +4604,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/18551102dd04142b899b84a60607f027d5672cd9.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/8180727f68fd06271a433cc7b4c11f79c442ebd0.jpg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-09-10",
     "address": "PH7M+QQJ แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -4615,7 +4615,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-12/53f14247f39113ff6148886bd67e162be7ce585a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1676903629758.jpeg",
     "days_to_resolve": 77,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-12-05",
     "address": "1024 ซอย จรัญสนิทวงศ์ 79 แขวง บางพลัด เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -4626,7 +4626,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/a86a1b050f6bbfaef8a8c2d2c6eb4e6b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-10/d9e1ee31dd619e9fddccec3f0478dd4d.jpg",
     "days_to_resolve": 10,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-28",
     "address": "104 ถ. สุขุมวิท แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -4637,7 +4637,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/2faef828bcb69e1f3785e9b3d7868119.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/05ec1219bd1bac38bd5db144680b8311.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-06",
     "address": "1218 ซอย จันทน์ 43 แยก 30 แขวงบางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -4648,7 +4648,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/2cc5d4eb59d2219c556a6b93f87bae558c51008a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/6f85564041a8841b504818e769961bf4.jpg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-05-07",
     "address": "44/126 พหลโยธิน แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -4670,7 +4670,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-01/1673068684056.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/1681102460681.jpeg",
     "days_to_resolve": 93,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-01-07",
     "address": "6 ถ. พุทธมณฑล สาย 2 แขวง บางแคเหนือ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -4681,7 +4681,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/91f8d268394206cca270f185fc85aa26.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/6c3343d58c4493e8a6ec5844b6eccc98.jpg",
     "days_to_resolve": 17,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-11-08",
     "address": "37 ซอย สมเด็จเจ้าพระยา 12 แขวงสมเด็จเจ้าพระยา คลองสาน กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -4714,7 +4714,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/135a7c547cf06fa7e730c72e99857995.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-02/feb122fc3727611f6df2c895ccdbfd25.png",
     "days_to_resolve": 14,
-    "star": NaN,
+    "star": null,
     "reported_date": "2026-02-12",
     "address": "40/16 ซอย อัศวิน แขวงคลองสิบ เขตหนองจอก กรุงเทพมหานคร 10530 ประเทศไทย"
   },
@@ -4725,7 +4725,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/e83bdbb21409746aa67c574885e7b2ee.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/5afb649eff4f91e571bfcffcbb8e9781.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-02",
     "address": "33/1 ถนน พุทธมณฑลสาย 1 แขวงบางระมาด เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย"
   },
@@ -4747,7 +4747,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-07/b305290eae16aec5aaabf33ab00200d9c4d2a112.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-10/34dd95ce74e2605762aca08171d71f2b21977480.jpg",
     "days_to_resolve": 92,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-07-21",
     "address": "190/120 ถนน รามคำแหง แขวง หัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -4758,7 +4758,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1694140032629.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1694179932540.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-08",
     "address": "สำนักงานเขตบางเขน ถนน พหลโยธิน แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร : 14 ถ. พหลโยธิน แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -4769,7 +4769,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/2b6a925706c71d6877976181fda151e8665379f5.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/7de7ca8423960c0eb617b6aa21d18008.jpg",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-25",
     "address": "เลขที่ 9/218 ซ. พหลโยธิน 48 อนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -4780,7 +4780,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/7f02e4ac0bd1b84133fdcf9fe3afaaf6.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-11/7d399207d9745f1c913011ae656b0eb7.png",
     "days_to_resolve": 57,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-21",
     "address": "534 (664/15 ถ. จรัญสนิทวงศ์ แขวงบางยี่ขัน บางพลัด กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -4791,7 +4791,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/a01fd4c14197338432aacf1cd44c1152.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-09/8e54a19822c5fb9e6edde4d8746117d6.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-09-05",
     "address": "77/16 ซอย นวมินทร์ 75 แขวงนวมินทร์ เขตบึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -4802,7 +4802,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/844418d72504861bd1a0ff6d03569605.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-03/fc19ee9187c25171d5f82bba61ade0d3.jpg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-03-29",
     "address": "52 ถนน เพชรเกษม แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -4813,7 +4813,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-01/1674293641500.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1675668443540.jpeg",
     "days_to_resolve": 16,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-01-21",
     "address": "วัดสะพาน ปากน้ำกระโจมทอง บางพรม ตลิ่งชัน กรุงเทพมหานคร จุดสังเกตุ ทางเขาตรงอนามัย วัดสะพาน  บ้านผู้ร้อง เลขที่ 213 เลยไปก็จะพบ ณ จุดเผาที่เกิดเหตุ : 1/2 ถนน ปากน้ำกระโจมทอง แขวง บางพรม เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย"
   },
@@ -4824,7 +4824,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/49e66df8c84dbe203df38604b7987bee.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-09/2bad1021a2f7180206226f5d6e45a43c.jpg",
     "days_to_resolve": 85,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-06-13",
     "address": "9 ถ. พัฒนาชนบท 3 แขวงคลองสองต้นนุ่น เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -4835,7 +4835,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/b66a539298d0d2f75428e21dace7172bde3afc9c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/1682574728883.jpeg",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-04-26",
     "address": "300 ซอย เอกชัย 76 แยก 2-5 บางบอนเหนือ เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย"
   },
@@ -4857,7 +4857,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/b8139922d9a0b5cb26ab5c6e41eb56241c0a1dca.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1702971806157.jpeg",
     "days_to_resolve": 8,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-12-11",
     "address": "11 ซอย อุดมสุข 51 แขวงบางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย"
   },
@@ -4868,7 +4868,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1675824525411.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-02/1676089635743.jpeg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-02-08",
     "address": "สำนักงานเขตคลองเตย สามแยกกล้วยน้ำไท แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร : 599, Khlong Toei District Office, 6th Floor, Khlong Toei, Khet Khlong Toei, Bangkok, 10110, แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -4879,7 +4879,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/d91b8f2d5512e7c17bd69d937907dd339cb787f5.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-07/c39a32258eb3f6b48e8128087bf235f1.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-07-14",
     "address": "8/20 หมู่บ้านชวนชื่น เพชรเกษม81 แขวงหนองแขม เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -4890,7 +4890,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-11/1701247217854.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-12/1701999737711.jpeg",
     "days_to_resolve": 9,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-11-29",
     "address": "156 ซอย เก๊งชวน แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -4901,7 +4901,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/67a202485d16183c2b7fc3ce32d03d0d9bc05fcf.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-03/1678759410815.jpeg",
     "days_to_resolve": 7,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-03-07",
     "address": "30 ทับยาว แขวงทับยาว เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย"
   },
@@ -4956,7 +4956,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/f963fef54f9b042e865707d9a6cafb38.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/691304a664a16279951a8508a16bdcea.png",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-11",
     "address": "เลขที่ 2075 ซอย รามคำแหง 37 แขวงหัวหมาก บางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -4967,7 +4967,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/3f342bd67e4b7eb4f61ada8037457a19.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/d815556a50826058d8eee61772a219aa.jpg",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-02-26",
     "address": "15 เลียบวารี 11 แขวงโคกแฝด เขตหนองจอก กรุงเทพมหานคร 10530 ประเทศไทย"
   },
@@ -4989,7 +4989,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/4fe400edbd29f9bb7f97bb2ae79b092c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/3fe26567aace9d1ff3cc238b751dfe3f.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-05-01",
     "address": "44 ซอย สุวินทวงค์ ๑๑๐ แขวงกระทุ่มราย เขตหนองจอก กรุงเทพมหานคร 10530 ประเทศไทย"
   },
@@ -5000,7 +5000,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/918ac273946c6feb2ecb2779fdf38cbc34c5622a.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-06/1687143323072.jpeg",
     "days_to_resolve": 19,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-05-31",
     "address": "1148 ซอย เพชรบุรี 47 แยก 1 แขวงบางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -5011,7 +5011,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/42a929742854a38e42c390f51926761c724da4f7.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-06/3c10654179558f41e46471348c71d7cc.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-06-18",
     "address": "0520 ซ. สุขุมวิท 3 แขวง คลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -5055,7 +5055,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/5be415c7baa77af1a5222113d11d165f2dcdb97e.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695201760057.jpeg",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-20",
     "address": "928 ถ. พหลโยธิน แขวง จอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย"
   },
@@ -5077,7 +5077,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/076f10fca279d08b0efeaf36e95913045b4bfbcc.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/5bc08452526910adc616990aaec9ba0e.png",
     "days_to_resolve": 27,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-10-30",
     "address": "1-6 ซอย ศาลาแดง 2 แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -5088,7 +5088,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/a75084f149a6178caa5e44ad746a5edb.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-08/1fd098be7fbc0eb68d9313b3fd1ba012.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-08-10",
     "address": "453 ถ. เยาวราช แขวงสัมพันธวงศ์ เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย"
   },
@@ -5110,7 +5110,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/e8497ea2bb760d1835377b9acbdf3fd0.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/463f325e5ea9e9243329fc5dac311c1b.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-10-13",
     "address": "2 ซอย หมู่บ้านพิบูลวัฒนา แขวงพญาไท เขตพญาไท กรุงเทพมหานคร : 2 พระราม 6 ซอย 34 แขวงพญาไท เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย"
   },
@@ -5121,7 +5121,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/d8e537f074284e8664255eb4ab9937cfb8682386.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/1695710614479.jpeg",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-22",
     "address": "43/1 ซอย นราธิวาสราชนครินทร์ 7 แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -5143,7 +5143,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/c0279abbefb4ae80e4d7257fd21feb6d.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-06/d9ad181ef7e897449a86a582e8f196ee.jpg",
     "days_to_resolve": 4,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-06-19",
     "address": "เลขที่ 1/3 ถนน คู้บอน แขวงบางชัน เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย"
   },
@@ -5209,7 +5209,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/860e7040c4af717e3e5c922b374f57c1.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-05/0437dd7fbd5ac5c65a95749c7a35377b.png",
     "days_to_resolve": 6,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-05-09",
     "address": "49 ถนน สุขุมวิท 101 บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย"
   },
@@ -5220,7 +5220,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/6bfd1c19a3f80c71a31a989af39b4759ad9cefe3.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-01/fa8b7305423d7488dd533ee851591d76.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-01-28",
     "address": "ซอย ถ. ปั้น แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -5231,7 +5231,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-01/1704706368360.jpeg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-02/1706867950237.jpeg",
     "days_to_resolve": 25,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-01-08",
     "address": "PM7M+PPF ซอย อ่อนนุช 86 แขวงประเวศ เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย"
   },
@@ -5253,7 +5253,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/3306c1a20873b2935828b5380efa7b263facb994.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/2f91d2acb5d220f811a8c7b84099461e.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-13",
     "address": "98 ถ. เจริญนคร แขวงดาวคะนอง เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย"
   },
@@ -5264,7 +5264,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-09/8c1003c2463774cb000ce13d58a36e62e2dad94b.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-10/1696477714869.jpeg",
     "days_to_resolve": 22,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-09-13",
     "address": "123-2 ถ. จรัญสนิทวงศ์ แขวงบางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย"
   },
@@ -5275,7 +5275,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/d4ad1d3a8c713689b4faf18b64143fff.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/bce9f12b6db4e758a622645d84fd85db.jpg",
     "days_to_resolve": 9,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-14",
     "address": "วัน แบงค็อก (ฝั่งวิทยุ) แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย"
   },
@@ -5297,9 +5297,9 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/TeamChadChart/corruption_photo2.png",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/TeamChadChart/corruption_photo2.png",
     "days_to_resolve": 116,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-04-11",
-    "address": NaN
+    "address": null
   },
   {
     "ticket_id": "2024-FXN7DR",
@@ -5319,7 +5319,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/307fb33ea0bbedc340202b1fb4bdd468.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/56333510c239c93f8cde01d9f414359a.png",
     "days_to_resolve": 1,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-21",
     "address": "40/418 ถ. คลองทวีวัฒนา แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย"
   },
@@ -5330,7 +5330,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-12/f55ccf4d114dda9478749f955dc67298.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2026-01/64dc42826ed216363b976cd57f645aeb.png",
     "days_to_resolve": 26,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-12-10",
     "address": "107/490 ซอย ฐานทอง 4 แขวงคันนายาว เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -5352,7 +5352,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-08/34dd96d155d655a1513f4bacac505e36db312864.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2022-09/c2b05197c7e050057f73b850abe49ea4b037053e.jpg",
     "days_to_resolve": 31,
-    "star": NaN,
+    "star": null,
     "reported_date": "2022-08-11",
     "address": "220/1 ซอย ประชาราษฎร์บำเพ็ญ 7 แขวง ห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย"
   },
@@ -5385,7 +5385,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/75024d512ec9285b708ead9b896cfab1.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/ad7e8266d4cc2e3ca2edab13afff1618.png",
     "days_to_resolve": 2,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-16",
     "address": "93 ถ. นวมินทร์ แขวงคลองจั่น บางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย"
   },
@@ -5407,7 +5407,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/7f8b2ca9f43408513d4735f158a69ca0.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-02/ad2ae8bd6f0f0a2b686789621a86dded.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-02-20",
     "address": "2 ถ.สีลม แขวงสุริยวงศ์ เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย"
   },
@@ -5418,7 +5418,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/ba5b37a180f7b014d65305ebd30c2ca1.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/a49ba7e8cb2ce44d99d580fc71e1cc46.png",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-03",
     "address": "4487 ถ. สุขุมวิท แขวงบางนาใต้ เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย"
   },
@@ -5429,7 +5429,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/7cc7734744d67a7c32d397212e73c2f1f35f1a5f.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-10/0dd678cd53cb31a882fef49a9e6cee61.png",
     "days_to_resolve": 13,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-10-08",
     "address": "666 ถ. วัชรพล แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย"
   },
@@ -5440,7 +5440,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/5fcb5975bd6eec0c77d3ab8ea66ea656625a476c.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-11/b4e343f2fda22c25d6bf6ef8a64b00a1.png",
     "days_to_resolve": 0,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-11-06",
     "address": "36 ถนน พระสุเมรุ แขวงชนะสงคราม เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย"
   },
@@ -5451,7 +5451,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-04/a71a84f409e97c372903ae15d817fa24.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-05/49536df10a092f7518cfe6937403ef4e.jpg",
     "days_to_resolve": 26,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-04-30",
     "address": "PHQ5+H5V ถ. สุขุมวิท แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย"
   },
@@ -5462,7 +5462,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/001b11d507670306d250eab0469b3004f1cc57ff.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2024-08/745fda72e78a47663163e9ff50308379.jpg",
     "days_to_resolve": 3,
-    "star": NaN,
+    "star": null,
     "reported_date": "2024-08-02",
     "address": "41/316 นวมินทร์ แขวงนวมินทร์ เขตบึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย"
   },
@@ -5473,7 +5473,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/b08f0057eea99b0c2e3376ce2494a508.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2025-07/755ec570d09534226f7ef91f478c24b5.png",
     "days_to_resolve": 5,
-    "star": NaN,
+    "star": null,
     "reported_date": "2025-07-25",
     "address": "1682/3 ซอย จันทน์ 23/2 แขวงทุ่งวัดดอน เขตสาทร กรุงเทพมหานคร 10120 ประเทศไทย"
   },
@@ -5495,7 +5495,7 @@
     "photo": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-04/8d6ddcabc29c96dbac56269661a6adb51e3320f5.jpg",
     "photo_after": "https://storage.googleapis.com/traffy_public_bucket/attachment/2023-05/1684426668887.jpeg",
     "days_to_resolve": 19,
-    "star": NaN,
+    "star": null,
     "reported_date": "2023-04-29",
     "address": "29 ซ. สิรินธร 2 แขวงบางพลัด เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย"
   }

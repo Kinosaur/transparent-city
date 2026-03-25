@@ -377,7 +377,7 @@ gallery_df = df[
 gallery_df["days_to_resolve"] = gallery_df["resolution_days"].round(0).astype("Int64")
 gallery_df["timestamp_str"] = gallery_df["timestamp"].dt.strftime("%Y-%m-%d")
 
-gallery_sample = (
+gallery_sample = json.loads(
     gallery_df[
         ["ticket_id", "type", "district", "photo", "photo_after",
          "days_to_resolve", "star", "timestamp_str", "address"]
@@ -385,7 +385,7 @@ gallery_sample = (
     .rename(columns={"timestamp_str": "reported_date"})
     .dropna(subset=["photo", "photo_after"])
     .sample(min(500, len(gallery_df)), random_state=42)
-    .to_dict(orient="records")
+    .to_json(orient="records")   # NaN → null (valid JSON), unlike to_dict
 )
 
 with open(OUT_DIR / "gallery.json", "w", encoding="utf-8") as f:

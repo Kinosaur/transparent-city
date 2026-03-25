@@ -5,6 +5,15 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "storage.googleapis.com",
+        pathname: "/traffy_public_bucket/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
