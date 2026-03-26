@@ -5,9 +5,14 @@ Community-driven civic transparency platform for Bangkok. Built on [Traffy Fondu
 > เพราะเมืองที่ดี ต้องเริ่มจากการตั้งคำถามที่ถูก
 > *A better city starts with asking the right questions.*
 
-**Live pages (Phase 1):**
+Maintainer: [Kinosaur](https://github.com/Kinosaur/)
+
+**Live pages:**
 - `/th` or `/en` — Bangkok Overview: KPIs, monthly trends, top problem types
 - `/th/districts` or `/en/districts` — District Report Card: A–F grades, comparisons, stale ticket lists
+- `/th/leaderboard` or `/en/leaderboard` — Agency Leaderboard: resolution, speed, satisfaction, reopen metrics
+- `/th/gallery` or `/en/gallery` — Before/After Gallery: resolved issue photo pairs
+- `/th/map` or `/en/map` — Story-driven map: stale + low-satisfaction tickets, choropleth by district performance
 
 ---
 
@@ -19,7 +24,8 @@ Community-driven civic transparency platform for Bangkok. Built on [Traffy Fondu
 │   ├── data/               # Raw CSVs from Traffy — NOT in git (see below)
 │   ├── pipeline/
 │   │   ├── download.py     # Download monthly CSVs from Traffy open data
-│   │   └── process.py      # Clean → enrich → aggregate → export JSON
+│   │   ├── process.py      # Clean → enrich → aggregate → export JSON
+│   │   └── download_geojson.py  # One-time Bangkok district boundary download
 │   ├── public/data/        # Pipeline output (JSON) — intermediate, not served
 │   └── requirements.txt
 │
@@ -29,6 +35,13 @@ Community-driven civic transparency platform for Bangkok. Built on [Traffy Fondu
 │   ├── dictionaries/       # th.json + en.json translation strings
 │   ├── lib/types.ts        # Shared TypeScript types
 │   └── public/data/        # JSON files served as static assets ← COMMITTED
+│       ├── overview.json
+│       ├── districts.json
+│       ├── monthly_trends.json
+│       ├── orgs.json
+│       ├── gallery.json
+│       ├── points.json
+│       └── bangkok-districts.geojson
 │
 └── .github/workflows/
     └── update-data.yml     # Weekly data refresh (every Monday 09:00 BKK)
@@ -67,7 +80,16 @@ python backend/pipeline/process.py
 
 # 5. Copy output to frontend
 cp backend/public/data/*.json frontend/public/data/
+
+# 6. (One-time) Download district boundaries for map page
+python backend/pipeline/download_geojson.py
 ```
+
+> `download_geojson.py` requires `osm2geojson`. If missing, install once with:
+>
+> ```bash
+> pip install osm2geojson
+> ```
 
 ### Frontend
 
@@ -134,13 +156,27 @@ No secrets required — the workflow only reads public Traffy data and writes ba
 
 | Layer | Choice |
 |-------|--------|
-| Data pipeline | Python, pandas |
-| Framework | Next.js 16 (App Router, SSG) |
+| Data pipeline | Python, pandas, numpy |
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
 | Styling | Tailwind CSS v4 |
 | Charts | Recharts |
+| Mapping | Leaflet, react-leaflet, react-leaflet-cluster |
+| Motion | Framer Motion |
 | i18n | Native `[lang]` routing (TH/EN) |
 | Hosting | Vercel (free tier) |
 | CI/CD | GitHub Actions |
+
+---
+
+## Recent Milestones
+
+- `59a0cd4` — Phase 1 complete: backend pipeline + overview/district outputs
+- `6cb0350` — Refactor structure and add leaderboard/gallery pages
+- `04ae425` — Week 7–8 map feature: choropleth, clustering, story-driven filters
+- `6e49ad6` — Fix TypeScript casting for Leaflet icon prototype
+- `6fdb4c2` — Fix 3 mobile bugs
+- `4f5309b` — Improve chart tooltip/dropdown readability with opacity + blur updates
 
 ---
 
