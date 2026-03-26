@@ -35,7 +35,7 @@ type Dict = {
 type Props = {
   points: MapPoint[]
   districts: DistrictData[]
-  geojson: object
+  geojson: Record<string, unknown>
   dict: Dict
   lang: Locale
 }

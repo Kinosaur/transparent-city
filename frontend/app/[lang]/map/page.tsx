@@ -25,7 +25,7 @@ function loadData() {
   return {
     points: JSON.parse(fs.readFileSync(path.join(base, 'points.json'), 'utf-8')) as MapPoint[],
     districts: JSON.parse(fs.readFileSync(path.join(base, 'districts.json'), 'utf-8')) as DistrictData[],
-    geojson: JSON.parse(fs.readFileSync(path.join(base, 'bangkok-districts.geojson'), 'utf-8')),
+    geojson: JSON.parse(fs.readFileSync(path.join(base, 'bangkok-districts.geojson'), 'utf-8')) as Record<string, unknown>,
   }
 }
 

@@ -38,7 +38,7 @@ type Dict = {
 type Props = {
   points: MapPoint[]
   districts: DistrictData[]
-  geojson: { type: string; features: DistrictFeature[] }
+  geojson: Record<string, unknown>
   dict: Dict
   lang: Locale
 }
@@ -121,7 +121,8 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
         if (signal.aborted) return
 
         // Fix default icon paths broken by webpack
-        delete (L.Icon.Default.prototype as Record<string, unknown>)._getIconUrl
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        delete (L.Icon.Default.prototype as any)._getIconUrl
         L.Icon.Default.mergeOptions({
           iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
           iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
@@ -172,7 +173,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
 
       if (!showChoropleth) return
 
-      const layer = L.geoJSON(geojson as GeoJSON.FeatureCollection, {
+      const layer = L.geoJSON(geojson as unknown as GeoJSON.FeatureCollection, {
         style: (feature) => {
           const dName = feature?.properties?.district as string
           const d = districtMap.current.get(dName)
@@ -202,9 +203,9 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
             { sticky: true, className: 'leaflet-tooltip-dark' }
           )
         },
-      }).addTo(leafletMap.current)
+      }).addTo(leafletMap.current!)
 
-      choroplethRef.current = layer as unknown as import('leaflet').LayerGroup
+      choroplethRef.current = layer as unknown as import('leaflet').GeoJSON
     })()
   }, [ready, showChoropleth, metric, geojson, lang, dict])
 
