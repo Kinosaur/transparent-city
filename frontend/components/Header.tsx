@@ -20,7 +20,8 @@ export default function Header({ lang, dict }: Props) {
 
   function toggleLang() {
     // Persist the choice so the middleware remembers it on future visits
-    document.cookie = `lang=${otherLang}; path=/; max-age=31536000; SameSite=Lax`
+    const secure = window.location.protocol === 'https:' ? '; Secure' : ''
+    document.cookie = `lang=${otherLang}; path=/; max-age=31536000; SameSite=Lax${secure}`
     const newPath = pathname.replace(`/${lang}`, `/${otherLang}`)
     router.push(newPath)
   }
