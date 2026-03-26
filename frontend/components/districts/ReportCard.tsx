@@ -1,6 +1,7 @@
 'use client'
 
 import type { DistrictData, Locale } from '@/lib/types'
+import { districtName } from '@/lib/districts-en'
 
 type BkkAvg = {
   resolution_rate: number
@@ -191,7 +192,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
         {/* Comparison panel */}
         <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] px-5 py-4">
           <p className="text-sm font-semibold text-white mb-1">{dict.districts.vs_bkk}</p>
-          <p className="text-xs text-[--color-muted] mb-4">{d.district} — {dict.districts.comparison_subtitle}</p>
+          <p className="text-xs text-[--color-muted] mb-4">{districtName(d.district, lang)} — {dict.districts.comparison_subtitle}</p>
           <MetricRow
             label={dict.districts.resolution_rate}
             districtVal={d.resolution_rate}

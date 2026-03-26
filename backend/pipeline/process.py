@@ -151,19 +151,33 @@ def pct(numerator, denominator):
         return None
     return round(numerator / denominator * 100, 1)
 
-def letter_grade(score):
-    """Score 0-100 → A/B/C/D/F"""
-    if score is None:
-        return "N/A"
-    if score >= 80:
-        return "A"
-    if score >= 65:
-        return "B"
-    if score >= 50:
-        return "C"
-    if score >= 35:
-        return "D"
-    return "F"
+def assign_percentile_grades(district_list: list) -> None:
+    """
+    Assign A–F by percentile rank so grades spread meaningfully across 50 districts.
+      Top 20 % → A  (~10)   50–80 % → B  (~15)
+      20–50 % → C  (~15)    5–20 %  → D  (~7)   Bottom 5 % → F (~3)
+    """
+    valid = sorted(
+        [d for d in district_list if d["composite_score"] is not None],
+        key=lambda x: x["composite_score"],
+        reverse=True,
+    )
+    n = len(valid)
+    for i, d in enumerate(valid):
+        pctile = 1.0 - (i / n)
+        if pctile > 0.80:
+            d["grade"] = "A"
+        elif pctile > 0.50:
+            d["grade"] = "B"
+        elif pctile > 0.20:
+            d["grade"] = "C"
+        elif pctile > 0.05:
+            d["grade"] = "D"
+        else:
+            d["grade"] = "F"
+    for d in district_list:
+        if d["composite_score"] is None:
+            d["grade"] = "N/A"
 
 def district_score(row):
     """
@@ -319,9 +333,10 @@ for dist, g in df.groupby("district"):
         "worst_stale": worst_records,
     }
     row["composite_score"] = district_score(row)
-    row["grade"] = letter_grade(row["composite_score"])
+    row["grade"] = "N/A"  # assigned below via percentile
     district_list.append(row)
 
+assign_percentile_grades(district_list)
 district_list.sort(key=lambda x: x["total_tickets"], reverse=True)
 
 with open(OUT_DIR / "districts.json", "w", encoding="utf-8") as f:
@@ -391,6 +406,48 @@ gallery_sample = json.loads(
 with open(OUT_DIR / "gallery.json", "w", encoding="utf-8") as f:
     json.dump(gallery_sample, f, ensure_ascii=False, indent=2)
 print(f"  ✓ gallery.json — {len(gallery_sample)} before/after pairs (from {len(gallery_df):,} total)")
+
+
+# ── 4f. Map points (stale + low-satisfaction tickets with valid coords) ────────
+print("▶ Building points.json...")
+
+# Only tickets with valid coordinates
+has_coords = df["lat"].notna() & df["lon"].notna()
+
+# Stale tickets — take the oldest 15 000 (most compelling stories)
+stale_pts = (
+    df[has_coords & df["is_stale"]]
+    .assign(days_open=lambda x: (now - x["timestamp"]).dt.days)
+    .nlargest(15_000, "days_open")[["ticket_id", "lat", "lon", "type", "district", "days_open", "star"]]
+    .copy()
+)
+stale_pts["flag"] = "stale"
+
+# Low-satisfaction tickets (star ≤ 2, resolved so we know the outcome)
+low_sat_pts = (
+    df[has_coords & df["is_resolved"] & (df["star"] <= 2)]
+    .assign(days_open=lambda x: (x["resolution_days"]).round(0))
+    .sample(min(10_000, (has_coords & df["is_resolved"] & (df["star"] <= 2)).sum()), random_state=42)
+    [["ticket_id", "lat", "lon", "type", "district", "days_open", "star"]]
+    .copy()
+)
+low_sat_pts["flag"] = "low_sat"
+
+points_df = (
+    pd.concat([stale_pts, low_sat_pts])
+    .drop_duplicates(subset=["ticket_id"])
+    .reset_index(drop=True)
+)
+points_df["lat"] = points_df["lat"].round(5)
+points_df["lon"] = points_df["lon"].round(5)
+points_df["days_open"] = points_df["days_open"].where(points_df["days_open"].notna(), None)
+points_df["star"] = points_df["star"].where(points_df["star"].notna(), None)
+
+points_records = json.loads(points_df.to_json(orient="records"))
+
+with open(OUT_DIR / "points.json", "w", encoding="utf-8") as f:
+    json.dump(points_records, f, ensure_ascii=False)
+print(f"  ✓ points.json — {len(points_records):,} map points ({stale_pts.shape[0]:,} stale + {low_sat_pts.shape[0]:,} low-sat)")
 
 
 # ── Summary ───────────────────────────────────────────────────────────────────

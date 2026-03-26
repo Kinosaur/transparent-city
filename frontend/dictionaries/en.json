@@ -112,6 +112,23 @@
     "showing": "Showing",
     "photos": "photos"
   },
+  "map": {
+    "title": "Explore Map",
+    "subtitle": "Where are Bangkok's unresolved and low-rated tickets?",
+    "filter_all": "All",
+    "filter_stale": "Stale (90d+)",
+    "filter_low_sat": "Low Rating (≤2★)",
+    "choropleth_label": "District Shading",
+    "metric_resolution": "Resolution Rate",
+    "metric_stale": "Stale Rate",
+    "metric_speed": "Median Fix Time",
+    "popup_days_open": "Days open",
+    "popup_star": "Rating",
+    "popup_district": "District",
+    "popup_type": "Type",
+    "loading": "Loading map…",
+    "no_results": "No tickets match the current filter"
+  },
   "footer": {
     "source": "Data source",
     "credit": "Data from Traffy Fondue (traffy.in.th) — Bangkok's civic reporting platform",

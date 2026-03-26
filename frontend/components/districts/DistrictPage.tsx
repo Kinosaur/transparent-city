@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
 import type { DistrictData, Locale } from '@/lib/types'
 import DistrictSelector from './DistrictSelector'
 import ReportCard from './ReportCard'
@@ -77,21 +78,39 @@ export default function DistrictPage({ districts, bkkAvg, dict, lang }: Props) {
         selected={selected}
         onSelect={setSelected}
         placeholder={dict.districts.select_placeholder}
+        lang={lang}
       />
 
       {/* Report card or empty state */}
-      {selected ? (
-        <ReportCard
-          district={selected}
-          bkkAvg={bkkAvg}
-          dict={dict}
-          lang={lang}
-        />
-      ) : (
-        <div className="flex items-center justify-center h-48 rounded-xl border border-dashed border-[--color-border] text-[--color-muted]">
-          {dict.districts.select_prompt}
-        </div>
-      )}
+      <AnimatePresence initial={false} mode="wait">
+        {selected ? (
+          <motion.div
+            key={selected.district}
+            initial={{ opacity: 0, y: 14 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.22, ease: 'easeOut' }}
+          >
+            <ReportCard
+              district={selected}
+              bkkAvg={bkkAvg}
+              dict={dict}
+              lang={lang}
+            />
+          </motion.div>
+        ) : (
+          <motion.div
+            key="empty"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.15 }}
+            className="flex items-center justify-center h-48 rounded-xl border border-dashed border-white/10 text-[--color-muted]"
+          >
+            {dict.districts.select_prompt}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   )
 }

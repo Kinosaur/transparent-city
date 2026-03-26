@@ -4,6 +4,7 @@ import fs from 'fs'
 import path from 'path'
 import { getDictionary, hasLocale } from './dictionaries'
 import type { OverviewData } from '@/lib/types'
+import { formatDate } from '@/lib/districts-en'
 import ProvocativeStat from '@/components/ProvocativeStat'
 import KpiGrid from '@/components/KpiGrid'
 import MonthlyChart from '@/components/MonthlyChart'
@@ -59,8 +60,8 @@ export default async function OverviewPage({ params }: PageProps<'/[lang]'>) {
         <p className="mt-2 text-[--color-subtle]">
           {dict.overview.subtitle} ·{' '}
           <span className="text-[--color-muted]">
-            {dict.overview.data_as_of} {data.data_range.from} {dict.overview.to}{' '}
-            {data.data_range.to}
+            {dict.overview.data_as_of} {formatDate(data.data_range.from, lang)} {dict.overview.to}{' '}
+            {formatDate(data.data_range.to, lang)}
           </span>
         </p>
       </div>

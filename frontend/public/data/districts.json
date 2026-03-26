@@ -6,7 +6,7 @@
     "resolution_rate": 76.7,
     "median_resolution_days": 6.0,
     "avg_satisfaction": 4.05,
-    "stale_tickets": 13134,
+    "stale_tickets": 13155,
     "reopen_rate": 5.6,
     "top_types": [
       {
@@ -100,41 +100,41 @@
       {
         "ticket_id": "2022-8QL8RE",
         "type": "ถนน",
-        "days_open": 1444,
+        "days_open": 1445,
         "address": "93 ถ. ลาดพร้าว แขวง จอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
         "last_activity": "2024-03-06 06:39:54.014906"
       },
       {
         "ticket_id": "2022-GHX4QT",
         "type": "ไฟฟ้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "1 ถ. กำแพงเพชร 6 แขวง ลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
         "last_activity": "2023-07-07 13:30:05.813649"
       },
       {
         "ticket_id": "2022-E4GVVN",
         "type": "ทางเท้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "1418 11 ถ. พหลโยธิน แขวง จอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
         "last_activity": "2024-07-30 15:41:49.487318"
       },
       {
         "ticket_id": "2022-9MYKLQ",
         "type": "ความสะอาด",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "พหลโยธิน 24 แขวง จตุจักร เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
         "last_activity": "2023-06-29 12:16:20.696392"
       },
       {
         "ticket_id": "2022-Q8PQ6L",
         "type": "ไฟฟ้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "ถ. รัชดาภิเษก แขวง จอมพล เขตจตุจักร กรุงเทพมหานคร 10900 ประเทศไทย",
         "last_activity": "2023-01-27 14:44:50.275589"
       }
     ],
     "composite_score": 78.1,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "คลองเตย",
@@ -143,7 +143,7 @@
     "resolution_rate": 73.3,
     "median_resolution_days": 4.2,
     "avg_satisfaction": 3.75,
-    "stale_tickets": 9356,
+    "stale_tickets": 9367,
     "reopen_rate": 5.7,
     "top_types": [
       {
@@ -237,41 +237,41 @@
       {
         "ticket_id": "2022-9FD6XK",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "764 ถ. สุขุมวิท แขวง คลองตัน เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2023-03-15 13:23:52.208901"
       },
       {
         "ticket_id": "2022-83D2R8",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "211 ซอย นภาศัพท์ แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2022-07-01 19:55:56.271001"
       },
       {
         "ticket_id": "2022-4G7Y34",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "211 ซอย นภาศัพท์ แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2022-07-01 19:57:01.119222"
       },
       {
         "ticket_id": "2022-EUDD2G",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "211 ซอย นภาศัพท์ แขวง พระโขนง เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2022-07-01 20:06:31.032782"
       },
       {
         "ticket_id": "2022-HR36EL",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "1 ซ. สุขุมวิท 26 แขวง คลองตัน เขตคลองเตย กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2022-07-02 06:34:03.316105"
       }
     ],
     "composite_score": 77.3,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "ประเวศ",
@@ -280,7 +280,7 @@
     "resolution_rate": 82.0,
     "median_resolution_days": 7.8,
     "avg_satisfaction": 3.84,
-    "stale_tickets": 6086,
+    "stale_tickets": 6092,
     "reopen_rate": 8.3,
     "top_types": [
       {
@@ -374,41 +374,41 @@
       {
         "ticket_id": "2022-GKFTKX",
         "type": "เสนอแนะ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "223/12 ม.5 ถนนศรีนครินทร์ ตำบลสำโรงเหนือ อำเภอเมือง สมุทรปราการ 10270 แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2022-07-11 08:29:40.255346"
       },
       {
         "ticket_id": "2022-9Q4D48",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "223/12 ม.5 ถนนศรีนครินทร์ ตำบลสำโรงเหนือ อำเภอเมือง สมุทรปราการ 10270 แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2023-05-30 14:47:01.377816"
       },
       {
         "ticket_id": "2022-6HHYNU",
         "type": "เสนอแนะ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "223/12 ม.5 ถนนศรีนครินทร์ ตำบลสำโรงเหนือ อำเภอเมือง สมุทรปราการ 10270 แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2023-05-30 14:46:45.818026"
       },
       {
         "ticket_id": "2022-9EUTK8",
         "type": "จราจร",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "ถนน ศรีนครินทร์ - ซอย ศรีนครินทร์ 56 แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2022-07-07 08:54:08.958271"
       },
       {
         "ticket_id": "2022-HEHEXR",
         "type": "ถนน",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "576 ถนน ศรีนครินทร์ แขวง หนองบอน เขต ประเวศ กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2022-08-10 15:28:40.560480"
       }
     ],
     "composite_score": 76.2,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "บางกะปิ",
@@ -417,7 +417,7 @@
     "resolution_rate": 74.3,
     "median_resolution_days": 9.9,
     "avg_satisfaction": 3.96,
-    "stale_tickets": 8847,
+    "stale_tickets": 8851,
     "reopen_rate": 5.4,
     "top_types": [
       {
@@ -511,41 +511,41 @@
       {
         "ticket_id": "2022-MMTVYB",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "69 ถนน สุขาภิบาล 2 แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2023-12-09 12:54:49.546008"
       },
       {
         "ticket_id": "2022-38PPN8",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "50 ถนน รามคำแหง แขวง หัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2023-02-01 11:59:36.070944"
       },
       {
         "ticket_id": "2022-9FVKK8",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "QM92+764 ถ. เสรีไทย แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2022-07-01 12:43:27.181209"
       },
       {
         "ticket_id": "2022-NRTUVR",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "เดอะมอลล์บางกะปิ แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2022-07-01 14:24:51.059550"
       },
       {
         "ticket_id": "2022-AL9G2H",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "RJ8J+F36 ซอย โยธินพัฒนา 3 แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2023-02-01 13:36:09.683140"
       }
     ],
     "composite_score": 73.0,
-    "grade": "B"
+    "grade": "D"
   },
   {
     "district": "วัฒนา",
@@ -554,7 +554,7 @@
     "resolution_rate": 76.2,
     "median_resolution_days": 9.2,
     "avg_satisfaction": 3.77,
-    "stale_tickets": 8040,
+    "stale_tickets": 8048,
     "reopen_rate": 5.9,
     "top_types": [
       {
@@ -648,41 +648,41 @@
       {
         "ticket_id": "2022-KED6KW",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "76/1 ซอย เอกมัย 22 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2023-03-13 14:01:28.287975"
       },
       {
         "ticket_id": "2022-A7GUZP",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "921 ถ. สุขุมวิท แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2023-11-24 20:23:05.948154"
       },
       {
         "ticket_id": "2022-6FDZVP",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "145 สุขุมวิท ซ. 63 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2023-02-23 10:03:58.289428"
       },
       {
         "ticket_id": "2022-APGUUT",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "582/3-4 สุขุมวิท ซ. 63 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2023-12-14 15:21:08.616215"
       },
       {
         "ticket_id": "2022-K7MNWB",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "139 ชั้น 2 ห้อง 205-206 อาคาร ดิโอพลัส ซอย ทองหล่อ 10 แขวง คลองตันเหนือ เขต วัฒนา กรุงเทพมหานคร 10110 แขวง คลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110 ประเทศไทย",
         "last_activity": "2023-03-13 14:02:21.558316"
       }
     ],
     "composite_score": 73.4,
-    "grade": "B"
+    "grade": "D"
   },
   {
     "district": "ปทุมวัน",
@@ -691,7 +691,7 @@
     "resolution_rate": 74.4,
     "median_resolution_days": 9.0,
     "avg_satisfaction": 3.38,
-    "stale_tickets": 8193,
+    "stale_tickets": 8199,
     "reopen_rate": 7.4,
     "top_types": [
       {
@@ -785,41 +785,41 @@
       {
         "ticket_id": "2022-MN6CP8",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "1873 ถ. อังรีดูนังต์ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
         "last_activity": "2023-03-09 09:51:40.703793"
       },
       {
         "ticket_id": "2022-LQB8H4",
         "type": "ทางเท้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "อาคาร Q House เพลินจิต ชั้น 11 ถนน เพลินจิต แขวง ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
         "last_activity": "2023-03-03 21:34:00.775636"
       },
       {
         "ticket_id": "2022-E2E7G6",
         "type": "ทางเท้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "162 ถนน จรัสเมือง แขวง รองเมือง เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
         "last_activity": "2023-01-24 06:59:37.796475"
       },
       {
         "ticket_id": "2022-43DRGF",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "เลขที่ 6 หมู่บ้าน ตลาดสามย่าน แขวง วังใหม่ เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
         "last_activity": "2022-07-10 11:46:12.026544"
       },
       {
         "ticket_id": "2022-797GPT",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "20 ซอย ร่วมฤดี 2 แขวง ลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330 ประเทศไทย",
         "last_activity": "2023-03-03 21:30:54.238924"
       }
     ],
     "composite_score": 70.6,
-    "grade": "B"
+    "grade": "F"
   },
   {
     "district": "บางแค",
@@ -828,7 +828,7 @@
     "resolution_rate": 82.2,
     "median_resolution_days": 2.9,
     "avg_satisfaction": 4.2,
-    "stale_tickets": 5205,
+    "stale_tickets": 5210,
     "reopen_rate": 6.2,
     "top_types": [
       {
@@ -922,35 +922,35 @@
       {
         "ticket_id": "2022-CMAYGV",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "60 พัฒนาการ แขวง บางแค เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-08-29 14:34:20.116533"
       },
       {
         "ticket_id": "2022-GGYMEH",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "104/3 ซอย หมู่บ้านคาซ่ายูเรก้า แขวง หลักสอง เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-07-04 20:45:18.416766"
       },
       {
         "ticket_id": "2022-6LPVAY",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "1145 2 ถ. บางแวก แขวง บางไผ่ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-12-21 11:59:49.828740"
       },
       {
         "ticket_id": "2022-CP99MY",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "34 ถ. บางแวก แขวง บางไผ่ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2024-12-23 14:15:30.528287"
       },
       {
         "ticket_id": "2022-HCFGMT",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "836 ถ. เพชรเกษม แขวง บางแคเหนือ เขตบางแค กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-09-04 14:36:06.357655"
       }
@@ -965,7 +965,7 @@
     "resolution_rate": 75.3,
     "median_resolution_days": 8.1,
     "avg_satisfaction": 3.8,
-    "stale_tickets": 6750,
+    "stale_tickets": 6776,
     "reopen_rate": 5.7,
     "top_types": [
       {
@@ -1059,41 +1059,41 @@
       {
         "ticket_id": "2022-7V4WWM",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "1087/168 ถนน เพชรบุรี แขวง มักกะสัน เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2023-04-13 16:33:28.485138"
       },
       {
         "ticket_id": "2022-FNP6KU",
         "type": "จราจร",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "362/2-3 Phetburi Rd. Rajthevee,Bangkok 10400 แขวง ถนนเพชรบุรี เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2022-07-01 18:50:07.114493"
       },
       {
         "ticket_id": "2022-FULD4P",
         "type": "ถนน",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "เลขที่ 0099 หมู่ ชั้น G หมู่บ้าน ห้างซิตี้คอมเพล็กซ์ ถนน เพชรบุรี แขวง ถนนพญาไท เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2022-07-01 22:35:54.721147"
       },
       {
         "ticket_id": "2022-GTEQ2B",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "46/15 ถนน เพชรบุรี แขวง ถนนเพชรบุรี เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2022-07-05 09:10:14.609756"
       },
       {
         "ticket_id": "2022-AEZ22X",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "1217 ถ. ศรีอยุธยา แขวง ทุ่งพญาไท เขตราชเทวี กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2022-07-05 09:10:51.118258"
       }
     ],
     "composite_score": 74.4,
-    "grade": "B"
+    "grade": "D"
   },
   {
     "district": "บางเขน",
@@ -1102,7 +1102,7 @@
     "resolution_rate": 84.4,
     "median_resolution_days": 4.2,
     "avg_satisfaction": 4.06,
-    "stale_tickets": 4151,
+    "stale_tickets": 4153,
     "reopen_rate": 6.6,
     "top_types": [
       {
@@ -1196,35 +1196,35 @@
       {
         "ticket_id": "2022-6XCUP2",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "97 1-2 ถ. วัชรพล แขวง ท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2022-07-11 09:31:38.892870"
       },
       {
         "ticket_id": "2022-KZQ4EM",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "9/50 พหลโยธิน แขวง อนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2022-07-07 22:40:15.670477"
       },
       {
         "ticket_id": "2022-KETR4P",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "28 91 หมู่4 ซอย รามอินทรา 19 แขวง ท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2023-09-15 10:48:18.751881"
       },
       {
         "ticket_id": "2022-CKRWXH",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "51/22 รามอินทรา 19 แยก 15 แขวง อนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2022-07-12 14:37:24.851237"
       },
       {
         "ticket_id": "2022-KDNGDM",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "79/10 หมู่ 4 ถนนรามอินทรา แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 แขวง อนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2022-07-10 18:30:41.248061"
       }
@@ -1239,7 +1239,7 @@
     "resolution_rate": 73.9,
     "median_resolution_days": 8.7,
     "avg_satisfaction": 3.85,
-    "stale_tickets": 6767,
+    "stale_tickets": 6773,
     "reopen_rate": 6.5,
     "top_types": [
       {
@@ -1333,41 +1333,41 @@
       {
         "ticket_id": "2022-L8T3K2",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "1038 ซอย ริมคลองสะพาน 1 แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2023-03-23 15:38:17.456664"
       },
       {
         "ticket_id": "2022-KNKGE9",
         "type": "ความสะอาด",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "670/3 ถนน ดินแดง แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2023-09-13 15:05:31.872224"
       },
       {
         "ticket_id": "2022-PBM3A8",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "7 ถนน ประชาสงเคราะห์ แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2022-07-06 10:30:48.546517"
       },
       {
         "ticket_id": "2022-9Z8EVV",
         "type": "ถนน",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "245/6 ซอย อยู่เจริญแยก 10 แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2024-01-31 13:57:44.409326"
       },
       {
         "ticket_id": "2022-8TWLXK",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "90 ซอย รัชดาภิเษก 7 แขวง ห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2024-01-03 12:29:03.045913"
       }
     ],
     "composite_score": 73.0,
-    "grade": "B"
+    "grade": "D"
   },
   {
     "district": "บางกอกน้อย",
@@ -1376,7 +1376,7 @@
     "resolution_rate": 79.0,
     "median_resolution_days": 4.1,
     "avg_satisfaction": 3.92,
-    "stale_tickets": 5190,
+    "stale_tickets": 5193,
     "reopen_rate": 5.5,
     "top_types": [
       {
@@ -1470,41 +1470,41 @@
       {
         "ticket_id": "2022-ELD6EQ",
         "type": "สำรวจขึ้นทะเบียน",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "8 Moo 4Taling Chan แขวง บางขุนนนท์ เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2023-03-13 15:05:42.574468"
       },
       {
         "ticket_id": "2022-HZR9K7",
         "type": "ถนน",
-        "days_open": 1358,
+        "days_open": 1359,
         "address": "81 8-9 ถนน อิสรภาพ แขวง บ้านช่างหล่อ เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2023-03-15 13:49:00.514532"
       },
       {
         "ticket_id": "2022-7BYKX6",
         "type": "ไฟฟ้า",
-        "days_open": 1358,
+        "days_open": 1359,
         "address": "1066 ถ. พรานนก แขวง บ้านช่างหล่อ เขตบางกอกน้อย กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2024-04-28 01:41:51.234454"
       },
       {
         "ticket_id": "2022-FK9LPZ",
         "type": "อื่นๆ",
-        "days_open": 1355,
+        "days_open": 1356,
         "address": "94 ถนนบรมราชชนนี แขวง บางบำหรุ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2024-05-07 16:11:44.898516"
       },
       {
         "ticket_id": "2022-49ANWV",
         "type": "อื่นๆ",
-        "days_open": 1355,
+        "days_open": 1356,
         "address": "94 ถนนบรมราชชนนี แขวง บางบำหรุ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2024-05-09 14:30:54.500741"
       }
     ],
     "composite_score": 80.4,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "พระนคร",
@@ -1513,7 +1513,7 @@
     "resolution_rate": 82.1,
     "median_resolution_days": 3.9,
     "avg_satisfaction": 4.04,
-    "stale_tickets": 4485,
+    "stale_tickets": 4489,
     "reopen_rate": 7.5,
     "top_types": [
       {
@@ -1607,41 +1607,41 @@
       {
         "ticket_id": "2022-6NFTEU",
         "type": "ทางเท้า",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "PGX3+V4Q แขวง สำราญราษฎร์ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
         "last_activity": "2023-02-15 19:38:55.507952"
       },
       {
         "ticket_id": "2022-H8P34Q",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "ถ. มหาไชย แขวง วัดบวรนิเวศ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
         "last_activity": "2023-03-14 22:29:33.153211"
       },
       {
         "ticket_id": "2022-9MHEZT",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "ถนนมหาไชย แขวงวังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 902 แขวง วังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
         "last_activity": "2023-03-08 14:16:26.128571"
       },
       {
         "ticket_id": "2022-GQ3F92",
         "type": "ความปลอดภัย",
-        "days_open": 1359,
+        "days_open": 1360,
         "address": "116 ถนน วิสุทธิกษัตริย์ แขวง บางขุนพรหม เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
         "last_activity": "2024-04-03 17:43:10.952103"
       },
       {
         "ticket_id": "2022-4NTCCW",
         "type": "ถนน",
-        "days_open": 1358,
+        "days_open": 1359,
         "address": "24/3 ถนนบ้านหม้อ แขวง วังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 10200 ประเทศไทย",
         "last_activity": "2024-02-27 08:45:01.099182"
       }
     ],
     "composite_score": 81.4,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "ลาดกระบัง",
@@ -1650,7 +1650,7 @@
     "resolution_rate": 79.1,
     "median_resolution_days": 9.4,
     "avg_satisfaction": 3.83,
-    "stale_tickets": 4969,
+    "stale_tickets": 4972,
     "reopen_rate": 5.9,
     "top_types": [
       {
@@ -1744,41 +1744,41 @@
       {
         "ticket_id": "2022-BVMK8Z",
         "type": "ทางเท้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "Latkrabang PPHW+4WH แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย",
         "last_activity": "2022-07-05 08:53:06.232987"
       },
       {
         "ticket_id": "2022-9BV82K",
         "type": "จราจร",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "PQJ6+36 กรุงเทพมหานคร ประเทศไทย",
         "last_activity": "2022-07-02 09:51:58.732139"
       },
       {
         "ticket_id": "2022-GAT8X8",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "Latkrabang PPHW+4WH แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย",
         "last_activity": "2022-07-05 08:54:31.719441"
       },
       {
         "ticket_id": "2022-GTUACD",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "Latkrabang PPHW+4WH แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย",
         "last_activity": "2022-07-05 08:54:00.743328"
       },
       {
         "ticket_id": "2022-CHZNEC",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "พระจอมเกล้าลาดกระบัง แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520 ประเทศไทย",
         "last_activity": "2022-07-05 08:53:32.713444"
       }
     ],
     "composite_score": 74.6,
-    "grade": "B"
+    "grade": "D"
   },
   {
     "district": "สวนหลวง",
@@ -1787,7 +1787,7 @@
     "resolution_rate": 72.2,
     "median_resolution_days": 6.8,
     "avg_satisfaction": 3.95,
-    "stale_tickets": 6944,
+    "stale_tickets": 6962,
     "reopen_rate": 5.0,
     "top_types": [
       {
@@ -1881,41 +1881,41 @@
       {
         "ticket_id": "2022-HFZVKH",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "1315 ถนน รามคำแหง แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2022-08-06 20:00:45.876899"
       },
       {
         "ticket_id": "2022-CZNKL3",
         "type": "ถนน",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "88 ถนน กำแพงเพชร ๗ แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2022-08-06 20:01:58.435140"
       },
       {
         "ticket_id": "2022-4NEYC2",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "992 ซอย อ่อนนุช 30 แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2023-12-26 13:45:06.795494"
       },
       {
         "ticket_id": "2022-UKREG3",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "1106 ซ. ศรีนครินทร์ 24 แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2023-09-25 11:34:40.868898"
       },
       {
         "ticket_id": "2022-EDUQ2D",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "1 ถ. พัฒนาการ แขวง สวนหลวง แขวงสวนหลวง กรุงเทพมหานคร 10250 ประเทศไทย",
         "last_activity": "2023-01-09 11:19:31.828227"
       }
     ],
     "composite_score": 75.4,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "ห้วยขวาง",
@@ -1924,7 +1924,7 @@
     "resolution_rate": 67.9,
     "median_resolution_days": 7.1,
     "avg_satisfaction": 4.01,
-    "stale_tickets": 7938,
+    "stale_tickets": 7944,
     "reopen_rate": 4.5,
     "top_types": [
       {
@@ -2018,41 +2018,41 @@
       {
         "ticket_id": "2022-DHHF3E",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "ถนน พระราม 9 แขวง บางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2023-03-26 11:56:32.849450"
       },
       {
         "ticket_id": "2022-LBXBCK",
         "type": "ความสะอาด",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "1831/10 ถนน เพชรบุรี แขวง บางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2022-07-01 08:40:02.525790"
       },
       {
         "ticket_id": "2022-GMKHCQ",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "12 Thanon Rama 9 แขวง ห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2022-07-01 10:28:12.131424"
       },
       {
         "ticket_id": "2022-A8D2D4",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "225 ถ. สุทธิสารวินิจฉัย แขวง สามเสนนอก เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2024-05-04 07:48:19.545302"
       },
       {
         "ticket_id": "2022-3YYFXE",
         "type": "ถนน",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "100/11 ถ. อโศก - ดินแดง แขวง บางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2024-07-08 17:37:18.143285"
       }
     ],
     "composite_score": 73.8,
-    "grade": "B"
+    "grade": "D"
   },
   {
     "district": "บางรัก",
@@ -2061,7 +2061,7 @@
     "resolution_rate": 75.5,
     "median_resolution_days": 3.7,
     "avg_satisfaction": 3.74,
-    "stale_tickets": 5804,
+    "stale_tickets": 5811,
     "reopen_rate": 7.2,
     "top_types": [
       {
@@ -2155,41 +2155,41 @@
       {
         "ticket_id": "2022-KD7DLW",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "166/4 สีลม แขวง สุริยวงศ์ เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
         "last_activity": "2022-07-01 09:09:26.002987"
       },
       {
         "ticket_id": "2022-GVF92C",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "131 ถนน ศรีเวียง แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
         "last_activity": "2024-03-06 10:05:55.444606"
       },
       {
         "ticket_id": "2022-P6VU2L",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "ป้ายรถประจำทาง สถานีรถไฟฟ้าสุรศักดิ์ แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
         "last_activity": "2022-11-03 11:01:54.866106"
       },
       {
         "ticket_id": "2022-C2XZB6",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "เลขที่ 160 ถ. สาทรเหนือ แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
         "last_activity": "2023-03-29 15:37:27.925480"
       },
       {
         "ticket_id": "2022-7ZNGZU",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "สีลม แขวง สีลม เขตบางรัก กรุงเทพมหานคร 10500 ประเทศไทย",
         "last_activity": "2022-08-18 20:20:04.139649"
       }
     ],
     "composite_score": 77.9,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "บางขุนเทียน",
@@ -2198,7 +2198,7 @@
     "resolution_rate": 76.0,
     "median_resolution_days": 4.7,
     "avg_satisfaction": 4.07,
-    "stale_tickets": 5632,
+    "stale_tickets": 5635,
     "reopen_rate": 6.1,
     "top_types": [
       {
@@ -2292,41 +2292,41 @@
       {
         "ticket_id": "2022-LW6P9U",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "JFG8+QH กรุงเทพมหานคร ประเทศไทย",
         "last_activity": "2022-08-18 08:15:58.944610"
       },
       {
         "ticket_id": "2022-BKKVD3",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "698 1 ถ. พระราม 2 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-05 07:19:03.015714"
       },
       {
         "ticket_id": "2022-67A8CK",
         "type": "เสนอแนะ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "696/2 ถ. พระราม 2 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-03 06:10:15.307770"
       },
       {
         "ticket_id": "2022-7MVAGF",
         "type": "จราจร",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "35 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-01 15:59:16.809459"
       },
       {
         "ticket_id": "2022-442KC9",
         "type": "จราจร",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "47/5 ซอย 73 แขวง แสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-03 22:41:04.389616"
       }
     ],
     "composite_score": 78.9,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "สาทร",
@@ -2335,7 +2335,7 @@
     "resolution_rate": 79.5,
     "median_resolution_days": 3.1,
     "avg_satisfaction": 3.9,
-    "stale_tickets": 4376,
+    "stale_tickets": 4379,
     "reopen_rate": 5.9,
     "top_types": [
       {
@@ -2429,41 +2429,41 @@
       {
         "ticket_id": "2022-HB7Z8A",
         "type": "ทางเท้า",
-        "days_open": 1531,
+        "days_open": 1532,
         "address": "1357/1-4 ซอย จันทน์ 23/2 แขวง ทุ่งวัดดอน เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2022-09-15 22:51:15.433811"
       },
       {
         "ticket_id": "2022-D9Z7ZE",
         "type": "ทางเท้า",
-        "days_open": 1527,
+        "days_open": 1528,
         "address": "214 ถนนจันทน์ แขวง ทุ่งวัดดอน เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2024-02-02 17:51:45.865074"
       },
       {
         "ticket_id": "2022-BVCTXW",
         "type": "ไฟฟ้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "220 ซอย จันทน์ 18/3 แขวง ทุ่งวัดดอน เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2023-04-10 13:38:01.409699"
       },
       {
         "ticket_id": "2022-ADBRYZ",
         "type": "เสนอแนะ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "ป้ายรถเมล์ แขวง ทุ่งมหาเมฆ สาธรใต้ แขวง ทุ่งมหาเมฆ เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2023-03-13 18:07:37.934612"
       },
       {
         "ticket_id": "2022-78GBWT",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "33 ซอย สาธร 15 แขวง ยานนาวา เขต สาทร กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2023-04-10 13:37:35.990139"
       }
     ],
     "composite_score": 81.4,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "บางซื่อ",
@@ -2566,41 +2566,41 @@
       {
         "ticket_id": "2022-78AFKK",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "174 ถนน เตชะวณิช แขวง บางซื่อ เขตบางซื่อ กรุงเทพมหานคร 10300 ประเทศไทย",
         "last_activity": "2022-07-01 15:26:52.088370"
       },
       {
         "ticket_id": "2022-9KHZEU",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "10 ซอย ประชานุกูล 1 แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย",
         "last_activity": "2025-04-01 10:57:35.540650"
       },
       {
         "ticket_id": "2022-FWEN62",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "102/104 ซอย เลียบทางรถไฟ แขวง บางซื่อ เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย",
         "last_activity": "2023-04-12 03:32:00.927255"
       },
       {
         "ticket_id": "2022-CBREL7",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "Soi Nopphakao 4  Bang Sue  Bang Sue  Bangkok แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย",
         "last_activity": "2022-12-06 14:58:42.029211"
       },
       {
         "ticket_id": "2022-MRKBN8",
         "type": "ความปลอดภัย",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "2-4 ถนน วงศ์สว่าง แขวง วงศ์สว่าง เขตบางซื่อ กรุงเทพมหานคร 10800 ประเทศไทย",
         "last_activity": "2023-01-30 16:22:19.317837"
       }
     ],
     "composite_score": 81.7,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "ธนบุรี",
@@ -2609,7 +2609,7 @@
     "resolution_rate": 85.1,
     "median_resolution_days": 2.9,
     "avg_satisfaction": 4.0,
-    "stale_tickets": 3106,
+    "stale_tickets": 3107,
     "reopen_rate": 8.3,
     "top_types": [
       {
@@ -2703,35 +2703,35 @@
       {
         "ticket_id": "2022-HNE3UN",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "172/8 ถนน สมเด็จพระเจ้าตากสิน แขวง บุคคโล เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-08-10 17:46:52.624751"
       },
       {
         "ticket_id": "2022-8BLT86",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "10600 ซอย เทอดไท 34 แขวง ตลาดพลู เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-07-12 12:34:29.296648"
       },
       {
         "ticket_id": "2022-MTNGVY",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "575/1 ถนน สมเด็จพระเจ้าตากสิน แขวง บุคคโล เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-07-11 12:26:08.049719"
       },
       {
         "ticket_id": "2022-BRQT2R",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "ห้างหุ้นส่วนจำกัด เวิลด์ สติ๊กเกอร์ แขวง บางยี่เรือ เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2024-09-03 10:26:30.038793"
       },
       {
         "ticket_id": "2022-DDDUB2",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "124 ซอย สมเด็จพระเจ้าตากสิน 22 แขวง บุคคโล เขตธนบุรี กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-08-10 17:50:45.294871"
       }
@@ -2746,7 +2746,7 @@
     "resolution_rate": 83.5,
     "median_resolution_days": 5.1,
     "avg_satisfaction": 4.19,
-    "stale_tickets": 3347,
+    "stale_tickets": 3352,
     "reopen_rate": 6.3,
     "top_types": [
       {
@@ -2840,35 +2840,35 @@
       {
         "ticket_id": "2022-MVZC4P",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "60 ถนนสังคมสงเคราะห์ 24 แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-01 16:17:26.376273"
       },
       {
         "ticket_id": "2022-4G86AA",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "2 ซอย นาคนิวาส 48 แยก 8 แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-01 16:14:21.262718"
       },
       {
         "ticket_id": "2022-6W7MMV",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "62/4 เสนานิคม แขวง จรเข้บัว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-03 14:22:17.254341"
       },
       {
         "ticket_id": "2022-NWW2CW",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "6/218 ซอย นาคนิวาส 38 แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-02 20:01:27.817630"
       },
       {
         "ticket_id": "2022-9NYZEM",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "253 ถ. โชคชัย 4 แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2024-07-10 15:47:23.877812"
       }
@@ -2883,7 +2883,7 @@
     "resolution_rate": 81.2,
     "median_resolution_days": 4.6,
     "avg_satisfaction": 4.08,
-    "stale_tickets": 3700,
+    "stale_tickets": 3706,
     "reopen_rate": 6.4,
     "top_types": [
       {
@@ -2977,41 +2977,41 @@
       {
         "ticket_id": "2022-N9WZUH",
         "type": "ทางเท้า",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "2773 ถ. ลาดพร้าว แขวง คลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2022-08-17 13:30:05.848532"
       },
       {
         "ticket_id": "2022-P4GLVM",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "ร้านอาหารทิพวรรณ แขวง คลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2022-08-25 10:56:22.499164"
       },
       {
         "ticket_id": "2022-LBWVHQ",
         "type": "ถนน",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "QJP5+FFV South Expressway Ratchaprasong Park แขวง วังทองหลาง เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2022-07-06 11:28:11.970648"
       },
       {
         "ticket_id": "2022-ACTREE",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "340/1 ถนน ศรีวรา แขวง พลับพลา เขตวังทองหลาง กรุงเทพมหานคร 10312 ประเทศไทย",
         "last_activity": "2023-04-05 23:23:57.136592"
       },
       {
         "ticket_id": "2022-8NFP3V",
         "type": "อื่นๆ",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "424 ซอย ร่วมน้ำใจ แยก 4 แขวง คลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร 10310 ประเทศไทย",
         "last_activity": "2022-07-03 11:49:39.208524"
       }
     ],
     "composite_score": 81.0,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "บึงกุ่ม",
@@ -3020,7 +3020,7 @@
     "resolution_rate": 85.1,
     "median_resolution_days": 5.8,
     "avg_satisfaction": 4.08,
-    "stale_tickets": 2938,
+    "stale_tickets": 2947,
     "reopen_rate": 4.8,
     "top_types": [
       {
@@ -3114,35 +3114,35 @@
       {
         "ticket_id": "2022-MZQ9T6",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "81 ถ. เสรีไทย แขวง คลองกุ่ม เขต บึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2023-03-14 22:16:18.909219"
       },
       {
         "ticket_id": "2022-LYCW2B",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "44/249 หมู่ที่ 8 ซอยรามอินทรา 65 ถนนรามอินทรา แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 แขวง ท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2022-07-07 23:59:19.818296"
       },
       {
         "ticket_id": "2022-NB8TUU",
         "type": "จราจร",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "99 ถ. คลองลำเจียก แขวง นวลจันทร์ เขต บึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-02 17:11:12.635581"
       },
       {
         "ticket_id": "2022-HQX3RW",
         "type": "จราจร",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "10240 ถนน นวมินทร์ แขวง นวลจันทร์ เขต บึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-02 17:09:41.747349"
       },
       {
         "ticket_id": "2022-87TVHU",
         "type": "ถนน",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "10240 ถนน นวมินทร์ แขวง นวลจันทร์ เขต บึงกุ่ม กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-02 17:07:26.186892"
       }
@@ -3157,7 +3157,7 @@
     "resolution_rate": 76.0,
     "median_resolution_days": 6.6,
     "avg_satisfaction": 3.88,
-    "stale_tickets": 4867,
+    "stale_tickets": 4873,
     "reopen_rate": 6.5,
     "top_types": [
       {
@@ -3251,41 +3251,41 @@
       {
         "ticket_id": "2022-EM2GLN",
         "type": "จราจร",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "กรมโยธาธิการและผังเมือง แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2023-03-10 11:20:24.600746"
       },
       {
         "ticket_id": "2022-FFFDE9",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "16 ซอย อารีย์สัมพันธ์ 7 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2023-11-07 07:43:16.048957"
       },
       {
         "ticket_id": "2022-A4VEVB",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "943 Phyathai Hospital 2 Phaholyothin Road Samsen Nai Khet Phya Thai แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2024-07-20 16:30:03.460148"
       },
       {
         "ticket_id": "2022-M7YWBQ",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "35 ซอย พหลโยธิน 2 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2023-08-25 14:40:16.083125"
       },
       {
         "ticket_id": "2022-CT3XBD",
         "type": "ฝุ่นควัน&กลิ่น&PM2.5",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "14ถนนพหลโยธินซอย 3 เขตพญาไท กทม 10400 แขวง สามเสนใน เขตพญาไท กรุงเทพมหานคร 10400 ประเทศไทย",
         "last_activity": "2022-07-02 11:07:21.758888"
       }
     ],
     "composite_score": 76.1,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "บางนา",
@@ -3294,7 +3294,7 @@
     "resolution_rate": 73.5,
     "median_resolution_days": 11.5,
     "avg_satisfaction": 3.91,
-    "stale_tickets": 5116,
+    "stale_tickets": 5119,
     "reopen_rate": 4.9,
     "top_types": [
       {
@@ -3388,41 +3388,41 @@
       {
         "ticket_id": "2022-NNHTVQ",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "ทางแยกต่างระดับศรีเอี่ยม แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2022-07-01 08:47:44.246457"
       },
       {
         "ticket_id": "2022-3KUNRX",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "825 ทางคู่ขนาน ถนนบางนา-ตราด แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2022-07-22 17:19:25.534611"
       },
       {
         "ticket_id": "2022-MTYAQ4",
         "type": "ถนน",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "34 ถ. เทพรัตน แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2022-07-01 16:06:17.624223"
       },
       {
         "ticket_id": "2022-K67ZKR",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "33 ซอย ลาซาล แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2022-09-21 08:19:54.259293"
       },
       {
         "ticket_id": "2022-32FQUC",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "ตึกเนชั่น (อินเตอร์ลิ้งค์ ทาวเวอร์) แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2022-07-01 19:23:26.194241"
       }
     ],
     "composite_score": 71.1,
-    "grade": "B"
+    "grade": "F"
   },
   {
     "district": "หนองจอก",
@@ -3431,7 +3431,7 @@
     "resolution_rate": 81.3,
     "median_resolution_days": 6.1,
     "avg_satisfaction": 4.22,
-    "stale_tickets": 3481,
+    "stale_tickets": 3484,
     "reopen_rate": 4.2,
     "top_types": [
       {
@@ -3525,41 +3525,41 @@
       {
         "ticket_id": "2022-47F6H2",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "31/10 ซอย คู้คลองสิบ 11 แขวง คลองสิบ เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
         "last_activity": "2022-12-08 14:17:07.592654"
       },
       {
         "ticket_id": "2022-LXX3HT",
         "type": "จราจร",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "26 ถ. สุวินทวงศ์ แขวง กระทุ่มราย เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
         "last_activity": "2022-07-07 15:30:56.021160"
       },
       {
         "ticket_id": "2022-7NFHBQ",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "66/1199 มิตรไมตรี แขวง คู้ฝั่งเหนือ เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
         "last_activity": "2022-07-06 15:32:11.052171"
       },
       {
         "ticket_id": "2022-HAMYV4",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "164 ถนน สกุลดี แขวง หนองจอก เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
         "last_activity": "2023-11-16 22:24:39.204924"
       },
       {
         "ticket_id": "2022-A2NK86",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "121/1 ถนน สกุลดี แขวง หนองจอก เขต หนองจอก กรุงเทพมหานคร 10530 ประเทศไทย",
         "last_activity": "2025-03-28 09:39:43.468185"
       }
     ],
     "composite_score": 81.2,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "คลองสามวา",
@@ -3568,7 +3568,7 @@
     "resolution_rate": 84.3,
     "median_resolution_days": 8.7,
     "avg_satisfaction": 4.04,
-    "stale_tickets": 2929,
+    "stale_tickets": 2931,
     "reopen_rate": 6.3,
     "top_types": [
       {
@@ -3662,41 +3662,41 @@
       {
         "ticket_id": "2022-GWFDFE",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "99/114 ซอย หทัยราษฏร์ 33 แขวง บางชัน เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2023-09-13 15:31:53.307232"
       },
       {
         "ticket_id": "2022-78WAKW",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "34/14 ซอย หทัยราษฎร์ 34/2 แขวง สามวาตะวันตก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2023-09-13 15:31:30.817811"
       },
       {
         "ticket_id": "2022-84CWKC",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "49/282 ซอย นิมิตใหม่ 40 แขวง สามวาตะวันออก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2023-09-13 15:31:10.996616"
       },
       {
         "ticket_id": "2022-4MKCN6",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "58 ถ. หนองระแหง แขวง สามวาตะวันตก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2023-09-06 16:20:03.684969"
       },
       {
         "ticket_id": "2022-HBFB63",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "27 ถ. หทัยราษฎร์ แขวง สามวาตะวันตก เขตคลองสามวา กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2023-09-13 15:30:32.133145"
       }
     ],
     "composite_score": 78.0,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "บางพลัด",
@@ -3705,7 +3705,7 @@
     "resolution_rate": 64.9,
     "median_resolution_days": 4.4,
     "avg_satisfaction": 3.68,
-    "stale_tickets": 6572,
+    "stale_tickets": 6580,
     "reopen_rate": 7.1,
     "top_types": [
       {
@@ -3799,41 +3799,41 @@
       {
         "ticket_id": "2022-LLFNYE",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "191 ถ. ราชวิถี แขวง บางยี่ขัน เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2023-03-13 14:10:43.523339"
       },
       {
         "ticket_id": "2022-676DQH",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "284 ซอย จรัญสนิทวงศ์ 67 แขวง บางพลัด เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2022-07-01 09:25:32.839719"
       },
       {
         "ticket_id": "2022-N4XZYC",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "191 ถ. ราชวิถี แขวง บางยี่ขัน เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2023-03-13 14:21:32.097326"
       },
       {
         "ticket_id": "2022-ANGMD7",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "486 ถ. จรัญสนิทวงศ์ แขวง บางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2022-07-09 18:47:43.065692"
       },
       {
         "ticket_id": "2022-FB4UXN",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "213 ถนน จรัญสนิทวงศ์ แขวง บางบำหรุ เขตบางพลัด กรุงเทพมหานคร 10700 ประเทศไทย",
         "last_activity": "2022-07-02 13:25:19.712593"
       }
     ],
     "composite_score": 72.7,
-    "grade": "B"
+    "grade": "D"
   },
   {
     "district": "ยานนาวา",
@@ -3842,7 +3842,7 @@
     "resolution_rate": 77.0,
     "median_resolution_days": 4.1,
     "avg_satisfaction": 4.12,
-    "stale_tickets": 4103,
+    "stale_tickets": 4110,
     "reopen_rate": 5.0,
     "top_types": [
       {
@@ -3936,41 +3936,41 @@
       {
         "ticket_id": "2022-KPG2XA",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "949 ถนน รัชดาภิเษก แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2022-07-01 10:24:52.162332"
       },
       {
         "ticket_id": "2022-LNLQMH",
         "type": "ถนน",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "3/4 Ratchadaphisek Rd., Chongnonsi Yannawa,Bangkok 10120 แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2023-07-21 15:48:52.906036"
       },
       {
         "ticket_id": "2022-K928PR",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "46 5 พระราม 3 ซอย 57 แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2023-05-30 14:48:21.368657"
       },
       {
         "ticket_id": "2022-FK7GKM",
         "type": "จราจร",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "41/65 พระรามที่ 3 แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2022-07-02 08:52:51.135706"
       },
       {
         "ticket_id": "2022-8DYPA6",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "11 ถนน รัชดาภิเษก แขวง ช่องนนทรี เขต ยานนาวา กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2022-07-02 20:04:14.341347"
       }
     ],
     "composite_score": 80.7,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "ภาษีเจริญ",
@@ -3979,7 +3979,7 @@
     "resolution_rate": 80.1,
     "median_resolution_days": 3.8,
     "avg_satisfaction": 4.13,
-    "stale_tickets": 3412,
+    "stale_tickets": 3414,
     "reopen_rate": 6.9,
     "top_types": [
       {
@@ -4073,41 +4073,41 @@
       {
         "ticket_id": "2022-82UPDW",
         "type": "ทางเท้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "125/12 ถนน เพชรเกษมสายเก่า แขวง ปากคลองภาษีเจริญ เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-07-01 14:11:52.596107"
       },
       {
         "ticket_id": "2022-77QMRR",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "39 ถ. บางแวก แขวง บางแวก เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-07-02 14:26:29.003015"
       },
       {
         "ticket_id": "2022-FT6VXD",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "PF86+4F6 แขวง ปากคลองภาษีเจริญ เขตภาษีเจริญ กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-06 15:39:07.727199"
       },
       {
         "ticket_id": "2022-7EUBAD",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "7 ถนน กัลปพฤกษ์ แขวง บางหว้า เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-07-02 07:39:37.095461"
       },
       {
         "ticket_id": "2022-4GHKQL",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "165/1 ซอย เพชรเกษม 36 แยก 2 แขวง ปากคลองภาษีเจริญ เขตภาษีเจริญ กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-07-08 11:45:21.180975"
       }
     ],
     "composite_score": 81.3,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "มีนบุรี",
@@ -4116,7 +4116,7 @@
     "resolution_rate": 83.1,
     "median_resolution_days": 6.6,
     "avg_satisfaction": 4.06,
-    "stale_tickets": 2786,
+    "stale_tickets": 2787,
     "reopen_rate": 4.9,
     "top_types": [
       {
@@ -4210,41 +4210,41 @@
       {
         "ticket_id": "2022-KDB6PE",
         "type": "ไฟฟ้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "15 ซอย รามคำแหง 185 มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2022-07-02 22:54:03.903560"
       },
       {
         "ticket_id": "2022-D988YK",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "RP9H+CX5 ถนน สุวินทวงศ์ มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2024-04-04 10:50:58.325090"
       },
       {
         "ticket_id": "2022-P4KQRD",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "15 ซอย รามคำแหง 185 มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2022-08-15 09:56:28.399863"
       },
       {
         "ticket_id": "2022-MZDUBW",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "293 ซอย 49 มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2022-07-05 13:11:26.416628"
       },
       {
         "ticket_id": "2022-4RM2VH",
         "type": "ไฟฟ้า",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "แยกสุวินทวงศ์-รามคำแหง แขวง แสนแสบ มีนบุรี กรุงเทพมหานคร 10510 ประเทศไทย",
         "last_activity": "2022-07-06 12:20:46.036477"
       }
     ],
     "composite_score": 80.4,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "พระโขนง",
@@ -4253,7 +4253,7 @@
     "resolution_rate": 75.9,
     "median_resolution_days": 7.7,
     "avg_satisfaction": 4.05,
-    "stale_tickets": 4013,
+    "stale_tickets": 4021,
     "reopen_rate": 4.9,
     "top_types": [
       {
@@ -4347,41 +4347,41 @@
       {
         "ticket_id": "2022-AW4BYA",
         "type": "เสนอแนะ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "2479 ถ. สุขุมวิท แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2022-07-01 08:53:14.618772"
       },
       {
         "ticket_id": "2022-LKYNBA",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "299/5 ซอย สุขุมวิท 66/1 แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2023-01-09 11:32:25.391762"
       },
       {
         "ticket_id": "2022-967HX3",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "299/5 ซอย สุขุมวิท 66/1 แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2023-01-09 11:28:19.470342"
       },
       {
         "ticket_id": "2022-LCDAFV",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "28 ซ. สุขุมวิท 62 แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2023-01-09 11:23:03.803383"
       },
       {
         "ticket_id": "2022-AUVUWB",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "ซอย สุขุมวิท 62 แขวง บางจาก เขต พระโขนง กรุงเทพมหานคร 10260 ประเทศไทย แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร 10260 ประเทศไทย",
         "last_activity": "2022-07-02 22:36:16.672487"
       }
     ],
     "composite_score": 76.4,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "สายไหม",
@@ -4484,35 +4484,35 @@
       {
         "ticket_id": "2022-4Z6EAG",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "27/27 ซอยจตุโชติ 14 ถนน จตุโชติ แขวง ออเงิน เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2023-05-02 09:04:42.511393"
       },
       {
         "ticket_id": "2022-M7PZFG",
         "type": "เสนอแนะ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "ตรงข้ามหมู่บ้านลานมณี แขวง สายไหม เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2023-05-02 09:05:09.999958"
       },
       {
         "ticket_id": "2022-MVPEBX",
         "type": "เสนอแนะ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "3902 แขวง ออเงิน เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2024-03-29 11:13:21.347706"
       },
       {
         "ticket_id": "2022-96MBBC",
         "type": "ถนน",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "3902 แขวง ออเงิน เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2023-05-24 16:27:33.581776"
       },
       {
         "ticket_id": "2022-GWVPRD",
         "type": "ถนน",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "3901 แขวง ออเงิน เขตสายไหม กรุงเทพมหานคร 10220 ประเทศไทย",
         "last_activity": "2024-03-29 11:11:55.255048"
       }
@@ -4527,7 +4527,7 @@
     "resolution_rate": 75.6,
     "median_resolution_days": 4.0,
     "avg_satisfaction": 4.0,
-    "stale_tickets": 4157,
+    "stale_tickets": 4159,
     "reopen_rate": 6.3,
     "top_types": [
       {
@@ -4621,41 +4621,41 @@
       {
         "ticket_id": "2022-AKLCU3",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "63/5 ถนน สวนผัก แขวง ตลิ่งชัน เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2022-09-22 10:30:59.174501"
       },
       {
         "ticket_id": "2022-49W8PG",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "73 ถนน อัศวพิเชษฐ์ แขวง ฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2024-12-23 12:08:43.918293"
       },
       {
         "ticket_id": "2022-L2CH62",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "73 ซอย อัศวพิเชษฐ์ 13 แขวง ฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2022-07-01 09:22:40.060924"
       },
       {
         "ticket_id": "2022-L6PA7N",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "54/6 ถนน อัศวพิเชษฐ์ แขวง ฉิมพลี เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2022-07-01 09:23:16.175287"
       },
       {
         "ticket_id": "2022-DU87BR",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "27/46 ถนน บรมราชชนนี แขวง ตลิ่งชัน เขตตลิ่งชัน กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2022-07-02 07:50:34.078737"
       }
     ],
     "composite_score": 79.1,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "หลักสี่",
@@ -4664,7 +4664,7 @@
     "resolution_rate": 81.0,
     "median_resolution_days": 5.4,
     "avg_satisfaction": 4.02,
-    "stale_tickets": 3047,
+    "stale_tickets": 3048,
     "reopen_rate": 5.3,
     "top_types": [
       {
@@ -4758,41 +4758,41 @@
       {
         "ticket_id": "2022-KE74HR",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "36/12 ถ. แจ้งวัฒนะ แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2024-06-27 14:31:49.607365"
       },
       {
         "ticket_id": "2022-7VTYCU",
         "type": "ทางเท้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "100 ถนน แจ้งวัฒนะ แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2024-06-27 14:31:34.051705"
       },
       {
         "ticket_id": "2022-CCVH83",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "123/4 ถ. แจ้งวัฒนะ แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2022-07-03 06:05:08.783699"
       },
       {
         "ticket_id": "2022-ERTXGM",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "2 ถนน กำแพงเพชร 6 แขวง ตลาดบางเขน เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2022-07-01 17:42:56.345110"
       },
       {
         "ticket_id": "2022-4VVH63",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "85/47 ซอย แขวง ทุ่งสองห้อง เขต หลักสี่ กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2022-07-01 17:41:30.603078"
       }
     ],
     "composite_score": 80.4,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "บางคอแหลม",
@@ -4801,7 +4801,7 @@
     "resolution_rate": 79.4,
     "median_resolution_days": 3.2,
     "avg_satisfaction": 4.26,
-    "stale_tickets": 3179,
+    "stale_tickets": 3184,
     "reopen_rate": 5.9,
     "top_types": [
       {
@@ -4895,35 +4895,35 @@
       {
         "ticket_id": "2022-3YXK22",
         "type": "จราจร",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "3769/112 ซอย จันทน์ 23/2 แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2023-03-03 13:43:01.508280"
       },
       {
         "ticket_id": "2022-QXM4WQ",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "467/6 ถ. พระรามที่ 3 แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2023-05-30 14:53:47.736425"
       },
       {
         "ticket_id": "2022-QEBKL6",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "3559/6 ถ. พระรามที่ 3 แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2022-07-02 19:05:47.569275"
       },
       {
         "ticket_id": "2022-N7CHHB",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "14 ถ. สาธุประดิษฐ์ แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2022-09-09 10:33:32.564658"
       },
       {
         "ticket_id": "2022-BD3NLB",
         "type": "ความปลอดภัย",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "3761/241 ซอย เจริญราษฎร์ 7 แยก 7-10 แขวง บางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120 ประเทศไทย",
         "last_activity": "2023-04-04 14:57:32.263177"
       }
@@ -4938,7 +4938,7 @@
     "resolution_rate": 83.0,
     "median_resolution_days": 5.4,
     "avg_satisfaction": 3.88,
-    "stale_tickets": 2545,
+    "stale_tickets": 2548,
     "reopen_rate": 14.1,
     "top_types": [
       {
@@ -5032,41 +5032,41 @@
       {
         "ticket_id": "2022-CPG6UW",
         "type": "จราจร",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "264-268 ถนน หลานหลวง แขวง คลองมหานาค เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2024-06-14 10:33:59.025498"
       },
       {
         "ticket_id": "2022-A26PUD",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "239 ถนนวรจักร แขวง วัดเทพศิรินทร์ เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2022-07-02 23:31:41.828773"
       },
       {
         "ticket_id": "2022-B8VX37",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "37 ซอย อนันตนาค แขวง คลองมหานาค เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2024-07-03 11:46:06.765243"
       },
       {
         "ticket_id": "2022-LA7WVZ",
         "type": "อื่นๆ",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "วรจักร แขวง วัดเทพศิรินทร์ เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2024-04-03 17:30:18.093802"
       },
       {
         "ticket_id": "2022-HF4TCV",
         "type": "ความปลอดภัย",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "68/57 ซอย นาคบำรุง แขวง คลองมหานาค เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2022-07-04 11:53:18.492473"
       }
     ],
     "composite_score": 76.3,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "สะพานสูง",
@@ -5075,7 +5075,7 @@
     "resolution_rate": 81.8,
     "median_resolution_days": 9.9,
     "avg_satisfaction": 3.9,
-    "stale_tickets": 2753,
+    "stale_tickets": 2755,
     "reopen_rate": 6.0,
     "top_types": [
       {
@@ -5169,41 +5169,41 @@
       {
         "ticket_id": "2022-CCPLED",
         "type": "จราจร",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "67 3901 แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2024-06-27 14:32:01.137272"
       },
       {
         "ticket_id": "2022-6QHRQE",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "Opposite Muban Ketsari 2 Ramkhamhaeng 151/1 แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2023-01-30 14:51:31.337598"
       },
       {
         "ticket_id": "2022-F6QURC",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "69 Ramkhamhaeng Road Bangkok แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2023-01-30 14:55:47.366160"
       },
       {
         "ticket_id": "2022-79V4CT",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "QPP4+3H3 ซอย หมู่บ้านเคหะธานี 4 แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2023-01-30 14:56:05.233761"
       },
       {
         "ticket_id": "2022-KTW2MC",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "QPP4+3H3 ซอย หมู่บ้านเคหะธานี 4 แขวง สะพานสูง เขตสะพานสูง กรุงเทพมหานคร 10240 ประเทศไทย",
         "last_activity": "2023-01-30 14:57:28.145150"
       }
     ],
     "composite_score": 75.4,
-    "grade": "B"
+    "grade": "D"
   },
   {
     "district": "จอมทอง",
@@ -5212,7 +5212,7 @@
     "resolution_rate": 76.0,
     "median_resolution_days": 5.0,
     "avg_satisfaction": 4.09,
-    "stale_tickets": 3488,
+    "stale_tickets": 3490,
     "reopen_rate": 6.4,
     "top_types": [
       {
@@ -5306,41 +5306,41 @@
       {
         "ticket_id": "2022-UBY7A9",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "43/79 ถ. พระราม ๒ แขวง บางมด เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-05 14:38:57.084719"
       },
       {
         "ticket_id": "2022-LG274Z",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "24 ซ. กำนันแม้น แขวง บางขุนเทียน เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-01 14:15:25.842876"
       },
       {
         "ticket_id": "2022-L7WXHQ",
         "type": "ไฟฟ้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "75/27 ซ. วุฒากาศ 5 แขวง บางค้อ เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-08-10 17:49:43.280723"
       },
       {
         "ticket_id": "2022-C6F3HV",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "33/1 ถนน วุฒากาศ แขวง บางค้อ เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-08-11 08:49:32.607793"
       },
       {
         "ticket_id": "2022-7PZNEL",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "26 ถนน จอมทอง แขวงจอมทอง เขตจอมทอง กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-09-20 14:21:57.854965"
       }
     ],
     "composite_score": 78.6,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "ดอนเมือง",
@@ -5349,7 +5349,7 @@
     "resolution_rate": 78.7,
     "median_resolution_days": 7.4,
     "avg_satisfaction": 3.89,
-    "stale_tickets": 2991,
+    "stale_tickets": 2997,
     "reopen_rate": 6.2,
     "top_types": [
       {
@@ -5443,41 +5443,41 @@
       {
         "ticket_id": "2022-7U6MP6",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "1 ถนน กำแพงเพชร 6 แขวง ดอนเมือง เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2022-07-02 09:58:32.118365"
       },
       {
         "ticket_id": "2022-P2QPBF",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "วิภาวดีซอย 41 แขวง สนามบิน เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2023-01-27 11:36:09.004027"
       },
       {
         "ticket_id": "2022-GGDHKG",
         "type": "อื่นๆ",
-        "days_open": 1358,
+        "days_open": 1359,
         "address": "1669 WJJ2+H4R 9 สรณคมน์ 3 แยก 18 แขวง สีกัน เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2023-01-27 11:41:49.796648"
       },
       {
         "ticket_id": "2022-9XCC3N",
         "type": "ความปลอดภัย",
-        "days_open": 1358,
+        "days_open": 1359,
         "address": "54/56 Soi Phraphautit Songphapha Rd. Srikun Donmuang,Bangkok 10210 แขวง สีกัน เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2025-03-16 17:06:20.096501"
       },
       {
         "ticket_id": "2022-EQDE4H",
         "type": "ไฟฟ้า",
-        "days_open": 1358,
+        "days_open": 1359,
         "address": "10 ซ. ประชาอุทิศ แขวง ดอนเมือง เขตดอนเมือง กรุงเทพมหานคร 10210 ประเทศไทย",
         "last_activity": "2023-10-05 08:57:23.983882"
       }
     ],
     "composite_score": 76.5,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "หนองแขม",
@@ -5486,7 +5486,7 @@
     "resolution_rate": 88.1,
     "median_resolution_days": 3.0,
     "avg_satisfaction": 4.03,
-    "stale_tickets": 1540,
+    "stale_tickets": 1542,
     "reopen_rate": 6.8,
     "top_types": [
       {
@@ -5580,35 +5580,35 @@
       {
         "ticket_id": "2022-7GDMQB",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "21/5 Workplace Ma Charoen Alley, แขวง หนองแขม เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-08-05 18:41:09.830792"
       },
       {
         "ticket_id": "2022-GFLADT",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "79/2 ถ. เพชรเกษม แขวง หนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-07-04 21:39:22.337739"
       },
       {
         "ticket_id": "2022-3DMFPU",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "M8HP+FCC ถนนเลียบคลองภาษีเจริญฝั่งเหนือ แขวง หนองแขม เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2023-03-09 11:19:28.756820"
       },
       {
         "ticket_id": "2022-3493FT",
         "type": "ความปลอดภัย",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "44/35 ซอย เพชรเกษม 110 แขวง หนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-07-04 15:00:15.269280"
       },
       {
         "ticket_id": "2022-DBCX97",
         "type": "อื่นๆ",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "ปากทางเข้าถนนพุทธมณฑลสาย 3 แขวง หนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160 ประเทศไทย",
         "last_activity": "2022-07-04 09:11:07.477019"
       }
@@ -5623,7 +5623,7 @@
     "resolution_rate": 80.8,
     "median_resolution_days": 6.1,
     "avg_satisfaction": 3.93,
-    "stale_tickets": 2164,
+    "stale_tickets": 2166,
     "reopen_rate": 6.4,
     "top_types": [
       {
@@ -5717,41 +5717,41 @@
       {
         "ticket_id": "2022-NZA28C",
         "type": "เสนอแนะ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "PG96+P8F ถ. เจริญนคร แขวง คลองต้นไทร เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-07-02 22:08:45.141121"
       },
       {
         "ticket_id": "2022-M7FHPC",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "ตลาดเจริญนคร แขวง บางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2023-02-16 13:15:51.182771"
       },
       {
         "ticket_id": "2022-BXU4EA",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "1116 ถ. เจริญนคร แขวง บางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2023-01-24 15:25:13.241687"
       },
       {
         "ticket_id": "2022-Q6UAHM",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "873 ถ. เจริญนคร แขวง คลองสาน เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-07-02 13:42:08.165191"
       },
       {
         "ticket_id": "2022-EQ266B",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "PG52+MW6 ซอย เจริญนคร 39 แขวง บางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-07-02 13:39:33.796446"
       }
     ],
     "composite_score": 78.7,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "ดุสิต",
@@ -5760,7 +5760,7 @@
     "resolution_rate": 79.3,
     "median_resolution_days": 5.2,
     "avg_satisfaction": 4.21,
-    "stale_tickets": 2662,
+    "stale_tickets": 2666,
     "reopen_rate": 4.7,
     "top_types": [
       {
@@ -5854,41 +5854,41 @@
       {
         "ticket_id": "2022-NTARHU",
         "type": "จราจร",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "120 ถนน ระนอง 1 แขวง ถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
         "last_activity": "2022-10-08 10:54:16.807861"
       },
       {
         "ticket_id": "2022-NEWVC2",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "828/3 ถ. พระรามที่ ๕ แขวง ถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
         "last_activity": "2023-08-23 14:55:57.779028"
       },
       {
         "ticket_id": "2022-8Z3FCW",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "26 ถนน ทหาร แขวง ถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
         "last_activity": "2023-11-13 07:30:33.314549"
       },
       {
         "ticket_id": "2022-7FH3NX",
         "type": "อื่นๆ",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "168 ถ. ศรีอยุธยา แขวง วชิรพยาบาล เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
         "last_activity": "2024-03-04 10:34:37.664116"
       },
       {
         "ticket_id": "2022-C8FGRY",
         "type": "ทางเท้า",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "799 ถนน สามเสน แขวง ถนนนครไชยศรี เขตดุสิต กรุงเทพมหานคร 10300 ประเทศไทย",
         "last_activity": "2022-07-04 08:54:40.344510"
       }
     ],
     "composite_score": 81.0,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "บางบอน",
@@ -5897,7 +5897,7 @@
     "resolution_rate": 79.1,
     "median_resolution_days": 4.8,
     "avg_satisfaction": 4.12,
-    "stale_tickets": 2345,
+    "stale_tickets": 2351,
     "reopen_rate": 5.5,
     "top_types": [
       {
@@ -5991,41 +5991,41 @@
       {
         "ticket_id": "2022-MMPX23",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "381 383 ถ. เอกชัย แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-08-29 14:56:45.011669"
       },
       {
         "ticket_id": "2022-E47CD8",
         "type": "ไฟฟ้า",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "เลขที่ 77/228 หมู่ 8 ซอย เอกชัย 46 ถนนเอกชัย แขวงบางบอน เขตบางบอน แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-04 21:28:00.541297"
       },
       {
         "ticket_id": "2022-4EWH96",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "43 ซอย เอกชัย 83/3 แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-04 20:40:37.352263"
       },
       {
         "ticket_id": "2022-LB6ARP",
         "type": "ทางเท้า",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "492 ถ. เอกชัย แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2024-03-03 09:05:48.589008"
       },
       {
         "ticket_id": "2022-GPV3L6",
         "type": "อื่นๆ",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "118/1 ถ. เอกชัย แขวง บางบอน เขตบางบอน กรุงเทพมหานคร 10150 ประเทศไทย",
         "last_activity": "2022-07-04 15:45:09.650563"
       }
     ],
     "composite_score": 80.6,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "คันนายาว",
@@ -6034,7 +6034,7 @@
     "resolution_rate": 79.5,
     "median_resolution_days": 5.2,
     "avg_satisfaction": 4.17,
-    "stale_tickets": 2345,
+    "stale_tickets": 2346,
     "reopen_rate": 4.2,
     "top_types": [
       {
@@ -6128,41 +6128,41 @@
       {
         "ticket_id": "2022-FRWQF6",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "10/2 หมู่ 7 ถ. รามอินทรา แขวง คันนายาว เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-01 20:13:49.680186"
       },
       {
         "ticket_id": "2022-3PBRTC",
         "type": "น้ำท่วม",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "673/1 ถ. รามอินทรา แขวง คันนายาว เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-01 20:37:10.797084"
       },
       {
         "ticket_id": "2022-L29NK7",
         "type": "ความปลอดภัย",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "วัดนวลจันทร์ แขวง รามอินทรา เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-07-01 23:25:00.315579"
       },
       {
         "ticket_id": "2022-PEP33R",
         "type": "ความปลอดภัย",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "23 ถนน นวมินทร์ แขวง รามอินทรา เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-08-03 10:44:05.486701"
       },
       {
         "ticket_id": "2022-NLM47C",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "555 ถนน นวมินทร์ แขวง รามอินทรา เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
         "last_activity": "2022-08-10 16:55:56.336940"
       }
     ],
     "composite_score": 81.2,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "ทุ่งครุ",
@@ -6171,7 +6171,7 @@
     "resolution_rate": 86.5,
     "median_resolution_days": 3.0,
     "avg_satisfaction": 4.12,
-    "stale_tickets": 1478,
+    "stale_tickets": 1479,
     "reopen_rate": 6.6,
     "top_types": [
       {
@@ -6265,35 +6265,35 @@
       {
         "ticket_id": "2022-B4LQNY",
         "type": "อื่นๆ",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "ซอยประชาอุทิศ 54 แขวง บางมด เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2023-05-09 13:16:08.361460"
       },
       {
         "ticket_id": "2022-CEQCB7",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "2/12 ถ. ประชาอุทิศ แขวง ทุ่งครุ เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2023-09-28 08:41:29.019523"
       },
       {
         "ticket_id": "2022-HKNGAB",
         "type": "อื่นๆ",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "79 ถนน พุทธบูชา แขวง บางมด เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2023-02-09 14:38:53.309880"
       },
       {
         "ticket_id": "2022-K8WEDK",
         "type": "จราจร",
-        "days_open": 1359,
+        "days_open": 1360,
         "address": "127 ซอย ประชาอุทิศ 91 แขวง ทุ่งครุ เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2023-03-10 13:59:45.774769"
       },
       {
         "ticket_id": "2022-G9HYWH",
         "type": "ทางเท้า",
-        "days_open": 1358,
+        "days_open": 1359,
         "address": "14/3 ซอย ประชาอุทิศ 36 แขวง บางมด เขตทุ่งครุ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2022-10-25 11:34:53.557990"
       }
@@ -6402,41 +6402,41 @@
       {
         "ticket_id": "2022-MZ3R4T",
         "type": "ทางเท้า",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "1/7 ถ. กาญจนาภิเษก แขวง ศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2023-07-03 17:27:49.503077"
       },
       {
         "ticket_id": "2022-BXELRL",
         "type": "ประชาสัมพันธ์",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "915 1 ถนน เลียบคลองทวีวัฒนา แขวง ทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2022-07-04 10:04:11.400013"
       },
       {
         "ticket_id": "2022-A7KBRM",
         "type": "อื่นๆ",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "เลขที่ 2/3/23 แขวง ทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2022-07-04 10:03:42.601141"
       },
       {
         "ticket_id": "2022-FDDRYN",
         "type": "อื่นๆ",
-        "days_open": 1357,
+        "days_open": 1358,
         "address": "244/151 5/1 แขวง ศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2024-08-16 15:10:48.126403"
       },
       {
         "ticket_id": "2022-AVKXG6",
         "type": "อื่นๆ",
-        "days_open": 1356,
+        "days_open": 1357,
         "address": "Q93W+9FR แขวง ทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร 10170 ประเทศไทย",
         "last_activity": "2022-07-08 08:37:09.274640"
       }
     ],
     "composite_score": 81.8,
-    "grade": "A"
+    "grade": "B"
   },
   {
     "district": "ราษฎร์บูรณะ",
@@ -6539,35 +6539,35 @@
       {
         "ticket_id": "2022-36CGEP",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "666 ซอย สุขสวัสดิ์ แขวง บางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2022-08-22 16:16:05.610170"
       },
       {
         "ticket_id": "2022-DPCA96",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "270 ถ. ราษฎร์บูรณะ แขวง ราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2022-07-21 12:32:25.798543"
       },
       {
         "ticket_id": "2022-MHEZW6",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "ต่างระดับวงแหวนอุตสาหกรรม แขวง ราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2022-07-02 16:48:49.520025"
       },
       {
         "ticket_id": "2022-RLWB3Y",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "858 ประชาอุทิศ แขวง ราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2022-07-18 11:55:00.246542"
       },
       {
         "ticket_id": "2022-DWWDPZ",
         "type": "อื่นๆ",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "ตรงข้ามสวนวงแหวนสุขสวัสดิ์ แขวง ราษฎร์บูรณะ เขตราษฎร์บูรณะ กรุงเทพมหานคร 10140 ประเทศไทย",
         "last_activity": "2022-07-07 15:54:41.186366"
       }
@@ -6582,7 +6582,7 @@
     "resolution_rate": 82.3,
     "median_resolution_days": 6.7,
     "avg_satisfaction": 3.91,
-    "stale_tickets": 1514,
+    "stale_tickets": 1517,
     "reopen_rate": 7.8,
     "top_types": [
       {
@@ -6676,41 +6676,41 @@
       {
         "ticket_id": "2022-L28KYA",
         "type": "ไฟฟ้า",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "31/8 ซอย จรัญสนิทวงศ์ 3 แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2023-03-13 16:32:31.097089"
       },
       {
         "ticket_id": "2022-BX4BCN",
         "type": "ความปลอดภัย",
-        "days_open": 1363,
+        "days_open": 1364,
         "address": "365/59 ถ. เพชรเกษม แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-07-08 11:46:43.257460"
       },
       {
         "ticket_id": "2022-NG6LLC",
         "type": "อื่นๆ",
-        "days_open": 1362,
+        "days_open": 1363,
         "address": "44/49 ถ. จรัญสนิทวงศ์ แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-07-03 12:52:45.021017"
       },
       {
         "ticket_id": "2022-7GB6CL",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "670 Soi Petkasem 4 Petkasem Road Khwaeng Wudtapra Khet Bangkokyai Bangkok 10600 แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-11-29 10:19:54.199891"
       },
       {
         "ticket_id": "2022-B47G43",
         "type": "อื่นๆ",
-        "days_open": 1361,
+        "days_open": 1362,
         "address": "44/49 ถ. จรัญสนิทวงศ์ แขวง วัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600 ประเทศไทย",
         "last_activity": "2022-07-03 10:09:50.596504"
       }
     ],
     "composite_score": 78.0,
-    "grade": "B"
+    "grade": "C"
   },
   {
     "district": "สัมพันธวงศ์",
@@ -6719,7 +6719,7 @@
     "resolution_rate": 82.7,
     "median_resolution_days": 2.9,
     "avg_satisfaction": 3.91,
-    "stale_tickets": 1108,
+    "stale_tickets": 1109,
     "reopen_rate": 9.6,
     "top_types": [
       {
@@ -6813,40 +6813,40 @@
       {
         "ticket_id": "2022-6QE6L3",
         "type": "ความปลอดภัย",
-        "days_open": 1360,
+        "days_open": 1361,
         "address": "391 ถนน ทรงวาด แขวง จักรวรรดิ์ เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2022-09-03 14:22:36.140790"
       },
       {
         "ticket_id": "2022-NKFZTC",
         "type": "ทางเท้า",
-        "days_open": 1359,
+        "days_open": 1360,
         "address": "เลขที่ 69 ซอย โยธา 1 แขวง ตลาดน้อย เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2024-05-01 16:18:31.392340"
       },
       {
         "ticket_id": "2022-6BHGDC",
         "type": "ความปลอดภัย",
-        "days_open": 1358,
+        "days_open": 1359,
         "address": "896/6 ถ. เจริญกรุง แขวง ตลาดน้อย เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2022-09-03 09:26:35.566195"
       },
       {
         "ticket_id": "2022-4PLMNP",
         "type": "ความปลอดภัย",
-        "days_open": 1356,
+        "days_open": 1357,
         "address": "99-101 สี่แยก ถ. ราชวงศ์ แขวง สัมพันธวงศ์ เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2023-03-15 12:21:51.365153"
       },
       {
         "ticket_id": "2022-P8AB9Q",
         "type": "อื่นๆ",
-        "days_open": 1354,
+        "days_open": 1355,
         "address": "550-552 ถนน แปลงนาม แขวง สัมพันธวงศ์ เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100 ประเทศไทย",
         "last_activity": "2025-04-01 11:44:31.852466"
       }
     ],
     "composite_score": 81.0,
-    "grade": "A"
+    "grade": "B"
   }
 ]

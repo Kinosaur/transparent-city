@@ -12,8 +12,11 @@ export function proxy(request: NextRequest) {
   )
   if (hasLocale) return
 
+  // Saved preference (set by the header toggle) takes priority
+  const cookieLang = request.cookies.get('lang')?.value
   const acceptLang = request.headers.get('accept-language') ?? ''
-  const locale = acceptLang.toLowerCase().includes('th') ? 'th' : defaultLocale
+  const fromAccept = acceptLang.toLowerCase().includes('th') ? 'th' : defaultLocale
+  const locale = (cookieLang && locales.includes(cookieLang)) ? cookieLang : fromAccept
 
   request.nextUrl.pathname = `/${locale}${pathname}`
   return NextResponse.redirect(request.nextUrl)

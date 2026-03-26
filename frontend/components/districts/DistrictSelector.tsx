@@ -1,13 +1,15 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import type { DistrictData } from '@/lib/types'
+import type { DistrictData, Locale } from '@/lib/types'
+import { districtName } from '@/lib/districts-en'
 
 type Props = {
   districts: DistrictData[]
   selected: DistrictData | null
   onSelect: (d: DistrictData) => void
   placeholder: string
+  lang: Locale
 }
 
 const gradeColor: Record<string, string> = {
@@ -18,13 +20,16 @@ const gradeColor: Record<string, string> = {
   F: 'text-[--color-bad]',
 }
 
-export default function DistrictSelector({ districts, selected, onSelect, placeholder }: Props) {
+export default function DistrictSelector({ districts, selected, onSelect, placeholder, lang }: Props) {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const ref = useRef<HTMLDivElement>(null)
 
   const filtered = query
-    ? districts.filter((d) => d.district.includes(query))
+    ? districts.filter((d) =>
+        d.district.includes(query) ||
+        districtName(d.district, lang).toLowerCase().includes(query.toLowerCase())
+      )
     : districts
 
   // Close on outside click
@@ -44,7 +49,7 @@ export default function DistrictSelector({ districts, selected, onSelect, placeh
         className="w-full flex items-center justify-between gap-3 px-4 py-3 rounded-xl border border-[--color-border] bg-[--color-surface-900] hover:border-[--color-border-hover] transition-colors text-left"
       >
         <span className={selected ? 'text-white font-medium' : 'text-[--color-muted]'}>
-          {selected ? selected.district : placeholder}
+          {selected ? districtName(selected.district, lang) : placeholder}
         </span>
         {selected && (
           <span className={`text-xs font-bold ${gradeColor[selected.grade] ?? ''}`}>
@@ -84,7 +89,7 @@ export default function DistrictSelector({ districts, selected, onSelect, placeh
                       : 'text-[--color-subtle]'
                   }`}
                 >
-                  <span>{d.district}</span>
+                  <span>{districtName(d.district, lang)}</span>
                   <div className="flex items-center gap-3 text-xs text-[--color-muted]">
                     <span>{d.total_tickets.toLocaleString()}</span>
                     <span className={`font-bold ${gradeColor[d.grade] ?? ''}`}>{d.grade}</span>

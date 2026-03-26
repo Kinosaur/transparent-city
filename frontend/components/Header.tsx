@@ -19,7 +19,8 @@ export default function Header({ lang, dict }: Props) {
   const otherLang: Locale = lang === 'th' ? 'en' : 'th'
 
   function toggleLang() {
-    // Swap the locale prefix in the current path
+    // Persist the choice so the middleware remembers it on future visits
+    document.cookie = `lang=${otherLang}; path=/; max-age=31536000; SameSite=Lax`
     const newPath = pathname.replace(`/${lang}`, `/${otherLang}`)
     router.push(newPath)
   }

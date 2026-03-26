@@ -112,6 +112,23 @@
     "showing": "แสดง",
     "photos": "รูปภาพ"
   },
+  "map": {
+    "title": "แผนที่สำรวจ",
+    "subtitle": "ตั๋วที่ยังค้างคาและได้คะแนนต่ำอยู่ที่ไหนบ้าง?",
+    "filter_all": "ทั้งหมด",
+    "filter_stale": "ค้างคา (90+ วัน)",
+    "filter_low_sat": "คะแนนต่ำ (≤2★)",
+    "choropleth_label": "สีเขต",
+    "metric_resolution": "อัตราการแก้ไข",
+    "metric_stale": "อัตราค้างคา",
+    "metric_speed": "เวลาแก้ไขเฉลี่ย",
+    "popup_days_open": "วันที่ค้าง",
+    "popup_star": "คะแนน",
+    "popup_district": "เขต",
+    "popup_type": "ประเภท",
+    "loading": "กำลังโหลดแผนที่…",
+    "no_results": "ไม่พบตั๋วที่ตรงกับตัวกรอง"
+  },
   "footer": {
     "source": "แหล่งข้อมูล",
     "credit": "ข้อมูลจาก Traffy Fondue (traffy.in.th) — แพลตฟอร์มรับเรื่องร้องเรียนของกรุงเทพมหานคร",

@@ -75,4 +75,15 @@ export type GalleryItem = {
   address: string | null
 }
 
+export type MapPoint = {
+  ticket_id: string
+  lat: number
+  lon: number
+  type: string
+  district: string
+  days_open: number | null
+  star: number | null
+  flag: 'stale' | 'low_sat'
+}
+
 export type Locale = 'th' | 'en'
