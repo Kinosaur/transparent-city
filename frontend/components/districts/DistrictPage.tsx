@@ -66,7 +66,7 @@ export default function DistrictPage({ districts, bkkAvg, dict, lang }: Props) {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
       {/* Header */}
       <div>
-        <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
+        <h1 className="text-3xl sm:text-4xl font-bold text-[--color-fg] tracking-tight">
           {dict.districts.title}
         </h1>
         <p className="mt-2 text-[--color-subtle]">{dict.districts.subtitle}</p>

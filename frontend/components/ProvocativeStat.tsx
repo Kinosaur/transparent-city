@@ -48,7 +48,7 @@ export default function ProvocativeStat({ count, label, rateLabel, rate, lang }:
           {formatted}
         </span>
         <div>
-          <p className="text-white font-medium">{label}</p>
+          <p className="text-[--color-fg] font-medium">{label}</p>
           <p className="text-sm text-[--color-subtle] mt-0.5">{rate}% {rateLabel}</p>
         </div>
       </div>

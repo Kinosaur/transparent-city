@@ -37,8 +37,8 @@ const CustomTooltip = ({
   if (!active || !payload?.length) return null
   const item = payload[0]
   return (
-    <div className="rounded-lg border border-white/10 bg-[#16162a] px-3 py-2 text-xs shadow-xl">
-      <p className="mb-1 font-semibold text-white">{label}</p>
+    <div className="rounded-lg border border-[--color-border] bg-[--color-surface-800] px-3 py-2 text-xs shadow-xl">
+      <p className="mb-1 font-semibold text-[--color-fg]">{label}</p>
       <p className="text-[--color-teal-400]">
         {item.name}: {item.value.toLocaleString()}
       </p>
@@ -51,7 +51,7 @@ export default function TopTypesChart({ data, dict }: Props) {
 
   return (
     <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] px-5 pt-5 pb-3 h-full">
-      <h2 className="text-sm font-semibold text-white mb-0.5">
+      <h2 className="text-sm font-semibold text-[--color-fg] mb-0.5">
         {dict.charts.top_types_title}
       </h2>
       <p className="text-xs text-[--color-muted] mb-4">{dict.charts.top_types_subtitle}</p>

@@ -48,7 +48,7 @@ export default function DistrictSelector({ districts, selected, onSelect, placeh
         onClick={() => setOpen((o) => !o)}
         className="w-full flex items-center justify-between gap-3 px-4 py-3 rounded-xl border border-[--color-border] bg-[--color-surface-900] hover:border-[--color-border-hover] transition-colors text-left"
       >
-        <span className={selected ? 'text-white font-medium' : 'text-[--color-muted]'}>
+        <span className={selected ? 'text-[--color-fg] font-medium' : 'text-[--color-muted]'}>
           {selected ? districtName(selected.district, lang) : placeholder}
         </span>
         {selected && (
@@ -66,24 +66,24 @@ export default function DistrictSelector({ districts, selected, onSelect, placeh
 
       {/* Dropdown */}
       {open && (
-        <div className="absolute z-50 mt-2 w-full rounded-xl border border-white/10 bg-[#16162a] shadow-[0_8px_32px_rgba(0,0,0,0.6)] overflow-hidden">
+        <div className="absolute z-50 mt-2 w-full rounded-xl border border-[--color-border] bg-[--color-surface-800] shadow-[0_8px_32px_rgba(0,0,0,0.4)] overflow-hidden">
           {/* Search */}
-          <div className="px-3 py-2 border-b border-white/10 bg-[#16162a]">
+          <div className="px-3 py-2 border-b border-[--color-border] bg-[--color-surface-800]">
             <input
               autoFocus
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="ค้นหาเขต..."
-              className="w-full bg-transparent text-sm text-white placeholder-zinc-500 outline-none"
+              className="w-full bg-transparent text-sm text-[--color-fg] placeholder-zinc-500 outline-none"
             />
           </div>
           {/* List */}
-          <ul className="max-h-72 overflow-y-auto py-1 bg-[#16162a]">
+          <ul className="max-h-72 overflow-y-auto py-1 bg-[--color-surface-800]">
             {filtered.map((d) => (
               <li key={d.district}>
                 <button
                   onClick={() => { onSelect(d); setOpen(false); setQuery('') }}
-                  className={`w-full flex items-center justify-between px-4 py-2.5 text-sm hover:bg-white/8 transition-colors ${
+                  className={`w-full flex items-center justify-between px-4 py-2.5 text-sm hover:bg-[--color-fg]/5 transition-colors ${
                     selected?.district === d.district
                       ? 'text-[--color-teal-400]'
                       : 'text-[--color-subtle]'

@@ -39,7 +39,7 @@ export default function Header({ lang, dict }: Props) {
         {/* Logo */}
         <Link href={`/${lang}`} className="flex items-center gap-2 shrink-0">
           <span className="w-2 h-2 rounded-full bg-[--color-teal-400]" />
-          <span className="font-bold text-white text-sm tracking-wide">
+          <span className="font-bold text-[--color-fg] text-sm tracking-wide">
             {dict.site.name}
           </span>
         </Link>
@@ -56,7 +56,7 @@ export default function Header({ lang, dict }: Props) {
                 className={`px-3 py-1.5 rounded-md text-sm transition-colors ${
                   isActive
                     ? 'text-[--color-teal-400] bg-[--color-teal-400]/10'
-                    : 'text-[--color-subtle] hover:text-white hover:bg-white/5'
+                    : 'text-[--color-subtle] hover:text-[--color-fg] hover:bg-white/5'
                 }`}
               >
                 {label}
@@ -68,11 +68,11 @@ export default function Header({ lang, dict }: Props) {
         {/* Language toggle */}
         <button
           onClick={toggleLang}
-          className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-md border border-[--color-border] text-sm text-[--color-subtle] hover:text-white hover:border-[--color-border-hover] transition-colors"
+          className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-md border border-[--color-border] text-sm text-[--color-subtle] hover:text-[--color-fg] hover:border-[--color-border-hover] transition-colors"
         >
-          <span className={lang === 'th' ? 'text-white font-medium' : ''}>TH</span>
+          <span className={lang === 'th' ? 'text-[--color-fg] font-medium' : ''}>TH</span>
           <span className="opacity-30">|</span>
-          <span className={lang === 'en' ? 'text-white font-medium' : ''}>EN</span>
+          <span className={lang === 'en' ? 'text-[--color-fg] font-medium' : ''}>EN</span>
         </button>
       </div>
     </header>

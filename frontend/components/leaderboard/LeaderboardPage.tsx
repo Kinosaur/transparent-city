@@ -106,7 +106,7 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
       <th
         onClick={() => handleSort(col)}
         className={`px-3 py-3 text-right text-xs font-medium uppercase tracking-wider cursor-pointer select-none whitespace-nowrap transition-colors ${
-          active ? 'text-[--color-teal-400]' : 'text-[--color-muted] hover:text-white'
+          active ? 'text-[--color-teal-400]' : 'text-[--color-muted] hover:text-[--color-fg]'
         }`}
       >
         {label}{arrow}
@@ -118,7 +118,7 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-6">
       {/* Header */}
       <div>
-        <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">{d.title}</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-[--color-fg] tracking-tight">{d.title}</h1>
         <p className="mt-2 text-[--color-subtle]">{d.subtitle}</p>
       </div>
 
@@ -129,7 +129,7 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={d.search_placeholder}
-          className="flex-1 px-4 py-2.5 rounded-xl bg-[--color-surface-900] border border-white/8 text-white placeholder-[--color-muted] text-sm outline-none focus:border-[--color-teal-400]/50 transition-colors"
+          className="flex-1 px-4 py-2.5 rounded-xl bg-[--color-surface-900] border border-[--color-border] text-[--color-fg] placeholder-[--color-muted] text-sm outline-none focus:border-[--color-teal-400]/50 transition-colors"
         />
         <div className="flex items-center gap-2 shrink-0">
           <span className="text-xs text-[--color-muted] whitespace-nowrap">{d.min_tickets_label}:</span>
@@ -141,7 +141,7 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
                 className={`px-3 py-2 rounded-lg text-xs font-medium transition-colors ${
                   minTickets === n
                     ? 'bg-[--color-teal-400]/15 text-[--color-teal-400] border border-[--color-teal-400]/30'
-                    : 'bg-[--color-surface-900] text-[--color-muted] border border-white/8 hover:text-white'
+                    : 'bg-[--color-surface-900] text-[--color-muted] border border-[--color-border] hover:text-[--color-fg]'
                 }`}
               >
                 {n >= 1000 ? `${n / 1000}k+` : `${n}+`}
@@ -153,16 +153,16 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
 
       {/* Count */}
       <p className="text-xs text-[--color-muted]">
-        {d.showing} <span className="text-white font-medium">{filtered.length.toLocaleString()}</span> {d.of}{' '}
+        {d.showing} <span className="text-[--color-fg] font-medium">{filtered.length.toLocaleString()}</span> {d.of}{' '}
         {orgs.filter((o) => o.total_tickets >= minTickets).length.toLocaleString()} {d.agencies}
       </p>
 
       {/* Table */}
-      <div className="rounded-xl border border-white/8 bg-[--color-surface-900] overflow-hidden">
+      <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="w-full">
+          <table className="w-full min-w-[640px]">
             <thead>
-              <tr className="border-b border-white/8">
+              <tr className="border-b border-[--color-border]">
                 <th className="px-4 py-3 text-left text-xs font-medium text-[--color-muted] uppercase tracking-wider w-8">#</th>
                 <SortHeader col="total_tickets" label={d.org_name} />
                 <SortHeader col="total_tickets" label={d.total_tickets} />
@@ -172,7 +172,7 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
                 <SortHeader col="reopen_rate" label={d.reopen_rate} />
               </tr>
               {/* BKK avg reference row */}
-              <tr className="border-b border-white/8 bg-[--color-teal-400]/5">
+              <tr className="border-b border-[--color-border] bg-[--color-teal-400]/5">
                 <td className="px-4 py-2" />
                 <td className="px-3 py-2 text-right text-xs text-[--color-teal-400] font-medium" colSpan={2}>
                   {d.bkk_avg}
@@ -194,7 +194,7 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
                 filtered.map((org, i) => (
                   <tr
                     key={org.organization}
-                    className="border-b border-white/5 hover:bg-white/3 transition-colors"
+                    className="border-b border-[--color-border] hover:bg-white/3 transition-colors"
                   >
                     <td className="px-4 py-3 text-xs text-[--color-muted] tabular-nums">{i + 1}</td>
                     <td className="px-3 py-3 text-sm text-[--color-subtle] max-w-[260px]" colSpan={2}>
@@ -204,25 +204,25 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
                       </span>
                     </td>
                     <td className="px-3 py-3 text-right">
-                      <div className="text-sm font-medium text-white">
+                      <div className="text-sm font-medium text-[--color-fg]">
                         {org.resolution_rate !== null ? `${org.resolution_rate.toFixed(1)}%` : '—'}
                       </div>
                       <DeltaBadge val={org.resolution_rate} bkk={bkkAvg.resolution_rate} higherIsBetter suffix="%" d={d} />
                     </td>
                     <td className="px-3 py-3 text-right">
-                      <div className="text-sm font-medium text-white">
+                      <div className="text-sm font-medium text-[--color-fg]">
                         {org.median_resolution_days !== null ? org.median_resolution_days.toFixed(1) : '—'}
                       </div>
                       <DeltaBadge val={org.median_resolution_days} bkk={bkkAvg.median_resolution_days} higherIsBetter={false} suffix={` ${d.days}`} d={d} />
                     </td>
                     <td className="px-3 py-3 text-right">
-                      <div className="text-sm font-medium text-white">
+                      <div className="text-sm font-medium text-[--color-fg]">
                         {org.avg_satisfaction !== null ? org.avg_satisfaction.toFixed(2) : '—'}
                       </div>
                       <DeltaBadge val={org.avg_satisfaction} bkk={bkkAvg.avg_satisfaction} higherIsBetter d={d} />
                     </td>
                     <td className="px-3 py-3 text-right">
-                      <div className="text-sm font-medium text-white">
+                      <div className="text-sm font-medium text-[--color-fg]">
                         {org.reopen_rate !== null ? `${org.reopen_rate.toFixed(1)}%` : '—'}
                       </div>
                       <DeltaBadge val={org.reopen_rate} bkk={bkkAvg.reopen_rate} higherIsBetter={false} suffix="%" d={d} />

@@ -132,13 +132,16 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
         const map = L.map(mapRef.current!, {
           center: BKK_CENTER,
           zoom: BKK_ZOOM,
-          zoomControl: true,
+          zoomControl: false,
         })
 
         if (signal.aborted) {
           map.remove()
           return
         }
+
+        // Move zoom to bottom-right so it doesn't clash with our filter controls
+        L.control.zoom({ position: 'bottomright' }).addTo(map)
 
         L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
           attribution: '© OpenStreetMap contributors © CARTO',
@@ -251,10 +254,10 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
     <div className="absolute bottom-4 left-4 z-[1000] w-72 rounded-xl border border-white/10 bg-[#0f0f1a]/95 backdrop-blur-md p-4 shadow-2xl">
       <button
         onClick={() => setSelected(null)}
-        className="absolute top-3 right-3 text-zinc-500 hover:text-white text-xs"
+        className="absolute top-3 right-3 text-zinc-500 hover:text-[--color-fg] text-xs"
       >✕</button>
       <p className="text-xs text-zinc-500 font-mono mb-2">{selected.ticket_id}</p>
-      <p className="text-sm font-semibold text-white mb-1">{selected.type}</p>
+      <p className="text-sm font-semibold text-[--color-fg] mb-1">{selected.type}</p>
       <p className="text-xs text-zinc-400 mb-3">
         {dict.map.popup_district}: {districtName(selected.district, lang)}
       </p>
@@ -262,7 +265,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
         {selected.days_open !== null && (
           <div className="flex justify-between text-xs">
             <span className="text-zinc-500">{dict.map.popup_days_open}</span>
-            <span className={`font-semibold ${selected.flag === 'stale' ? 'text-red-400' : 'text-white'}`}>
+            <span className={`font-semibold ${selected.flag === 'stale' ? 'text-red-400' : 'text-[--color-fg]'}`}>
               {selected.days_open}d
             </span>
           </div>
@@ -297,8 +300,8 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
               onClick={() => setFilter(f)}
               className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${
                 filter === f
-                  ? 'bg-teal-500 border-teal-500 text-white'
-                  : 'bg-[#0f0f1a]/80 border-white/10 text-zinc-400 hover:text-white'
+                  ? 'bg-teal-500 border-teal-500 text-[--color-fg]'
+                  : 'bg-[#0f0f1a]/80 border-white/10 text-zinc-400 hover:text-[--color-fg]'
               }`}
             >
               {f === 'all' ? dict.map.filter_all : f === 'stale' ? dict.map.filter_stale : dict.map.filter_low_sat}
@@ -313,7 +316,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
             className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${
               showChoropleth
                 ? 'bg-purple-500/20 border-purple-500/50 text-purple-300'
-                : 'bg-[#0f0f1a]/80 border-white/10 text-zinc-400 hover:text-white'
+                : 'bg-[#0f0f1a]/80 border-white/10 text-zinc-400 hover:text-[--color-fg]'
             }`}
           >
             {dict.map.choropleth_label}

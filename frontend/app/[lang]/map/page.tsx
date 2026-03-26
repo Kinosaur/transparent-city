@@ -42,7 +42,7 @@ export default async function MapPage({ params }: PageProps<'/[lang]/map'>) {
     <div className="flex flex-col" style={{ height: 'calc(100vh - 56px)' }}>
       {/* Slim header */}
       <div className="px-4 sm:px-6 lg:px-8 py-4 shrink-0">
-        <h1 className="text-2xl font-bold text-white">{dict.map.title}</h1>
+        <h1 className="text-2xl font-bold text-[--color-fg]">{dict.map.title}</h1>
         <p className="text-sm text-[--color-subtle] mt-0.5">{dict.map.subtitle}</p>
       </div>
 

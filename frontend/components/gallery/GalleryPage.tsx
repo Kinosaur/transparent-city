@@ -53,7 +53,7 @@ function GalleryCard({ item, d }: { item: GalleryItem; d: Dict['gallery'] }) {
       : `${d.days_to_resolve} ${item.days_to_resolve} ${d.days}`
 
   return (
-    <div className="rounded-xl overflow-hidden border border-white/8 bg-[--color-surface-900] flex flex-col group">
+    <div className="rounded-xl overflow-hidden border border-[--color-border] bg-[--color-surface-900] flex flex-col group">
       {/* Photo area — click to flip before/after */}
       <button
         onClick={() => setFlipped((f) => !f)}
@@ -70,18 +70,18 @@ function GalleryCard({ item, d }: { item: GalleryItem; d: Dict['gallery'] }) {
           unoptimized
         />
         {/* Badge */}
-        <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-black/60 text-white backdrop-blur-sm">
+        <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-black/60 text-[--color-fg] backdrop-blur-sm">
           {flipped ? d.after : d.before}
         </span>
         {/* Flip hint */}
-        <span className="absolute bottom-2 right-2 px-2 py-0.5 rounded-full text-[10px] bg-black/50 text-white/70 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
+        <span className="absolute bottom-2 right-2 px-2 py-0.5 rounded-full text-[10px] bg-black/50 text-[--color-fg]/70 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
           {flipped ? d.before : d.after} →
         </span>
       </button>
 
       {/* Info */}
       <div className="px-3 py-3 flex flex-col gap-1.5 flex-1">
-        <p className="text-sm font-medium text-white leading-snug line-clamp-1">{item.type}</p>
+        <p className="text-sm font-medium text-[--color-fg] leading-snug line-clamp-1">{item.type}</p>
         <div className="flex items-center justify-between gap-2">
           <span className="text-xs text-[--color-muted]">{item.district}</span>
           <StarRow star={item.star} noRating={d.no_rating} />
@@ -129,7 +129,7 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-6">
       {/* Header */}
       <div>
-        <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">{d.title}</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-[--color-fg] tracking-tight">{d.title}</h1>
         <p className="mt-2 text-[--color-subtle]">{d.subtitle}</p>
       </div>
 
@@ -138,7 +138,7 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
         <select
           value={typeFilter}
           onChange={(e) => { setTypeFilter(e.target.value); setPage(1) }}
-          className="px-3 py-2 rounded-xl bg-[--color-surface-900] border border-white/8 text-sm text-white outline-none focus:border-[--color-teal-400]/50 transition-colors min-w-[160px]"
+          className="px-3 py-2 rounded-xl bg-[--color-surface-900] border border-[--color-border] text-sm text-[--color-fg] outline-none focus:border-[--color-teal-400]/50 transition-colors min-w-[160px]"
         >
           <option value="">{d.all_types}</option>
           {types.map((t) => (
@@ -149,7 +149,7 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
         <select
           value={districtFilter}
           onChange={(e) => { setDistrictFilter(e.target.value); setPage(1) }}
-          className="px-3 py-2 rounded-xl bg-[--color-surface-900] border border-white/8 text-sm text-white outline-none focus:border-[--color-teal-400]/50 transition-colors min-w-[140px]"
+          className="px-3 py-2 rounded-xl bg-[--color-surface-900] border border-[--color-border] text-sm text-[--color-fg] outline-none focus:border-[--color-teal-400]/50 transition-colors min-w-[140px]"
         >
           <option value="">{d.all_districts}</option>
           {districts.map((dist) => (
@@ -160,7 +160,7 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
         {(typeFilter || districtFilter) && (
           <button
             onClick={resetFilters}
-            className="px-3 py-2 rounded-xl text-sm text-[--color-muted] hover:text-white border border-white/8 transition-colors"
+            className="px-3 py-2 rounded-xl text-sm text-[--color-muted] hover:text-[--color-fg] border border-[--color-border] transition-colors"
           >
             ✕
           </button>
@@ -169,14 +169,14 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
 
       {/* Count */}
       <p className="text-xs text-[--color-muted]">
-        {d.showing} <span className="text-white font-medium">{visible.length}</span>{' '}
+        {d.showing} <span className="text-[--color-fg] font-medium">{visible.length}</span>{' '}
         {filtered.length !== visible.length && <>/ {filtered.length} </>}
         {d.photos}
       </p>
 
       {/* Grid */}
       {filtered.length === 0 ? (
-        <div className="flex items-center justify-center h-48 rounded-xl border border-dashed border-white/10 text-[--color-muted]">
+        <div className="flex items-center justify-center h-48 rounded-xl border border-dashed border-[--color-border-hover] text-[--color-muted]">
           {d.no_results}
         </div>
       ) : (
@@ -191,7 +191,7 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
             <div className="flex justify-center pt-2">
               <button
                 onClick={() => setPage((p) => p + 1)}
-                className="px-6 py-2.5 rounded-xl bg-[--color-surface-900] border border-white/8 text-sm text-white hover:border-[--color-teal-400]/40 hover:text-[--color-teal-400] transition-colors"
+                className="px-6 py-2.5 rounded-xl bg-[--color-surface-900] border border-[--color-border] text-sm text-[--color-fg] hover:border-[--color-teal-400]/40 hover:text-[--color-teal-400] transition-colors"
               >
                 {d.load_more}
               </button>

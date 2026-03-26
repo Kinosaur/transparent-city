@@ -39,7 +39,7 @@ function KpiCard({
     bad: 'text-[--color-bad]',
     warn: 'text-[--color-warn]',
   }
-  const valueColor = accent ? colorMap[accent] : 'text-white'
+  const valueColor = accent ? colorMap[accent] : 'text-[--color-fg]'
 
   return (
     <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] px-5 py-5 flex flex-col gap-2 hover:border-[--color-border-hover] transition-colors">

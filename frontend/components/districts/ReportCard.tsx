@@ -100,9 +100,9 @@ function MetricRow({
       <span className="flex-1 text-sm text-[--color-subtle]">{label}</span>
       <div className="flex items-center gap-3 text-sm">
         <span className="text-[--color-muted] text-xs">
-          {bkkPrefix}: <span className="text-white">{fmt(bkkVal)}{suffix}</span>
+          {bkkPrefix}: <span className="text-[--color-fg]">{fmt(bkkVal)}{suffix}</span>
         </span>
-        <span className="font-semibold text-white">
+        <span className="font-semibold text-[--color-fg]">
           {districtVal !== null ? `${fmt(districtVal)}${suffix}` : '—'}
         </span>
         <Delta val={districtVal} bkk={bkkVal} higherIsBetter={higherIsBetter} />
@@ -156,7 +156,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
         <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] px-5 py-4 space-y-1">
           <div className="flex justify-between text-sm">
             <span className="text-[--color-muted]">{dict.districts.total_tickets}</span>
-            <span className="text-white font-semibold">{d.total_tickets.toLocaleString()}</span>
+            <span className="text-[--color-fg] font-semibold">{d.total_tickets.toLocaleString()}</span>
           </div>
           <div className="flex justify-between text-sm">
             <span className="text-[--color-muted]">{dict.districts.trend_3mo}</span>
@@ -166,7 +166,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
           </div>
           <div className="flex justify-between text-sm">
             <span className="text-[--color-muted]">{dict.districts.stale_label}</span>
-            <span className="text-white font-semibold">{d.stale_tickets.toLocaleString()}</span>
+            <span className="text-[--color-fg] font-semibold">{d.stale_tickets.toLocaleString()}</span>
           </div>
         </div>
 
@@ -180,7 +180,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
               <li key={t.type} className="flex items-center gap-2 text-sm">
                 <span className="w-4 text-[--color-muted] text-xs">{i + 1}.</span>
                 <span className="flex-1 text-[--color-subtle]">{t.type}</span>
-                <span className="text-white font-medium text-xs">{t.count.toLocaleString()}</span>
+                <span className="text-[--color-fg] font-medium text-xs">{t.count.toLocaleString()}</span>
               </li>
             ))}
           </ol>
@@ -191,7 +191,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
       <div className="lg:col-span-2 space-y-6">
         {/* Comparison panel */}
         <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] px-5 py-4">
-          <p className="text-sm font-semibold text-white mb-1">{dict.districts.vs_bkk}</p>
+          <p className="text-sm font-semibold text-[--color-fg] mb-1">{dict.districts.vs_bkk}</p>
           <p className="text-xs text-[--color-muted] mb-4">{districtName(d.district, lang)} — {dict.districts.comparison_subtitle}</p>
           <MetricRow
             label={dict.districts.resolution_rate}
@@ -230,7 +230,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
 
         {/* Worst stale tickets */}
         <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] px-5 py-4">
-          <p className="text-sm font-semibold text-white mb-4">{dict.districts.worst_stale}</p>
+          <p className="text-sm font-semibold text-[--color-fg] mb-4">{dict.districts.worst_stale}</p>
           {d.worst_stale.length === 0 ? (
             <p className="text-sm text-[--color-muted]">{dict.districts.no_stale}</p>
           ) : (
@@ -245,7 +245,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
                     <p className="text-[10px] text-[--color-bad]/70">{dict.districts.days}</p>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-white truncate">{t.type}</p>
+                    <p className="text-sm font-medium text-[--color-fg] truncate">{t.type}</p>
                     <p className="text-xs text-[--color-muted] mt-0.5 truncate">{t.address ?? '—'}</p>
                     <p className="text-[10px] text-[--color-surface-600] mt-1 font-mono">{t.ticket_id}</p>
                   </div>
