@@ -34,16 +34,16 @@
 /* ── Light theme ───────────────────────────────────────────────────────────── */
 @media (prefers-color-scheme: light) {
   :root {
-    --color-surface-950: #f4f4fa;
-    --color-surface-900: #eaeaf4;
-    --color-surface-800: #dededf;
-    --color-surface-700: #cfcfe6;
-    --color-surface-600: #bebebd;
-    --color-muted: #7070a0;
-    --color-subtle: #505080;
-    --color-fg: #1a1a30;
-    --color-border: rgba(0, 0, 0, 0.08);
-    --color-border-hover: rgba(0, 0, 0, 0.18);
+    --color-surface-950: #f9f9fb;
+    --color-surface-900: #f0f0f5;
+    --color-surface-800: #e8e8f0;
+    --color-surface-700: #e0e0eb;
+    --color-surface-600: #d4d4e5;
+    --color-muted: #6b6b95;
+    --color-subtle: #5a5a7f;
+    --color-fg: #2a2a42;
+    --color-border: rgba(0, 0, 0, 0.06);
+    --color-border-hover: rgba(0, 0, 0, 0.12);
   }
 }
 

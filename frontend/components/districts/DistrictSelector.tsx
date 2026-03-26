@@ -66,9 +66,9 @@ export default function DistrictSelector({ districts, selected, onSelect, placeh
 
       {/* Dropdown */}
       {open && (
-        <div className="absolute z-50 mt-2 w-full rounded-xl border border-[--color-border] bg-[--color-surface-800] shadow-[0_8px_32px_rgba(0,0,0,0.4)] overflow-hidden">
+        <div className="absolute z-50 mt-2 w-full rounded-xl border border-[--color-border] bg-[--color-surface-800]/98 backdrop-blur-md shadow-[0_8px_32px_rgba(0,0,0,0.5)] overflow-hidden">
           {/* Search */}
-          <div className="px-3 py-2 border-b border-[--color-border] bg-[--color-surface-800]">
+          <div className="px-3 py-2 border-b border-[--color-border] bg-[--color-surface-800]/98">
             <input
               autoFocus
               value={query}
@@ -78,14 +78,14 @@ export default function DistrictSelector({ districts, selected, onSelect, placeh
             />
           </div>
           {/* List */}
-          <ul className="max-h-72 overflow-y-auto py-1 bg-[--color-surface-800]">
+          <ul className="max-h-72 overflow-y-auto py-1 bg-[--color-surface-800]/98">
             {filtered.map((d) => (
               <li key={d.district}>
                 <button
                   onClick={() => { onSelect(d); setOpen(false); setQuery('') }}
-                  className={`w-full flex items-center justify-between px-4 py-2.5 text-sm hover:bg-[--color-fg]/5 transition-colors ${
+                  className={`w-full flex items-center justify-between px-4 py-2.5 text-sm hover:bg-white/8 transition-colors ${
                     selected?.district === d.district
-                      ? 'text-[--color-teal-400]'
+                      ? 'text-[--color-teal-400] bg-white/5'
                       : 'text-[--color-subtle]'
                   }`}
                 >
