@@ -13,15 +13,16 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
+from dateutil.relativedelta import relativedelta
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
-# Traffy Fondue open data CSV URL pattern
-# Verify the exact URL from: https://www.traffy.in.th/download
+# Traffy Fondue open data CSV download
+# NOTE: The public API endpoints below may have changed or require authentication.
+# If downloads consistently fail, visit https://bangkok.traffy.in.th and download manually,
+# then commit the CSVs (or just let the workflow skip and serve cached data).
 BASE_URL = "https://publicapi.traffy.in.th/dump-csv-chadchart/bangkok_{ym}.csv"
-
-# Fallback / alternative URL pattern (try if primary fails)
 ALT_URL = "https://opendata.traffy.in.th/download/bangkok_{ym}.csv"
 
 
@@ -76,11 +77,12 @@ def main():
         end = f"{now.year:04d}-{now.month:02d}"
         months = list(month_range(start, end))
     else:
+        # Get the last N months (inclusive of current month)
         months = []
-        for i in range(args.months - 1, -1, -1):
-            dt = (now.replace(day=1) - timedelta(days=1) * 32 * i)
+        for i in range(args.months):
+            dt = now - relativedelta(months=i)
             months.append(f"{dt.year:04d}-{dt.month:02d}")
-        months = sorted(set(months))
+        months = sorted(set(months), reverse=True)
 
     print(f"Downloading {len(months)} month(s) into {DATA_DIR}/")
     ok = sum(download_month(m, force=args.force) for m in months)
