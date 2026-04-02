@@ -20,10 +20,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.1.1
         with:
           python-version: '3.11'
           cache: pip
@@ -36,7 +36,7 @@ jobs:
       # CSVs are NOT committed to git (too large).
       # We cache them in GitHub Actions cache so we don't re-download every run.
       - name: Restore CSV cache
-        uses: actions/cache@v4
+        uses: actions/cache@v4.0.2
         with:
           path: backend/data
           key: traffy-csvs-${{ hashFiles('backend/pipeline/download.py') }}
@@ -46,16 +46,26 @@ jobs:
         run: |
           MONTHS=${{ github.event.inputs.months || '2' }}
           python backend/pipeline/download.py --months $MONTHS
+        continue-on-error: true
 
       # ── Run pipeline ───────────────────────────────────────────────────────
       - name: Run data pipeline
-        run: python backend/pipeline/process.py
+        run: |
+          echo "▶ Checking for CSV files..."
+          ls -lh backend/data/bangkok_*.csv 2>/dev/null || echo "No CSVs found"
+          python backend/pipeline/process.py
 
       # ── Copy output to frontend ────────────────────────────────────────────
       - name: Copy JSON to frontend
         run: |
           mkdir -p frontend/public/data
-          cp backend/public/data/*.json frontend/public/data/
+          if [ -d backend/public/data ] && ls backend/public/data/*.json 1> /dev/null 2>&1; then
+            cp backend/public/data/*.json frontend/public/data/
+            echo "✓ Copied JSON files"
+          else
+            echo "⚠ No JSON files found in backend/public/data"
+            exit 1
+          fi
 
       # ── Commit only if data actually changed ───────────────────────────────
       - name: Commit updated data
