@@ -33,6 +33,10 @@ for f in files:
     except Exception as e:
         print(f"  ⚠ Skipped {os.path.basename(f)}: {e}")
 
+if not dfs:
+    print("  ✗ No CSV files found. Run 'python download.py' first or download manually from bangkok.traffy.in.th")
+    exit(0)  # Exit cleanly — not a pipeline error, just nothing to process
+
 raw = pd.concat(dfs, ignore_index=True)
 print(f"  Total rows: {len(raw):,}")
 
