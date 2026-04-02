@@ -106,49 +106,105 @@ npm run build      # production build
 
 ---
 
-## Updating Data Manually
+## Updating Data Locally (Primary Method)
+
+This is the **recommended workflow** for keeping data fresh:
 
 ```bash
+# 1. Activate virtual environment
 source .venv/bin/activate
 
-# Download the latest 2 months
+# 2. Download the latest 2 months from Traffy
+#    (Visit https://bangkok.traffy.in.th if automated download fails)
 python backend/pipeline/download.py --months 2
 
-# Re-run pipeline
+# 3. Run the data pipeline → generates JSON
 python backend/pipeline/process.py
 
-# Copy to frontend and commit
+# 4. Copy output to frontend and commit
 cp backend/public/data/*.json frontend/public/data/
 git add frontend/public/data/
-git commit -m "data: manual update $(date +%Y-%m-%d)"
+git commit -m "data: update $(date +%Y-%m-%d)"
+git push
 ```
+
+**Result:** Vercel detects the push and automatically redeploys with fresh data ✓
+
+**Frequency:** Run this whenever Traffy releases new data (typically weekly)
 
 ---
 
-## GitHub Actions — Automated Weekly Update
+## Data Pipeline & Updates
 
-The workflow in `.github/workflows/update-data.yml` runs every **Monday at 09:00 Bangkok time**.
+### How Data Flows to the Frontend
 
-**What it does:**
-1. Restores cached CSVs (avoids re-downloading all 48 files every week)
-2. Downloads the latest 2 months of CSVs from Traffy open data
-3. Runs `backend/pipeline/process.py`
-4. Copies new JSON files to `frontend/public/data/`
-5. Commits and pushes only if the data actually changed
-
-**Manual trigger:** Go to Actions tab → *Update Traffy Data* → *Run workflow*. You can specify how many months to re-download.
-
-**Vercel auto-deploy:** When the bot pushes updated JSON files, Vercel detects the push and rebuilds automatically (no extra configuration needed).
-
-### First-time GitHub setup
-
-```bash
-# Push to GitHub
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
+```
+Traffy API (bangkok.traffy.in.th)
+    ↓ [CSV download]
+backend/data/*.csv (RAW DATA — gitignored, too large)
+    ↓ [python process.py]
+backend/public/data/*.json (PIPELINE OUTPUT)
+    ↓ [git commit & push]
+frontend/public/data/*.json (FRONTEND DATA — committed to git ✓)
+    ↓ [Vercel auto-deploy]
+Live website ✓
 ```
 
-No secrets required — the workflow only reads public Traffy data and writes back to the same repo.
+### The Current Workflow (April 2026)
+
+**Status:** GitHub Actions workflow is resilient and graceful.
+
+**The Challenge:**
+- Raw CSV files are **~3.5 GB** and change weekly → can't commit to git
+- Traffy's public API endpoints are either rate-limited or have changed → auto-download is unreliable
+
+**The Solution:**
+1. **You download CSVs locally** when Traffy releases new data
+   ```bash
+   # Visit https://bangkok.traffy.in.th and download manually, or:
+   source .venv/bin/activate
+   python backend/pipeline/download.py --months 2
+   ```
+
+2. **You run the pipeline locally** to generate JSON
+   ```bash
+   python backend/pipeline/process.py
+   ```
+
+3. **You commit & push the JSON output** (small files, ~5 MB total)
+   ```bash
+   cp backend/public/data/*.json frontend/public/data/
+   git add frontend/public/data/
+   git commit -m "data: update $(date +%Y-%m-%d)"
+   git push
+   ```
+
+4. **Vercel auto-deploys** — no manual deploy needed
+
+### GitHub Actions Workflow (`.github/workflows/update-data.yml`)
+
+Runs **every Monday at 09:00 Bangkok time** (or manually via Actions tab).
+
+**Current behavior (resilient):**
+- Attempts to download latest 2 months from Traffy
+- If download fails → **skips gracefully** (doesn't crash) ✓
+- If CSVs available → runs pipeline and pushes JSON
+- If no CSVs → site continues serving existing data (no downtime)
+
+**Result:** Workflow never fails. Even if Traffy API is temporarily unavailable, the site stays live with last-known-good data.
+
+### Manual Workflow Trigger
+
+Go to GitHub Actions tab → *Update Traffy Data* → *Run workflow*
+- Specify how many months to download (default: 2)
+- Useful when you want to pull fresh data immediately
+
+### Future Improvements (Optional)
+
+If Traffy fixes their API or provides a stable endpoint:
+- Auto-download will work reliably
+- Workflow could push JSON automatically (zero manual steps)
+- Until then, local download + push is the most reliable method
 
 ---
 
