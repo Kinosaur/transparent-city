@@ -86,6 +86,15 @@ def main():
     ok = sum(download_month(m, force=args.force) for m in months)
     print(f"\nDone: {ok}/{len(months)} files ready.")
 
+    if ok == 0:
+        print("⚠ Warning: No new CSV files were downloaded.")
+        print("   This may be OK if files were already cached.")
+        print("   If this is the first run, manually download from:")
+        print("   https://bangkok.traffy.in.th/")
+    elif ok < len(months):
+        print(f"⚠ Warning: Only {ok}/{len(months)} files downloaded successfully.")
+        print("   Proceeding with available files...")
+
 
 if __name__ == "__main__":
     main()

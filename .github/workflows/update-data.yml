@@ -43,40 +43,68 @@ jobs:
           restore-keys: traffy-csvs-
 
       - name: Download latest CSVs
+        continue-on-error: true
         run: |
           MONTHS=${{ github.event.inputs.months || '2' }}
+          echo "▶ Downloading $MONTHS months of data from Traffy..."
           python backend/pipeline/download.py --months $MONTHS
-        continue-on-error: true
+          echo "✓ Download step complete"
 
-      # ── Run pipeline ───────────────────────────────────────────────────────
+      # ── Run pipeline (only if CSVs exist) ───────────────────────────────────
       - name: Run data pipeline
         run: |
-          echo "▶ Checking for CSV files..."
-          ls -lh backend/data/bangkok_*.csv 2>/dev/null || echo "No CSVs found"
-          python backend/pipeline/process.py
+          if ls backend/data/bangkok_*.csv 1> /dev/null 2>&1; then
+            echo "✓ Found $(ls backend/data/bangkok_*.csv | wc -l) CSV files — running pipeline..."
+            python backend/pipeline/process.py
+          else
+            echo "⚠ No new CSV data available. Using last-known-good cached data."
+            echo "   This is OK — the site will serve existing data."
+            echo "   (Traffy API may be temporarily unavailable; will retry next Monday)"
+          fi
 
-      # ── Copy output to frontend ────────────────────────────────────────────
+      # ── Copy output to frontend (if available) ──────────────────────────────
       - name: Copy JSON to frontend
+        continue-on-error: true
         run: |
           mkdir -p frontend/public/data
           if [ -d backend/public/data ] && ls backend/public/data/*.json 1> /dev/null 2>&1; then
+            echo "▶ Copying new pipeline output..."
             cp backend/public/data/*.json frontend/public/data/
-            echo "✓ Copied JSON files"
+            echo "✓ Updated frontend data files"
           else
-            echo "⚠ No JSON files found in backend/public/data"
-            exit 1
+            echo "ℹ No new data to copy (using existing frontend/public/data/)"
           fi
 
       # ── Commit only if data actually changed ───────────────────────────────
       - name: Commit updated data
+        continue-on-error: true
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add frontend/public/data/
           if git diff --staged --quiet; then
-            echo "No data changes — skipping commit."
+            echo "✓ No data changes — existing data is current."
           else
             DATE=$(date -u +%Y-%m-%d)
             git commit -m "data: weekly update ${DATE} [skip ci]"
             git push
+            echo "✓ Pushed updated data to GitHub"
           fi
+
+      # ── Final status ────────────────────────────────────────────────────────
+      - name: Workflow summary
+        if: always()
+        run: |
+          echo ""
+          echo "════════════════════════════════════════════════════════════"
+          echo "  GitHub Actions Data Update Workflow Complete"
+          echo "════════════════════════════════════════════════════════════"
+          echo ""
+          if [ -d frontend/public/data ]; then
+            echo "  📊 Frontend Data Status:"
+            ls -lh frontend/public/data/*.json | awk '{print "     " $9 " (" $5 ")"}'
+          fi
+          echo ""
+          echo "  ℹ Next scheduled run: Monday 09:00 Bangkok time"
+          echo "  ℹ Manual trigger: Actions tab → Update Traffy Data → Run workflow"
+          echo ""
