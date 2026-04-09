@@ -49,6 +49,7 @@ Each district report card is **shareable** — e.g. `/en/districts?district=chat
 | Styling | Tailwind CSS v4 |
 | Charts | Recharts |
 | Mapping | Leaflet + react-leaflet-cluster |
+| Icons | Lucide React |
 | Animation | Framer Motion |
 | i18n | Native `[lang]` routing (TH / EN) |
 | Data pipeline | Python, pandas |
@@ -181,8 +182,8 @@ Grades (A–F) are **relative**, not absolute. Each district is scored on a 0–
 | A | Top 20% (~10 districts) |
 | B | 50–80% (~15 districts) |
 | C | 20–50% (~15 districts) |
-| D | 5–20% (~7 districts) |
-| F | Bottom 5% (~3 districts) |
+| D | 5–20% (~8 districts) |
+| F | Bottom 5% (~2 districts) |
 
 This means grades reflect *relative* performance — if all districts improve equally, the grade distribution stays the same. The goal is comparison, not certification.
 
