@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { Share2 } from 'lucide-react'
 import type { DistrictData, Locale } from '@/lib/types'
 import { districtName } from '@/lib/districts-en'
 import { problemTypeLabel } from '@/lib/labels'
@@ -51,6 +51,7 @@ type Props = {
   bkkAvg: BkkAvg
   dict: Dict
   lang: Locale
+  onShare?: () => void
 }
 
 const gradeConfig: Record<string, { bg: string; border: string; text: string }> = {
@@ -133,19 +134,15 @@ const trendColor = {
   stable: 'text-[--color-muted]',
 }
 
-export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
+export default function ReportCard({ district: d, bkkAvg, dict, lang, onShare }: Props) {
   const g = gradeConfig[d.grade] ?? gradeConfig['C']
   const trend = trendArrow(d.monthly_trend)
   const staleRate = d.total_tickets > 0
     ? (d.stale_tickets / d.total_tickets) * 100
     : 0
-  const [copied, setCopied] = useState(false)
 
   function handleShare() {
-    navigator.clipboard.writeText(window.location.href).then(() => {
-      setCopied(true)
-      setTimeout(() => setCopied(false), 2000)
-    })
+    onShare?.()
   }
 
   return (
@@ -166,19 +163,10 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
           </p>
           <button
             onClick={handleShare}
-            className="mt-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs border border-[--color-border] text-[--color-subtle] hover:text-[--color-fg] hover:border-[--color-border-hover] transition-colors"
+            className="mt-3 w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 hover:border-cyan-500/50 text-cyan-400 font-medium text-sm transition-all"
           >
-            {copied ? (
-              <>
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 text-[--color-good]"><path d="M2 8l4 4 8-8"/></svg>
-                <span className="text-[--color-good]">{lang === 'th' ? 'คัดลอกแล้ว!' : 'Copied!'}</span>
-              </>
-            ) : (
-              <>
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-3.5 h-3.5"><path d="M10 2H4a1 1 0 0 0-1 1v9m3-7h6a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg>
-                {lang === 'th' ? 'แชร์เขตนี้' : 'Share'}
-              </>
-            )}
+            <Share2 size={16} />
+            {lang === 'th' ? 'แชร์เขตนี้' : 'Share'}
           </button>
         </div>
 

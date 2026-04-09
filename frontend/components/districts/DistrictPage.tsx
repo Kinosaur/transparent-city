@@ -7,7 +7,7 @@ import type { DistrictData, Locale } from '@/lib/types'
 import { toSlug, districtName } from '@/lib/districts-en'
 import DistrictSelector from './DistrictSelector'
 import ReportCard from './ReportCard'
-import SharePreview from '@/components/SharePreview'
+import ShareModal from '@/components/ShareModal'
 
 type BkkAvg = {
   resolution_rate: number
@@ -66,6 +66,7 @@ type Props = {
 
 export default function DistrictPage({ districts, bkkAvg, dict, lang, initialDistrict = null }: Props) {
   const [selected, setSelected] = useState<DistrictData | null>(initialDistrict)
+  const [shareModalOpen, setShareModalOpen] = useState(false)
   const router = useRouter()
   const pathname = usePathname()
 
@@ -118,34 +119,8 @@ export default function DistrictPage({ districts, bkkAvg, dict, lang, initialDis
               bkkAvg={bkkAvg}
               dict={dict}
               lang={lang}
+              onShare={() => setShareModalOpen(true)}
             />
-
-            {/* Share Preview */}
-            <div className="max-w-md">
-              <SharePreview
-                title={
-                  lang === 'th'
-                    ? `${districtName(selected.district, 'th')} เกรด ${selected.grade} — เมืองโปร่งใส`
-                    : `${districtName(selected.district, 'en')}: Grade ${selected.grade} — Transparent City`
-                }
-                description={
-                  lang === 'th'
-                    ? `ผลงานเขต${districtName(selected.district, 'th')}: อัตราการแก้ไข ${selected.resolution_rate?.toFixed(1)}%, เวลาเฉลี่ย ${selected.median_resolution_days?.toFixed(1)} วัน`
-                    : `${districtName(selected.district, 'en')} district: ${selected.resolution_rate?.toFixed(1)}% resolution rate, ${selected.median_resolution_days?.toFixed(1)} day median fix time.`
-                }
-                ogImageUrl={
-                  `https://transparent-city.vercel.app/api/og?page=districts&lang=${lang}&district=${encodeURIComponent(districtName(selected.district, 'en'))}&grade=${selected.grade}&resolution=${selected.resolution_rate?.toFixed(1)}&stale=${
-                    selected.total_tickets > 0
-                      ? ((selected.stale_tickets / selected.total_tickets) * 100).toFixed(1)
-                      : '0'
-                  }&tickets=${selected.total_tickets}`
-                }
-                shareUrl={
-                  `https://transparent-city.vercel.app/${lang}/districts?district=${toSlug(districtName(selected.district, 'en'))}`
-                }
-                lang={lang}
-              />
-            </div>
           </motion.div>
         ) : (
           <motion.div
@@ -160,6 +135,35 @@ export default function DistrictPage({ districts, bkkAvg, dict, lang, initialDis
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Share Modal */}
+      {selected && (
+        <ShareModal
+          isOpen={shareModalOpen}
+          onClose={() => setShareModalOpen(false)}
+          title={
+            lang === 'th'
+              ? `${districtName(selected.district, 'th')} เกรด ${selected.grade} — เมืองโปร่งใส`
+              : `${districtName(selected.district, 'en')}: Grade ${selected.grade} — Transparent City`
+          }
+          description={
+            lang === 'th'
+              ? `ผลงานเขต${districtName(selected.district, 'th')}: อัตราการแก้ไข ${selected.resolution_rate?.toFixed(1)}%, เวลาเฉลี่ย ${selected.median_resolution_days?.toFixed(1)} วัน`
+              : `${districtName(selected.district, 'en')} district: ${selected.resolution_rate?.toFixed(1)}% resolution rate, ${selected.median_resolution_days?.toFixed(1)} day median fix time.`
+          }
+          ogImageUrl={
+            `https://transparent-city.vercel.app/api/og?page=districts&lang=${lang}&district=${encodeURIComponent(districtName(selected.district, 'en'))}&grade=${selected.grade}&resolution=${selected.resolution_rate?.toFixed(1)}&stale=${
+              selected.total_tickets > 0
+                ? ((selected.stale_tickets / selected.total_tickets) * 100).toFixed(1)
+                : '0'
+            }&tickets=${selected.total_tickets}`
+          }
+          shareUrl={
+            `https://transparent-city.vercel.app/${lang}/districts?district=${toSlug(districtName(selected.district, 'en'))}`
+          }
+          lang={lang}
+        />
+      )}
     </div>
   )
 }
