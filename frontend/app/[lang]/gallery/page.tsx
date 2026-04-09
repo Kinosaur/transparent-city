@@ -13,11 +13,12 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
   const description = isTh
     ? 'หลักฐานที่พิสูจน์ว่าการรายงานปัญหาได้ผลจริง: ภาพก่อนและหลังการแก้ไข'
     : 'Visual proof that civic reporting works: before and after photos of resolved tickets.'
+  const ogImage = `/api/og?page=gallery&lang=${lang}`
   return {
     title,
     description,
-    openGraph: { title, description, type: 'website' },
-    twitter: { card: 'summary_large_image', title, description },
+    openGraph: { title, description, type: 'website', images: [{ url: ogImage, width: 1200, height: 630, alt: title }] },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
     alternates: { canonical: `/${lang}/gallery`, languages: { th: '/th/gallery', en: '/en/gallery' } },
   }
 }

@@ -13,11 +13,12 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
   const description = isTh
     ? 'อันดับหน่วยงานตามผลงาน: อัตราการแก้ไข, ความเร็ว, ความพึงพอใจ'
     : 'All Bangkok agencies ranked by resolution rate, speed, and satisfaction score.'
+  const ogImage = `/api/og?page=leaderboard&lang=${lang}`
   return {
     title,
     description,
-    openGraph: { title, description, type: 'website' },
-    twitter: { card: 'summary_large_image', title, description },
+    openGraph: { title, description, type: 'website', images: [{ url: ogImage, width: 1200, height: 630, alt: title }] },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
     alternates: { canonical: `/${lang}/leaderboard`, languages: { th: '/th/leaderboard', en: '/en/leaderboard' } },
   }
 }

@@ -3,14 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { MapPoint, DistrictData, Locale } from '@/lib/types'
 import { districtName } from '@/lib/districts-en'
-
-// ─── Types ────────────────────────────────────────────────────────────────────
-
-type DistrictFeature = {
-  type: 'Feature'
-  properties: { district: string }
-  geometry: { type: string; coordinates: unknown[] }
-}
+import { problemTypeLabel } from '@/lib/labels'
 
 type MapFilter = 'all' | 'stale' | 'low_sat'
 type ChoroplethMetric = 'resolution_rate' | 'stale_rate' | 'median_resolution_days'
@@ -257,7 +250,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
         className="absolute top-3 right-3 text-zinc-500 hover:text-[--color-fg] text-xs"
       >✕</button>
       <p className="text-xs text-zinc-500 font-mono mb-2">{selected.ticket_id}</p>
-      <p className="text-sm font-semibold text-[--color-fg] mb-1">{selected.type}</p>
+      <p className="text-sm font-semibold text-[--color-fg] mb-1">{problemTypeLabel(selected.type, lang)}</p>
       <p className="text-xs text-zinc-400 mb-3">
         {dict.map.popup_district}: {districtName(selected.district, lang)}
       </p>
@@ -277,7 +270,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
           </div>
         )}
         <div className="flex justify-between text-xs">
-          <span className="text-zinc-500">Type</span>
+          <span className="text-zinc-500">{dict.map.popup_type}</span>
           <span className={`text-xs font-medium px-1.5 py-0.5 rounded ${
             selected.flag === 'stale' ? 'bg-red-400/10 text-red-400' : 'bg-amber-400/10 text-amber-400'
           }`}>

@@ -25,6 +25,5 @@ npm-debug.log*
 
 # ── Claude Code ───────────────────────────────────────────────────────────────
 .claude/
-Traffy-Community-Dashboard-Execution-Plan.pdf
 frontend/CLAUDE.md
-Traffy-Community-Dashboard-Execution-Plan.docx
+frontend/AGENTS.md

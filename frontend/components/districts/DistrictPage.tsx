@@ -1,8 +1,10 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter, usePathname } from 'next/navigation'
 import { AnimatePresence, motion } from 'framer-motion'
 import type { DistrictData, Locale } from '@/lib/types'
+import { toSlug, districtName } from '@/lib/districts-en'
 import DistrictSelector from './DistrictSelector'
 import ReportCard from './ReportCard'
 
@@ -18,6 +20,8 @@ type Dict = {
     title: string
     subtitle: string
     select_placeholder: string
+    search_placeholder: string
+    search_no_results: string
     grade_label: string
     vs_bkk: string
     resolution_rate: string
@@ -55,10 +59,23 @@ type Props = {
   bkkAvg: BkkAvg
   dict: Dict
   lang: Locale
+  initialDistrict?: DistrictData | null
 }
 
-export default function DistrictPage({ districts, bkkAvg, dict, lang }: Props) {
-  const [selected, setSelected] = useState<DistrictData | null>(null)
+export default function DistrictPage({ districts, bkkAvg, dict, lang, initialDistrict = null }: Props) {
+  const [selected, setSelected] = useState<DistrictData | null>(initialDistrict)
+  const router = useRouter()
+  const pathname = usePathname()
+
+  function handleSelect(d: DistrictData | null) {
+    setSelected(d)
+    if (d) {
+      const slug = toSlug(districtName(d.district, 'en'))
+      router.replace(`${pathname}?district=${slug}`, { scroll: false })
+    } else {
+      router.replace(pathname, { scroll: false })
+    }
+  }
 
   const sorted = [...districts].sort((a, b) => a.district.localeCompare(b.district, 'th'))
 
@@ -76,9 +93,11 @@ export default function DistrictPage({ districts, bkkAvg, dict, lang }: Props) {
       <DistrictSelector
         districts={sorted}
         selected={selected}
-        onSelect={setSelected}
+        onSelect={handleSelect}
         placeholder={dict.districts.select_placeholder}
         lang={lang}
+        searchPlaceholder={dict.districts.search_placeholder}
+        noResults={dict.districts.search_no_results}
       />
 
       {/* Report card or empty state */}

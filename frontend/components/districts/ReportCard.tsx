@@ -1,7 +1,9 @@
 'use client'
 
+import { useState } from 'react'
 import type { DistrictData, Locale } from '@/lib/types'
 import { districtName } from '@/lib/districts-en'
+import { problemTypeLabel } from '@/lib/labels'
 
 type BkkAvg = {
   resolution_rate: number
@@ -136,6 +138,14 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
   const staleRate = d.total_tickets > 0
     ? (d.stale_tickets / d.total_tickets) * 100
     : 0
+  const [copied, setCopied] = useState(false)
+
+  function handleShare() {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -150,6 +160,22 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
           {d.composite_score !== null && (
             <p className="text-xs text-[--color-muted]">{dict.districts.score_label}: {d.composite_score.toFixed(1)} / 100</p>
           )}
+          <button
+            onClick={handleShare}
+            className="mt-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs border border-[--color-border] text-[--color-subtle] hover:text-[--color-fg] hover:border-[--color-border-hover] transition-colors"
+          >
+            {copied ? (
+              <>
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 text-[--color-good]"><path d="M2 8l4 4 8-8"/></svg>
+                <span className="text-[--color-good]">{lang === 'th' ? 'คัดลอกแล้ว!' : 'Copied!'}</span>
+              </>
+            ) : (
+              <>
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-3.5 h-3.5"><path d="M10 2H4a1 1 0 0 0-1 1v9m3-7h6a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg>
+                {lang === 'th' ? 'แชร์เขตนี้' : 'Share'}
+              </>
+            )}
+          </button>
         </div>
 
         {/* Quick stats */}
@@ -179,7 +205,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
             {d.top_types.map((t, i) => (
               <li key={t.type} className="flex items-center gap-2 text-sm">
                 <span className="w-4 text-[--color-muted] text-xs">{i + 1}.</span>
-                <span className="flex-1 text-[--color-subtle]">{t.type}</span>
+                <span className="flex-1 text-[--color-subtle]">{problemTypeLabel(t.type, lang)}</span>
                 <span className="text-[--color-fg] font-medium text-xs">{t.count.toLocaleString()}</span>
               </li>
             ))}
@@ -245,7 +271,7 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
                     <p className="text-[10px] text-[--color-bad]/70">{dict.districts.days}</p>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-[--color-fg] truncate">{t.type}</p>
+                    <p className="text-sm font-medium text-[--color-fg] truncate">{problemTypeLabel(t.type, lang)}</p>
                     <p className="text-xs text-[--color-muted] mt-0.5 truncate">{t.address ?? '—'}</p>
                     <p className="text-[10px] text-[--color-surface-600] mt-1 font-mono">{t.ticket_id}</p>
                   </div>

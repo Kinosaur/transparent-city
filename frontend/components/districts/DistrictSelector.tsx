@@ -10,6 +10,8 @@ type Props = {
   onSelect: (d: DistrictData) => void
   placeholder: string
   lang: Locale
+  searchPlaceholder: string
+  noResults: string
 }
 
 const gradeColor: Record<string, string> = {
@@ -20,7 +22,15 @@ const gradeColor: Record<string, string> = {
   F: 'text-[--color-bad]',
 }
 
-export default function DistrictSelector({ districts, selected, onSelect, placeholder, lang }: Props) {
+export default function DistrictSelector({
+  districts,
+  selected,
+  onSelect,
+  placeholder,
+  lang,
+  searchPlaceholder,
+  noResults,
+}: Props) {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const ref = useRef<HTMLDivElement>(null)
@@ -73,7 +83,7 @@ export default function DistrictSelector({ districts, selected, onSelect, placeh
               autoFocus
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="ค้นหาเขต..."
+              placeholder={searchPlaceholder}
               className="w-full bg-transparent text-sm text-[--color-fg] placeholder-zinc-500 outline-none"
             />
           </div>
@@ -98,7 +108,7 @@ export default function DistrictSelector({ districts, selected, onSelect, placeh
               </li>
             ))}
             {filtered.length === 0 && (
-              <li className="px-4 py-3 text-sm text-[--color-muted]">ไม่พบเขตที่ค้นหา</li>
+              <li className="px-4 py-3 text-sm text-[--color-muted]">{noResults}</li>
             )}
           </ul>
         </div>

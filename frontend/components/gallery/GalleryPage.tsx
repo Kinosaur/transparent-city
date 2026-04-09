@@ -3,6 +3,8 @@
 import { useState, useMemo } from 'react'
 import Image from 'next/image'
 import type { GalleryItem, Locale } from '@/lib/types'
+import { districtName } from '@/lib/districts-en'
+import { problemTypeLabel } from '@/lib/labels'
 
 const PAGE_SIZE = 24
 
@@ -43,7 +45,7 @@ function StarRow({ star, noRating }: { star: number | null; noRating: string }) 
   )
 }
 
-function GalleryCard({ item, d }: { item: GalleryItem; d: Dict['gallery'] }) {
+function GalleryCard({ item, d, lang }: { item: GalleryItem; d: Dict['gallery']; lang: Locale }) {
   const [flipped, setFlipped] = useState(false)
   const daysLabel =
     item.days_to_resolve === null
@@ -62,7 +64,7 @@ function GalleryCard({ item, d }: { item: GalleryItem; d: Dict['gallery'] }) {
       >
         <Image
           src={flipped ? item.photo_after : item.photo}
-          alt={item.type}
+          alt={problemTypeLabel(item.type, lang)}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-opacity duration-300"
@@ -81,9 +83,9 @@ function GalleryCard({ item, d }: { item: GalleryItem; d: Dict['gallery'] }) {
 
       {/* Info */}
       <div className="px-3 py-3 flex flex-col gap-1.5 flex-1">
-        <p className="text-sm font-medium text-[--color-fg] leading-snug line-clamp-1">{item.type}</p>
+        <p className="text-sm font-medium text-[--color-fg] leading-snug line-clamp-1">{problemTypeLabel(item.type, lang)}</p>
         <div className="flex items-center justify-between gap-2">
-          <span className="text-xs text-[--color-muted]">{item.district}</span>
+          <span className="text-xs text-[--color-muted]">{districtName(item.district, lang)}</span>
           <StarRow star={item.star} noRating={d.no_rating} />
         </div>
         {daysLabel && (
@@ -142,7 +144,7 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
         >
           <option value="">{d.all_types}</option>
           {types.map((t) => (
-            <option key={t} value={t}>{t}</option>
+            <option key={t} value={t}>{problemTypeLabel(t, lang)}</option>
           ))}
         </select>
 
@@ -153,7 +155,7 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
         >
           <option value="">{d.all_districts}</option>
           {districts.map((dist) => (
-            <option key={dist} value={dist}>{dist}</option>
+            <option key={dist} value={dist}>{districtName(dist, lang)}</option>
           ))}
         </select>
 
@@ -183,7 +185,7 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
         <>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {visible.map((item) => (
-              <GalleryCard key={item.ticket_id} item={item} d={d} />
+              <GalleryCard key={item.ticket_id} item={item} d={d} lang={lang} />
             ))}
           </div>
 

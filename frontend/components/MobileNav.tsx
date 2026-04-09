@@ -14,6 +14,11 @@ type Props = {
 export default function MobileNav({ lang, dict }: Props) {
   const pathname = usePathname()
 
+  function isItemActive(href: string): boolean {
+    if (href === `/${lang}`) return pathname === href
+    return pathname === href || pathname.startsWith(`${href}/`)
+  }
+
   const items = [
     {
       label: dict.nav.overview,
@@ -68,21 +73,27 @@ export default function MobileNav({ lang, dict }: Props) {
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50 md:hidden border-t border-[--color-border] bg-[--color-surface-950]/95 backdrop-blur-md">
-      <div className="flex">
+      <div className="flex px-1 pt-1 pb-[max(0.25rem,env(safe-area-inset-bottom))]">
         {items.map(({ label, href, icon }) => {
-          const isActive = href === `/${lang}` ? pathname === href : pathname.startsWith(href)
+          const isActive = isItemActive(href)
           return (
             <Link
               key={href}
               href={href}
-              className={`flex-1 flex flex-col items-center gap-0.5 py-2.5 text-[10px] transition-colors ${
+              aria-current={isActive ? 'page' : undefined}
+              className={`relative flex-1 flex flex-col items-center gap-0.5 py-2 rounded-lg text-[10px] transition-all ${
                 isActive
-                  ? 'text-[--color-teal-400]'
-                  : 'text-[--color-muted] hover:text-[--color-subtle]'
+                  ? 'text-[--color-teal-400] bg-[--color-teal-400]/12'
+                  : 'text-[--color-muted] hover:text-[--color-subtle] hover:bg-white/5'
               }`}
             >
+              <span
+                className={`absolute top-0 left-1/2 -translate-x-1/2 h-0.5 rounded-full transition-all ${
+                  isActive ? 'w-6 opacity-100 bg-[--color-teal-400]' : 'w-0 opacity-0'
+                }`}
+              />
               {icon}
-              <span className="leading-tight truncate max-w-full px-1">{label}</span>
+              <span className="leading-tight truncate max-w-full px-1 font-medium">{label}</span>
             </Link>
           )
         })}

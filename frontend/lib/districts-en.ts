@@ -60,6 +60,18 @@ export function districtName(thName: string, lang: Locale): string {
   return thName
 }
 
+/** Convert English district name to URL slug: "Khlong Toei" → "khlong-toei" */
+export function toSlug(enName: string): string {
+  return enName.toLowerCase().replace(/\s+/g, '-')
+}
+
+/** Find Thai district name from a URL slug. Returns undefined if not found. */
+export function fromSlug(slug: string): string | undefined {
+  return Object.entries(DISTRICT_EN).find(
+    ([, en]) => toSlug(en) === slug
+  )?.[0]
+}
+
 const TH_MONTHS = [
   'ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.',
   'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.',

@@ -13,10 +13,13 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/map'>): Pr
   const description = isTh
     ? 'แผนที่ตั๋วค้างคาและคะแนนต่ำในกรุงเทพฯ พร้อม choropleth แสดงผลงานแต่ละเขต'
     : "Map of Bangkok's stale and low-rated civic tickets with district-level choropleth shading."
+  const ogImage = `/api/og?page=map&lang=${lang}`
   return {
     title,
     description,
-    openGraph: { title, description, type: 'website' },
+    openGraph: { title, description, type: 'website', images: [{ url: ogImage, width: 1200, height: 630, alt: title }] },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
+    alternates: { canonical: `/${lang}/map`, languages: { th: '/th/map', en: '/en/map' } },
   }
 }
 

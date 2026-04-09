@@ -29,26 +29,50 @@
   --font-sans: var(--font-noto-thai), 'Geist', ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-brand: var(--font-brand), 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
 }
 
 /* ── Light theme ───────────────────────────────────────────────────────────── */
 @media (prefers-color-scheme: light) {
   :root {
-    --color-surface-950: #f9f9fb;
-    --color-surface-900: #f0f0f5;
-    --color-surface-800: #e8e8f0;
-    --color-surface-700: #e0e0eb;
-    --color-surface-600: #d4d4e5;
-    --color-muted: #6b6b95;
-    --color-subtle: #5a5a7f;
-    --color-fg: #2a2a42;
-    --color-border: rgba(0, 0, 0, 0.06);
-    --color-border-hover: rgba(0, 0, 0, 0.12);
+    --color-surface-950: #f6f7fb;
+    --color-surface-900: #ffffff;
+    --color-surface-800: #f1f4f9;
+    --color-surface-700: #e7ecf4;
+    --color-surface-600: #d5deea;
+    --color-muted: #5f6f85;
+    --color-subtle: #34445d;
+    --color-fg: #122038;
+    --color-border: rgba(17, 24, 39, 0.10);
+    --color-border-hover: rgba(17, 24, 39, 0.18);
+  }
+
+  /* Tailwind translucent-white utilities are too faint on light surfaces.
+     Remap common interaction layers to subtle dark overlays in light mode. */
+  .bg-white\/3 { background-color: rgba(15, 23, 42, 0.03) !important; }
+  .bg-white\/5 { background-color: rgba(15, 23, 42, 0.045) !important; }
+  .bg-white\/8 { background-color: rgba(15, 23, 42, 0.07) !important; }
+  .bg-white\/10 { background-color: rgba(15, 23, 42, 0.09) !important; }
+
+  .hover\:bg-white\/3:hover { background-color: rgba(15, 23, 42, 0.03) !important; }
+  .hover\:bg-white\/5:hover { background-color: rgba(15, 23, 42, 0.045) !important; }
+  .hover\:bg-white\/8:hover { background-color: rgba(15, 23, 42, 0.07) !important; }
+  .hover\:bg-white\/10:hover { background-color: rgba(15, 23, 42, 0.09) !important; }
+
+  .border-white\/10 { border-color: rgba(17, 24, 39, 0.12) !important; }
+}
+
+:root {
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
   }
 }
 
 html {
-  color-scheme: light dark;
   scroll-behavior: smooth;
 }
 

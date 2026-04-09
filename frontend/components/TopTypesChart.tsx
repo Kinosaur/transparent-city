@@ -10,10 +10,12 @@ import {
   ResponsiveContainer,
   Cell,
 } from 'recharts'
-import type { ProblemType } from '@/lib/types'
+import type { ProblemType, Locale } from '@/lib/types'
+import { problemTypeLabel } from '@/lib/labels'
 
 type Props = {
   data: ProblemType[]
+  lang: Locale
   dict: {
     charts: {
       top_types_title: string
@@ -46,8 +48,9 @@ const CustomTooltip = ({
   )
 }
 
-export default function TopTypesChart({ data, dict }: Props) {
+export default function TopTypesChart({ data, dict, lang }: Props) {
   const top10 = data.slice(0, 10)
+  const localized = top10.map((row) => ({ ...row, typeLabel: problemTypeLabel(row.type, lang) }))
 
   return (
     <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] px-5 pt-5 pb-3 h-full">
@@ -59,7 +62,7 @@ export default function TopTypesChart({ data, dict }: Props) {
       <ResponsiveContainer width="100%" height={260}>
         <BarChart
           layout="vertical"
-          data={top10}
+          data={localized}
           margin={{ top: 0, right: 12, left: 0, bottom: 0 }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke="#ffffff0d" horizontal={false} />
@@ -74,7 +77,7 @@ export default function TopTypesChart({ data, dict }: Props) {
           />
           <YAxis
             type="category"
-            dataKey="type"
+            dataKey="typeLabel"
             tick={{ fill: '#9ca3af', fontSize: 11 }}
             tickLine={false}
             axisLine={false}
@@ -82,7 +85,7 @@ export default function TopTypesChart({ data, dict }: Props) {
           />
           <Tooltip content={<CustomTooltip />} cursor={{ fill: '#ffffff08' }} />
           <Bar dataKey="count" name={dict.charts.count} radius={[0, 3, 3, 0]}>
-            {top10.map((entry, i) => (
+            {localized.map((entry, i) => (
               <Cell
                 key={entry.type}
                 fill={`rgba(45,212,191,${1 - i * 0.07})`}

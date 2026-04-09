@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import type { OrgData, Locale } from '@/lib/types'
+import { organizationLabel } from '@/lib/labels'
 
 type BkkAvg = {
   resolution_rate: number
@@ -47,13 +48,11 @@ function DeltaBadge({
   bkk,
   higherIsBetter,
   suffix,
-  d,
 }: {
   val: number | null
   bkk: number
   higherIsBetter: boolean
   suffix?: string
-  d: Dict['leaderboard']
 }) {
   if (val === null) return <span className="text-[--color-muted] text-xs">—</span>
   const diff = val - bkk
@@ -89,7 +88,7 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
     let rows = orgs.filter((o) => o.total_tickets >= minTickets)
     if (query.trim()) {
       const q = query.trim().toLowerCase()
-      rows = rows.filter((o) => o.organization.toLowerCase().includes(q))
+      rows = rows.filter((o) => organizationLabel(o.organization, lang).toLowerCase().includes(q))
     }
     rows = [...rows].sort((a, b) => {
       const av = a[sortKey] ?? -Infinity
@@ -97,13 +96,14 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
       return sortAsc ? (av as number) - (bv as number) : (bv as number) - (av as number)
     })
     return rows
-  }, [orgs, query, minTickets, sortKey, sortAsc])
+  }, [orgs, query, minTickets, sortKey, sortAsc, lang])
 
-  function SortHeader({ col, label }: { col: SortKey; label: string }) {
+  function renderSortHeader(col: SortKey, label: string) {
     const active = sortKey === col
     const arrow = active ? (sortAsc ? ' ↑' : ' ↓') : ''
     return (
       <th
+        key={col + label}
         onClick={() => handleSort(col)}
         className={`px-3 py-3 text-right text-xs font-medium uppercase tracking-wider cursor-pointer select-none whitespace-nowrap transition-colors ${
           active ? 'text-[--color-teal-400]' : 'text-[--color-muted] hover:text-[--color-fg]'
@@ -164,12 +164,12 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
             <thead>
               <tr className="border-b border-[--color-border]">
                 <th className="px-4 py-3 text-left text-xs font-medium text-[--color-muted] uppercase tracking-wider w-8">#</th>
-                <SortHeader col="total_tickets" label={d.org_name} />
-                <SortHeader col="total_tickets" label={d.total_tickets} />
-                <SortHeader col="resolution_rate" label={d.resolution_rate} />
-                <SortHeader col="median_resolution_days" label={d.median_days} />
-                <SortHeader col="avg_satisfaction" label={d.avg_satisfaction} />
-                <SortHeader col="reopen_rate" label={d.reopen_rate} />
+                {renderSortHeader('total_tickets', d.org_name)}
+                {renderSortHeader('total_tickets', d.total_tickets)}
+                {renderSortHeader('resolution_rate', d.resolution_rate)}
+                {renderSortHeader('median_resolution_days', d.median_days)}
+                {renderSortHeader('avg_satisfaction', d.avg_satisfaction)}
+                {renderSortHeader('reopen_rate', d.reopen_rate)}
               </tr>
               {/* BKK avg reference row */}
               <tr className="border-b border-[--color-border] bg-[--color-teal-400]/5">
@@ -198,7 +198,7 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
                   >
                     <td className="px-4 py-3 text-xs text-[--color-muted] tabular-nums">{i + 1}</td>
                     <td className="px-3 py-3 text-sm text-[--color-subtle] max-w-[260px]" colSpan={2}>
-                      <span className="line-clamp-2 leading-snug">{org.organization}</span>
+                      <span className="line-clamp-2 leading-snug">{organizationLabel(org.organization, lang)}</span>
                       <span className="text-xs text-[--color-muted] mt-0.5 block">
                         {org.total_tickets.toLocaleString()} {d.total_tickets.toLowerCase()}
                       </span>
@@ -207,25 +207,25 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
                       <div className="text-sm font-medium text-[--color-fg]">
                         {org.resolution_rate !== null ? `${org.resolution_rate.toFixed(1)}%` : '—'}
                       </div>
-                      <DeltaBadge val={org.resolution_rate} bkk={bkkAvg.resolution_rate} higherIsBetter suffix="%" d={d} />
+                      <DeltaBadge val={org.resolution_rate} bkk={bkkAvg.resolution_rate} higherIsBetter suffix="%" />
                     </td>
                     <td className="px-3 py-3 text-right">
                       <div className="text-sm font-medium text-[--color-fg]">
                         {org.median_resolution_days !== null ? org.median_resolution_days.toFixed(1) : '—'}
                       </div>
-                      <DeltaBadge val={org.median_resolution_days} bkk={bkkAvg.median_resolution_days} higherIsBetter={false} suffix={` ${d.days}`} d={d} />
+                      <DeltaBadge val={org.median_resolution_days} bkk={bkkAvg.median_resolution_days} higherIsBetter={false} suffix={` ${d.days}`} />
                     </td>
                     <td className="px-3 py-3 text-right">
                       <div className="text-sm font-medium text-[--color-fg]">
                         {org.avg_satisfaction !== null ? org.avg_satisfaction.toFixed(2) : '—'}
                       </div>
-                      <DeltaBadge val={org.avg_satisfaction} bkk={bkkAvg.avg_satisfaction} higherIsBetter d={d} />
+                      <DeltaBadge val={org.avg_satisfaction} bkk={bkkAvg.avg_satisfaction} higherIsBetter />
                     </td>
                     <td className="px-3 py-3 text-right">
                       <div className="text-sm font-medium text-[--color-fg]">
                         {org.reopen_rate !== null ? `${org.reopen_rate.toFixed(1)}%` : '—'}
                       </div>
-                      <DeltaBadge val={org.reopen_rate} bkk={bkkAvg.reopen_rate} higherIsBetter={false} suffix="%" d={d} />
+                      <DeltaBadge val={org.reopen_rate} bkk={bkkAvg.reopen_rate} higherIsBetter={false} suffix="%" />
                     </td>
                   </tr>
                 ))

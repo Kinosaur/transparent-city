@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
   const description = isTh
     ? 'สถิติตั๋วร้องเรียนกรุงเทพฯ จาก Traffy Fondue: 1.14 ล้านตั๋ว, อัตราการแก้ไข 78.5%, เวลาแก้ไขเฉลี่ย 5.5 วัน'
     : 'Bangkok civic complaint statistics from Traffy Fondue: 1.14M tickets, 78.5% resolution rate, 5.5-day median fix time.'
+  const ogImage = `/api/og?page=overview&lang=${lang}`
   return {
     title,
     description,
@@ -27,8 +28,9 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
       description,
       type: 'website',
       locale: isTh ? 'th_TH' : 'en_US',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
     alternates: { canonical: `/${lang}`, languages: { th: '/th', en: '/en' } },
   }
 }
@@ -84,7 +86,7 @@ export default async function OverviewPage({ params }: PageProps<'/[lang]'>) {
           <MonthlyChart data={trendData} dict={dict} />
         </div>
         <div className="xl:col-span-2">
-          <TopTypesChart data={data.top_problem_types} dict={dict} />
+          <TopTypesChart data={data.top_problem_types} dict={dict} lang={lang} />
         </div>
       </div>
     </div>

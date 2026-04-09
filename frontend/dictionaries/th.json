@@ -6,7 +6,7 @@
   "nav": {
     "overview": "ภาพรวม",
     "districts": "ผลงานเขต",
-    "leaderboard": "จัดอันดับหน่วยงาน",
+    "leaderboard": "จัดอันดับ",
     "gallery": "ก่อน-หลัง",
     "map": "แผนที่"
   },
@@ -43,6 +43,8 @@
     "title": "ผลงานเขต",
     "subtitle": "เลือกเขตเพื่อดูรายงานละเอียด",
     "select_placeholder": "เลือกเขต...",
+    "search_placeholder": "ค้นหาเขต...",
+    "search_no_results": "ไม่พบเขตที่ค้นหา",
     "grade_label": "เกรดภาพรวม",
     "vs_bkk": "เทียบกับค่าเฉลี่ยกรุงเทพฯ",
     "resolution_rate": "อัตราการแก้ไข",

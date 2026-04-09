@@ -5,9 +5,9 @@
   },
   "nav": {
     "overview": "Overview",
-    "districts": "District Report",
-    "leaderboard": "Agency Rankings",
-    "gallery": "Before / After",
+    "districts": "Districts",
+    "leaderboard": "Rankings",
+    "gallery": "Gallery",
     "map": "Map"
   },
   "overview": {
@@ -43,6 +43,8 @@
     "title": "District Report Card",
     "subtitle": "Select a district to view its detailed report",
     "select_placeholder": "Select a district...",
+    "search_placeholder": "Search district...",
+    "search_no_results": "No matching districts",
     "grade_label": "Overall Grade",
     "vs_bkk": "vs Bangkok Average",
     "resolution_rate": "Resolution Rate",
