@@ -44,13 +44,13 @@ export async function generateMetadata({
     const staleRate = districtData.total_tickets > 0
       ? ((districtData.stale_tickets / districtData.total_tickets) * 100).toFixed(1)
       : '0'
-    ogImage = `/api/og?page=districts&lang=${lang}&district=${encodeURIComponent(districtName(districtData.district, 'en'))}&grade=${districtData.grade}&resolution=${districtData.resolution_rate?.toFixed(1)}&stale=${staleRate}&tickets=${districtData.total_tickets}`
+    ogImage = `https://transparent-city.vercel.app/api/og?page=districts&lang=${lang}&district=${encodeURIComponent(districtName(districtData.district, 'en'))}&grade=${districtData.grade}&resolution=${districtData.resolution_rate?.toFixed(1)}&stale=${staleRate}&tickets=${districtData.total_tickets}`
   } else {
     title = isTh ? 'ผลงานเขต — เมืองโปร่งใส' : 'District Report Card — Transparent City'
     description = isTh
       ? 'เปรียบเทียบผลงาน 50 เขตในกรุงเทพฯ: เกรด A-F, อัตราการแก้ไข, เวลาเฉลี่ย, ตั๋วค้างคา'
       : 'Compare all 50 Bangkok districts: A-F grades, resolution rates, median fix times, and stale ticket counts.'
-    ogImage = `/api/og?page=districts&lang=${lang}`
+    ogImage = `https://transparent-city.vercel.app/api/og?page=districts&lang=${lang}`
   }
 
   return {

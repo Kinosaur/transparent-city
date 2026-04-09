@@ -38,6 +38,7 @@ type Dict = {
     grade_below: string
     grade_poor: string
     score_label: string
+    grade_method: string
     trend_3mo: string
     stale_label: string
     comparison_subtitle: string
@@ -160,6 +161,9 @@ export default function ReportCard({ district: d, bkkAvg, dict, lang }: Props) {
           {d.composite_score !== null && (
             <p className="text-xs text-[--color-muted]">{dict.districts.score_label}: {d.composite_score.toFixed(1)} / 100</p>
           )}
+          <p className="text-[10px] text-[--color-muted] opacity-70 leading-snug px-2">
+            {dict.districts.grade_method}
+          </p>
           <button
             onClick={handleShare}
             className="mt-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs border border-[--color-border] text-[--color-subtle] hover:text-[--color-fg] hover:border-[--color-border-hover] transition-colors"

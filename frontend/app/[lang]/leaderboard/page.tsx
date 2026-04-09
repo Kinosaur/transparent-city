@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
   const description = isTh
     ? 'อันดับหน่วยงานตามผลงาน: อัตราการแก้ไข, ความเร็ว, ความพึงพอใจ'
     : 'All Bangkok agencies ranked by resolution rate, speed, and satisfaction score.'
-  const ogImage = `/api/og?page=leaderboard&lang=${lang}`
+  const ogImage = `https://transparent-city.vercel.app/api/og?page=leaderboard&lang=${lang}`
   return {
     title,
     description,

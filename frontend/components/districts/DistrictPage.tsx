@@ -47,6 +47,7 @@ type Dict = {
     grade_below: string
     grade_poor: string
     score_label: string
+    grade_method: string
     trend_3mo: string
     stale_label: string
     comparison_subtitle: string

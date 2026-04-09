@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
   const description = isTh
     ? 'หลักฐานที่พิสูจน์ว่าการรายงานปัญหาได้ผลจริง: ภาพก่อนและหลังการแก้ไข'
     : 'Visual proof that civic reporting works: before and after photos of resolved tickets.'
-  const ogImage = `/api/og?page=gallery&lang=${lang}`
+  const ogImage = `https://transparent-city.vercel.app/api/og?page=gallery&lang=${lang}`
   return {
     title,
     description,

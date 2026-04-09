@@ -3,6 +3,49 @@ import { NextRequest } from 'next/server'
 
 export const dynamic = 'force-dynamic'
 
+const RATE_LIMIT_WINDOW_MS = 60_000
+const RATE_LIMIT_MAX_REQUESTS = 90
+const rateStore = new Map<string, { count: number; resetAt: number }>()
+
+function getClientIp(request: NextRequest): string {
+  const xff = request.headers.get('x-forwarded-for')
+  if (xff) return xff.split(',')[0]?.trim() || 'unknown'
+  return request.headers.get('x-real-ip') ?? 'unknown'
+}
+
+function checkRateLimit(request: NextRequest): Response | null {
+  const now = Date.now()
+  const ip = getClientIp(request)
+
+  // Opportunistic cleanup to keep memory bounded.
+  if (rateStore.size > 10_000) {
+    for (const [key, entry] of rateStore) {
+      if (entry.resetAt <= now) rateStore.delete(key)
+    }
+  }
+
+  const current = rateStore.get(ip)
+  if (!current || current.resetAt <= now) {
+    rateStore.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS })
+    return null
+  }
+
+  if (current.count >= RATE_LIMIT_MAX_REQUESTS) {
+    const retryAfterSeconds = Math.max(1, Math.ceil((current.resetAt - now) / 1000))
+    return new Response('Too many requests', {
+      status: 429,
+      headers: {
+        'Retry-After': String(retryAfterSeconds),
+        'Cache-Control': 'no-store',
+      },
+    })
+  }
+
+  current.count += 1
+  rateStore.set(ip, current)
+  return null
+}
+
 // ─── Grade colors matching the app's design system ────────────────────────────
 const GRADE_COLORS: Record<string, { bg: string; text: string }> = {
   A: { bg: '#4ade80', text: '#052e16' },
@@ -47,6 +90,9 @@ const PAGE: Record<string, { en: string; th: string; sub_en: string; sub_th: str
 }
 
 export async function GET(request: NextRequest) {
+  const rateLimitResponse = checkRateLimit(request)
+  if (rateLimitResponse) return rateLimitResponse
+
   const { searchParams } = new URL(request.url)
 
   const page    = searchParams.get('page') ?? 'overview'

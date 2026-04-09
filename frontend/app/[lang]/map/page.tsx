@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/map'>): Pr
   const description = isTh
     ? 'แผนที่ตั๋วค้างคาและคะแนนต่ำในกรุงเทพฯ พร้อม choropleth แสดงผลงานแต่ละเขต'
     : "Map of Bangkok's stale and low-rated civic tickets with district-level choropleth shading."
-  const ogImage = `/api/og?page=map&lang=${lang}`
+  const ogImage = `https://transparent-city.vercel.app/api/og?page=map&lang=${lang}`
   return {
     title,
     description,

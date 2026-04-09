@@ -17,11 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'https://transparent-city.vercel.app'
-  ),
+  metadataBase: new URL('https://transparent-city.vercel.app'),
   title: 'เมืองโปร่งใส — Transparent City Bangkok',
   description:
     'Community-driven civic transparency for Bangkok. Powered by Traffy Fondue open data.',

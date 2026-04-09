@@ -170,6 +170,44 @@ Runs every Monday at 09:00 BKK time. Attempts auto-download; if Traffy's API is 
 
 ---
 
+## Methodology & Data Integrity
+
+### How District Grades Work
+
+Grades (A–F) are **relative**, not absolute. Each district is scored on a 0–100 composite, then ranked by percentile across all 50 Bangkok districts:
+
+| Grade | Percentile |
+|-------|-----------|
+| A | Top 20% (~10 districts) |
+| B | 50–80% (~15 districts) |
+| C | 20–50% (~15 districts) |
+| D | 5–20% (~7 districts) |
+| F | Bottom 5% (~3 districts) |
+
+This means grades reflect *relative* performance — if all districts improve equally, the grade distribution stays the same. The goal is comparison, not certification.
+
+### Composite Score Weights
+
+| Metric | Weight | Notes |
+|--------|--------|-------|
+| Resolution rate | 40% | % of tickets marked เสร็จสิ้น |
+| Speed | 30% | Inverted median fix time, capped at 30 days = 0 |
+| Satisfaction | 20% | Avg star rating / 5, rated tickets only |
+| Reopen rate | 10% | Inverted — lower reopen = higher score |
+
+### Key Definitions
+
+- **Stale ticket** — open with no activity for **90+ days**
+- **Resolved** — state = `เสร็จสิ้น` in Traffy Fondue
+- **Satisfaction** — averages only tickets that received a star rating (not all tickets are rated)
+- **Median fix time** — uses Traffy's own `duration_minutes_total` field, resolved tickets only
+
+### Data Freshness
+
+The `Data from … to …` range shown on the site reflects the actual ticket timestamps in the dataset. The pipeline is run locally when Traffy releases new data and the JSON outputs are committed to the repository.
+
+---
+
 ## Contributing
 
 Issues and PRs are welcome. A few things worth knowing:
