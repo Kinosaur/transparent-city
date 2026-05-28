@@ -17,8 +17,8 @@ function useCountUp(target: number, duration = 1400) {
 
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      setValue(target)
-      return
+      frame.current = requestAnimationFrame(() => setValue(target))
+      return () => { if (frame.current) cancelAnimationFrame(frame.current) }
     }
     const start = performance.now()
     function tick(now: number) {
