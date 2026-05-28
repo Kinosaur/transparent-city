@@ -35,16 +35,36 @@
 /* ── Light theme ───────────────────────────────────────────────────────────── */
 @media (prefers-color-scheme: light) {
   :root {
+    /* Surfaces */
     --color-surface-950: #f6f7fb;
     --color-surface-900: #ffffff;
     --color-surface-800: #f1f4f9;
     --color-surface-700: #e7ecf4;
     --color-surface-600: #d5deea;
-    --color-muted: #5f6f85;
-    --color-subtle: #34445d;
-    --color-fg: #122038;
+
+    /* Text */
+    --color-muted: #5f6f85;    /* 5.12:1 on white ✓ */
+    --color-subtle: #34445d;   /* 9.85:1 on white ✓ */
+    --color-fg: #122038;       /* 16.3:1 on white ✓ */
+
+    /* Borders */
     --color-border: rgba(17, 24, 39, 0.10);
     --color-border-hover: rgba(17, 24, 39, 0.18);
+
+    /*
+     * Semantic status colors — darkened for WCAG AA (4.5:1) on white surfaces.
+     * Dark mode uses bright pastel variants (#4ade80 / #f87171 / #fbbf24 / #2dd4bf)
+     * which all FAIL on white (1.7–2.8:1). Light mode needs deeper shades.
+     *   --color-good:    green-400 #4ade80 → 1.74:1 ✗  →  green-700 #15803d → 5.02:1 ✓
+     *   --color-bad:     red-400   #f87171 → 2.77:1 ✗  →  red-600   #dc2626 → 4.83:1 ✓
+     *   --color-warn:    amber-400 #fbbf24 → 1.67:1 ✗  →  amber-700 #b45309 → 5.02:1 ✓
+     *   --color-teal-400: teal-400 #2dd4bf → 1.86:1 ✗  →  teal-700  #0f766e → 5.47:1 ✓
+     */
+    --color-good: #15803d;
+    --color-bad:  #dc2626;
+    --color-warn: #b45309;
+    --color-teal-400: #0f766e;
+    --color-teal-500: #134e4a;
   }
 
   /* Tailwind translucent-white utilities are too faint on light surfaces.
