@@ -7,6 +7,7 @@ __pycache__/
 
 # ── Backend data (CSVs are large — download manually, see README) ─────────────
 backend/data/*.csv
+backend/data/manifest.json
 # Intermediate pipeline output — frontend/public/data/ is the canonical copy
 backend/public/
 
