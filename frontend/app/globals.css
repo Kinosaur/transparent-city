@@ -83,6 +83,23 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Focus rings — keyboard accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-teal-400);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Clickable elements should show pointer */
+button, [role="button"], [role="columnheader"][aria-sort] {
+  cursor: pointer;
+}
+
+/* Smooth transitions for interactive elements */
+a, button {
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
 ::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: var(--color-surface-900); }
 ::-webkit-scrollbar-thumb { background: var(--color-surface-600); border-radius: 3px; }

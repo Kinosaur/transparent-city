@@ -25,6 +25,13 @@ type Props = {
   }
 }
 
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+function formatYm(ym: string): string {
+  const [year, month] = ym.split('-')
+  return `${MONTHS[parseInt(month) - 1]} '${year.slice(2)}`
+}
+
 const CustomTooltip = ({
   active,
   payload,
@@ -36,12 +43,14 @@ const CustomTooltip = ({
 }) => {
   if (!active || !payload?.length) return null
   return (
-    <div className="rounded-lg border border-[--color-border] bg-[--color-surface-800]/95 backdrop-blur-sm px-3 py-2 text-xs shadow-xl">
-      <p className="mb-1 font-semibold text-[--color-fg]">{label}</p>
+    <div className="rounded-lg border border-[--color-border] bg-[--color-surface-800]/95 backdrop-blur-sm px-3 py-2.5 text-xs shadow-xl">
+      <p className="mb-1.5 font-semibold text-[--color-fg]">{formatYm(label ?? '')}</p>
       {payload.map((p) => (
-        <p key={p.name} style={{ color: p.color }}>
-          {p.name}: {p.value.toLocaleString()}
-        </p>
+        <div key={p.name} className="flex items-center gap-2 mt-0.5">
+          <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: p.color }} />
+          <span style={{ color: p.color }} className="font-medium">{p.name}:</span>
+          <span className="text-[--color-fg]">{p.value.toLocaleString()}</span>
+        </div>
       ))}
     </div>
   )
@@ -57,17 +66,17 @@ export default function MonthlyChart({ data, dict }: Props) {
 
       <ResponsiveContainer width="100%" height={260}>
         <LineChart data={data} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#ffffff0d" vertical={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" vertical={false} />
           <XAxis
             dataKey="ym"
-            tick={{ fill: '#6b7280', fontSize: 10 }}
+            tick={{ fill: 'var(--color-muted)', fontSize: 10 }}
             tickLine={false}
             axisLine={false}
-            tickFormatter={(v: string) => v.slice(2)} // "2024-01" → "24-01"
+            tickFormatter={formatYm}
             interval={2}
           />
           <YAxis
-            tick={{ fill: '#6b7280', fontSize: 10 }}
+            tick={{ fill: 'var(--color-muted)', fontSize: 10 }}
             tickLine={false}
             axisLine={false}
             tickFormatter={(v: number) =>
@@ -77,7 +86,10 @@ export default function MonthlyChart({ data, dict }: Props) {
           />
           <Tooltip content={<CustomTooltip />} />
           <Legend
-            wrapperStyle={{ fontSize: 11, color: '#9ca3af', paddingTop: 8 }}
+            wrapperStyle={{ fontSize: 11, paddingTop: 8 }}
+            formatter={(value) => (
+              <span style={{ color: 'var(--color-subtle)' }}>{value}</span>
+            )}
           />
           <Line
             type="monotone"
