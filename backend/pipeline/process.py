@@ -27,6 +27,8 @@ import time
 from contextlib import contextmanager
 from pathlib import Path
 
+import math
+
 import duckdb
 import numpy as np
 import pandas as pd
@@ -38,6 +40,17 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger("pipeline")
+
+
+def nan_to_none(obj):
+    """Recursively replace float NaN/Inf with None so json.dump produces valid JSON."""
+    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+        return None
+    if isinstance(obj, dict):
+        return {k: nan_to_none(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [nan_to_none(v) for v in obj]
+    return obj
 
 
 @contextmanager
@@ -351,7 +364,7 @@ with timed_step("Gold: build overview.json"):
         "monthly_trends":         monthly,
     }
     with open(OUT_DIR / "overview.json", "w", encoding="utf-8") as f:
-        json.dump(overview, f, ensure_ascii=False, indent=2)
+        json.dump(nan_to_none(overview), f, ensure_ascii=False, indent=2)
     log.info("   overview.json — %d tickets, %d months", total, len(monthly))
 
 
@@ -496,7 +509,7 @@ with timed_step("Gold: build districts.json"):
         grade_counts[d["grade"]] = grade_counts.get(d["grade"], 0) + 1
 
     with open(OUT_DIR / "districts.json", "w", encoding="utf-8") as f:
-        json.dump(district_list, f, ensure_ascii=False, indent=2)
+        json.dump(nan_to_none(district_list), f, ensure_ascii=False, indent=2)
     log.info("   districts.json — %d districts  grades: %s",
              len(district_list),
              " ".join(f"{g}={c}" for g, c in sorted(grade_counts.items())))
@@ -506,7 +519,7 @@ with timed_step("Gold: build districts.json"):
 
 with timed_step("Gold: build monthly_trends.json"):
     with open(OUT_DIR / "monthly_trends.json", "w", encoding="utf-8") as f:
-        json.dump(monthly, f, ensure_ascii=False, indent=2)
+        json.dump(nan_to_none(monthly), f, ensure_ascii=False, indent=2)
     log.info("   monthly_trends.json — %d months", len(monthly))
 
 
@@ -531,7 +544,7 @@ with timed_step("Gold: build orgs.json"):
     """).df().to_dict(orient="records")
 
     with open(OUT_DIR / "orgs.json", "w", encoding="utf-8") as f:
-        json.dump(orgs, f, ensure_ascii=False, indent=2)
+        json.dump(nan_to_none(orgs), f, ensure_ascii=False, indent=2)
     log.info("   orgs.json — %d organizations", len(orgs))
 
 
@@ -554,7 +567,7 @@ with timed_step("Gold: build gallery.json"):
         .to_json(orient="records")
     )
     with open(OUT_DIR / "gallery.json", "w", encoding="utf-8") as f:
-        json.dump(gallery, f, ensure_ascii=False, indent=2)
+        json.dump(nan_to_none(gallery), f, ensure_ascii=False, indent=2)
     log.info("   gallery.json — %d samples from %d eligible", len(gallery), len(gallery_df))
 
 
@@ -593,7 +606,7 @@ with timed_step("Gold: build points.json"):
 
     points = json.loads(points_df.to_json(orient="records"))
     with open(OUT_DIR / "points.json", "w", encoding="utf-8") as f:
-        json.dump(points, f, ensure_ascii=False)
+        json.dump(nan_to_none(points), f, ensure_ascii=False)
     log.info("   points.json — %d stale + %d low-sat = %d total",
              len(stale_pts), len(low_sat_pts), len(points))
 
@@ -637,7 +650,7 @@ with timed_step("Gold: build data_profile.json"):
         },
     }
     with open(OUT_DIR / "data_profile.json", "w", encoding="utf-8") as f:
-        json.dump(profile, f, ensure_ascii=False, indent=2)
+        json.dump(nan_to_none(profile), f, ensure_ascii=False, indent=2)
     log.info("   data_profile.json written")
 
 
