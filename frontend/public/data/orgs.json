@@ -315,15 +315,6 @@
     "reopen_rate": 3.1
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตคลองสามวา, ฝ่ายโยธา เขตคลองสามวา",
-    "total_tickets": 124,
-    "resolved_tickets": 27.0,
-    "resolution_rate": 21.8,
-    "median_resolution_days": 10.3,
-    "avg_satisfaction": 4.53,
-    "reopen_rate": 5.6
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตบางนา, สน.บางนา, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
     "total_tickets": 124,
     "resolved_tickets": 0.0,
@@ -333,13 +324,13 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, ฝ่ายโยธา เขตสวนหลวง",
-    "total_tickets": 122,
-    "resolved_tickets": 58.0,
-    "resolution_rate": 47.5,
-    "median_resolution_days": 3.4,
-    "avg_satisfaction": 4.33,
-    "reopen_rate": 4.9
+    "organization": "กรุงเทพมหานคร, เขตคลองสามวา, ฝ่ายโยธา เขตคลองสามวา",
+    "total_tickets": 124,
+    "resolved_tickets": 27.0,
+    "resolution_rate": 21.8,
+    "median_resolution_days": 10.3,
+    "avg_satisfaction": 4.53,
+    "reopen_rate": 5.6
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางแค, ฝ่ายเทศกิจ เขตบางแค",
@@ -349,6 +340,15 @@
     "median_resolution_days": 1.9,
     "avg_satisfaction": 4.47,
     "reopen_rate": 9.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, ฝ่ายโยธา เขตสวนหลวง",
+    "total_tickets": 122,
+    "resolved_tickets": 58.0,
+    "resolution_rate": 47.5,
+    "median_resolution_days": 3.4,
+    "avg_satisfaction": 4.33,
+    "reopen_rate": 4.9
   },
   {
     "organization": "กรุงเทพมหานคร, เขตประเวศ, ฝ่ายโยธา เขตประเวศ",
@@ -414,6 +414,15 @@
     "reopen_rate": 0.9
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง",
+    "total_tickets": 109,
+    "resolved_tickets": 19.0,
+    "resolution_rate": 17.4,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 4.2,
+    "reopen_rate": 0.9
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตบางนา, ฝ่ายโยธา เขตบางนา",
     "total_tickets": 109,
     "resolved_tickets": 38.0,
@@ -430,15 +439,6 @@
     "median_resolution_days": 4.8,
     "avg_satisfaction": 4.77,
     "reopen_rate": 4.6
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง",
-    "total_tickets": 109,
-    "resolved_tickets": 19.0,
-    "resolution_rate": 17.4,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": 4.2,
-    "reopen_rate": 0.9
   },
   {
     "organization": "กรุงเทพมหานคร, เขตสวนหลวง, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
@@ -603,15 +603,6 @@
     "reopen_rate": 4.5
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางกอกน้อย, ฝ่ายโยธา เขตบางกอกน้อย",
-    "total_tickets": 89,
-    "resolved_tickets": 42.0,
-    "resolution_rate": 47.2,
-    "median_resolution_days": 4.7,
-    "avg_satisfaction": 4.1,
-    "reopen_rate": 4.5
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตบางพลัด, สำนักงานเขตบางพลัด",
     "total_tickets": 89,
     "resolved_tickets": 28.0,
@@ -619,6 +610,15 @@
     "median_resolution_days": 1.9,
     "avg_satisfaction": 1.7,
     "reopen_rate": 9.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกอกน้อย, ฝ่ายโยธา เขตบางกอกน้อย",
+    "total_tickets": 89,
+    "resolved_tickets": 42.0,
+    "resolution_rate": 47.2,
+    "median_resolution_days": 4.7,
+    "avg_satisfaction": 4.1,
+    "reopen_rate": 4.5
   },
   {
     "organization": "กรุงเทพมหานคร, เขตพระโขนง, ฝ่ายเทศกิจ เขตพระโขนง",
@@ -747,15 +747,6 @@
     "reopen_rate": 4.2
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายโยธา เขตลาดพร้าว",
-    "total_tickets": 71,
-    "resolved_tickets": 44.0,
-    "resolution_rate": 62.0,
-    "median_resolution_days": 3.0,
-    "avg_satisfaction": 4.42,
-    "reopen_rate": 8.5
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตบางแค, ฝ่ายรักษาความสะอาดฯ เขตบางแค",
     "total_tickets": 71,
     "resolved_tickets": 69.0,
@@ -763,6 +754,15 @@
     "median_resolution_days": 1.0,
     "avg_satisfaction": 4.58,
     "reopen_rate": 4.2
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายโยธา เขตลาดพร้าว",
+    "total_tickets": 71,
+    "resolved_tickets": 44.0,
+    "resolution_rate": 62.0,
+    "median_resolution_days": 3.0,
+    "avg_satisfaction": 4.42,
+    "reopen_rate": 8.5
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางซื่อ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
@@ -891,6 +891,15 @@
     "reopen_rate": 6.3
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตบางคอแหลม, ฝ่ายรักษาความสะอาดฯ เขตบางคอแหลม",
+    "total_tickets": 63,
+    "resolved_tickets": 51.0,
+    "resolution_rate": 81.0,
+    "median_resolution_days": 1.2,
+    "avg_satisfaction": 4.26,
+    "reopen_rate": 7.9
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายโยธา เขตห้วยขวาง",
     "total_tickets": 63,
     "resolved_tickets": 22.0,
@@ -916,15 +925,6 @@
     "median_resolution_days": 1.1,
     "avg_satisfaction": 4.32,
     "reopen_rate": 6.3
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางคอแหลม, ฝ่ายรักษาความสะอาดฯ เขตบางคอแหลม",
-    "total_tickets": 63,
-    "resolved_tickets": 51.0,
-    "resolution_rate": 81.0,
-    "median_resolution_days": 1.2,
-    "avg_satisfaction": 4.26,
-    "reopen_rate": 7.9
   },
   {
     "organization": "กรุงเทพมหานคร, เขตพญาไท, สน.บางซื่อ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
@@ -954,15 +954,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, ฝ่ายโยธา เขตสะพานสูง",
-    "total_tickets": 61,
-    "resolved_tickets": 17.0,
-    "resolution_rate": 27.9,
-    "median_resolution_days": 3.6,
-    "avg_satisfaction": 3.5,
-    "reopen_rate": 8.2
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตดินแดง, ฝ่ายโยธา เขตดินแดง",
     "total_tickets": 61,
     "resolved_tickets": 34.0,
@@ -981,6 +972,15 @@
     "reopen_rate": 1.6
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, ฝ่ายโยธา เขตสะพานสูง",
+    "total_tickets": 61,
+    "resolved_tickets": 17.0,
+    "resolution_rate": 27.9,
+    "median_resolution_days": 3.6,
+    "avg_satisfaction": 3.5,
+    "reopen_rate": 8.2
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตพระโขนง, ฝ่ายสิ่งแวดล้อมฯ เขตพระโขนง",
     "total_tickets": 60,
     "resolved_tickets": 41.0,
@@ -988,15 +988,6 @@
     "median_resolution_days": 4.9,
     "avg_satisfaction": 3.65,
     "reopen_rate": 5.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางขุนเทียน, ฝ่ายเทศกิจ เขตบางขุนเทียน",
-    "total_tickets": 60,
-    "resolved_tickets": 38.0,
-    "resolution_rate": 63.3,
-    "median_resolution_days": 4.2,
-    "avg_satisfaction": 4.0,
-    "reopen_rate": 1.7
   },
   {
     "organization": "กรุงเทพมหานคร, เขตหลักสี่, ฝ่ายเทศกิจ เขตหลักสี่",
@@ -1008,13 +999,13 @@
     "reopen_rate": 1.7
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, ฝ่ายเทศกิจ เขตสะพานสูง",
-    "total_tickets": 59,
-    "resolved_tickets": 45.0,
-    "resolution_rate": 76.3,
-    "median_resolution_days": 4.0,
-    "avg_satisfaction": 4.46,
-    "reopen_rate": 8.5
+    "organization": "กรุงเทพมหานคร, เขตบางขุนเทียน, ฝ่ายเทศกิจ เขตบางขุนเทียน",
+    "total_tickets": 60,
+    "resolved_tickets": 38.0,
+    "resolution_rate": 63.3,
+    "median_resolution_days": 4.2,
+    "avg_satisfaction": 4.0,
+    "reopen_rate": 1.7
   },
   {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายรักษาความสะอาดฯ เขตบางกะปิ",
@@ -1024,6 +1015,15 @@
     "median_resolution_days": 2.1,
     "avg_satisfaction": null,
     "reopen_rate": 1.7
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, ฝ่ายเทศกิจ เขตสะพานสูง",
+    "total_tickets": 59,
+    "resolved_tickets": 45.0,
+    "resolution_rate": 76.3,
+    "median_resolution_days": 4.0,
+    "avg_satisfaction": 4.46,
+    "reopen_rate": 8.5
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางกอกน้อย, ฝ่ายรักษาความสะอาดฯ เขตบางกอกน้อย",
@@ -1080,15 +1080,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายเทศกิจ เขตหนองแขม",
-    "total_tickets": 54,
-    "resolved_tickets": 50.0,
-    "resolution_rate": 92.6,
-    "median_resolution_days": 1.4,
-    "avg_satisfaction": 4.61,
-    "reopen_rate": 3.7
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตปทุมวัน, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
     "total_tickets": 54,
     "resolved_tickets": 0.0,
@@ -1116,6 +1107,24 @@
     "reopen_rate": 1.9
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายเทศกิจ เขตหนองแขม",
+    "total_tickets": 54,
+    "resolved_tickets": 50.0,
+    "resolution_rate": 92.6,
+    "median_resolution_days": 1.4,
+    "avg_satisfaction": 4.61,
+    "reopen_rate": 3.7
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สน.ลุมพินี, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
+    "total_tickets": 54,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตบึงกุ่ม, ฝ่ายรักษาความสะอาดฯ เขตบึงกุ่ม",
     "total_tickets": 54,
     "resolved_tickets": 27.0,
@@ -1134,12 +1143,12 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สน.ลุมพินี, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
-    "total_tickets": 54,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
+    "organization": "กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายรักษาความสะอาดฯ เขตราชเทวี",
+    "total_tickets": 53,
+    "resolved_tickets": 40.0,
+    "resolution_rate": 75.5,
+    "median_resolution_days": 4.2,
+    "avg_satisfaction": 4.1,
     "reopen_rate": 0.0
   },
   {
@@ -1150,15 +1159,6 @@
     "median_resolution_days": 10.1,
     "avg_satisfaction": 5.0,
     "reopen_rate": 1.9
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายรักษาความสะอาดฯ เขตราชเทวี",
-    "total_tickets": 53,
-    "resolved_tickets": 40.0,
-    "resolution_rate": 75.5,
-    "median_resolution_days": 4.2,
-    "avg_satisfaction": 4.1,
-    "reopen_rate": 0.0
   },
   {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองสามวา, ฝ่ายโยธา เขตคลองสามวา",
@@ -1206,6 +1206,15 @@
     "reopen_rate": 5.9
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตสาทร, ฝ่ายโยธา เขตสาทร",
+    "total_tickets": 50,
+    "resolved_tickets": 30.0,
+    "resolution_rate": 60.0,
+    "median_resolution_days": 2.2,
+    "avg_satisfaction": 4.72,
+    "reopen_rate": 6.0
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตทุ่งครุ, ฝ่ายโยธา เขตทุ่งครุ",
     "total_tickets": 50,
     "resolved_tickets": 28.0,
@@ -1215,13 +1224,22 @@
     "reopen_rate": 4.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตสาทร, ฝ่ายโยธา เขตสาทร",
+    "organization": "กรุงเทพมหานคร, เขตดินแดง, สน.ห้วยขวาง, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 1 (บก.น.1)",
     "total_tickets": 50,
-    "resolved_tickets": 30.0,
-    "resolution_rate": 60.0,
-    "median_resolution_days": 2.2,
-    "avg_satisfaction": 4.72,
-    "reopen_rate": 6.0
+    "resolved_tickets": 6.0,
+    "resolution_rate": 12.0,
+    "median_resolution_days": 4.6,
+    "avg_satisfaction": 3.75,
+    "reopen_rate": 2.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายรักษาความสะอาดฯ เขตธนบุรี",
+    "total_tickets": 50,
+    "resolved_tickets": 47.0,
+    "resolution_rate": 94.0,
+    "median_resolution_days": 1.4,
+    "avg_satisfaction": 4.34,
+    "reopen_rate": 8.0
   },
   {
     "organization": "กรุงเทพมหานคร, เขตพระโขนง, ฝ่ายรักษาความสะอาดฯ เขตพระโขนง",
@@ -1251,22 +1269,13 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตดินแดง, สน.ห้วยขวาง, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 1 (บก.น.1)",
-    "total_tickets": 50,
-    "resolved_tickets": 6.0,
-    "resolution_rate": 12.0,
-    "median_resolution_days": 4.6,
-    "avg_satisfaction": 3.75,
-    "reopen_rate": 2.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายรักษาความสะอาดฯ เขตธนบุรี",
-    "total_tickets": 50,
-    "resolved_tickets": 47.0,
-    "resolution_rate": 94.0,
-    "median_resolution_days": 1.4,
-    "avg_satisfaction": 4.34,
-    "reopen_rate": 8.0
+    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, สน.คลองตัน, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
+    "total_tickets": 49,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 6.1,
+    "median_resolution_days": 13.0,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
   },
   {
     "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, ฝ่ายเทศกิจ เขตลาดกระบัง",
@@ -1276,15 +1285,6 @@
     "median_resolution_days": 2.9,
     "avg_satisfaction": 4.38,
     "reopen_rate": 10.2
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, สน.คลองตัน, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
-    "total_tickets": 49,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 6.1,
-    "median_resolution_days": 13.0,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางกะปิ, สน.หัวหมาก, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
@@ -1359,15 +1359,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตพระนคร, ฝ่ายรักษาความสะอาดฯ เขตพระนคร",
-    "total_tickets": 46,
-    "resolved_tickets": 34.0,
-    "resolution_rate": 73.9,
-    "median_resolution_days": 1.7,
-    "avg_satisfaction": 4.4,
-    "reopen_rate": 4.3
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตทุ่งครุ, ฝ่ายเทศกิจ เขตทุ่งครุ",
     "total_tickets": 46,
     "resolved_tickets": 40.0,
@@ -1383,6 +1374,24 @@
     "resolution_rate": 76.1,
     "median_resolution_days": 4.2,
     "avg_satisfaction": 4.15,
+    "reopen_rate": 2.2
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพระนคร, ฝ่ายรักษาความสะอาดฯ เขตพระนคร",
+    "total_tickets": 46,
+    "resolved_tickets": 34.0,
+    "resolution_rate": 73.9,
+    "median_resolution_days": 1.7,
+    "avg_satisfaction": 4.4,
+    "reopen_rate": 4.3
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายรักษาความสะอาดฯ เขตคลองเตย",
+    "total_tickets": 46,
+    "resolved_tickets": 46.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 0.7,
+    "avg_satisfaction": 4.75,
     "reopen_rate": 2.2
   },
   {
@@ -1402,15 +1411,6 @@
     "median_resolution_days": 0.7,
     "avg_satisfaction": 4.13,
     "reopen_rate": 4.3
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายรักษาความสะอาดฯ เขตคลองเตย",
-    "total_tickets": 46,
-    "resolved_tickets": 46.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 0.7,
-    "avg_satisfaction": 4.75,
-    "reopen_rate": 2.2
   },
   {
     "organization": "กรุงเทพมหานคร, เขตดอนเมือง, สน.ดอนเมือง, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
@@ -1449,15 +1449,6 @@
     "reopen_rate": 2.2
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตปทุมวัน, ฝ่ายรักษาความสะอาดฯ เขตปทุมวัน",
-    "total_tickets": 44,
-    "resolved_tickets": 42.0,
-    "resolution_rate": 95.5,
-    "median_resolution_days": 1.7,
-    "avg_satisfaction": 4.35,
-    "reopen_rate": 6.8
-  },
-  {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายรักษาความสะอาดฯ เขตลาดพร้าว",
     "total_tickets": 44,
     "resolved_tickets": 36.0,
@@ -1494,13 +1485,13 @@
     "reopen_rate": 2.3
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายโยธา เขตหนองแขม",
-    "total_tickets": 43,
-    "resolved_tickets": 31.0,
-    "resolution_rate": 72.1,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": 4.14,
-    "reopen_rate": 2.3
+    "organization": "กรุงเทพมหานคร, เขตปทุมวัน, ฝ่ายรักษาความสะอาดฯ เขตปทุมวัน",
+    "total_tickets": 44,
+    "resolved_tickets": 42.0,
+    "resolution_rate": 95.5,
+    "median_resolution_days": 1.7,
+    "avg_satisfaction": 4.35,
+    "reopen_rate": 6.8
   },
   {
     "organization": "กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายรักษาความสะอาดฯ เขตคันนายาว",
@@ -1528,6 +1519,42 @@
     "median_resolution_days": null,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายโยธา เขตหนองแขม",
+    "total_tickets": 43,
+    "resolved_tickets": 31.0,
+    "resolution_rate": 72.1,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 4.14,
+    "reopen_rate": 2.3
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตปทุมวัน, สำนักสิ่งแวดล้อม กทม., สำนักงานบริหารจัดการพื้นที่สีเขียว สำนักสิ่งแวดล้อม, ฝ่ายบริหารจัดการพื้นที่สีเขียว 4 สบข. สสล.",
+    "total_tickets": 43,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 9.3,
+    "median_resolution_days": 1.9,
+    "avg_satisfaction": 3.5,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางบอน, ฝ่ายโยธา เขตบางบอน",
+    "total_tickets": 43,
+    "resolved_tickets": 28.0,
+    "resolution_rate": 65.1,
+    "median_resolution_days": 1.9,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 4.7
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, ฝ่ายเทศกิจ เขตบางกอกใหญ่",
+    "total_tickets": 43,
+    "resolved_tickets": 40.0,
+    "resolution_rate": 93.0,
+    "median_resolution_days": 2.8,
+    "avg_satisfaction": 2.86,
+    "reopen_rate": 20.9
   },
   {
     "organization": "กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายโยธา เขตราชเทวี",
@@ -1566,31 +1593,13 @@
     "reopen_rate": 2.3
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตปทุมวัน, สำนักสิ่งแวดล้อม กทม., สำนักงานบริหารจัดการพื้นที่สีเขียว สำนักสิ่งแวดล้อม, ฝ่ายบริหารจัดการพื้นที่สีเขียว 4 สบข. สสล.",
-    "total_tickets": 43,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 9.3,
-    "median_resolution_days": 1.9,
-    "avg_satisfaction": 3.5,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางบอน, ฝ่ายโยธา เขตบางบอน",
-    "total_tickets": 43,
-    "resolved_tickets": 28.0,
-    "resolution_rate": 65.1,
-    "median_resolution_days": 1.9,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 4.7
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, ฝ่ายเทศกิจ เขตบางกอกใหญ่",
-    "total_tickets": 43,
-    "resolved_tickets": 40.0,
-    "resolution_rate": 93.0,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": 2.86,
-    "reopen_rate": 20.9
+    "organization": "กรุงเทพมหานคร, เขตทวีวัฒนา, ฝ่ายโยธา เขตทวีวัฒนา",
+    "total_tickets": 42,
+    "resolved_tickets": 34.0,
+    "resolution_rate": 81.0,
+    "median_resolution_days": 2.1,
+    "avg_satisfaction": 4.21,
+    "reopen_rate": 7.1
   },
   {
     "organization": "กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายสิ่งแวดล้อมฯ เขตคลองเตย",
@@ -1609,33 +1618,6 @@
     "median_resolution_days": 2.2,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตทวีวัฒนา, ฝ่ายโยธา เขตทวีวัฒนา",
-    "total_tickets": 42,
-    "resolved_tickets": 34.0,
-    "resolution_rate": 81.0,
-    "median_resolution_days": 2.1,
-    "avg_satisfaction": 4.21,
-    "reopen_rate": 7.1
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายสิ่งแวดล้อมฯ เขตลาดพร้าว",
-    "total_tickets": 42,
-    "resolved_tickets": 25.0,
-    "resolution_rate": 59.5,
-    "median_resolution_days": 6.0,
-    "avg_satisfaction": 3.4,
-    "reopen_rate": 9.5
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, ฝ่ายสิ่งแวดล้อมฯ เขตสะพานสูง",
-    "total_tickets": 42,
-    "resolved_tickets": 38.0,
-    "resolution_rate": 90.5,
-    "median_resolution_days": 5.5,
-    "avg_satisfaction": 4.62,
-    "reopen_rate": 4.8
   },
   {
     "organization": "กรุงเทพมหานคร, เขตยานนาวา, ฝ่ายโยธา เขตยานนาวา",
@@ -1681,6 +1663,24 @@
     "median_resolution_days": 8.9,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายสิ่งแวดล้อมฯ เขตลาดพร้าว",
+    "total_tickets": 42,
+    "resolved_tickets": 25.0,
+    "resolution_rate": 59.5,
+    "median_resolution_days": 6.0,
+    "avg_satisfaction": 3.4,
+    "reopen_rate": 9.5
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, ฝ่ายสิ่งแวดล้อมฯ เขตสะพานสูง",
+    "total_tickets": 42,
+    "resolved_tickets": 38.0,
+    "resolution_rate": 90.5,
+    "median_resolution_days": 5.5,
+    "avg_satisfaction": 4.62,
+    "reopen_rate": 4.8
   },
   {
     "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, สน.ภาษีเจริญ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
@@ -1746,6 +1746,15 @@
     "reopen_rate": 5.0
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตพญาไท, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 39,
+    "resolved_tickets": 26.0,
+    "resolution_rate": 66.7,
+    "median_resolution_days": 4.1,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, ฝ่ายโยธา เขตตลิ่งชัน",
     "total_tickets": 39,
     "resolved_tickets": 27.0,
@@ -1753,15 +1762,6 @@
     "median_resolution_days": 0.8,
     "avg_satisfaction": 4.25,
     "reopen_rate": 5.1
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตหนองจอก, การไฟฟ้านครหลวง เขตมีนบุรี, การไฟฟ้านครหลวง MEA",
-    "total_tickets": 39,
-    "resolved_tickets": 31.0,
-    "resolution_rate": 79.5,
-    "median_resolution_days": 6.7,
-    "avg_satisfaction": 4.12,
-    "reopen_rate": 2.6
   },
   {
     "organization": "กรุงเทพมหานคร, เขตคลองเตย, กองบังคับการตำรวจนครบาล 5 (บก.น.5), กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), สน.ทองหล่อ",
@@ -1773,6 +1773,15 @@
     "reopen_rate": 0.0
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตหนองจอก, การไฟฟ้านครหลวง เขตมีนบุรี, การไฟฟ้านครหลวง MEA",
+    "total_tickets": 39,
+    "resolved_tickets": 31.0,
+    "resolution_rate": 79.5,
+    "median_resolution_days": 6.7,
+    "avg_satisfaction": 4.12,
+    "reopen_rate": 2.6
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตบางแค, สน.หลักสอง, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
     "total_tickets": 39,
     "resolved_tickets": 0.0,
@@ -1780,24 +1789,6 @@
     "median_resolution_days": null,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตพญาไท, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 39,
-    "resolved_tickets": 26.0,
-    "resolution_rate": 66.7,
-    "median_resolution_days": 4.1,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางบอน, ฝ่ายเทศกิจ เขตบางบอน",
-    "total_tickets": 38,
-    "resolved_tickets": 34.0,
-    "resolution_rate": 89.5,
-    "median_resolution_days": 2.0,
-    "avg_satisfaction": 3.44,
-    "reopen_rate": 2.6
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางพลัด, สน.บางพลัด, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
@@ -1825,6 +1816,15 @@
     "median_resolution_days": null,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางบอน, ฝ่ายเทศกิจ เขตบางบอน",
+    "total_tickets": 38,
+    "resolved_tickets": 34.0,
+    "resolution_rate": 89.5,
+    "median_resolution_days": 2.0,
+    "avg_satisfaction": 3.44,
+    "reopen_rate": 2.6
   },
   {
     "organization": "กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายสิ่งแวดล้อมฯ เขตห้วยขวาง",
@@ -1872,6 +1872,15 @@
     "reopen_rate": 0.0
   },
   {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางเขน, ฝ่ายรักษาความสะอาดฯ เขตบางเขน",
+    "total_tickets": 36,
+    "resolved_tickets": 28.0,
+    "resolution_rate": 77.8,
+    "median_resolution_days": 2.1,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตบางกะปิ",
     "total_tickets": 36,
     "resolved_tickets": 2.0,
@@ -1881,12 +1890,12 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางเขน, ฝ่ายรักษาความสะอาดฯ เขตบางเขน",
-    "total_tickets": 36,
+    "organization": "กรุงเทพมหานคร, เขตยานนาวา, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 35,
     "resolved_tickets": 28.0,
-    "resolution_rate": 77.8,
-    "median_resolution_days": 2.1,
-    "avg_satisfaction": 5.0,
+    "resolution_rate": 80.0,
+    "median_resolution_days": 1.6,
+    "avg_satisfaction": 4.92,
     "reopen_rate": 0.0
   },
   {
@@ -1899,12 +1908,21 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตยานนาวา, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายโยธา เขตจตุจักร, สำนักการโยธา กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
     "total_tickets": 35,
-    "resolved_tickets": 28.0,
-    "resolution_rate": 80.0,
-    "median_resolution_days": 1.6,
-    "avg_satisfaction": 4.92,
+    "resolved_tickets": 16.0,
+    "resolution_rate": 45.7,
+    "median_resolution_days": 4.2,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตดินแดง, สน.ดินแดง, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 1 (บก.น.1)",
+    "total_tickets": 35,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
@@ -1944,24 +1962,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายโยธา เขตจตุจักร, สำนักการโยธา กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 35,
-    "resolved_tickets": 16.0,
-    "resolution_rate": 45.7,
-    "median_resolution_days": 4.2,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตดินแดง, สน.ดินแดง, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 1 (บก.น.1)",
-    "total_tickets": 35,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายโยธา เขตคลองเตย, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
     "total_tickets": 34,
     "resolved_tickets": 0.0,
@@ -1998,24 +1998,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายสิ่งแวดล้อมฯ เขตจตุจักร, ฝ่ายสิ่งแวดล้อม แขวงจอมพล(1) จตุจักร",
-    "total_tickets": 33,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 9.1,
-    "median_resolution_days": 16.6,
-    "avg_satisfaction": 1.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบัญชาการตำรวจท่องเที่ยว (บช.ทท.), สถานีตำรวจท่องเที่ยวธนบุรี ส.ทท.3 กก.1 บก.ทท.1, ตำรวจท่องเที่ยว กก.1 บก.ทท.1, ตำรวจท่องเที่ยว บก.ทท.1, กองบัญชาการตำรวจนครบาล (บช.น.), สน.ตลิ่งชัน, กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
-    "total_tickets": 33,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 24.2,
-    "median_resolution_days": 3.8,
-    "avg_satisfaction": 4.0,
-    "reopen_rate": 0.0
-  },
-  {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางแค, ฝ่ายเทศกิจ เขตบางแค",
     "total_tickets": 33,
     "resolved_tickets": 29.0,
@@ -2031,6 +2013,24 @@
     "resolution_rate": 6.1,
     "median_resolution_days": 13.1,
     "avg_satisfaction": 1.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายสิ่งแวดล้อมฯ เขตจตุจักร, ฝ่ายสิ่งแวดล้อม แขวงจอมพล(1) จตุจักร",
+    "total_tickets": 33,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 9.1,
+    "median_resolution_days": 16.6,
+    "avg_satisfaction": 1.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบัญชาการตำรวจท่องเที่ยว (บช.ทท.), สถานีตำรวจท่องเที่ยวธนบุรี ส.ทท.3 กก.1 บก.ทท.1, ตำรวจท่องเที่ยว กก.1 บก.ทท.1, ตำรวจท่องเที่ยว บก.ทท.1, กองบัญชาการตำรวจนครบาล (บช.น.), สน.ตลิ่งชัน, กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
+    "total_tickets": 33,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 24.2,
+    "median_resolution_days": 3.8,
+    "avg_satisfaction": 4.0,
     "reopen_rate": 0.0
   },
   {
@@ -2142,15 +2142,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตประเวศ, สน.ประเวศ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
-    "total_tickets": 31,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 3.2
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตบางบอน, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), สน.บางขุนเทียน, กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
     "total_tickets": 31,
     "resolved_tickets": 0.0,
@@ -2158,6 +2149,15 @@
     "median_resolution_days": null,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตประเวศ, สน.ประเวศ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
+    "total_tickets": 31,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 3.2
   },
   {
     "organization": "กรุงเทพมหานคร, เขตยานนาวา, ฝ่ายสิ่งแวดล้อมฯ เขตยานนาวา",
@@ -2176,6 +2176,24 @@
     "median_resolution_days": 1.0,
     "avg_satisfaction": 2.5,
     "reopen_rate": 3.3
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกอกน้อย, สน.บางกอกน้อย, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
+    "total_tickets": 30,
+    "resolved_tickets": 2.0,
+    "resolution_rate": 6.7,
+    "median_resolution_days": 0.7,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 30,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
   },
   {
     "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตประเวศ, สำนักงานกำจัดมูลฝอยและสิ่งปฎิกูล สำนักสิ่งแวดล้อม, ฝ่ายกำจัดมูลฝอยอ่อนนุช สกฝ. สสล.",
@@ -2214,30 +2232,30 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางกอกน้อย, สน.บางกอกน้อย, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
-    "total_tickets": 30,
-    "resolved_tickets": 2.0,
-    "resolution_rate": 6.7,
-    "median_resolution_days": 0.7,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 30,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตบางกะปิ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
     "total_tickets": 29,
     "resolved_tickets": 19.0,
     "resolution_rate": 65.5,
     "median_resolution_days": 5.8,
     "avg_satisfaction": 4.75,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตดอนเมือง, ฝ่ายโยธา เขตดอนเมือง",
+    "total_tickets": 29,
+    "resolved_tickets": 12.0,
+    "resolution_rate": 41.4,
+    "median_resolution_days": 5.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 10.3
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตดินแดง, ฝ่ายรักษาความสะอาดฯ เขตดินแดง",
+    "total_tickets": 29,
+    "resolved_tickets": 23.0,
+    "resolution_rate": 79.3,
+    "median_resolution_days": 1.8,
+    "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
@@ -2268,21 +2286,30 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตดอนเมือง, ฝ่ายโยธา เขตดอนเมือง",
-    "total_tickets": 29,
-    "resolved_tickets": 12.0,
-    "resolution_rate": 41.4,
-    "median_resolution_days": 5.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 10.3
+    "organization": "กรุงเทพมหานคร, เขตพระโขนง, ฝ่ายโยธา เขตพระโขนง, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 28,
+    "resolved_tickets": 25.0,
+    "resolution_rate": 89.3,
+    "median_resolution_days": 10.2,
+    "avg_satisfaction": 4.83,
+    "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตดินแดง, ฝ่ายรักษาความสะอาดฯ เขตดินแดง",
-    "total_tickets": 29,
-    "resolved_tickets": 23.0,
-    "resolution_rate": 79.3,
-    "median_resolution_days": 1.8,
+    "organization": "กรุงเทพมหานคร, เขตบางแค, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 28,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 3.6,
+    "median_resolution_days": 5.7,
     "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางรัก, สน.ยานนาวา, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 6 (บก.น.6)",
+    "total_tickets": 28,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
@@ -2322,30 +2349,12 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตพระโขนง, ฝ่ายโยธา เขตพระโขนง, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "organization": "กรุงเทพมหานคร, เขตดินแดง, ฝ่ายสิ่งแวดล้อมฯ เขตดินแดง",
     "total_tickets": 28,
-    "resolved_tickets": 25.0,
-    "resolution_rate": 89.3,
-    "median_resolution_days": 10.2,
-    "avg_satisfaction": 4.83,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางแค, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 28,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 3.6,
-    "median_resolution_days": 5.7,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางรัก, สน.ยานนาวา, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 6 (บก.น.6)",
-    "total_tickets": 28,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
+    "resolved_tickets": 20.0,
+    "resolution_rate": 71.4,
+    "median_resolution_days": 10.0,
+    "avg_satisfaction": 4.67,
     "reopen_rate": 0.0
   },
   {
@@ -2385,12 +2394,21 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตดินแดง, ฝ่ายสิ่งแวดล้อมฯ เขตดินแดง",
-    "total_tickets": 28,
-    "resolved_tickets": 20.0,
-    "resolution_rate": 71.4,
-    "median_resolution_days": 10.0,
-    "avg_satisfaction": 4.67,
+    "organization": "กรุงเทพมหานคร, เขตคลองสาน, ฝ่ายโยธา เขตคลองสาน",
+    "total_tickets": 27,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 33.3,
+    "median_resolution_days": 8.0,
+    "avg_satisfaction": 4.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางขุนเทียน, ฝ่ายรักษาความสะอาดฯ เขตบางขุนเทียน",
+    "total_tickets": 27,
+    "resolved_tickets": 27.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 2.0,
+    "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
@@ -2412,33 +2430,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตคลองสาน, ฝ่ายโยธา เขตคลองสาน",
-    "total_tickets": 27,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 33.3,
-    "median_resolution_days": 8.0,
-    "avg_satisfaction": 4.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางขุนเทียน, ฝ่ายรักษาความสะอาดฯ เขตบางขุนเทียน",
-    "total_tickets": 27,
-    "resolved_tickets": 27.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 2.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายเทศกิจ เขตลาดพร้าว, สน.โชคชัย, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
-    "total_tickets": 27,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 7.4
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตพระนคร, สน.พระราชวัง, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 6 (บก.น.6)",
     "total_tickets": 27,
     "resolved_tickets": 0.0,
@@ -2455,6 +2446,15 @@
     "median_resolution_days": 4.2,
     "avg_satisfaction": 5.0,
     "reopen_rate": 11.1
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายเทศกิจ เขตลาดพร้าว, สน.โชคชัย, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
+    "total_tickets": 27,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 7.4
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางพลัด, สน.บวรมงคล",
@@ -2491,15 +2491,6 @@
     "median_resolution_days": 9.8,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตประเวศ, ฝ่ายโยธา เขตประเวศ",
-    "total_tickets": 26,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 30.8,
-    "median_resolution_days": 1.0,
-    "avg_satisfaction": null,
-    "reopen_rate": 3.8
   },
   {
     "organization": "กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายสิ่งแวดล้อมฯ เขตหนองแขม",
@@ -2574,31 +2565,13 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, กระทรวงพัฒนาสังคมและความมั่นคงของมนุษย์",
-    "total_tickets": 25,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตประเวศ, ฝ่ายโยธา เขตประเวศ",
+    "total_tickets": 26,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 30.8,
+    "median_resolution_days": 1.0,
     "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตพญาไท, ฝ่ายโยธา เขตพญาไท",
-    "total_tickets": 25,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 36.0,
-    "median_resolution_days": 19.2,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบึงกุ่ม, สน.โคกคราม, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
-    "total_tickets": 25,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
+    "reopen_rate": 3.8
   },
   {
     "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, ฝ่ายสิ่งแวดล้อมฯ เขตตลิ่งชัน",
@@ -2646,6 +2619,33 @@
     "reopen_rate": 0.0
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, กระทรวงพัฒนาสังคมและความมั่นคงของมนุษย์",
+    "total_tickets": 25,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตพญาไท, ฝ่ายโยธา เขตพญาไท",
+    "total_tickets": 25,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 36.0,
+    "median_resolution_days": 19.2,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบึงกุ่ม, สน.โคกคราม, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
+    "total_tickets": 25,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางแค, ฝ่ายรักษาความสะอาดฯ เขตบางแค",
     "total_tickets": 25,
     "resolved_tickets": 24.0,
@@ -2671,6 +2671,24 @@
     "median_resolution_days": 6.3,
     "avg_satisfaction": 4.3,
     "reopen_rate": 20.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, ฝ่ายโยธา เขตบางกอกใหญ่",
+    "total_tickets": 24,
+    "resolved_tickets": 17.0,
+    "resolution_rate": 70.8,
+    "median_resolution_days": 4.7,
+    "avg_satisfaction": 4.9,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตดินแดง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 24,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
   },
   {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายเทศกิจ เขตจตุจักร",
@@ -2707,33 +2725,6 @@
     "median_resolution_days": 6.6,
     "avg_satisfaction": 4.0,
     "reopen_rate": 4.2
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, ฝ่ายโยธา เขตบางกอกใหญ่",
-    "total_tickets": 24,
-    "resolved_tickets": 17.0,
-    "resolution_rate": 70.8,
-    "median_resolution_days": 4.7,
-    "avg_satisfaction": 4.9,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตดินแดง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 24,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางเขน, ฝ่ายโยธา เขตบางเขน, กลุ่มงานระบายน้ำ ฝ่ายโยธา เขตบางเขน",
-    "total_tickets": 24,
-    "resolved_tickets": 17.0,
-    "resolution_rate": 70.8,
-    "median_resolution_days": 2.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
   },
   {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตพระนคร, ฝ่ายรักษาความสะอาดฯ เขตพระนคร",
@@ -2781,6 +2772,24 @@
     "reopen_rate": 0.0
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตบางเขน, ฝ่ายโยธา เขตบางเขน, กลุ่มงานระบายน้ำ ฝ่ายโยธา เขตบางเขน",
+    "total_tickets": 24,
+    "resolved_tickets": 17.0,
+    "resolution_rate": 70.8,
+    "median_resolution_days": 2.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางซื่อ, สน.ประชาชื่น, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
+    "total_tickets": 23,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตคลองสามวา, ฝ่ายสิ่งแวดล้อมฯ เขตคลองสามวา",
     "total_tickets": 23,
     "resolved_tickets": 8.0,
@@ -2796,51 +2805,6 @@
     "resolution_rate": 8.7,
     "median_resolution_days": 3.5,
     "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางซื่อ, สน.ประชาชื่น, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
-    "total_tickets": 23,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสายไหม, การไฟฟ้านครหลวง เขตบางเขน, การไฟฟ้านครหลวง MEA",
-    "total_tickets": 23,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 13.0,
-    "median_resolution_days": 4.0,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางรัก, สน.ทุ่งมหาเมฆ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
-    "total_tickets": 23,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี",
-    "total_tickets": 23,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 13.0,
-    "median_resolution_days": 0.6,
-    "avg_satisfaction": 4.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตวังทองหลาง, สน.โชคชัย, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
-    "total_tickets": 23,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 4.3,
-    "median_resolution_days": 0.5,
-    "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
@@ -2898,39 +2862,39 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตลาดพร้าว, เขตลาดพร้าว, ฝ่ายโยธา เขตลาดพร้าว",
-    "total_tickets": 22,
-    "resolved_tickets": 21.0,
-    "resolution_rate": 95.5,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": 4.15,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสวนหลวง, ฝ่ายสิ่งแวดล้อมฯ เขตสวนหลวง",
-    "total_tickets": 22,
-    "resolved_tickets": 13.0,
-    "resolution_rate": 59.1,
-    "median_resolution_days": 4.9,
-    "avg_satisfaction": null,
-    "reopen_rate": 13.6
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตพระโขนง, ฝ่ายโยธา เขตพระโขนง",
-    "total_tickets": 22,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 40.9,
-    "median_resolution_days": 10.8,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสายไหม, การไฟฟ้านครหลวง เขตบางเขน, การไฟฟ้านครหลวง MEA",
+    "total_tickets": 23,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 13.0,
+    "median_resolution_days": 4.0,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางซื่อ, บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)",
-    "total_tickets": 22,
+    "organization": "กรุงเทพมหานคร, เขตบางรัก, สน.ทุ่งมหาเมฆ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
+    "total_tickets": 23,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี",
+    "total_tickets": 23,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 13.0,
+    "median_resolution_days": 0.6,
+    "avg_satisfaction": 4.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตวังทองหลาง, สน.โชคชัย, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
+    "total_tickets": 23,
     "resolved_tickets": 1.0,
-    "resolution_rate": 4.5,
-    "median_resolution_days": 6.1,
-    "avg_satisfaction": null,
+    "resolution_rate": 4.3,
+    "median_resolution_days": 0.5,
+    "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
@@ -2968,6 +2932,60 @@
     "median_resolution_days": 10.8,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตลาดพร้าว, เขตลาดพร้าว, ฝ่ายโยธา เขตลาดพร้าว",
+    "total_tickets": 22,
+    "resolved_tickets": 21.0,
+    "resolution_rate": 95.5,
+    "median_resolution_days": 2.8,
+    "avg_satisfaction": 4.15,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสวนหลวง, ฝ่ายสิ่งแวดล้อมฯ เขตสวนหลวง",
+    "total_tickets": 22,
+    "resolved_tickets": 13.0,
+    "resolution_rate": 59.1,
+    "median_resolution_days": 4.9,
+    "avg_satisfaction": null,
+    "reopen_rate": 13.6
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตพระโขนง, ฝ่ายโยธา เขตพระโขนง",
+    "total_tickets": 22,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 40.9,
+    "median_resolution_days": 10.8,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางซื่อ, บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)",
+    "total_tickets": 22,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 4.5,
+    "median_resolution_days": 6.1,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตบางซื่อ, เขตบางซื่อ, ฝ่ายโยธา เขตบางซื่อ",
+    "total_tickets": 22,
+    "resolved_tickets": 15.0,
+    "resolution_rate": 68.2,
+    "median_resolution_days": 4.9,
+    "avg_satisfaction": 4.38,
+    "reopen_rate": 4.5
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตปทุมวัน, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 2 ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 22,
+    "resolved_tickets": 2.0,
+    "resolution_rate": 9.1,
+    "median_resolution_days": 4.2,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 4.5
   },
   {
     "organization": "กรุงเทพมหานคร, เขตป้อมปราบศัตรูพ่าย, ฝ่ายโยธา เขตป้อมปราบศัตรูพ่าย",
@@ -3013,69 +3031,6 @@
     "median_resolution_days": 1.1,
     "avg_satisfaction": 3.36,
     "reopen_rate": 4.5
-  },
-  {
-    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตบางซื่อ, เขตบางซื่อ, ฝ่ายโยธา เขตบางซื่อ",
-    "total_tickets": 22,
-    "resolved_tickets": 15.0,
-    "resolution_rate": 68.2,
-    "median_resolution_days": 4.9,
-    "avg_satisfaction": 4.38,
-    "reopen_rate": 4.5
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตปทุมวัน, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 2 ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 22,
-    "resolved_tickets": 2.0,
-    "resolution_rate": 9.1,
-    "median_resolution_days": 4.2,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 4.5
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตยานนาวา, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 21,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางแค, สน.เพชรเกษม, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
-    "total_tickets": 21,
-    "resolved_tickets": 17.0,
-    "resolution_rate": 81.0,
-    "median_resolution_days": 3.3,
-    "avg_satisfaction": 3.29,
-    "reopen_rate": 9.5
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตวังทองหลาง, ฝ่ายสิ่งแวดล้อมฯ เขตวังทองหลาง",
-    "total_tickets": 21,
-    "resolved_tickets": 12.0,
-    "resolution_rate": 57.1,
-    "median_resolution_days": 8.4,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายรักษาความสะอาดฯ เขตห้วยขวาง",
-    "total_tickets": 21,
-    "resolved_tickets": 13.0,
-    "resolution_rate": 61.9,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": 1.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางบอน, ฝ่ายรักษาความสะอาดฯ เขตบางบอน",
-    "total_tickets": 21,
-    "resolved_tickets": 19.0,
-    "resolution_rate": 90.5,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": 4.33,
-    "reopen_rate": 0.0
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางพลัด, การรถไฟแห่งประเทศไทย",
@@ -3132,21 +3087,48 @@
     "reopen_rate": 4.8
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตป้อมปราบศัตรูพ่าย, ฝ่ายรักษาความสะอาดฯ เขตป้อมปราบศัตรูพ่าย",
-    "total_tickets": 21,
-    "resolved_tickets": 17.0,
-    "resolution_rate": 81.0,
-    "median_resolution_days": 3.4,
-    "avg_satisfaction": 4.58,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตคลองเตย, กองบังคับการตำรวจนครบาล 5 (บก.น.5), กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), สน.ทองหล่อ, สน.ทุ่งมหาเมฆ",
+    "organization": "กรุงเทพมหานคร, เขตยานนาวา, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
     "total_tickets": 21,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
     "median_resolution_days": null,
     "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางแค, สน.เพชรเกษม, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
+    "total_tickets": 21,
+    "resolved_tickets": 17.0,
+    "resolution_rate": 81.0,
+    "median_resolution_days": 3.3,
+    "avg_satisfaction": 3.29,
+    "reopen_rate": 9.5
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตวังทองหลาง, ฝ่ายสิ่งแวดล้อมฯ เขตวังทองหลาง",
+    "total_tickets": 21,
+    "resolved_tickets": 12.0,
+    "resolution_rate": 57.1,
+    "median_resolution_days": 8.4,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายรักษาความสะอาดฯ เขตห้วยขวาง",
+    "total_tickets": 21,
+    "resolved_tickets": 13.0,
+    "resolution_rate": 61.9,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 1.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางบอน, ฝ่ายรักษาความสะอาดฯ เขตบางบอน",
+    "total_tickets": 21,
+    "resolved_tickets": 19.0,
+    "resolution_rate": 90.5,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 4.33,
     "reopen_rate": 0.0
   },
   {
@@ -3175,6 +3157,60 @@
     "median_resolution_days": 1.8,
     "avg_satisfaction": 4.43,
     "reopen_rate": 4.8
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตป้อมปราบศัตรูพ่าย, ฝ่ายรักษาความสะอาดฯ เขตป้อมปราบศัตรูพ่าย",
+    "total_tickets": 21,
+    "resolved_tickets": 17.0,
+    "resolution_rate": 81.0,
+    "median_resolution_days": 3.4,
+    "avg_satisfaction": 4.58,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคลองเตย, กองบังคับการตำรวจนครบาล 5 (บก.น.5), กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), สน.ทองหล่อ, สน.ทุ่งมหาเมฆ",
+    "total_tickets": 21,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
+    "total_tickets": 20,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 20,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 20,
+    "resolved_tickets": 5.0,
+    "resolution_rate": 25.0,
+    "median_resolution_days": 7.3,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสายไหม, ฝ่ายสิ่งแวดล้อมฯ เขตสายไหม",
+    "total_tickets": 20,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 35.0,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางคอแหลม, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
@@ -3231,69 +3267,6 @@
     "reopen_rate": 5.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
-    "total_tickets": 20,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 20,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 20,
-    "resolved_tickets": 5.0,
-    "resolution_rate": 25.0,
-    "median_resolution_days": 7.3,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสายไหม, ฝ่ายสิ่งแวดล้อมฯ เขตสายไหม",
-    "total_tickets": 20,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 35.0,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบัญชาการตำรวจท่องเที่ยว (บช.ทท.), สถานีตำรวจท่องเที่ยวธนบุรี ส.ทท.3 กก.1 บก.ทท.1, ตำรวจท่องเที่ยว กก.1 บก.ทท.1, ตำรวจท่องเที่ยว บก.ทท.1, กองบัญชาการตำรวจนครบาล (บช.น.), สน.บางเสาธง, กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
-    "total_tickets": 20,
-    "resolved_tickets": 5.0,
-    "resolution_rate": 25.0,
-    "median_resolution_days": 4.3,
-    "avg_satisfaction": 4.33,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายรักษาความสะอาดฯ เขตภาษีเจริญ",
-    "total_tickets": 20,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 45.0,
-    "median_resolution_days": 0.8,
-    "avg_satisfaction": 4.8,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางซื่อ, ฝ่ายรักษาความสะอาดฯ เขตบางซื่อ",
-    "total_tickets": 20,
-    "resolved_tickets": 16.0,
-    "resolution_rate": 80.0,
-    "median_resolution_days": 2.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 5.0
-  },
-  {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายรักษาความสะอาดฯ เขตราชเทวี",
     "total_tickets": 20,
     "resolved_tickets": 16.0,
@@ -3339,13 +3312,31 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางเขน, ฝ่ายโยธา เขตบางเขน, การไฟฟ้านครหลวง เขตบางเขน, การไฟฟ้านครหลวง MEA",
-    "total_tickets": 19,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 5.3,
-    "median_resolution_days": 3.4,
-    "avg_satisfaction": 3.0,
+    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบัญชาการตำรวจท่องเที่ยว (บช.ทท.), สถานีตำรวจท่องเที่ยวธนบุรี ส.ทท.3 กก.1 บก.ทท.1, ตำรวจท่องเที่ยว กก.1 บก.ทท.1, ตำรวจท่องเที่ยว บก.ทท.1, กองบัญชาการตำรวจนครบาล (บช.น.), สน.บางเสาธง, กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
+    "total_tickets": 20,
+    "resolved_tickets": 5.0,
+    "resolution_rate": 25.0,
+    "median_resolution_days": 4.3,
+    "avg_satisfaction": 4.33,
     "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายรักษาความสะอาดฯ เขตภาษีเจริญ",
+    "total_tickets": 20,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 45.0,
+    "median_resolution_days": 0.8,
+    "avg_satisfaction": 4.8,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางซื่อ, ฝ่ายรักษาความสะอาดฯ เขตบางซื่อ",
+    "total_tickets": 20,
+    "resolved_tickets": 16.0,
+    "resolution_rate": 80.0,
+    "median_resolution_days": 2.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 5.0
   },
   {
     "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายโยธา เขตภาษีเจริญ",
@@ -3393,21 +3384,12 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางคอแหลม, ฝ่ายรักษาความสะอาดฯ เขตบางคอแหลม",
+    "organization": "กรุงเทพมหานคร, เขตบางเขน, ฝ่ายโยธา เขตบางเขน, การไฟฟ้านครหลวง เขตบางเขน, การไฟฟ้านครหลวง MEA",
     "total_tickets": 19,
-    "resolved_tickets": 14.0,
-    "resolution_rate": 73.7,
-    "median_resolution_days": 0.2,
-    "avg_satisfaction": 4.5,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางซื่อ, ฝ่ายสิ่งแวดล้อมฯ เขตบางซื่อ",
-    "total_tickets": 19,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 47.4,
-    "median_resolution_days": 2.2,
-    "avg_satisfaction": null,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 5.3,
+    "median_resolution_days": 3.4,
+    "avg_satisfaction": 3.0,
     "reopen_rate": 0.0
   },
   {
@@ -3429,12 +3411,84 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางคอแหลม, ฝ่ายเทศกิจ เขตบางคอแหลม",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางคอแหลม, ฝ่ายรักษาความสะอาดฯ เขตบางคอแหลม",
     "total_tickets": 19,
-    "resolved_tickets": 13.0,
-    "resolution_rate": 68.4,
-    "median_resolution_days": 4.6,
-    "avg_satisfaction": 1.0,
+    "resolved_tickets": 14.0,
+    "resolution_rate": 73.7,
+    "median_resolution_days": 0.2,
+    "avg_satisfaction": 4.5,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางซื่อ, ฝ่ายสิ่งแวดล้อมฯ เขตบางซื่อ",
+    "total_tickets": 19,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 47.4,
+    "median_resolution_days": 2.2,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองสามวา, ฝ่ายรักษาความสะอาดฯ เขตคลองสามวา",
+    "total_tickets": 19,
+    "resolved_tickets": 16.0,
+    "resolution_rate": 84.2,
+    "median_resolution_days": 2.4,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายเทศกิจ เขตมีนบุรี, สน.มีนบุรี, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 3 (บก.น.3)",
+    "total_tickets": 19,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางเขน, ฝ่ายโยธา เขตบางเขน",
+    "total_tickets": 19,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 36.8,
+    "median_resolution_days": 1.6,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางแค, ฝ่ายโยธา เขตบางแค",
+    "total_tickets": 19,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 36.8,
+    "median_resolution_days": 9.7,
+    "avg_satisfaction": null,
+    "reopen_rate": 5.3
+  },
+  {
+    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตวัฒนา, เขตวัฒนา, ฝ่ายโยธา เขตวัฒนา",
+    "total_tickets": 19,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 47.4,
+    "median_resolution_days": 2.0,
+    "avg_satisfaction": 2.67,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตประเวศ, ฝ่ายโยธา เขตประเวศ",
+    "total_tickets": 19,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 5.3,
+    "median_resolution_days": 0.3,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคลองสามวา, สน.คันนายาว, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
+    "total_tickets": 19,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 21.1,
+    "median_resolution_days": 3.2,
+    "avg_satisfaction": 3.67,
     "reopen_rate": 0.0
   },
   {
@@ -3492,6 +3546,15 @@
     "reopen_rate": 15.8
   },
   {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางคอแหลม, ฝ่ายเทศกิจ เขตบางคอแหลม",
+    "total_tickets": 19,
+    "resolved_tickets": 13.0,
+    "resolution_rate": 68.4,
+    "median_resolution_days": 4.6,
+    "avg_satisfaction": 1.0,
+    "reopen_rate": 0.0
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตสายไหม, สน.สายไหม, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
     "total_tickets": 19,
     "resolved_tickets": 2.0,
@@ -3501,66 +3564,48 @@
     "reopen_rate": 5.3
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายเทศกิจ เขตมีนบุรี, สน.มีนบุรี, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 3 (บก.น.3)",
-    "total_tickets": 19,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางเขน, ฝ่ายโยธา เขตบางเขน",
-    "total_tickets": 19,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 36.8,
-    "median_resolution_days": 1.6,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางแค, ฝ่ายโยธา เขตบางแค",
-    "total_tickets": 19,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 36.8,
-    "median_resolution_days": 9.7,
-    "avg_satisfaction": null,
-    "reopen_rate": 5.3
-  },
-  {
-    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตวัฒนา, เขตวัฒนา, ฝ่ายโยธา เขตวัฒนา",
-    "total_tickets": 19,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 47.4,
-    "median_resolution_days": 2.0,
-    "avg_satisfaction": 2.67,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตประเวศ, ฝ่ายโยธา เขตประเวศ",
-    "total_tickets": 19,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 5.3,
-    "median_resolution_days": 0.3,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองสามวา, ฝ่ายรักษาความสะอาดฯ เขตคลองสามวา",
-    "total_tickets": 19,
+    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตบางเขน, เขตบางเขน, ฝ่ายโยธา เขตบางเขน",
+    "total_tickets": 18,
     "resolved_tickets": 16.0,
-    "resolution_rate": 84.2,
-    "median_resolution_days": 2.4,
+    "resolution_rate": 88.9,
+    "median_resolution_days": 2.1,
+    "avg_satisfaction": 3.5,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางนา, กรมทางหลวง",
+    "total_tickets": 18,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 5.6,
+    "median_resolution_days": 27.6,
+    "avg_satisfaction": 1.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายรักษาความสะอาดฯ เขตมีนบุรี",
+    "total_tickets": 18,
+    "resolved_tickets": 16.0,
+    "resolution_rate": 88.9,
+    "median_resolution_days": 1.2,
+    "avg_satisfaction": 1.0,
+    "reopen_rate": 5.6
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายเทศกิจ เขตราชเทวี",
+    "total_tickets": 18,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 22.2,
+    "median_resolution_days": 2.8,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตคลองสามวา, สน.คันนายาว, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
-    "total_tickets": 19,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 21.1,
-    "median_resolution_days": 3.2,
-    "avg_satisfaction": 3.67,
+    "organization": "กรุงเทพมหานคร, เขตบางขุนเทียน, ฝ่ายสิ่งแวดล้อมฯ เขตบางขุนเทียน, สน.ท่าข้าม, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
+    "total_tickets": 18,
+    "resolved_tickets": 14.0,
+    "resolution_rate": 77.8,
+    "median_resolution_days": 4.8,
+    "avg_satisfaction": 1.0,
     "reopen_rate": 0.0
   },
   {
@@ -3609,48 +3654,21 @@
     "reopen_rate": 5.6
   },
   {
-    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตบางเขน, เขตบางเขน, ฝ่ายโยธา เขตบางเขน",
-    "total_tickets": 18,
-    "resolved_tickets": 16.0,
-    "resolution_rate": 88.9,
-    "median_resolution_days": 2.1,
-    "avg_satisfaction": 3.5,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางนา, กรมทางหลวง",
-    "total_tickets": 18,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 5.6,
-    "median_resolution_days": 27.6,
-    "avg_satisfaction": 1.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายรักษาความสะอาดฯ เขตมีนบุรี",
-    "total_tickets": 18,
-    "resolved_tickets": 16.0,
-    "resolution_rate": 88.9,
-    "median_resolution_days": 1.2,
-    "avg_satisfaction": 1.0,
-    "reopen_rate": 5.6
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายเทศกิจ เขตราชเทวี",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดกระบัง, ฝ่ายสิ่งแวดล้อมฯ เขตลาดกระบัง",
     "total_tickets": 18,
     "resolved_tickets": 4.0,
     "resolution_rate": 22.2,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": 5.0,
+    "median_resolution_days": 5.3,
+    "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางขุนเทียน, ฝ่ายสิ่งแวดล้อมฯ เขตบางขุนเทียน, สน.ท่าข้าม, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายโยธา เขตหนองแขม",
     "total_tickets": 18,
-    "resolved_tickets": 14.0,
-    "resolution_rate": 77.8,
-    "median_resolution_days": 4.8,
-    "avg_satisfaction": 1.0,
+    "resolved_tickets": 13.0,
+    "resolution_rate": 72.2,
+    "median_resolution_days": 3.2,
+    "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
@@ -3672,20 +3690,20 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดกระบัง, ฝ่ายสิ่งแวดล้อมฯ เขตลาดกระบัง",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายโยธา เขตบางกะปิ",
     "total_tickets": 18,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 22.2,
-    "median_resolution_days": 5.3,
+    "resolved_tickets": 6.0,
+    "resolution_rate": 33.3,
+    "median_resolution_days": 7.4,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายโยธา เขตหนองแขม",
+    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตบางเขน, ฝ่ายโยธา เขตบางเขน",
     "total_tickets": 18,
-    "resolved_tickets": 13.0,
-    "resolution_rate": 72.2,
-    "median_resolution_days": 3.2,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 5.6,
+    "median_resolution_days": 22.4,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
@@ -3708,22 +3726,49 @@
     "reopen_rate": 5.6
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายโยธา เขตบางกะปิ",
-    "total_tickets": 18,
-    "resolved_tickets": 6.0,
-    "resolution_rate": 33.3,
-    "median_resolution_days": 7.4,
-    "avg_satisfaction": null,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสะพานสูง, ฝ่ายรักษาความสะอาดฯ เขตสะพานสูง",
+    "total_tickets": 17,
+    "resolved_tickets": 16.0,
+    "resolution_rate": 94.1,
+    "median_resolution_days": 4.7,
+    "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตบางเขน, ฝ่ายโยธา เขตบางเขน",
-    "total_tickets": 18,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 5.6,
-    "median_resolution_days": 22.4,
+    "organization": "กรุงเทพมหานคร, เขตยานนาวา",
+    "total_tickets": 17,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 17.6,
+    "median_resolution_days": 0.1,
+    "avg_satisfaction": 3.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตประเวศ, เขตประเวศ, ฝ่ายโยธา เขตประเวศ",
+    "total_tickets": 17,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 47.1,
+    "median_resolution_days": 1.5,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 5.9
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายโยธา เขตห้วยขวาง",
+    "total_tickets": 17,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 23.5,
+    "median_resolution_days": 3.9,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพระโขนง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 17,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 5.9
   },
   {
     "organization": "กรุงเทพมหานคร, เขตจตุจักร, สำนักสิ่งแวดล้อม กทม., สำนักงานบริหารจัดการพื้นที่สีเขียว สำนักสิ่งแวดล้อม, ฝ่ายบริหารจัดการพื้นที่สีเขียว 1 สบข. สสล.",
@@ -3789,96 +3834,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสะพานสูง, ฝ่ายรักษาความสะอาดฯ เขตสะพานสูง",
-    "total_tickets": 17,
-    "resolved_tickets": 16.0,
-    "resolution_rate": 94.1,
-    "median_resolution_days": 4.7,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตยานนาวา",
-    "total_tickets": 17,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 17.6,
-    "median_resolution_days": 0.1,
-    "avg_satisfaction": 3.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตประเวศ, เขตประเวศ, ฝ่ายโยธา เขตประเวศ",
-    "total_tickets": 17,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 47.1,
-    "median_resolution_days": 1.5,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 5.9
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายโยธา เขตห้วยขวาง",
-    "total_tickets": 17,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 23.5,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตพระโขนง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 17,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 5.9
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายโยธา เขตบางกะปิ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 17,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 52.9,
-    "median_resolution_days": 25.9,
-    "avg_satisfaction": 4.8,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายสิ่งแวดล้อมฯ เขตคลองเตย",
-    "total_tickets": 17,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 17.6,
-    "median_resolution_days": 18.0,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางนา, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
-    "total_tickets": 17,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตห้วยขวาง, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
-    "total_tickets": 17,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายสิ่งแวดล้อมฯ เขตลาดพร้าว",
-    "total_tickets": 17,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 58.8,
-    "median_resolution_days": 7.3,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
     "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตปทุมวัน, ฝ่ายโยธา เขตปทุมวัน",
     "total_tickets": 17,
     "resolved_tickets": 2.0,
@@ -3933,17 +3888,26 @@
     "reopen_rate": 5.9
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางซื่อ, ฝ่ายโยธา เขตบางซื่อ",
-    "total_tickets": 16,
-    "resolved_tickets": 6.0,
-    "resolution_rate": 37.5,
-    "median_resolution_days": 2.4,
+    "organization": "กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายโยธา เขตบางกะปิ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 17,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 52.9,
+    "median_resolution_days": 25.9,
+    "avg_satisfaction": 4.8,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายสิ่งแวดล้อมฯ เขตคลองเตย",
+    "total_tickets": 17,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 17.6,
+    "median_resolution_days": 18.0,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตคันนายาว, สน.คันนายาว, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
-    "total_tickets": 16,
+    "organization": "กรุงเทพมหานคร, เขตบางนา, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
+    "total_tickets": 17,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
     "median_resolution_days": null,
@@ -3951,38 +3915,20 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตธนบุรี, สน.สำเหร่, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 8 (บก.น.8)",
-    "total_tickets": 16,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 25.0,
-    "median_resolution_days": 1.6,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 12.5
+    "organization": "กรุงเทพมหานคร, เขตห้วยขวาง, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
+    "total_tickets": 17,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางนา, ฝ่ายรักษาความสะอาดฯ เขตบางนา",
-    "total_tickets": 16,
-    "resolved_tickets": 15.0,
-    "resolution_rate": 93.8,
-    "median_resolution_days": 2.2,
-    "avg_satisfaction": 4.5,
-    "reopen_rate": 6.3
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสายไหม, สน.บางเขน, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
-    "total_tickets": 16,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 43.8,
-    "median_resolution_days": 3.4,
-    "avg_satisfaction": 3.67,
-    "reopen_rate": 25.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายสิ่งแวดล้อมฯ เขตธนบุรี",
-    "total_tickets": 16,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 25.0,
-    "median_resolution_days": 9.0,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดพร้าว, ฝ่ายสิ่งแวดล้อมฯ เขตลาดพร้าว",
+    "total_tickets": 17,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 58.8,
+    "median_resolution_days": 7.3,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
@@ -4086,7 +4032,16 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางรัก, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางซื่อ, ฝ่ายโยธา เขตบางซื่อ",
+    "total_tickets": 16,
+    "resolved_tickets": 6.0,
+    "resolution_rate": 37.5,
+    "median_resolution_days": 2.4,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคันนายาว, สน.คันนายาว, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
     "total_tickets": 16,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
@@ -4095,57 +4050,39 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายเทศกิจ เขตบางกะปิ",
+    "organization": "กรุงเทพมหานคร, เขตธนบุรี, สน.สำเหร่, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 8 (บก.น.8)",
     "total_tickets": 16,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 62.5,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 25.0,
     "median_resolution_days": 1.6,
     "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
+    "reopen_rate": 12.5
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตยานนาวา, ฝ่ายรักษาความสะอาดฯ เขตยานนาวา",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางนา, ฝ่ายรักษาความสะอาดฯ เขตบางนา",
     "total_tickets": 16,
     "resolved_tickets": 15.0,
     "resolution_rate": 93.8,
-    "median_resolution_days": 1.4,
-    "avg_satisfaction": 2.33,
-    "reopen_rate": 18.8
+    "median_resolution_days": 2.2,
+    "avg_satisfaction": 4.5,
+    "reopen_rate": 6.3
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตพระโขนง, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "organization": "กรุงเทพมหานคร, เขตสายไหม, สน.บางเขน, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
     "total_tickets": 16,
-    "resolved_tickets": 16.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 5.4,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
+    "resolved_tickets": 7.0,
+    "resolution_rate": 43.8,
+    "median_resolution_days": 3.4,
+    "avg_satisfaction": 3.67,
+    "reopen_rate": 25.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, สน.ท่าพระ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายสิ่งแวดล้อมฯ เขตธนบุรี",
     "total_tickets": 16,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 6.3,
-    "median_resolution_days": 1.6,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 25.0,
+    "median_resolution_days": 9.0,
     "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 3 ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 16,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 50.0,
-    "median_resolution_days": 7.1,
-    "avg_satisfaction": 4.8,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางขุนเทียน, กองบังคับการตำรวจนครบาล 9 (บก.น.9), กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), สน.แสมดำ",
-    "total_tickets": 16,
-    "resolved_tickets": 2.0,
-    "resolution_rate": 12.5,
-    "median_resolution_days": 4.8,
-    "avg_satisfaction": 1.0,
     "reopen_rate": 0.0
   },
   {
@@ -4239,39 +4176,66 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสายไหม, ฝ่ายโยธา เขตสายไหม",
-    "total_tickets": 15,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 53.3,
-    "median_resolution_days": 5.0,
+    "organization": "กรุงเทพมหานคร, เขตบางรัก, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 16,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
     "avg_satisfaction": null,
-    "reopen_rate": 6.7
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตราชเทวี, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 3 ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 15,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 60.0,
-    "median_resolution_days": 8.9,
-    "avg_satisfaction": 4.8,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตสาทร, ฝ่ายโยธา เขตสาทร",
-    "total_tickets": 15,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 20.0,
-    "median_resolution_days": 13.0,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายเทศกิจ เขตบางกะปิ",
+    "total_tickets": 16,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 62.5,
+    "median_resolution_days": 1.6,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
-    "total_tickets": 15,
-    "resolved_tickets": 6.0,
-    "resolution_rate": 40.0,
-    "median_resolution_days": 2.3,
-    "avg_satisfaction": 4.75,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตยานนาวา, ฝ่ายรักษาความสะอาดฯ เขตยานนาวา",
+    "total_tickets": 16,
+    "resolved_tickets": 15.0,
+    "resolution_rate": 93.8,
+    "median_resolution_days": 1.4,
+    "avg_satisfaction": 2.33,
+    "reopen_rate": 18.8
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพระโขนง, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 16,
+    "resolved_tickets": 16.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 5.4,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, สน.ท่าพระ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
+    "total_tickets": 16,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 6.3,
+    "median_resolution_days": 1.6,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 3 ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 16,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 50.0,
+    "median_resolution_days": 7.1,
+    "avg_satisfaction": 4.8,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางขุนเทียน, กองบังคับการตำรวจนครบาล 9 (บก.น.9), กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), สน.แสมดำ",
+    "total_tickets": 16,
+    "resolved_tickets": 2.0,
+    "resolution_rate": 12.5,
+    "median_resolution_days": 4.8,
+    "avg_satisfaction": 1.0,
     "reopen_rate": 0.0
   },
   {
@@ -4320,76 +4284,40 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายรักษาความสะอาดฯ เขตธนบุรี",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสายไหม, ฝ่ายโยธา เขตสายไหม",
     "total_tickets": 15,
-    "resolved_tickets": 14.0,
-    "resolution_rate": 93.3,
-    "median_resolution_days": 1.2,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 13.3
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายสิ่งแวดล้อมฯ เขตห้วยขวาง",
-    "total_tickets": 15,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 26.7,
-    "median_resolution_days": 8.6,
-    "avg_satisfaction": 3.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตธนบุรี, สน.บุคคโล",
-    "total_tickets": 15,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 53.3,
+    "median_resolution_days": 5.0,
     "avg_satisfaction": null,
-    "reopen_rate": 0.0
+    "reopen_rate": 6.7
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางเขน, สน.คันนายาว, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
-    "total_tickets": 15,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายรักษาความสะอาดฯ เขตหนองแขม",
-    "total_tickets": 15,
-    "resolved_tickets": 14.0,
-    "resolution_rate": 93.3,
-    "median_resolution_days": 0.7,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 13.3
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายพัฒนาชุมชนฯ เขตบางกะปิ",
+    "organization": "กรุงเทพมหานคร, เขตราชเทวี, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 3 ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
     "total_tickets": 15,
     "resolved_tickets": 9.0,
     "resolution_rate": 60.0,
-    "median_resolution_days": 9.7,
-    "avg_satisfaction": 4.6,
+    "median_resolution_days": 8.9,
+    "avg_satisfaction": 4.8,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตพระนคร, ฝ่ายโยธา เขตพระนคร, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 2 ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตสาทร, ฝ่ายโยธา เขตสาทร",
     "total_tickets": 15,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 46.7,
-    "median_resolution_days": 7.2,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 20.0,
+    "median_resolution_days": 13.0,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสวนหลวง, ฝ่ายรักษาความสะอาดฯ เขตสวนหลวง",
+    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
     "total_tickets": 15,
-    "resolved_tickets": 13.0,
-    "resolution_rate": 86.7,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": null,
-    "reopen_rate": 6.7
+    "resolved_tickets": 6.0,
+    "resolution_rate": 40.0,
+    "median_resolution_days": 2.3,
+    "avg_satisfaction": 4.75,
+    "reopen_rate": 0.0
   },
   {
     "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตราชเทวี, ฝ่ายโยธา เขตราชเทวี",
@@ -4482,22 +4410,76 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 14,
-    "resolved_tickets": 6.0,
-    "resolution_rate": 42.9,
-    "median_resolution_days": 10.9,
-    "avg_satisfaction": 3.5,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายรักษาความสะอาดฯ เขตธนบุรี",
+    "total_tickets": 15,
+    "resolved_tickets": 14.0,
+    "resolution_rate": 93.3,
+    "median_resolution_days": 1.2,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 13.3
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายสิ่งแวดล้อมฯ เขตห้วยขวาง",
+    "total_tickets": 15,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 26.7,
+    "median_resolution_days": 8.6,
+    "avg_satisfaction": 3.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตบางนา, กรมทางหลวง, กระทรวงคมนาคม",
-    "total_tickets": 14,
+    "organization": "กรุงเทพมหานคร, เขตธนบุรี, สน.บุคคโล",
+    "total_tickets": 15,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
     "median_resolution_days": null,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางเขน, สน.คันนายาว, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
+    "total_tickets": 15,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายรักษาความสะอาดฯ เขตหนองแขม",
+    "total_tickets": 15,
+    "resolved_tickets": 14.0,
+    "resolution_rate": 93.3,
+    "median_resolution_days": 0.7,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 13.3
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายพัฒนาชุมชนฯ เขตบางกะปิ",
+    "total_tickets": 15,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 60.0,
+    "median_resolution_days": 9.7,
+    "avg_satisfaction": 4.6,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพระนคร, ฝ่ายโยธา เขตพระนคร, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 2 ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 15,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 46.7,
+    "median_resolution_days": 7.2,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสวนหลวง, ฝ่ายรักษาความสะอาดฯ เขตสวนหลวง",
+    "total_tickets": 15,
+    "resolved_tickets": 13.0,
+    "resolution_rate": 86.7,
+    "median_resolution_days": 2.8,
+    "avg_satisfaction": null,
+    "reopen_rate": 6.7
   },
   {
     "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตห้วยขวาง, เขตห้วยขวาง, ฝ่ายโยธา เขตห้วยขวาง",
@@ -4644,6 +4626,123 @@
     "reopen_rate": 0.0
   },
   {
+    "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 14,
+    "resolved_tickets": 6.0,
+    "resolution_rate": 42.9,
+    "median_resolution_days": 10.9,
+    "avg_satisfaction": 3.5,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางนา, กรมทางหลวง, กระทรวงคมนาคม",
+    "total_tickets": 14,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ส.ส.ธีรัจชัย พันธุมาศ (หนองจอก มีนบุรี ลาดกระบัง), เขตหนองจอก, กรุงเทพมหานคร",
+    "total_tickets": 14,
+    "resolved_tickets": 11.0,
+    "resolution_rate": 78.6,
+    "median_resolution_days": 3.8,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สน.ประชาชื่น, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
+    "total_tickets": 14,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางคอแหลม, ฝ่ายโยธา เขตบางคอแหลม",
+    "total_tickets": 14,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 71.4,
+    "median_resolution_days": 3.7,
+    "avg_satisfaction": null,
+    "reopen_rate": 7.1
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี, การไฟฟ้านครหลวง เขตลาดกระบัง, การไฟฟ้านครหลวง MEA",
+    "total_tickets": 14,
+    "resolved_tickets": 5.0,
+    "resolution_rate": 35.7,
+    "median_resolution_days": 9.8,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, ฝ่ายรักษาความสะอาดฯ เขตบางกอกใหญ่",
+    "total_tickets": 14,
+    "resolved_tickets": 12.0,
+    "resolution_rate": 85.7,
+    "median_resolution_days": 1.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 7.1
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายเทศกิจ เขตคันนายาว",
+    "total_tickets": 14,
+    "resolved_tickets": 14.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 0.9,
+    "avg_satisfaction": 1.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพญาไท",
+    "total_tickets": 14,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 71.4,
+    "median_resolution_days": 0.3,
+    "avg_satisfaction": 4.33,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพญาไท, ฝ่ายสิ่งแวดล้อมฯ เขตพญาไท",
+    "total_tickets": 14,
+    "resolved_tickets": 14.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 1.3,
+    "avg_satisfaction": 4.5,
+    "reopen_rate": 7.1
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายโยธา เขตคันนายาว, การไฟฟ้านครหลวง เขตมีนบุรี, การไฟฟ้านครหลวง MEA",
+    "total_tickets": 14,
+    "resolved_tickets": 12.0,
+    "resolution_rate": 85.7,
+    "median_resolution_days": 4.4,
+    "avg_satisfaction": 3.5,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายโยธา เขตคันนายาว, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 14,
+    "resolved_tickets": 5.0,
+    "resolution_rate": 35.7,
+    "median_resolution_days": 2.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตบางกะปิ, ฝ่ายสิ่งแวดล้อมฯ เขตบางกะปิ",
+    "total_tickets": 14,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 57.1,
+    "median_resolution_days": 16.2,
+    "avg_satisfaction": 4.2,
+    "reopen_rate": 0.0
+  },
+  {
     "organization": "กรุงเทพมหานคร, เขตบางพลัด, สน.บางยี่ขัน, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
     "total_tickets": 14,
     "resolved_tickets": 0.0,
@@ -4752,17 +4851,44 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ส.ส.ธีรัจชัย พันธุมาศ (หนองจอก มีนบุรี ลาดกระบัง), เขตหนองจอก, กรุงเทพมหานคร",
-    "total_tickets": 14,
-    "resolved_tickets": 11.0,
-    "resolution_rate": 78.6,
-    "median_resolution_days": 3.8,
-    "avg_satisfaction": 5.0,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพโปร่งใส, เขตธนบุรี, กรุงเทพมหานคร, ฝ่ายสิ่งแวดล้อมฯ เขตธนบุรี",
+    "total_tickets": 13,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 76.9,
+    "median_resolution_days": 9.3,
+    "avg_satisfaction": 4.75,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สน.ประชาชื่น, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
-    "total_tickets": 14,
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางนา, ฝ่ายสิ่งแวดล้อมฯ เขตบางนา",
+    "total_tickets": 13,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 30.8,
+    "median_resolution_days": 3.2,
+    "avg_satisfaction": 4.5,
+    "reopen_rate": 15.4
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตวัฒนา, ฝ่ายเทศกิจ เขตวัฒนา",
+    "total_tickets": 13,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 69.2,
+    "median_resolution_days": 8.2,
+    "avg_satisfaction": 1.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพญาไท, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
+    "total_tickets": 13,
+    "resolved_tickets": 11.0,
+    "resolution_rate": 84.6,
+    "median_resolution_days": 0.9,
+    "avg_satisfaction": 4.71,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคลองสามวา, สน.คันนายาว",
+    "total_tickets": 13,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
     "median_resolution_days": null,
@@ -4770,85 +4896,49 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางคอแหลม, ฝ่ายโยธา เขตบางคอแหลม",
-    "total_tickets": 14,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 71.4,
-    "median_resolution_days": 3.7,
-    "avg_satisfaction": null,
-    "reopen_rate": 7.1
+    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม.",
+    "total_tickets": 13,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 23.1,
+    "median_resolution_days": 3.1,
+    "avg_satisfaction": 2.0,
+    "reopen_rate": 7.7
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี, การไฟฟ้านครหลวง เขตลาดกระบัง, การไฟฟ้านครหลวง MEA",
-    "total_tickets": 14,
+    "organization": "กรุงเทพมหานคร, เขตราชเทวี",
+    "total_tickets": 13,
     "resolved_tickets": 5.0,
-    "resolution_rate": 35.7,
-    "median_resolution_days": 9.8,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, ฝ่ายรักษาความสะอาดฯ เขตบางกอกใหญ่",
-    "total_tickets": 14,
-    "resolved_tickets": 12.0,
-    "resolution_rate": 85.7,
-    "median_resolution_days": 1.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 7.1
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายเทศกิจ เขตคันนายาว",
-    "total_tickets": 14,
-    "resolved_tickets": 14.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 0.9,
-    "avg_satisfaction": 1.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตพญาไท",
-    "total_tickets": 14,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 71.4,
+    "resolution_rate": 38.5,
     "median_resolution_days": 0.3,
-    "avg_satisfaction": 4.33,
+    "avg_satisfaction": 4.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตพญาไท, ฝ่ายสิ่งแวดล้อมฯ เขตพญาไท",
-    "total_tickets": 14,
-    "resolved_tickets": 14.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 1.3,
-    "avg_satisfaction": 4.5,
-    "reopen_rate": 7.1
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายโยธา เขตคันนายาว, การไฟฟ้านครหลวง เขตมีนบุรี, การไฟฟ้านครหลวง MEA",
-    "total_tickets": 14,
-    "resolved_tickets": 12.0,
-    "resolution_rate": 85.7,
-    "median_resolution_days": 4.4,
-    "avg_satisfaction": 3.5,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายโยธา เขตคันนายาว, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 14,
+    "organization": "กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายสิ่งแวดล้อมฯ เขตราชเทวี",
+    "total_tickets": 13,
     "resolved_tickets": 5.0,
-    "resolution_rate": 35.7,
-    "median_resolution_days": 2.0,
+    "resolution_rate": 38.5,
+    "median_resolution_days": 3.2,
     "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
+    "reopen_rate": 7.7
   },
   {
-    "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตบางกะปิ, ฝ่ายสิ่งแวดล้อมฯ เขตบางกะปิ",
-    "total_tickets": 14,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 57.1,
-    "median_resolution_days": 16.2,
-    "avg_satisfaction": 4.2,
-    "reopen_rate": 0.0
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, กองบังคับการตำรวจนครบาล 2 (บก.น.2), กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), สน.บางซื่อ",
+    "total_tickets": 13,
+    "resolved_tickets": 12.0,
+    "resolution_rate": 92.3,
+    "median_resolution_days": 0.3,
+    "avg_satisfaction": 1.86,
+    "reopen_rate": 15.4
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายโยธา เขตราชเทวี",
+    "total_tickets": 13,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 23.1,
+    "median_resolution_days": 4.4,
+    "avg_satisfaction": null,
+    "reopen_rate": 7.7
   },
   {
     "organization": "กรุงเทพมหานคร, เขตบางแค, ฝ่ายโยธา เขตบางแค, การไฟฟ้านครหลวง เขตบางขุนเทียน, การไฟฟ้านครหลวง MEA",
@@ -4950,94 +5040,58 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพโปร่งใส, เขตธนบุรี, กรุงเทพมหานคร, ฝ่ายสิ่งแวดล้อมฯ เขตธนบุรี",
+    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
     "total_tickets": 13,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 76.9,
-    "median_resolution_days": 9.3,
-    "avg_satisfaction": 4.75,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 53.8,
+    "median_resolution_days": 1.2,
+    "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางนา, ฝ่ายสิ่งแวดล้อมฯ เขตบางนา",
-    "total_tickets": 13,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 30.8,
-    "median_resolution_days": 3.2,
-    "avg_satisfaction": 4.5,
-    "reopen_rate": 15.4
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตวัฒนา, ฝ่ายเทศกิจ เขตวัฒนา",
+    "organization": "กรุงเทพมหานคร, เขตประเวศ, สน.อุดมสุข, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
     "total_tickets": 13,
     "resolved_tickets": 9.0,
     "resolution_rate": 69.2,
-    "median_resolution_days": 8.2,
-    "avg_satisfaction": 1.0,
-    "reopen_rate": 0.0
+    "median_resolution_days": 1.2,
+    "avg_satisfaction": 3.4,
+    "reopen_rate": 23.1
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตพญาไท, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
+    "organization": "กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี, การไฟฟ้านครหลวง เขตมีนบุรี, การไฟฟ้านครหลวง MEA",
     "total_tickets": 13,
-    "resolved_tickets": 11.0,
-    "resolution_rate": 84.6,
-    "median_resolution_days": 0.9,
-    "avg_satisfaction": 4.71,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตคลองสามวา, สน.คันนายาว",
-    "total_tickets": 13,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม.",
-    "total_tickets": 13,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 23.1,
-    "median_resolution_days": 3.1,
-    "avg_satisfaction": 2.0,
-    "reopen_rate": 7.7
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตราชเทวี",
-    "total_tickets": 13,
-    "resolved_tickets": 5.0,
-    "resolution_rate": 38.5,
-    "median_resolution_days": 0.3,
-    "avg_satisfaction": 4.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายสิ่งแวดล้อมฯ เขตราชเทวี",
-    "total_tickets": 13,
-    "resolved_tickets": 5.0,
-    "resolution_rate": 38.5,
-    "median_resolution_days": 3.2,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 61.5,
+    "median_resolution_days": 8.5,
     "avg_satisfaction": 5.0,
-    "reopen_rate": 7.7
+    "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, กองบังคับการตำรวจนครบาล 2 (บก.น.2), กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), สน.บางซื่อ",
+    "organization": "กรุงเทพมหานคร, เขตดินแดง, การเคหะแห่งชาติ, สำนักงานเคหะนครหลวง สาขาดินแดง 2",
+    "total_tickets": 13,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 30.8,
+    "median_resolution_days": 18.9,
+    "avg_satisfaction": 3.67,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดกระบัง, ฝ่ายรักษาความสะอาดฯ เขตลาดกระบัง",
     "total_tickets": 13,
     "resolved_tickets": 12.0,
     "resolution_rate": 92.3,
-    "median_resolution_days": 0.3,
-    "avg_satisfaction": 1.86,
-    "reopen_rate": 15.4
+    "median_resolution_days": 2.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตราชเทวี, ฝ่ายโยธา เขตราชเทวี",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองสาน, ฝ่ายเทศกิจ เขตคลองสาน",
     "total_tickets": 13,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 23.1,
-    "median_resolution_days": 4.4,
+    "resolved_tickets": 13.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 1.0,
     "avg_satisfaction": null,
-    "reopen_rate": 7.7
+    "reopen_rate": 0.0
   },
   {
     "organization": "กรุงเทพมหานคร, เขตหนองจอก, สน.ลำผักชี, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 3 (บก.น.3)",
@@ -5139,150 +5193,6 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 13,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 53.8,
-    "median_resolution_days": 1.2,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตประเวศ, สน.อุดมสุข, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
-    "total_tickets": 13,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 69.2,
-    "median_resolution_days": 1.2,
-    "avg_satisfaction": 3.4,
-    "reopen_rate": 23.1
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี, การไฟฟ้านครหลวง เขตมีนบุรี, การไฟฟ้านครหลวง MEA",
-    "total_tickets": 13,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 61.5,
-    "median_resolution_days": 8.5,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตดินแดง, การเคหะแห่งชาติ, สำนักงานเคหะนครหลวง สาขาดินแดง 2",
-    "total_tickets": 13,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 30.8,
-    "median_resolution_days": 18.9,
-    "avg_satisfaction": 3.67,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดกระบัง, ฝ่ายรักษาความสะอาดฯ เขตลาดกระบัง",
-    "total_tickets": 13,
-    "resolved_tickets": 12.0,
-    "resolution_rate": 92.3,
-    "median_resolution_days": 2.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองสาน, ฝ่ายเทศกิจ เขตคลองสาน",
-    "total_tickets": 13,
-    "resolved_tickets": 13.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 1.0,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, กรมทางหลวง",
-    "total_tickets": 12,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางแค, สน.หลักสอง",
-    "total_tickets": 12,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
-    "total_tickets": 12,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 8.3,
-    "median_resolution_days": 0.7,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางนา, สน.บางนา, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
-    "total_tickets": 12,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตหลักสี่, ฝ่ายสิ่งแวดล้อมฯ เขตหลักสี่",
-    "total_tickets": 12,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 83.3,
-    "median_resolution_days": 4.8,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตบางรัก, ฝ่ายโยธา เขตบางรัก",
-    "total_tickets": 12,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 8.3,
-    "median_resolution_days": 1.8,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, สน.จรเข้น้อย, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 3 (บก.น.3)",
-    "total_tickets": 12,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม.",
-    "total_tickets": 12,
-    "resolved_tickets": 5.0,
-    "resolution_rate": 41.7,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": 1.25,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายรักษาความสะอาดฯ เขตภาษีเจริญ",
-    "total_tickets": 12,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 75.0,
-    "median_resolution_days": 1.1,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตปทุมวัน, สำนักสิ่งแวดล้อม กทม., สำนักงานบริหารจัดการพื้นที่สีเขียว สำนักสิ่งแวดล้อม, ฝ่ายบริหารจัดการพื้นที่สีเขียว 4 สบข. สสล.",
-    "total_tickets": 12,
-    "resolved_tickets": 2.0,
-    "resolution_rate": 16.7,
-    "median_resolution_days": 1.5,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
     "organization": "กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายรักษาความสะอาดฯ เขตบางกะปิ, ฝ่ายเทศกิจ เขตบางกะปิ",
     "total_tickets": 12,
     "resolved_tickets": 11.0,
@@ -5319,88 +5229,34 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกอกน้อย, ฝ่ายรักษาความสะอาดฯ เขตบางกอกน้อย",
-    "total_tickets": 12,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 75.0,
-    "median_resolution_days": 1.7,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายโยธา เขตคันนายาว, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองสาน, ฝ่ายรักษาความสะอาดฯ เขตคลองสาน",
     "total_tickets": 12,
     "resolved_tickets": 12.0,
     "resolution_rate": 100.0,
-    "median_resolution_days": 10.2,
-    "avg_satisfaction": null,
+    "median_resolution_days": 0.9,
+    "avg_satisfaction": 4.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตหลักสี่, ฝ่ายสิ่งแวดล้อมฯ เขตหลักสี่",
-    "total_tickets": 12,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 83.3,
-    "median_resolution_days": 3.2,
-    "avg_satisfaction": 3.6,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสาทร, ฝ่ายเทศกิจ เขตสาทร, สน.ยานนาวา, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 6 (บก.น.6)",
-    "total_tickets": 12,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., กองควบคุมการก่อสร้าง สำนักการโยธา (กคส.สนย.) กทม.",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตตลิ่งชัน, ฝ่ายสิ่งแวดล้อมฯ เขตตลิ่งชัน",
     "total_tickets": 12,
     "resolved_tickets": 8.0,
     "resolution_rate": 66.7,
-    "median_resolution_days": 18.9,
-    "avg_satisfaction": 3.5,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางพลัด, สำนักงานเขตบางพลัด",
-    "total_tickets": 12,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 33.3,
-    "median_resolution_days": 3.5,
+    "median_resolution_days": 4.5,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตราชเทวี, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานเครื่องหมายจราจร 1 สวจ.สจส. กทม.",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกอกน้อย, ฝ่ายโยธา เขตบางกอกน้อย",
     "total_tickets": 12,
-    "resolved_tickets": 12.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 3.2,
-    "avg_satisfaction": 4.14,
-    "reopen_rate": 16.7
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายพัฒนาชุมชนฯ เขตห้วยขวาง",
-    "total_tickets": 12,
-    "resolved_tickets": 5.0,
-    "resolution_rate": 41.7,
-    "median_resolution_days": 16.9,
-    "avg_satisfaction": 4.33,
-    "reopen_rate": 8.3
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตวังทองหลาง, ฝ่ายสิ่งแวดล้อมฯ เขตวังทองหลาง",
-    "total_tickets": 12,
-    "resolved_tickets": 6.0,
-    "resolution_rate": 50.0,
-    "median_resolution_days": 12.9,
-    "avg_satisfaction": 3.0,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 8.3,
+    "median_resolution_days": 1.8,
+    "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "organization": "กรุงเทพมหานคร, เขตสาทร, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
     "total_tickets": 12,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
@@ -5409,7 +5265,52 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สน.ทองหล่อ",
+    "total_tickets": 12,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคลองสามวา, ฝ่ายโยธา เขตคลองสามวา, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 12,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 75.0,
+    "median_resolution_days": 8.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 8.3
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางบอน, ฝ่ายเทศกิจ เขตบางบอน",
+    "total_tickets": 12,
+    "resolved_tickets": 12.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 3.4,
+    "avg_satisfaction": null,
+    "reopen_rate": 8.3
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตประเวศ, การไฟฟ้านครหลวง MEA, การไฟฟ้านครหลวง เขตบางนา",
+    "total_tickets": 12,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 8.3,
+    "median_resolution_days": 14.0,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, กรมทางหลวง",
+    "total_tickets": 12,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางแค, สน.หลักสอง",
     "total_tickets": 12,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
@@ -5526,25 +5427,133 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองสาน, ฝ่ายรักษาความสะอาดฯ เขตคลองสาน",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกอกน้อย, ฝ่ายรักษาความสะอาดฯ เขตบางกอกน้อย",
     "total_tickets": 12,
-    "resolved_tickets": 12.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 0.9,
-    "avg_satisfaction": 4.0,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 75.0,
+    "median_resolution_days": 1.7,
+    "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตตลิ่งชัน, ฝ่ายสิ่งแวดล้อมฯ เขตตลิ่งชัน",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายโยธา เขตคันนายาว, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
     "total_tickets": 12,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 66.7,
-    "median_resolution_days": 4.5,
+    "resolved_tickets": 12.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 10.2,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกอกน้อย, ฝ่ายโยธา เขตบางกอกน้อย",
+    "organization": "กรุงเทพมหานคร, เขตหลักสี่, ฝ่ายสิ่งแวดล้อมฯ เขตหลักสี่",
+    "total_tickets": 12,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 83.3,
+    "median_resolution_days": 3.2,
+    "avg_satisfaction": 3.6,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสาทร, ฝ่ายเทศกิจ เขตสาทร, สน.ยานนาวา, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 6 (บก.น.6)",
+    "total_tickets": 12,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสะพานสูง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., กองควบคุมการก่อสร้าง สำนักการโยธา (กคส.สนย.) กทม.",
+    "total_tickets": 12,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 66.7,
+    "median_resolution_days": 18.9,
+    "avg_satisfaction": 3.5,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางพลัด, สำนักงานเขตบางพลัด",
+    "total_tickets": 12,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 33.3,
+    "median_resolution_days": 3.5,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตราชเทวี, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานเครื่องหมายจราจร 1 สวจ.สจส. กทม.",
+    "total_tickets": 12,
+    "resolved_tickets": 12.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 3.2,
+    "avg_satisfaction": 4.14,
+    "reopen_rate": 16.7
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตห้วยขวาง, ฝ่ายพัฒนาชุมชนฯ เขตห้วยขวาง",
+    "total_tickets": 12,
+    "resolved_tickets": 5.0,
+    "resolution_rate": 41.7,
+    "median_resolution_days": 16.9,
+    "avg_satisfaction": 4.33,
+    "reopen_rate": 8.3
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตวังทองหลาง, ฝ่ายสิ่งแวดล้อมฯ เขตวังทองหลาง",
+    "total_tickets": 12,
+    "resolved_tickets": 6.0,
+    "resolution_rate": 50.0,
+    "median_resolution_days": 12.9,
+    "avg_satisfaction": 3.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 12,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางกะปิ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 12,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
+    "total_tickets": 12,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 8.3,
+    "median_resolution_days": 0.7,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางนา, สน.บางนา, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 5 (บก.น.5)",
+    "total_tickets": 12,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตหลักสี่, ฝ่ายสิ่งแวดล้อมฯ เขตหลักสี่",
+    "total_tickets": 12,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 83.3,
+    "median_resolution_days": 4.8,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตบางรัก, ฝ่ายโยธา เขตบางรัก",
     "total_tickets": 12,
     "resolved_tickets": 1.0,
     "resolution_rate": 8.3,
@@ -5553,7 +5562,7 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตสาทร, สำนักงาน กสทช. (ศูนย์รับแจ้งปัญหา 1200), สำนักงาน กสทช. (สายสื่อสาร)",
+    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, สน.จรเข้น้อย, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 3 (บก.น.3)",
     "total_tickets": 12,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
@@ -5562,38 +5571,128 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตวัฒนา, สน.ทองหล่อ",
+    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม.",
     "total_tickets": 12,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
+    "resolved_tickets": 5.0,
+    "resolution_rate": 41.7,
+    "median_resolution_days": 2.8,
+    "avg_satisfaction": 1.25,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตคลองสามวา, ฝ่ายโยธา เขตคลองสามวา, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายรักษาความสะอาดฯ เขตภาษีเจริญ",
     "total_tickets": 12,
     "resolved_tickets": 9.0,
     "resolution_rate": 75.0,
-    "median_resolution_days": 8.0,
+    "median_resolution_days": 1.1,
     "avg_satisfaction": 5.0,
-    "reopen_rate": 8.3
+    "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางบอน, ฝ่ายเทศกิจ เขตบางบอน",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตปทุมวัน, สำนักสิ่งแวดล้อม กทม., สำนักงานบริหารจัดการพื้นที่สีเขียว สำนักสิ่งแวดล้อม, ฝ่ายบริหารจัดการพื้นที่สีเขียว 4 สบข. สสล.",
     "total_tickets": 12,
-    "resolved_tickets": 12.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 3.4,
+    "resolved_tickets": 2.0,
+    "resolution_rate": 16.7,
+    "median_resolution_days": 1.5,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตธนบุรี",
+    "total_tickets": 11,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 36.4,
+    "median_resolution_days": 0.0,
+    "avg_satisfaction": 3.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตวัฒนา, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., ฝ่ายโยธา เขตวัฒนา",
+    "total_tickets": 11,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
     "avg_satisfaction": null,
-    "reopen_rate": 8.3
+    "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตประเวศ, การไฟฟ้านครหลวง MEA, การไฟฟ้านครหลวง เขตบางนา",
-    "total_tickets": 12,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 8.3,
-    "median_resolution_days": 14.0,
+    "organization": "กรุงเทพมหานคร, เขตพระนคร, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
+    "total_tickets": 11,
+    "resolved_tickets": 11.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 1.6,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคลองเตย, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
+    "total_tickets": 11,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 63.6,
+    "median_resolution_days": 2.2,
+    "avg_satisfaction": 4.25,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 11,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคลองสาน, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานระบบขนส่ง สขส.สจส. กทม., กลุ่มงานบริหารทรัพย์สิน สขส.สจส. กทม., การบำรุงรักษาศาลาที่พักผู้โดยสาร สขส.สจส. กทม., FIT TL",
+    "total_tickets": 11,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตมีนบุรี, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี",
+    "total_tickets": 11,
+    "resolved_tickets": 11.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 3.6,
+    "avg_satisfaction": 3.4,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตปทุมวัน, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานเครื่องหมายจราจร 2 สวจ.สจส. กทม.",
+    "total_tickets": 11,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 72.7,
+    "median_resolution_days": 10.8,
+    "avg_satisfaction": 2.6,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตปทุมวัน, ฝ่ายสิ่งแวดล้อมฯ เขตปทุมวัน",
+    "total_tickets": 11,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 36.4,
+    "median_resolution_days": 1.1,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายสิ่งแวดล้อมฯ เขตธนบุรี, ฝ่ายเทศกิจ เขตธนบุรี",
+    "total_tickets": 11,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 63.6,
+    "median_resolution_days": 7.1,
+    "avg_satisfaction": 4.4,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตดินแดง, ฝ่ายเทศกิจ เขตดินแดง",
+    "total_tickets": 11,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 63.6,
+    "median_resolution_days": 11.6,
     "avg_satisfaction": null,
     "reopen_rate": 0.0
   },
@@ -5697,102 +5796,138 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตธนบุรี",
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สน.บางซื่อ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
+    "total_tickets": 11,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 81.8,
+    "median_resolution_days": 0.6,
+    "avg_satisfaction": 4.5,
+    "reopen_rate": 9.1
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตลาดพร้าว, ฝ่ายโยธา เขตลาดพร้าว",
     "total_tickets": 11,
     "resolved_tickets": 4.0,
     "resolution_rate": 36.4,
-    "median_resolution_days": 0.0,
-    "avg_satisfaction": 3.0,
+    "median_resolution_days": 9.3,
+    "avg_satisfaction": 4.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตวัฒนา, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., ฝ่ายโยธา เขตวัฒนา",
+    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตพญาไท, เขตพญาไท, ฝ่ายโยธา เขตพญาไท",
     "total_tickets": 11,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 72.7,
+    "median_resolution_days": 0.6,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 18.2
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตทุ่งครุ, สน.ทุ่งครุ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 8 (บก.น.8)",
+    "total_tickets": 11,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 9.1,
+    "median_resolution_days": 7.5,
     "avg_satisfaction": null,
-    "reopen_rate": 0.0
+    "reopen_rate": 9.1
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตพระนคร, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตตลิ่งชัน, ฝ่ายโยธา เขตตลิ่งชัน",
     "total_tickets": 11,
-    "resolved_tickets": 11.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 1.6,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 81.8,
+    "median_resolution_days": 0.6,
+    "avg_satisfaction": null,
+    "reopen_rate": 9.1
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตทวีวัฒนา, ฝ่ายโยธา เขตทวีวัฒนา, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 11,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 63.6,
+    "median_resolution_days": 5.0,
     "avg_satisfaction": 5.0,
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตคลองเตย, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
+    "organization": "กรุงเทพมหานคร, เขตประเวศ, บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)",
+    "total_tickets": 11,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 27.3,
+    "median_resolution_days": 8.8,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 9.1
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคันนายาว, สน.บางชัน, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
+    "total_tickets": 11,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, สน.บางกอกใหญ่, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
+    "total_tickets": 11,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 36.4,
+    "median_resolution_days": 11.9,
+    "avg_satisfaction": 3.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสัมพันธวงศ์, ฝ่ายสิ่งแวดล้อมฯ เขตสัมพันธวงศ์",
+    "total_tickets": 11,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 72.7,
+    "median_resolution_days": 6.2,
+    "avg_satisfaction": 3.5,
+    "reopen_rate": 18.2
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 11,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 9.1,
+    "median_resolution_days": 13.7,
+    "avg_satisfaction": 1.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, สน.ประเวศ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
+    "total_tickets": 11,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตหลักสี่, ฝ่ายโยธา เขตหลักสี่",
+    "total_tickets": 11,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 9.1,
+    "median_resolution_days": 3.1,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตห้วยขวาง, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
+    "total_tickets": 11,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 36.4,
+    "median_resolution_days": 3.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตลาดพร้าว, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
     "total_tickets": 11,
     "resolved_tickets": 7.0,
     "resolution_rate": 63.6,
     "median_resolution_days": 2.2,
-    "avg_satisfaction": 4.25,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 11,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตคลองสาน, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานระบบขนส่ง สขส.สจส. กทม., กลุ่มงานบริหารทรัพย์สิน สขส.สจส. กทม., การบำรุงรักษาศาลาที่พักผู้โดยสาร สขส.สจส. กทม., FIT TL",
-    "total_tickets": 11,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตมีนบุรี, เขตมีนบุรี, ฝ่ายโยธา เขตมีนบุรี",
-    "total_tickets": 11,
-    "resolved_tickets": 11.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 3.6,
-    "avg_satisfaction": 3.4,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตปทุมวัน, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานเครื่องหมายจราจร 2 สวจ.สจส. กทม.",
-    "total_tickets": 11,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 72.7,
-    "median_resolution_days": 10.8,
-    "avg_satisfaction": 2.6,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตปทุมวัน, ฝ่ายสิ่งแวดล้อมฯ เขตปทุมวัน",
-    "total_tickets": 11,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 36.4,
-    "median_resolution_days": 1.1,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายสิ่งแวดล้อมฯ เขตธนบุรี, ฝ่ายเทศกิจ เขตธนบุรี",
-    "total_tickets": 11,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 63.6,
-    "median_resolution_days": 7.1,
-    "avg_satisfaction": 4.4,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตดินแดง, ฝ่ายเทศกิจ เขตดินแดง",
-    "total_tickets": 11,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 63.6,
-    "median_resolution_days": 11.6,
-    "avg_satisfaction": null,
+    "avg_satisfaction": 4.8,
     "reopen_rate": 0.0
   },
   {
@@ -5937,303 +6072,6 @@
     "resolution_rate": 45.5,
     "median_resolution_days": 11.5,
     "avg_satisfaction": 4.5,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สน.บางซื่อ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 2 (บก.น.2)",
-    "total_tickets": 11,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 81.8,
-    "median_resolution_days": 0.6,
-    "avg_satisfaction": 4.5,
-    "reopen_rate": 9.1
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตลาดพร้าว, ฝ่ายโยธา เขตลาดพร้าว",
-    "total_tickets": 11,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 36.4,
-    "median_resolution_days": 9.3,
-    "avg_satisfaction": 4.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตพญาไท, เขตพญาไท, ฝ่ายโยธา เขตพญาไท",
-    "total_tickets": 11,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 72.7,
-    "median_resolution_days": 0.6,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 18.2
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตทุ่งครุ, สน.ทุ่งครุ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 8 (บก.น.8)",
-    "total_tickets": 11,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 9.1,
-    "median_resolution_days": 7.5,
-    "avg_satisfaction": null,
-    "reopen_rate": 9.1
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตตลิ่งชัน, ฝ่ายโยธา เขตตลิ่งชัน",
-    "total_tickets": 11,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 81.8,
-    "median_resolution_days": 0.6,
-    "avg_satisfaction": null,
-    "reopen_rate": 9.1
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตทวีวัฒนา, ฝ่ายโยธา เขตทวีวัฒนา, Bangkok Smart Lighting (สำนักการโยธา กทม.), สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 11,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 63.6,
-    "median_resolution_days": 5.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตประเวศ, บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)",
-    "total_tickets": 11,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 27.3,
-    "median_resolution_days": 8.8,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 9.1
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตคันนายาว, สน.บางชัน, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
-    "total_tickets": 11,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางกอกใหญ่, สน.บางกอกใหญ่, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 7 (บก.น.7)",
-    "total_tickets": 11,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 36.4,
-    "median_resolution_days": 11.9,
-    "avg_satisfaction": 3.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสัมพันธวงศ์, ฝ่ายสิ่งแวดล้อมฯ เขตสัมพันธวงศ์",
-    "total_tickets": 11,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 72.7,
-    "median_resolution_days": 6.2,
-    "avg_satisfaction": 3.5,
-    "reopen_rate": 18.2
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 11,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 9.1,
-    "median_resolution_days": 13.7,
-    "avg_satisfaction": 1.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสวนหลวง, สน.ประเวศ, กองบัญชาการตำรวจนครบาล (บช.น.), สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบังคับการตำรวจนครบาล 4 (บก.น.4)",
-    "total_tickets": 11,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตหลักสี่, ฝ่ายโยธา เขตหลักสี่",
-    "total_tickets": 11,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 9.1,
-    "median_resolution_days": 3.1,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตห้วยขวาง, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
-    "total_tickets": 11,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 36.4,
-    "median_resolution_days": 3.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตลาดพร้าว, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
-    "total_tickets": 11,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 63.6,
-    "median_resolution_days": 2.2,
-    "avg_satisfaction": 4.8,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตจอมทอง, ฝ่ายสิ่งแวดล้อมฯ เขตจอมทอง",
-    "total_tickets": 10,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 70.0,
-    "median_resolution_days": 16.9,
-    "avg_satisfaction": 4.33,
-    "reopen_rate": 20.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตลาดกระบัง, เขตลาดกระบัง",
-    "total_tickets": 10,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 40.0,
-    "median_resolution_days": 1.4,
-    "avg_satisfaction": 4.5,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน",
-    "total_tickets": 10,
-    "resolved_tickets": 2.0,
-    "resolution_rate": 20.0,
-    "median_resolution_days": 0.3,
-    "avg_satisfaction": 2.0,
-    "reopen_rate": 10.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสายไหม",
-    "total_tickets": 10,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายเทศกิจ เขตคลองเตย",
-    "total_tickets": 10,
-    "resolved_tickets": 6.0,
-    "resolution_rate": 60.0,
-    "median_resolution_days": 2.9,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตสาทร, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
-    "total_tickets": 10,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 80.0,
-    "median_resolution_days": 1.9,
-    "avg_satisfaction": 4.4,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 3 ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 10,
-    "resolved_tickets": 6.0,
-    "resolution_rate": 60.0,
-    "median_resolution_days": 5.4,
-    "avg_satisfaction": 4.75,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางแค, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., ฝ่ายโยธา เขตบางแค",
-    "total_tickets": 10,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 2.7,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายโยธา เขตจตุจักร, กระทรวงมหาดไทย",
-    "total_tickets": 10,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 20.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายเทศกิจ เขตธนบุรี",
-    "total_tickets": 10,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 80.0,
-    "median_resolution_days": 2.4,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตพระนคร, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
-    "total_tickets": 10,
-    "resolved_tickets": 4.0,
-    "resolution_rate": 40.0,
-    "median_resolution_days": 7.3,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายโยธา เขตคันนายาว, กรมทางหลวง, กระทรวงคมนาคม",
-    "total_tickets": 10,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายโยธา เขตบางกะปิ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 10,
-    "resolved_tickets": 2.0,
-    "resolution_rate": 20.0,
-    "median_resolution_days": 4.5,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 10.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดกระบัง",
-    "total_tickets": 10,
-    "resolved_tickets": 2.0,
-    "resolution_rate": 20.0,
-    "median_resolution_days": 0.5,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตป้อมปราบศัตรูพ่าย, การไฟฟ้านครหลวง เขตวัดเลียบ, การไฟฟ้านครหลวง MEA",
-    "total_tickets": 10,
-    "resolved_tickets": 10.0,
-    "resolution_rate": 100.0,
-    "median_resolution_days": 1.2,
-    "avg_satisfaction": 4.83,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายโยธา เขตคลองเตย",
-    "total_tickets": 10,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 70.0,
-    "median_resolution_days": 1.7,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
-    "total_tickets": 10,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตทุ่งครุ, ฝ่ายสิ่งแวดล้อมฯ เขตทุ่งครุ",
-    "total_tickets": 10,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 80.0,
-    "median_resolution_days": 3.5,
-    "avg_satisfaction": 4.6,
     "reopen_rate": 0.0
   },
   {
@@ -6408,147 +6246,165 @@
     "reopen_rate": 0.0
   },
   {
-    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, การไฟฟ้านครหลวง MEA, การไฟฟ้านครหลวง เขตลาดกระบัง",
-    "total_tickets": 10,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 80.0,
-    "median_resolution_days": 3.8,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 10.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายสิ่งแวดล้อมฯ เขตภาษีเจริญ",
-    "total_tickets": 10,
-    "resolved_tickets": 8.0,
-    "resolution_rate": 80.0,
-    "median_resolution_days": 5.2,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายเทศกิจ เขตจตุจักร, ฝ่ายรักษาความสะอาดฯ เขตจตุจักร",
+    "organization": "กรุงเทพมหานคร, เขตจอมทอง, ฝ่ายสิ่งแวดล้อมฯ เขตจอมทอง",
     "total_tickets": 10,
     "resolved_tickets": 7.0,
     "resolution_rate": 70.0,
-    "median_resolution_days": 9.0,
-    "avg_satisfaction": 3.83,
-    "reopen_rate": 0.0
+    "median_resolution_days": 16.9,
+    "avg_satisfaction": 4.33,
+    "reopen_rate": 20.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตดุสิต, ฝ่ายรักษาความสะอาดฯ เขตดุสิต",
-    "total_tickets": 10,
-    "resolved_tickets": 9.0,
-    "resolution_rate": 90.0,
-    "median_resolution_days": 6.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 10.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตวังทองหลาง, ฝ่ายโยธา เขตวังทองหลาง",
-    "total_tickets": 10,
-    "resolved_tickets": 2.0,
-    "resolution_rate": 20.0,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตทุ่งครุ, ฝ่ายโยธา เขตทุ่งครุ",
-    "total_tickets": 10,
-    "resolved_tickets": 5.0,
-    "resolution_rate": 50.0,
-    "median_resolution_days": 10.0,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 10.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตบางเขน, ฝ่ายสิ่งแวดล้อมฯ เขตบางเขน",
-    "total_tickets": 10,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 10.0,
-    "median_resolution_days": 5.1,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายโยธา เขตหนองแขม, การไฟฟ้านครหลวง เขตบางขุนเทียน, การไฟฟ้านครหลวง MEA",
-    "total_tickets": 10,
-    "resolved_tickets": 1.0,
-    "resolution_rate": 10.0,
-    "median_resolution_days": 15.1,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายเทศกิจ เขตภาษีเจริญ, สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบัญชาการตำรวจท่องเที่ยว (บช.ทท.), สถานีตำรวจท่องเที่ยวธนบุรี ส.ทท.3 กก.1 บก.ทท.1, ตำรวจท่องเที่ยว กก.1 บก.ทท.1, ตำรวจท่องเที่ยว บก.ทท.1, กองบัญชาการตำรวจนครบาล (บช.น.), สน.ภาษีเจริญ, กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
-    "total_tickets": 10,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 10.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, กรมทางหลวง, กระทรวงคมนาคม",
-    "total_tickets": 10,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตพญาไท, บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)",
-    "total_tickets": 10,
-    "resolved_tickets": 0.0,
-    "resolution_rate": 0.0,
-    "median_resolution_days": null,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางซื่อ, ฝ่ายเทศกิจ เขตบางซื่อ",
-    "total_tickets": 10,
-    "resolved_tickets": 7.0,
-    "resolution_rate": 70.0,
-    "median_resolution_days": 1.8,
-    "avg_satisfaction": 5.0,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตพระนคร, ฝ่ายสิ่งแวดล้อมฯ เขตพระนคร",
-    "total_tickets": 10,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 30.0,
-    "median_resolution_days": 5.1,
-    "avg_satisfaction": 4.5,
-    "reopen_rate": 10.0
-  },
-  {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายสิ่งแวดล้อมฯ เขตหนองแขม",
-    "total_tickets": 10,
-    "resolved_tickets": 3.0,
-    "resolution_rate": 30.0,
-    "median_resolution_days": 5.8,
-    "avg_satisfaction": null,
-    "reopen_rate": 0.0
-  },
-  {
-    "organization": "กรุงเทพมหานคร, เขตบางบอน",
+    "organization": "กรุงเทพมหานคร, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., พนักงานกวาด เขตลาดกระบัง, เขตลาดกระบัง",
     "total_tickets": 10,
     "resolved_tickets": 4.0,
     "resolution_rate": 40.0,
-    "median_resolution_days": 0.7,
-    "avg_satisfaction": 3.67,
+    "median_resolution_days": 1.4,
+    "avg_satisfaction": 4.5,
     "reopen_rate": 0.0
   },
   {
-    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสวนหลวง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน",
+    "total_tickets": 10,
+    "resolved_tickets": 2.0,
+    "resolution_rate": 20.0,
+    "median_resolution_days": 0.3,
+    "avg_satisfaction": 2.0,
+    "reopen_rate": 10.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสายไหม",
     "total_tickets": 10,
     "resolved_tickets": 0.0,
     "resolution_rate": 0.0,
     "median_resolution_days": null,
     "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายเทศกิจ เขตคลองเตย",
+    "total_tickets": 10,
+    "resolved_tickets": 6.0,
+    "resolution_rate": 60.0,
+    "median_resolution_days": 2.9,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตสาทร, สำนักการจราจรและขนส่ง กรุงเทพมหานคร (สจส. กทม.), สำนักงานวิศวกรรมจราจร สวจ.สจส. กทม., กลุ่มงานสัญญาณไฟจราจร สวจ.สจส. กทม.",
+    "total_tickets": 10,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 80.0,
+    "median_resolution_days": 1.9,
+    "avg_satisfaction": 4.4,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., ศูนย์ก่อสร้างและบูรณะถนน 3 ส่วนก่อสร้างและบูรณะ 1 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 10,
+    "resolved_tickets": 6.0,
+    "resolution_rate": 60.0,
+    "median_resolution_days": 5.4,
+    "avg_satisfaction": 4.75,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางแค, ศูนย์ควบคุมระบบป้องกันน้ำท่วม กทม., ฝ่ายโยธา เขตบางแค",
+    "total_tickets": 10,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 2.7,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายโยธา เขตจตุจักร, กระทรวงมหาดไทย",
+    "total_tickets": 10,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 20.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตธนบุรี, ฝ่ายเทศกิจ เขตธนบุรี",
+    "total_tickets": 10,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 80.0,
+    "median_resolution_days": 2.4,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตพระนคร, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., Bangkok Smart Lighting (สำนักการโยธา กทม.), ศูนย์เครื่องมือกล ส่วนก่อสร้างและบูรณะ 2 สำนักงานก่อสร้างและบูรณะ (สกบ.สนย.)",
+    "total_tickets": 10,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 40.0,
+    "median_resolution_days": 7.3,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตคันนายาว, ฝ่ายโยธา เขตคันนายาว, กรมทางหลวง, กระทรวงคมนาคม",
+    "total_tickets": 10,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางกะปิ, ฝ่ายโยธา เขตบางกะปิ, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 10,
+    "resolved_tickets": 2.0,
+    "resolution_rate": 20.0,
+    "median_resolution_days": 4.5,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 10.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตลาดกระบัง",
+    "total_tickets": 10,
+    "resolved_tickets": 2.0,
+    "resolution_rate": 20.0,
+    "median_resolution_days": 0.5,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตป้อมปราบศัตรูพ่าย, การไฟฟ้านครหลวง เขตวัดเลียบ, การไฟฟ้านครหลวง MEA",
+    "total_tickets": 10,
+    "resolved_tickets": 10.0,
+    "resolution_rate": 100.0,
+    "median_resolution_days": 1.2,
+    "avg_satisfaction": 4.83,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตคลองเตย, ฝ่ายโยธา เขตคลองเตย",
+    "total_tickets": 10,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 70.0,
+    "median_resolution_days": 1.7,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 10,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตทุ่งครุ, ฝ่ายสิ่งแวดล้อมฯ เขตทุ่งครุ",
+    "total_tickets": 10,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 80.0,
+    "median_resolution_days": 3.5,
+    "avg_satisfaction": 4.6,
     "reopen_rate": 0.0
   },
   {
@@ -6730,5 +6586,149 @@
     "median_resolution_days": 2.1,
     "avg_satisfaction": null,
     "reopen_rate": 40.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตลาดกระบัง, การไฟฟ้านครหลวง MEA, การไฟฟ้านครหลวง เขตลาดกระบัง",
+    "total_tickets": 10,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 80.0,
+    "median_resolution_days": 3.8,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 10.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายสิ่งแวดล้อมฯ เขตภาษีเจริญ",
+    "total_tickets": 10,
+    "resolved_tickets": 8.0,
+    "resolution_rate": 80.0,
+    "median_resolution_days": 5.2,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตจตุจักร, ฝ่ายเทศกิจ เขตจตุจักร, ฝ่ายรักษาความสะอาดฯ เขตจตุจักร",
+    "total_tickets": 10,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 70.0,
+    "median_resolution_days": 9.0,
+    "avg_satisfaction": 3.83,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตดุสิต, ฝ่ายรักษาความสะอาดฯ เขตดุสิต",
+    "total_tickets": 10,
+    "resolved_tickets": 9.0,
+    "resolution_rate": 90.0,
+    "median_resolution_days": 6.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 10.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตวังทองหลาง, ฝ่ายโยธา เขตวังทองหลาง",
+    "total_tickets": 10,
+    "resolved_tickets": 2.0,
+    "resolution_rate": 20.0,
+    "median_resolution_days": 2.8,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม., สำนักการโยธา กทม., เขตทุ่งครุ, ฝ่ายโยธา เขตทุ่งครุ",
+    "total_tickets": 10,
+    "resolved_tickets": 5.0,
+    "resolution_rate": 50.0,
+    "median_resolution_days": 10.0,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 10.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, สำนักสิ่งแวดล้อม กทม., เขตบางเขน, ฝ่ายสิ่งแวดล้อมฯ เขตบางเขน",
+    "total_tickets": 10,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 10.0,
+    "median_resolution_days": 5.1,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายโยธา เขตหนองแขม, การไฟฟ้านครหลวง เขตบางขุนเทียน, การไฟฟ้านครหลวง MEA",
+    "total_tickets": 10,
+    "resolved_tickets": 1.0,
+    "resolution_rate": 10.0,
+    "median_resolution_days": 15.1,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตภาษีเจริญ, ฝ่ายเทศกิจ เขตภาษีเจริญ, สำนักงานตำรวจแห่งชาติ (Royal Thai Police), กองบัญชาการตำรวจท่องเที่ยว (บช.ทท.), สถานีตำรวจท่องเที่ยวธนบุรี ส.ทท.3 กก.1 บก.ทท.1, ตำรวจท่องเที่ยว กก.1 บก.ทท.1, ตำรวจท่องเที่ยว บก.ทท.1, กองบัญชาการตำรวจนครบาล (บช.น.), สน.ภาษีเจริญ, กองบังคับการตำรวจนครบาล 9 (บก.น.9)",
+    "total_tickets": 10,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 10.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตตลิ่งชัน, กรมทางหลวง, กระทรวงคมนาคม",
+    "total_tickets": 10,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพญาไท, บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)",
+    "total_tickets": 10,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตบางซื่อ, ฝ่ายเทศกิจ เขตบางซื่อ",
+    "total_tickets": 10,
+    "resolved_tickets": 7.0,
+    "resolution_rate": 70.0,
+    "median_resolution_days": 1.8,
+    "avg_satisfaction": 5.0,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตพระนคร, ฝ่ายสิ่งแวดล้อมฯ เขตพระนคร",
+    "total_tickets": 10,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 30.0,
+    "median_resolution_days": 5.1,
+    "avg_satisfaction": 4.5,
+    "reopen_rate": 10.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตหนองแขม, ฝ่ายสิ่งแวดล้อมฯ เขตหนองแขม",
+    "total_tickets": 10,
+    "resolved_tickets": 3.0,
+    "resolution_rate": 30.0,
+    "median_resolution_days": 5.8,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "กรุงเทพมหานคร, เขตบางบอน",
+    "total_tickets": 10,
+    "resolved_tickets": 4.0,
+    "resolution_rate": 40.0,
+    "median_resolution_days": 0.7,
+    "avg_satisfaction": 3.67,
+    "reopen_rate": 0.0
+  },
+  {
+    "organization": "ร้องทุกข์ กทม. 1555, กรุงเทพมหานคร, เขตสวนหลวง, สำนักการโยธา กทม., สำนักงานก่อสร้างและบูรณะ สำนักการโยธา (สกบ.สนย.) กทม.",
+    "total_tickets": 10,
+    "resolved_tickets": 0.0,
+    "resolution_rate": 0.0,
+    "median_resolution_days": null,
+    "avg_satisfaction": null,
+    "reopen_rate": 0.0
   }
 ]
