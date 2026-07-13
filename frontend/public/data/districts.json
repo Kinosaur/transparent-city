@@ -1081,53 +1081,6 @@
     "grade": "C"
   },
   {
-    "district": "พญาไท",
-    "total_tickets": 929,
-    "resolved_tickets": 538,
-    "resolution_rate": 57.9,
-    "median_resolution_days": 1.7,
-    "avg_satisfaction": 4.06,
-    "stale_tickets": 0,
-    "reopen_rate": 4.3,
-    "top_types": [
-      {
-        "type": "ไฟฟ้า",
-        "count": 127
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 114
-      },
-      {
-        "type": "อุปกรณ์ชำรุด",
-        "count": 76
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-05",
-        "total": 663,
-        "resolved": 458.0,
-        "resolution_rate": 69.1
-      },
-      {
-        "ym": "2026-06",
-        "total": 163,
-        "resolved": 56.0,
-        "resolution_rate": 34.4
-      },
-      {
-        "ym": "2026-07",
-        "total": 103,
-        "resolved": 24.0,
-        "resolution_rate": 23.3
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 75.5,
-    "grade": "A"
-  },
-  {
     "district": "คลองสาน",
     "total_tickets": 929,
     "resolved_tickets": 369,
@@ -1173,6 +1126,53 @@
     "worst_stale": [],
     "composite_score": 69.8,
     "grade": "C"
+  },
+  {
+    "district": "พญาไท",
+    "total_tickets": 929,
+    "resolved_tickets": 538,
+    "resolution_rate": 57.9,
+    "median_resolution_days": 1.7,
+    "avg_satisfaction": 4.06,
+    "stale_tickets": 0,
+    "reopen_rate": 4.3,
+    "top_types": [
+      {
+        "type": "ไฟฟ้า",
+        "count": 127
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 114
+      },
+      {
+        "type": "อุปกรณ์ชำรุด",
+        "count": 76
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-05",
+        "total": 663,
+        "resolved": 458.0,
+        "resolution_rate": 69.1
+      },
+      {
+        "ym": "2026-06",
+        "total": 163,
+        "resolved": 56.0,
+        "resolution_rate": 34.4
+      },
+      {
+        "ym": "2026-07",
+        "total": 103,
+        "resolved": 24.0,
+        "resolution_rate": 23.3
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 75.5,
+    "grade": "A"
   },
   {
     "district": "พระนคร",
@@ -1334,7 +1334,7 @@
         "count": 63
       },
       {
-        "type": "ผิดกฎจราจร",
+        "type": "ถนน",
         "count": 56
       }
     ],
@@ -1522,7 +1522,7 @@
         "count": 70
       },
       {
-        "type": "ความสะอาด",
+        "type": "ผิดกฎจราจร",
         "count": 63
       }
     ],
