@@ -1081,53 +1081,6 @@
     "grade": "C"
   },
   {
-    "district": "คลองสาน",
-    "total_tickets": 929,
-    "resolved_tickets": 369,
-    "resolution_rate": 39.7,
-    "median_resolution_days": 1.1,
-    "avg_satisfaction": 4.28,
-    "stale_tickets": 0,
-    "reopen_rate": 4.1,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 373
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 100
-      },
-      {
-        "type": "อุปกรณ์ชำรุด",
-        "count": 40
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-05",
-        "total": 660,
-        "resolved": 296.0,
-        "resolution_rate": 44.8
-      },
-      {
-        "ym": "2026-06",
-        "total": 187,
-        "resolved": 57.0,
-        "resolution_rate": 30.5
-      },
-      {
-        "ym": "2026-07",
-        "total": 82,
-        "resolved": 16.0,
-        "resolution_rate": 19.5
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 69.8,
-    "grade": "C"
-  },
-  {
     "district": "พญาไท",
     "total_tickets": 929,
     "resolved_tickets": 538,
@@ -1173,6 +1126,53 @@
     "worst_stale": [],
     "composite_score": 75.5,
     "grade": "A"
+  },
+  {
+    "district": "คลองสาน",
+    "total_tickets": 929,
+    "resolved_tickets": 369,
+    "resolution_rate": 39.7,
+    "median_resolution_days": 1.1,
+    "avg_satisfaction": 4.28,
+    "stale_tickets": 0,
+    "reopen_rate": 4.1,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 373
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 100
+      },
+      {
+        "type": "อุปกรณ์ชำรุด",
+        "count": 40
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-05",
+        "total": 660,
+        "resolved": 296.0,
+        "resolution_rate": 44.8
+      },
+      {
+        "ym": "2026-06",
+        "total": 187,
+        "resolved": 57.0,
+        "resolution_rate": 30.5
+      },
+      {
+        "ym": "2026-07",
+        "total": 82,
+        "resolved": 16.0,
+        "resolution_rate": 19.5
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 69.8,
+    "grade": "C"
   },
   {
     "district": "พระนคร",
@@ -1316,53 +1316,6 @@
     "grade": "B"
   },
   {
-    "district": "ดอนเมือง",
-    "total_tickets": 805,
-    "resolved_tickets": 385,
-    "resolution_rate": 47.8,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": 4.43,
-    "stale_tickets": 0,
-    "reopen_rate": 2.2,
-    "top_types": [
-      {
-        "type": "ไฟฟ้า",
-        "count": 223
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 63
-      },
-      {
-        "type": "ถนน",
-        "count": 56
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-05",
-        "total": 597,
-        "resolved": 345.0,
-        "resolution_rate": 57.8
-      },
-      {
-        "ym": "2026-06",
-        "total": 128,
-        "resolved": 29.0,
-        "resolution_rate": 22.7
-      },
-      {
-        "ym": "2026-07",
-        "total": 80,
-        "resolved": 11.0,
-        "resolution_rate": 13.8
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 71.8,
-    "grade": "B"
-  },
-  {
     "district": "สายไหม",
     "total_tickets": 805,
     "resolved_tickets": 428,
@@ -1408,6 +1361,53 @@
     "worst_stale": [],
     "composite_score": 75.7,
     "grade": "A"
+  },
+  {
+    "district": "ดอนเมือง",
+    "total_tickets": 805,
+    "resolved_tickets": 385,
+    "resolution_rate": 47.8,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 4.43,
+    "stale_tickets": 0,
+    "reopen_rate": 2.2,
+    "top_types": [
+      {
+        "type": "ไฟฟ้า",
+        "count": 223
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 63
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 56
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-05",
+        "total": 597,
+        "resolved": 345.0,
+        "resolution_rate": 57.8
+      },
+      {
+        "ym": "2026-06",
+        "total": 128,
+        "resolved": 29.0,
+        "resolution_rate": 22.7
+      },
+      {
+        "ym": "2026-07",
+        "total": 80,
+        "resolved": 11.0,
+        "resolution_rate": 13.8
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 71.8,
+    "grade": "B"
   },
   {
     "district": "ยานนาวา",

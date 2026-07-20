@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T05:35:08.229506",
+  "generated_at": "2026-07-20T05:37:40.329290",
   "pipeline_version": "3.0",
   "stack": {
     "etl": "pandas (Bronze→Silver)",
