@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-07-27T05:47:47.217029",
+  "generated_at": "2026-08-03T05:39:47.978783",
   "pipeline_version": "3.0",
   "stack": {
     "etl": "pandas (Bronze→Silver)",
     "analytics": "DuckDB SQL (Silver→Gold)"
   },
   "input": {
-    "csv_files": 2,
+    "csv_files": 3,
     "load_errors": 0,
     "date_range": {
       "from": "2026-06",
-      "to": "2026-07"
+      "to": "2026-08"
     },
     "validation_issues": []
   },
   "after_clean": {
-    "total_rows": 66307,
+    "total_rows": 68175,
     "unique_districts": 50,
-    "unique_orgs": 10786
+    "unique_orgs": 10921
   },
   "quality": {
     "null_coords_pct": 0.0,
-    "null_star_pct": 79.5,
+    "null_star_pct": 79.9,
     "state_distribution": {
-      "เสร็จสิ้น": 33703,
-      "กำลังดำเนินการ": 31566,
-      "รอรับเรื่อง": 1038
+      "เสร็จสิ้น": 33838,
+      "กำลังดำเนินการ": 32649,
+      "รอรับเรื่อง": 1688
     },
     "grade_distribution": {
       "C": 15,
@@ -37,22 +37,22 @@
   },
   "outputs": {
     "districts.json": {
-      "size_kb": 41.6
+      "size_kb": 47.4
     },
     "gallery.json": {
-      "size_kb": 311.2
+      "size_kb": 312.5
     },
     "monthly_trends.json": {
-      "size_kb": 0.3
+      "size_kb": 0.5
     },
     "orgs.json": {
-      "size_kb": 534.4
+      "size_kb": 542.4
     },
     "overview.json": {
-      "size_kb": 2.1
+      "size_kb": 2.3
     },
     "points.json": {
-      "size_kb": 316.8
+      "size_kb": 318.0
     }
   }
 }

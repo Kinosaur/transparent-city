@@ -16,5 +16,14 @@
     "avg_star": 4.4,
     "pending": 18966.0,
     "resolution_rate": 41.8
+  },
+  {
+    "ym": "2026-08",
+    "total": 1868,
+    "resolved": 135.0,
+    "stale": 0.0,
+    "avg_star": 4.69,
+    "pending": 1733.0,
+    "resolution_rate": 7.2
   }
 ]
