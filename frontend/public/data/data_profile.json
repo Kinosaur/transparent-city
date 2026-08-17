@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T03:51:33.467802",
+  "generated_at": "2026-08-17T02:56:36.851398",
   "pipeline_version": "3.0",
   "stack": {
     "etl": "pandas (Bronze→Silver)",
@@ -37,7 +37,7 @@
   },
   "outputs": {
     "districts.json": {
-      "size_kb": 47.4
+      "size_kb": 47.5
     },
     "gallery.json": {
       "size_kb": 312.5
