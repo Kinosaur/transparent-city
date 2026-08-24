@@ -1,29 +1,20 @@
 [
   {
-    "ym": "2026-06",
-    "total": 33735,
-    "resolved": 20097.0,
-    "stale": 0.0,
-    "avg_star": 4.29,
-    "pending": 13638.0,
-    "resolution_rate": 59.6
-  },
-  {
     "ym": "2026-07",
-    "total": 32572,
-    "resolved": 13606.0,
+    "total": 37132,
+    "resolved": 21186.0,
     "stale": 0.0,
-    "avg_star": 4.4,
-    "pending": 18966.0,
-    "resolution_rate": 41.8
+    "avg_star": 4.34,
+    "pending": 15946.0,
+    "resolution_rate": 57.1
   },
   {
     "ym": "2026-08",
-    "total": 1868,
-    "resolved": 135.0,
+    "total": 24629,
+    "resolved": 9037.0,
     "stale": 0.0,
-    "avg_star": 4.69,
-    "pending": 1733.0,
-    "resolution_rate": 7.2
+    "avg_star": 4.39,
+    "pending": 15592.0,
+    "resolution_rate": 36.7
   }
 ]

@@ -1,421 +1,162 @@
 [
   {
     "district": "จตุจักร",
-    "total_tickets": 3662,
-    "resolved_tickets": 1663,
-    "resolution_rate": 45.4,
+    "total_tickets": 3117,
+    "resolved_tickets": 1371,
+    "resolution_rate": 44.0,
     "median_resolution_days": 2.8,
     "avg_satisfaction": 4.4,
     "stale_tickets": 0,
-    "reopen_rate": 2.9,
+    "reopen_rate": 2.7,
     "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 374
+      },
+      {
+        "type": "ถนน",
+        "count": 313
+      },
       {
         "type": "ไฟฟ้า",
-        "count": 517
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 453
-      },
-      {
-        "type": "ถนน",
-        "count": 329
+        "count": 276
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 1941,
-        "resolved": 1025.0,
-        "resolution_rate": 52.8
-      },
-      {
         "ym": "2026-07",
-        "total": 1625,
-        "resolved": 630.0,
-        "resolution_rate": 38.8
+        "total": 1849,
+        "resolved": 946.0,
+        "resolution_rate": 51.2
       },
       {
         "ym": "2026-08",
-        "total": 96,
-        "resolved": 8.0,
-        "resolution_rate": 8.3
+        "total": 1268,
+        "resolved": 425.0,
+        "resolution_rate": 33.5
       }
     ],
     "worst_stale": [],
-    "composite_score": 71.5,
+    "composite_score": 71.0,
     "grade": "C"
-  },
-  {
-    "district": "บางกะปิ",
-    "total_tickets": 2272,
-    "resolved_tickets": 1033,
-    "resolution_rate": 45.5,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": 4.27,
-    "stale_tickets": 0,
-    "reopen_rate": 6.0,
-    "top_types": [
-      {
-        "type": "ทางเท้า",
-        "count": 267
-      },
-      {
-        "type": "ถนน",
-        "count": 222
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 171
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 1148,
-        "resolved": 622.0,
-        "resolution_rate": 54.2
-      },
-      {
-        "ym": "2026-07",
-        "total": 1060,
-        "resolved": 408.0,
-        "resolution_rate": 38.5
-      },
-      {
-        "ym": "2026-08",
-        "total": 64,
-        "resolved": 3.0,
-        "resolution_rate": 4.7
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 68.4,
-    "grade": "D"
   },
   {
     "district": "ปทุมวัน",
-    "total_tickets": 2191,
-    "resolved_tickets": 870,
-    "resolution_rate": 39.7,
-    "median_resolution_days": 4.0,
-    "avg_satisfaction": 3.51,
-    "stale_tickets": 0,
-    "reopen_rate": 4.5,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 357
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 293
-      },
-      {
-        "type": "ถนน",
-        "count": 217
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 1110,
-        "resolved": 538.0,
-        "resolution_rate": 48.5
-      },
-      {
-        "ym": "2026-07",
-        "total": 1015,
-        "resolved": 328.0,
-        "resolution_rate": 32.3
-      },
-      {
-        "ym": "2026-08",
-        "total": 66,
-        "resolved": 4.0,
-        "resolution_rate": 6.1
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 63.7,
-    "grade": "F"
-  },
-  {
-    "district": "วัฒนา",
-    "total_tickets": 2126,
-    "resolved_tickets": 877,
-    "resolution_rate": 41.3,
-    "median_resolution_days": 4.7,
-    "avg_satisfaction": 4.29,
-    "stale_tickets": 0,
-    "reopen_rate": 2.5,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 265
-      },
-      {
-        "type": "ถนน",
-        "count": 256
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 221
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 1087,
-        "resolved": 576.0,
-        "resolution_rate": 53.0
-      },
-      {
-        "ym": "2026-07",
-        "total": 970,
-        "resolved": 301.0,
-        "resolution_rate": 31.0
-      },
-      {
-        "ym": "2026-08",
-        "total": 69,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 67.7,
-    "grade": "D"
-  },
-  {
-    "district": "คลองเตย",
-    "total_tickets": 2005,
-    "resolved_tickets": 787,
-    "resolution_rate": 39.3,
-    "median_resolution_days": 4.3,
-    "avg_satisfaction": 4.09,
-    "stale_tickets": 0,
-    "reopen_rate": 3.2,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 352
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 213
-      },
-      {
-        "type": "อุปกรณ์ชำรุด",
-        "count": 174
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 937,
-        "resolved": 473.0,
-        "resolution_rate": 50.5
-      },
-      {
-        "ym": "2026-07",
-        "total": 1007,
-        "resolved": 314.0,
-        "resolution_rate": 31.2
-      },
-      {
-        "ym": "2026-08",
-        "total": 61,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 66.2,
-    "grade": "D"
-  },
-  {
-    "district": "ดินแดง",
-    "total_tickets": 1841,
-    "resolved_tickets": 933,
-    "resolution_rate": 50.7,
-    "median_resolution_days": 4.2,
-    "avg_satisfaction": 4.34,
-    "stale_tickets": 0,
-    "reopen_rate": 3.2,
-    "top_types": [
-      {
-        "type": "ความสะอาด",
-        "count": 177
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 164
-      },
-      {
-        "type": "ถนน",
-        "count": 151
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 942,
-        "resolved": 569.0,
-        "resolution_rate": 60.4
-      },
-      {
-        "ym": "2026-07",
-        "total": 858,
-        "resolved": 364.0,
-        "resolution_rate": 42.4
-      },
-      {
-        "ym": "2026-08",
-        "total": 41,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 71.8,
-    "grade": "C"
-  },
-  {
-    "district": "ห้วยขวาง",
-    "total_tickets": 1818,
-    "resolved_tickets": 794,
-    "resolution_rate": 43.7,
-    "median_resolution_days": 3.2,
-    "avg_satisfaction": 4.44,
-    "stale_tickets": 0,
-    "reopen_rate": 1.9,
-    "top_types": [
-      {
-        "type": "ไฟฟ้า",
-        "count": 266
-      },
-      {
-        "type": "ถนน",
-        "count": 219
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 169
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 882,
-        "resolved": 477.0,
-        "resolution_rate": 54.1
-      },
-      {
-        "ym": "2026-07",
-        "total": 882,
-        "resolved": 316.0,
-        "resolution_rate": 35.8
-      },
-      {
-        "ym": "2026-08",
-        "total": 54,
-        "resolved": 1.0,
-        "resolution_rate": 1.9
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 71.1,
-    "grade": "C"
-  },
-  {
-    "district": "ประเวศ",
-    "total_tickets": 1806,
-    "resolved_tickets": 818,
-    "resolution_rate": 45.3,
-    "median_resolution_days": 3.3,
-    "avg_satisfaction": 4.45,
+    "total_tickets": 2198,
+    "resolved_tickets": 798,
+    "resolution_rate": 36.3,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 3.71,
     "stale_tickets": 0,
     "reopen_rate": 5.6,
     "top_types": [
       {
-        "type": "ถนน",
-        "count": 215
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 154
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 138
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 906,
-        "resolved": 511.0,
-        "resolution_rate": 56.4
-      },
-      {
-        "ym": "2026-07",
-        "total": 846,
-        "resolved": 303.0,
-        "resolution_rate": 35.8
-      },
-      {
-        "ym": "2026-08",
-        "total": 54,
-        "resolved": 4.0,
-        "resolution_rate": 7.4
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 69.8,
-    "grade": "D"
-  },
-  {
-    "district": "ราชเทวี",
-    "total_tickets": 1803,
-    "resolved_tickets": 840,
-    "resolution_rate": 46.6,
-    "median_resolution_days": 5.1,
-    "avg_satisfaction": 3.74,
-    "stale_tickets": 0,
-    "reopen_rate": 4.8,
-    "top_types": [
-      {
         "type": "ผิดกฎจราจร",
-        "count": 285
+        "count": 414
       },
       {
         "type": "ทางเท้า",
-        "count": 209
+        "count": 314
       },
       {
         "type": "ถนน",
-        "count": 193
+        "count": 182
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 909,
-        "resolved": 522.0,
-        "resolution_rate": 57.4
-      },
-      {
         "ym": "2026-07",
-        "total": 838,
-        "resolved": 316.0,
-        "resolution_rate": 37.7
+        "total": 1291,
+        "resolved": 583.0,
+        "resolution_rate": 45.2
       },
       {
         "ym": "2026-08",
-        "total": 56,
-        "resolved": 2.0,
-        "resolution_rate": 3.6
+        "total": 907,
+        "resolved": 215.0,
+        "resolution_rate": 23.7
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 62.7,
+    "grade": "F"
+  },
+  {
+    "district": "บางกะปิ",
+    "total_tickets": 2044,
+    "resolved_tickets": 961,
+    "resolution_rate": 47.0,
+    "median_resolution_days": 4.1,
+    "avg_satisfaction": 4.2,
+    "stale_tickets": 0,
+    "reopen_rate": 4.9,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 248
+      },
+      {
+        "type": "ถนน",
+        "count": 224
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 184
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 1220,
+        "resolved": 673.0,
+        "resolution_rate": 55.2
+      },
+      {
+        "ym": "2026-08",
+        "total": 824,
+        "resolved": 288.0,
+        "resolution_rate": 35.0
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 69.0,
+    "grade": "D"
+  },
+  {
+    "district": "วัฒนา",
+    "total_tickets": 1973,
+    "resolved_tickets": 785,
+    "resolution_rate": 39.8,
+    "median_resolution_days": 5.3,
+    "avg_satisfaction": 4.2,
+    "stale_tickets": 0,
+    "reopen_rate": 2.6,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 240
+      },
+      {
+        "type": "ถนน",
+        "count": 214
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 184
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 1137,
+        "resolved": 550.0,
+        "resolution_rate": 48.4
+      },
+      {
+        "ym": "2026-08",
+        "total": 836,
+        "resolved": 235.0,
+        "resolution_rate": 28.1
       }
     ],
     "worst_stale": [],
@@ -423,657 +164,163 @@
     "grade": "D"
   },
   {
-    "district": "ธนบุรี",
-    "total_tickets": 1798,
-    "resolved_tickets": 845,
-    "resolution_rate": 47.0,
-    "median_resolution_days": 2.6,
-    "avg_satisfaction": 4.21,
+    "district": "คลองเตย",
+    "total_tickets": 1922,
+    "resolved_tickets": 757,
+    "resolution_rate": 39.4,
+    "median_resolution_days": 3.8,
+    "avg_satisfaction": 3.91,
     "stale_tickets": 0,
-    "reopen_rate": 4.6,
+    "reopen_rate": 3.3,
     "top_types": [
       {
         "type": "ผิดกฎจราจร",
-        "count": 514
+        "count": 313
       },
       {
         "type": "ทางเท้า",
-        "count": 107
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 104
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 817,
-        "resolved": 464.0,
-        "resolution_rate": 56.8
-      },
-      {
-        "ym": "2026-07",
-        "total": 921,
-        "resolved": 379.0,
-        "resolution_rate": 41.2
-      },
-      {
-        "ym": "2026-08",
-        "total": 60,
-        "resolved": 2.0,
-        "resolution_rate": 3.3
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 70.7,
-    "grade": "C"
-  },
-  {
-    "district": "บางรัก",
-    "total_tickets": 1714,
-    "resolved_tickets": 617,
-    "resolution_rate": 36.0,
-    "median_resolution_days": 2.3,
-    "avg_satisfaction": 4.26,
-    "stale_tickets": 0,
-    "reopen_rate": 2.6,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 312
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 195
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 187
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 831,
-        "resolved": 339.0,
-        "resolution_rate": 40.8
-      },
-      {
-        "ym": "2026-07",
-        "total": 839,
-        "resolved": 276.0,
-        "resolution_rate": 32.9
-      },
-      {
-        "ym": "2026-08",
-        "total": 44,
-        "resolved": 2.0,
-        "resolution_rate": 4.5
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 67.8,
-    "grade": "D"
-  },
-  {
-    "district": "บางกอกน้อย",
-    "total_tickets": 1696,
-    "resolved_tickets": 752,
-    "resolution_rate": 44.3,
-    "median_resolution_days": 5.1,
-    "avg_satisfaction": 3.97,
-    "stale_tickets": 0,
-    "reopen_rate": 6.4,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 299
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 196
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 152
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 858,
-        "resolved": 498.0,
-        "resolution_rate": 58.0
-      },
-      {
-        "ym": "2026-07",
-        "total": 806,
-        "resolved": 254.0,
-        "resolution_rate": 31.5
-      },
-      {
-        "ym": "2026-08",
-        "total": 32,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 65.3,
-    "grade": "D"
-  },
-  {
-    "district": "บางพลัด",
-    "total_tickets": 1684,
-    "resolved_tickets": 485,
-    "resolution_rate": 28.8,
-    "median_resolution_days": 3.1,
-    "avg_satisfaction": 3.71,
-    "stale_tickets": 0,
-    "reopen_rate": 3.0,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 626
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 194
+        "count": 205
       },
       {
         "type": "ถนน",
-        "count": 123
+        "count": 160
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 890,
-        "resolved": 267.0,
-        "resolution_rate": 30.0
-      },
-      {
         "ym": "2026-07",
-        "total": 756,
-        "resolved": 217.0,
-        "resolution_rate": 28.7
+        "total": 1132,
+        "resolved": 503.0,
+        "resolution_rate": 44.4
       },
       {
         "ym": "2026-08",
-        "total": 38,
-        "resolved": 1.0,
-        "resolution_rate": 2.6
+        "total": 790,
+        "resolved": 254.0,
+        "resolution_rate": 32.2
       }
     ],
     "worst_stale": [],
-    "composite_score": 61.8,
-    "grade": "F"
+    "composite_score": 66.0,
+    "grade": "D"
   },
   {
-    "district": "บางเขน",
-    "total_tickets": 1650,
-    "resolved_tickets": 929,
-    "resolution_rate": 56.3,
-    "median_resolution_days": 2.6,
-    "avg_satisfaction": 4.23,
+    "district": "ธนบุรี",
+    "total_tickets": 1833,
+    "resolved_tickets": 874,
+    "resolution_rate": 47.7,
+    "median_resolution_days": 2.8,
+    "avg_satisfaction": 4.34,
     "stale_tickets": 0,
-    "reopen_rate": 3.4,
+    "reopen_rate": 4.5,
     "top_types": [
       {
-        "type": "ความสะอาด",
-        "count": 206
+        "type": "ผิดกฎจราจร",
+        "count": 562
       },
+      {
+        "type": "ถนน",
+        "count": 120
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 111
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 1079,
+        "resolved": 581.0,
+        "resolution_rate": 53.8
+      },
+      {
+        "ym": "2026-08",
+        "total": 754,
+        "resolved": 293.0,
+        "resolution_rate": 38.9
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 71.4,
+    "grade": "C"
+  },
+  {
+    "district": "ดินแดง",
+    "total_tickets": 1718,
+    "resolved_tickets": 829,
+    "resolution_rate": 48.3,
+    "median_resolution_days": 4.3,
+    "avg_satisfaction": 4.32,
+    "stale_tickets": 0,
+    "reopen_rate": 3.6,
+    "top_types": [
       {
         "type": "ถนน",
         "count": 172
       },
       {
         "type": "ผิดกฎจราจร",
-        "count": 127
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 696,
-        "resolved": 465.0,
-        "resolution_rate": 66.8
+        "count": 163
       },
-      {
-        "ym": "2026-07",
-        "total": 908,
-        "resolved": 462.0,
-        "resolution_rate": 50.9
-      },
-      {
-        "ym": "2026-08",
-        "total": 46,
-        "resolved": 2.0,
-        "resolution_rate": 4.3
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 75.1,
-    "grade": "B"
-  },
-  {
-    "district": "ลาดพร้าว",
-    "total_tickets": 1631,
-    "resolved_tickets": 981,
-    "resolution_rate": 60.1,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": 4.51,
-    "stale_tickets": 0,
-    "reopen_rate": 3.5,
-    "top_types": [
       {
         "type": "ความสะอาด",
-        "count": 167
-      },
-      {
-        "type": "ถนน",
-        "count": 159
-      },
-      {
-        "type": "ป้าย",
-        "count": 132
+        "count": 139
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 839,
-        "resolved": 586.0,
-        "resolution_rate": 69.8
-      },
-      {
         "ym": "2026-07",
-        "total": 733,
-        "resolved": 380.0,
-        "resolution_rate": 51.8
+        "total": 993,
+        "resolved": 580.0,
+        "resolution_rate": 58.4
       },
       {
         "ym": "2026-08",
-        "total": 59,
-        "resolved": 15.0,
-        "resolution_rate": 25.4
+        "total": 725,
+        "resolved": 249.0,
+        "resolution_rate": 34.3
       }
     ],
     "worst_stale": [],
-    "composite_score": 77.5,
-    "grade": "A"
-  },
-  {
-    "district": "บางซื่อ",
-    "total_tickets": 1624,
-    "resolved_tickets": 950,
-    "resolution_rate": 58.5,
-    "median_resolution_days": 2.9,
-    "avg_satisfaction": 4.5,
-    "stale_tickets": 0,
-    "reopen_rate": 4.7,
-    "top_types": [
-      {
-        "type": "ความสะอาด",
-        "count": 254
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 210
-      },
-      {
-        "type": "อุปกรณ์ชำรุด",
-        "count": 149
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 923,
-        "resolved": 654.0,
-        "resolution_rate": 70.9
-      },
-      {
-        "ym": "2026-07",
-        "total": 667,
-        "resolved": 293.0,
-        "resolution_rate": 43.9
-      },
-      {
-        "ym": "2026-08",
-        "total": 34,
-        "resolved": 3.0,
-        "resolution_rate": 8.8
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 76.2,
-    "grade": "B"
-  },
-  {
-    "district": "สาทร",
-    "total_tickets": 1553,
-    "resolved_tickets": 927,
-    "resolution_rate": 59.7,
-    "median_resolution_days": 1.9,
-    "avg_satisfaction": 4.27,
-    "stale_tickets": 0,
-    "reopen_rate": 1.7,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 251
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 236
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 175
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 728,
-        "resolved": 527.0,
-        "resolution_rate": 72.4
-      },
-      {
-        "ym": "2026-07",
-        "total": 766,
-        "resolved": 394.0,
-        "resolution_rate": 51.4
-      },
-      {
-        "ym": "2026-08",
-        "total": 59,
-        "resolved": 6.0,
-        "resolution_rate": 10.2
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 78.2,
-    "grade": "A"
-  },
-  {
-    "district": "สวนหลวง",
-    "total_tickets": 1530,
-    "resolved_tickets": 751,
-    "resolution_rate": 49.1,
-    "median_resolution_days": 3.1,
-    "avg_satisfaction": 4.41,
-    "stale_tickets": 0,
-    "reopen_rate": 4.5,
-    "top_types": [
-      {
-        "type": "ถนน",
-        "count": 193
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 177
-      },
-      {
-        "type": "อุปกรณ์ชำรุด",
-        "count": 142
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 736,
-        "resolved": 418.0,
-        "resolution_rate": 56.8
-      },
-      {
-        "ym": "2026-07",
-        "total": 732,
-        "resolved": 333.0,
-        "resolution_rate": 45.5
-      },
-      {
-        "ym": "2026-08",
-        "total": 62,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 71.9,
+    "composite_score": 70.5,
     "grade": "C"
   },
   {
     "district": "หนองจอก",
-    "total_tickets": 1527,
-    "resolved_tickets": 747,
-    "resolution_rate": 48.9,
-    "median_resolution_days": 3.5,
-    "avg_satisfaction": 4.6,
+    "total_tickets": 1690,
+    "resolved_tickets": 909,
+    "resolution_rate": 53.8,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 4.65,
     "stale_tickets": 0,
     "reopen_rate": 2.0,
     "top_types": [
       {
         "type": "ถนน",
-        "count": 381
+        "count": 506
       },
       {
         "type": "ไฟฟ้า",
-        "count": 187
+        "count": 199
       },
       {
         "type": "ความสะอาด",
-        "count": 150
+        "count": 148
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 558,
-        "resolved": 356.0,
-        "resolution_rate": 63.8
-      },
-      {
         "ym": "2026-07",
-        "total": 915,
-        "resolved": 389.0,
-        "resolution_rate": 42.5
+        "total": 1054,
+        "resolved": 674.0,
+        "resolution_rate": 63.9
       },
       {
         "ym": "2026-08",
-        "total": 54,
-        "resolved": 2.0,
-        "resolution_rate": 3.7
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 73.5,
-    "grade": "B"
-  },
-  {
-    "district": "บางขุนเทียน",
-    "total_tickets": 1510,
-    "resolved_tickets": 764,
-    "resolution_rate": 50.6,
-    "median_resolution_days": 4.0,
-    "avg_satisfaction": 4.41,
-    "stale_tickets": 0,
-    "reopen_rate": 3.3,
-    "top_types": [
-      {
-        "type": "ถนน",
-        "count": 261
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 115
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 98
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 738,
-        "resolved": 468.0,
-        "resolution_rate": 63.4
-      },
-      {
-        "ym": "2026-07",
-        "total": 744,
-        "resolved": 296.0,
-        "resolution_rate": 39.8
-      },
-      {
-        "ym": "2026-08",
-        "total": 28,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 72.2,
-    "grade": "C"
-  },
-  {
-    "district": "พระนคร",
-    "total_tickets": 1460,
-    "resolved_tickets": 823,
-    "resolution_rate": 56.4,
-    "median_resolution_days": 3.1,
-    "avg_satisfaction": 4.29,
-    "stale_tickets": 0,
-    "reopen_rate": 2.7,
-    "top_types": [
-      {
-        "type": "ข้อเสนอแนะ",
-        "count": 105
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 101
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 99
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 685,
-        "resolved": 464.0,
-        "resolution_rate": 67.7
-      },
-      {
-        "ym": "2026-07",
-        "total": 731,
-        "resolved": 358.0,
-        "resolution_rate": 49.0
-      },
-      {
-        "ym": "2026-08",
-        "total": 44,
-        "resolved": 1.0,
-        "resolution_rate": 2.3
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 75.3,
-    "grade": "B"
-  },
-  {
-    "district": "บางแค",
-    "total_tickets": 1429,
-    "resolved_tickets": 897,
-    "resolution_rate": 62.8,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": 4.42,
-    "stale_tickets": 0,
-    "reopen_rate": 4.1,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 143
-      },
-      {
-        "type": "ถนน",
-        "count": 131
-      },
-      {
-        "type": "ต้นไม้",
-        "count": 117
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 688,
-        "resolved": 517.0,
-        "resolution_rate": 75.1
-      },
-      {
-        "ym": "2026-07",
-        "total": 719,
-        "resolved": 376.0,
-        "resolution_rate": 52.3
-      },
-      {
-        "ym": "2026-08",
-        "total": 22,
-        "resolved": 4.0,
-        "resolution_rate": 18.2
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 78.0,
-    "grade": "A"
-  },
-  {
-    "district": "พญาไท",
-    "total_tickets": 1418,
-    "resolved_tickets": 825,
-    "resolution_rate": 58.2,
-    "median_resolution_days": 2.6,
-    "avg_satisfaction": 4.33,
-    "stale_tickets": 0,
-    "reopen_rate": 5.5,
-    "top_types": [
-      {
-        "type": "ไฟฟ้า",
-        "count": 216
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 139
-      },
-      {
-        "type": "ถนน",
-        "count": 133
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 770,
-        "resolved": 520.0,
-        "resolution_rate": 67.5
-      },
-      {
-        "ym": "2026-07",
-        "total": 619,
-        "resolved": 297.0,
-        "resolution_rate": 48.0
-      },
-      {
-        "ym": "2026-08",
-        "total": 29,
-        "resolved": 8.0,
-        "resolution_rate": 27.6
+        "total": 636,
+        "resolved": 235.0,
+        "resolution_rate": 36.9
       }
     ],
     "worst_stale": [],
@@ -1081,163 +328,678 @@
     "grade": "B"
   },
   {
-    "district": "ยานนาวา",
-    "total_tickets": 1367,
-    "resolved_tickets": 788,
-    "resolution_rate": 57.6,
-    "median_resolution_days": 2.1,
-    "avg_satisfaction": 4.59,
+    "district": "ประเวศ",
+    "total_tickets": 1678,
+    "resolved_tickets": 742,
+    "resolution_rate": 44.2,
+    "median_resolution_days": 3.7,
+    "avg_satisfaction": 4.49,
     "stale_tickets": 0,
-    "reopen_rate": 2.6,
+    "reopen_rate": 4.4,
     "top_types": [
       {
+        "type": "ถนน",
+        "count": 219
+      },
+      {
         "type": "ไฟฟ้า",
-        "count": 265
+        "count": 152
       },
       {
         "type": "ผิดกฎจราจร",
-        "count": 191
-      },
-      {
-        "type": "ถนน",
-        "count": 111
+        "count": 135
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 640,
-        "resolved": 426.0,
-        "resolution_rate": 66.6
-      },
-      {
         "ym": "2026-07",
-        "total": 704,
-        "resolved": 362.0,
-        "resolution_rate": 51.4
+        "total": 971,
+        "resolved": 537.0,
+        "resolution_rate": 55.3
       },
       {
         "ym": "2026-08",
-        "total": 23,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
+        "total": 707,
+        "resolved": 205.0,
+        "resolution_rate": 29.0
       }
     ],
     "worst_stale": [],
-    "composite_score": 78.0,
+    "composite_score": 69.7,
+    "grade": "C"
+  },
+  {
+    "district": "บางเขน",
+    "total_tickets": 1656,
+    "resolved_tickets": 978,
+    "resolution_rate": 59.1,
+    "median_resolution_days": 2.8,
+    "avg_satisfaction": 4.37,
+    "stale_tickets": 0,
+    "reopen_rate": 3.2,
+    "top_types": [
+      {
+        "type": "ความสะอาด",
+        "count": 180
+      },
+      {
+        "type": "ถนน",
+        "count": 153
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 129
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 1087,
+        "resolved": 733.0,
+        "resolution_rate": 67.4
+      },
+      {
+        "ym": "2026-08",
+        "total": 569,
+        "resolved": 245.0,
+        "resolution_rate": 43.1
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 76.7,
     "grade": "A"
   },
   {
-    "district": "ลาดกระบัง",
-    "total_tickets": 1348,
-    "resolved_tickets": 591,
-    "resolution_rate": 43.8,
-    "median_resolution_days": 4.0,
+    "district": "ห้วยขวาง",
+    "total_tickets": 1631,
+    "resolved_tickets": 612,
+    "resolution_rate": 37.5,
+    "median_resolution_days": 3.7,
     "avg_satisfaction": 4.42,
     "stale_tickets": 0,
     "reopen_rate": 2.4,
     "top_types": [
       {
         "type": "ถนน",
-        "count": 222
+        "count": 225
       },
       {
         "type": "ไฟฟ้า",
-        "count": 138
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 119
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 655,
-        "resolved": 359.0,
-        "resolution_rate": 54.8
-      },
-      {
-        "ym": "2026-07",
-        "total": 664,
-        "resolved": 229.0,
-        "resolution_rate": 34.5
-      },
-      {
-        "ym": "2026-08",
-        "total": 29,
-        "resolved": 3.0,
-        "resolution_rate": 10.3
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 70.0,
-    "grade": "C"
-  },
-  {
-    "district": "วังทองหลาง",
-    "total_tickets": 1344,
-    "resolved_tickets": 762,
-    "resolution_rate": 56.7,
-    "median_resolution_days": 1.6,
-    "avg_satisfaction": 4.64,
-    "stale_tickets": 0,
-    "reopen_rate": 2.5,
-    "top_types": [
-      {
-        "type": "ป้าย",
-        "count": 233
+        "count": 171
       },
       {
         "type": "ผิดกฎจราจร",
-        "count": 119
-      },
-      {
-        "type": "ถนน",
-        "count": 107
+        "count": 159
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 672,
-        "resolved": 445.0,
-        "resolution_rate": 66.2
-      },
-      {
         "ym": "2026-07",
-        "total": 625,
-        "resolved": 287.0,
-        "resolution_rate": 45.9
+        "total": 986,
+        "resolved": 456.0,
+        "resolution_rate": 46.2
       },
       {
         "ym": "2026-08",
-        "total": 47,
-        "resolved": 30.0,
-        "resolution_rate": 63.8
+        "total": 645,
+        "resolved": 156.0,
+        "resolution_rate": 24.2
       }
     ],
     "worst_stale": [],
-    "composite_score": 78.4,
-    "grade": "A"
+    "composite_score": 67.8,
+    "grade": "D"
   },
   {
-    "district": "คลองสามวา",
-    "total_tickets": 1343,
-    "resolved_tickets": 623,
-    "resolution_rate": 46.4,
-    "median_resolution_days": 4.8,
-    "avg_satisfaction": 4.39,
+    "district": "ราชเทวี",
+    "total_tickets": 1626,
+    "resolved_tickets": 688,
+    "resolution_rate": 42.3,
+    "median_resolution_days": 5.2,
+    "avg_satisfaction": 3.86,
     "stale_tickets": 0,
-    "reopen_rate": 2.8,
+    "reopen_rate": 4.3,
     "top_types": [
       {
+        "type": "ผิดกฎจราจร",
+        "count": 244
+      },
+      {
         "type": "ถนน",
-        "count": 235
+        "count": 200
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 173
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 941,
+        "resolved": 513.0,
+        "resolution_rate": 54.5
+      },
+      {
+        "ym": "2026-08",
+        "total": 685,
+        "resolved": 175.0,
+        "resolution_rate": 25.5
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 65.0,
+    "grade": "D"
+  },
+  {
+    "district": "บางรัก",
+    "total_tickets": 1508,
+    "resolved_tickets": 600,
+    "resolution_rate": 39.8,
+    "median_resolution_days": 2.5,
+    "avg_satisfaction": 4.4,
+    "stale_tickets": 0,
+    "reopen_rate": 3.0,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 257
       },
       {
         "type": "ความสะอาด",
-        "count": 128
+        "count": 184
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 173
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 920,
+        "resolved": 396.0,
+        "resolution_rate": 43.0
+      },
+      {
+        "ym": "2026-08",
+        "total": 588,
+        "resolved": 204.0,
+        "resolution_rate": 34.7
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 69.5,
+    "grade": "C"
+  },
+  {
+    "district": "สวนหลวง",
+    "total_tickets": 1470,
+    "resolved_tickets": 675,
+    "resolution_rate": 45.9,
+    "median_resolution_days": 3.3,
+    "avg_satisfaction": 4.45,
+    "stale_tickets": 0,
+    "reopen_rate": 4.1,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 231
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 159
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 146
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 837,
+        "resolved": 490.0,
+        "resolution_rate": 58.5
+      },
+      {
+        "ym": "2026-08",
+        "total": 633,
+        "resolved": 185.0,
+        "resolution_rate": 29.2
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 70.8,
+    "grade": "C"
+  },
+  {
+    "district": "สาทร",
+    "total_tickets": 1448,
+    "resolved_tickets": 778,
+    "resolution_rate": 53.7,
+    "median_resolution_days": 2.7,
+    "avg_satisfaction": 4.34,
+    "stale_tickets": 0,
+    "reopen_rate": 2.6,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 235
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 234
+      },
+      {
+        "type": "ถนน",
+        "count": 138
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 863,
+        "resolved": 578.0,
+        "resolution_rate": 67.0
+      },
+      {
+        "ym": "2026-08",
+        "total": 585,
+        "resolved": 200.0,
+        "resolution_rate": 34.2
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 74.8,
+    "grade": "B"
+  },
+  {
+    "district": "บางกอกน้อย",
+    "total_tickets": 1436,
+    "resolved_tickets": 622,
+    "resolution_rate": 43.3,
+    "median_resolution_days": 5.0,
+    "avg_satisfaction": 4.09,
+    "stale_tickets": 0,
+    "reopen_rate": 5.5,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 194
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 158
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 147
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 911,
+        "resolved": 434.0,
+        "resolution_rate": 47.6
+      },
+      {
+        "ym": "2026-08",
+        "total": 525,
+        "resolved": 188.0,
+        "resolution_rate": 35.8
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 65.9,
+    "grade": "D"
+  },
+  {
+    "district": "ลาดพร้าว",
+    "total_tickets": 1399,
+    "resolved_tickets": 827,
+    "resolution_rate": 59.1,
+    "median_resolution_days": 2.1,
+    "avg_satisfaction": 4.6,
+    "stale_tickets": 0,
+    "reopen_rate": 2.7,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 152
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 144
+      },
+      {
+        "type": "ป้าย",
+        "count": 118
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 823,
+        "resolved": 529.0,
+        "resolution_rate": 64.3
+      },
+      {
+        "ym": "2026-08",
+        "total": 576,
+        "resolved": 298.0,
+        "resolution_rate": 51.7
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 78.6,
+    "grade": "A"
+  },
+  {
+    "district": "บางขุนเทียน",
+    "total_tickets": 1384,
+    "resolved_tickets": 695,
+    "resolution_rate": 50.2,
+    "median_resolution_days": 4.5,
+    "avg_satisfaction": 4.25,
+    "stale_tickets": 0,
+    "reopen_rate": 4.6,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 229
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 117
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 84
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 852,
+        "resolved": 498.0,
+        "resolution_rate": 58.5
+      },
+      {
+        "ym": "2026-08",
+        "total": 532,
+        "resolved": 197.0,
+        "resolution_rate": 37.0
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 70.3,
+    "grade": "C"
+  },
+  {
+    "district": "พระนคร",
+    "total_tickets": 1379,
+    "resolved_tickets": 793,
+    "resolution_rate": 57.5,
+    "median_resolution_days": 3.2,
+    "avg_satisfaction": 4.32,
+    "stale_tickets": 0,
+    "reopen_rate": 4.2,
+    "top_types": [
+      {
+        "type": "ทางเท้า",
+        "count": 105
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 97
+      },
+      {
+        "type": "ข้อเสนอแนะ",
+        "count": 88
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 848,
+        "resolved": 569.0,
+        "resolution_rate": 67.1
+      },
+      {
+        "ym": "2026-08",
+        "total": 531,
+        "resolved": 224.0,
+        "resolution_rate": 42.2
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 75.0,
+    "grade": "B"
+  },
+  {
+    "district": "บางพลัด",
+    "total_tickets": 1350,
+    "resolved_tickets": 443,
+    "resolution_rate": 32.8,
+    "median_resolution_days": 3.2,
+    "avg_satisfaction": 3.79,
+    "stale_tickets": 0,
+    "reopen_rate": 3.8,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 384
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 152
+      },
+      {
+        "type": "ถนน",
+        "count": 115
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 845,
+        "resolved": 307.0,
+        "resolution_rate": 36.3
+      },
+      {
+        "ym": "2026-08",
+        "total": 505,
+        "resolved": 136.0,
+        "resolution_rate": 26.9
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 63.2,
+    "grade": "F"
+  },
+  {
+    "district": "บางแค",
+    "total_tickets": 1319,
+    "resolved_tickets": 761,
+    "resolution_rate": 57.7,
+    "median_resolution_days": 2.9,
+    "avg_satisfaction": 4.5,
+    "stale_tickets": 0,
+    "reopen_rate": 4.1,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 177
+      },
+      {
+        "type": "ถนน",
+        "count": 120
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 88
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 802,
+        "resolved": 549.0,
+        "resolution_rate": 68.5
+      },
+      {
+        "ym": "2026-08",
+        "total": 517,
+        "resolved": 212.0,
+        "resolution_rate": 41.0
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 76.1,
+    "grade": "A"
+  },
+  {
+    "district": "บางนา",
+    "total_tickets": 1281,
+    "resolved_tickets": 554,
+    "resolution_rate": 43.2,
+    "median_resolution_days": 2.2,
+    "avg_satisfaction": 4.37,
+    "stale_tickets": 0,
+    "reopen_rate": 2.9,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 139
+      },
+      {
+        "type": "ป้าย",
+        "count": 138
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 115
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 772,
+        "resolved": 374.0,
+        "resolution_rate": 48.4
+      },
+      {
+        "ym": "2026-08",
+        "total": 509,
+        "resolved": 180.0,
+        "resolution_rate": 35.4
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 71.1,
+    "grade": "C"
+  },
+  {
+    "district": "คลองสามวา",
+    "total_tickets": 1243,
+    "resolved_tickets": 616,
+    "resolution_rate": 49.6,
+    "median_resolution_days": 4.7,
+    "avg_satisfaction": 4.4,
+    "stale_tickets": 0,
+    "reopen_rate": 3.9,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 202
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 125
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 121
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 748,
+        "resolved": 428.0,
+        "resolution_rate": 57.2
+      },
+      {
+        "ym": "2026-08",
+        "total": 495,
+        "resolved": 188.0,
+        "resolution_rate": 38.0
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 70.8,
+    "grade": "C"
+  },
+  {
+    "district": "บางซื่อ",
+    "total_tickets": 1234,
+    "resolved_tickets": 633,
+    "resolution_rate": 51.3,
+    "median_resolution_days": 2.3,
+    "avg_satisfaction": 4.52,
+    "stale_tickets": 0,
+    "reopen_rate": 3.9,
+    "top_types": [
+      {
+        "type": "ความสะอาด",
+        "count": 135
+      },
+      {
+        "type": "อุปกรณ์ชำรุด",
+        "count": 132
+      },
+      {
+        "type": "ถนน",
+        "count": 113
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 739,
+        "resolved": 433.0,
+        "resolution_rate": 58.6
+      },
+      {
+        "ym": "2026-08",
+        "total": 495,
+        "resolved": 200.0,
+        "resolution_rate": 40.4
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 74.3,
+    "grade": "B"
+  },
+  {
+    "district": "ลาดกระบัง",
+    "total_tickets": 1230,
+    "resolved_tickets": 517,
+    "resolution_rate": 42.0,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 4.4,
+    "stale_tickets": 0,
+    "reopen_rate": 2.6,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 214
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 109
       },
       {
         "type": "ไฟฟ้า",
@@ -1246,257 +1008,672 @@
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 649,
-        "resolved": 368.0,
-        "resolution_rate": 56.7
-      },
-      {
         "ym": "2026-07",
-        "total": 664,
-        "resolved": 254.0,
-        "resolution_rate": 38.3
+        "total": 734,
+        "resolved": 370.0,
+        "resolution_rate": 50.4
       },
       {
         "ym": "2026-08",
-        "total": 30,
-        "resolved": 1.0,
-        "resolution_rate": 3.3
+        "total": 496,
+        "resolved": 147.0,
+        "resolution_rate": 29.6
       }
     ],
     "worst_stale": [],
-    "composite_score": 69.9,
+    "composite_score": 69.2,
     "grade": "D"
   },
   {
-    "district": "บางนา",
-    "total_tickets": 1248,
-    "resolved_tickets": 518,
-    "resolution_rate": 41.5,
-    "median_resolution_days": 2.6,
-    "avg_satisfaction": 4.33,
+    "district": "วังทองหลาง",
+    "total_tickets": 1223,
+    "resolved_tickets": 698,
+    "resolution_rate": 57.1,
+    "median_resolution_days": 1.3,
+    "avg_satisfaction": 4.5,
     "stale_tickets": 0,
-    "reopen_rate": 2.6,
+    "reopen_rate": 1.6,
     "top_types": [
       {
         "type": "ป้าย",
-        "count": 159
+        "count": 214
       },
       {
-        "type": "ไฟฟ้า",
-        "count": 122
+        "type": "ผิดกฎจราจร",
+        "count": 111
       },
       {
         "type": "ถนน",
-        "count": 104
+        "count": 110
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 491,
-        "resolved": 264.0,
-        "resolution_rate": 53.8
-      },
-      {
         "ym": "2026-07",
-        "total": 710,
-        "resolved": 254.0,
-        "resolution_rate": 35.8
+        "total": 687,
+        "resolved": 432.0,
+        "resolution_rate": 62.9
       },
       {
         "ym": "2026-08",
-        "total": 47,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
+        "total": 536,
+        "resolved": 266.0,
+        "resolution_rate": 49.6
       }
     ],
     "worst_stale": [],
-    "composite_score": 70.0,
-    "grade": "C"
+    "composite_score": 78.7,
+    "grade": "A"
   },
   {
-    "district": "ตลิ่งชัน",
-    "total_tickets": 1189,
-    "resolved_tickets": 635,
-    "resolution_rate": 53.4,
-    "median_resolution_days": 2.7,
-    "avg_satisfaction": 4.5,
+    "district": "ยานนาวา",
+    "total_tickets": 1188,
+    "resolved_tickets": 641,
+    "resolution_rate": 54.0,
+    "median_resolution_days": 2.6,
+    "avg_satisfaction": 4.65,
     "stale_tickets": 0,
-    "reopen_rate": 4.5,
+    "reopen_rate": 3.3,
     "top_types": [
       {
-        "type": "ถนน",
+        "type": "ไฟฟ้า",
+        "count": 189
+      },
+      {
+        "type": "ผิดกฎจราจร",
         "count": 141
       },
       {
-        "type": "ผิดกฎจราจร",
-        "count": 121
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 117
+        "type": "ถนน",
+        "count": 129
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 578,
-        "resolved": 348.0,
-        "resolution_rate": 60.2
-      },
-      {
         "ym": "2026-07",
-        "total": 587,
-        "resolved": 286.0,
-        "resolution_rate": 48.7
+        "total": 781,
+        "resolved": 505.0,
+        "resolution_rate": 64.7
       },
       {
         "ym": "2026-08",
-        "total": 24,
-        "resolved": 1.0,
-        "resolution_rate": 4.2
+        "total": 407,
+        "resolved": 136.0,
+        "resolution_rate": 33.4
       }
     ],
     "worst_stale": [],
-    "composite_score": 74.4,
-    "grade": "B"
+    "composite_score": 76.0,
+    "grade": "A"
   },
   {
-    "district": "จอมทอง",
-    "total_tickets": 1173,
-    "resolved_tickets": 510,
-    "resolution_rate": 43.5,
-    "median_resolution_days": 4.7,
-    "avg_satisfaction": 4.55,
+    "district": "พญาไท",
+    "total_tickets": 1166,
+    "resolved_tickets": 676,
+    "resolution_rate": 58.0,
+    "median_resolution_days": 2.5,
+    "avg_satisfaction": 4.34,
     "stale_tickets": 0,
-    "reopen_rate": 1.3,
+    "reopen_rate": 5.5,
     "top_types": [
       {
-        "type": "ไฟฟ้า",
-        "count": 121
+        "type": "ผิดกฎจราจร",
+        "count": 126
       },
       {
         "type": "ถนน",
-        "count": 109
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 99
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 661,
-        "resolved": 330.0,
-        "resolution_rate": 49.9
-      },
-      {
-        "ym": "2026-07",
-        "total": 479,
-        "resolved": 178.0,
-        "resolution_rate": 37.2
-      },
-      {
-        "ym": "2026-08",
-        "total": 33,
-        "resolved": 2.0,
-        "resolution_rate": 6.1
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 70.2,
-    "grade": "C"
-  },
-  {
-    "district": "ภาษีเจริญ",
-    "total_tickets": 1146,
-    "resolved_tickets": 571,
-    "resolution_rate": 49.8,
-    "median_resolution_days": 4.1,
-    "avg_satisfaction": 4.46,
-    "stale_tickets": 0,
-    "reopen_rate": 4.6,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 98
+        "count": 107
       },
       {
         "type": "ทางเท้า",
-        "count": 88
-      },
-      {
-        "type": "ถนน",
-        "count": 88
+        "count": 96
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 577,
-        "resolved": 353.0,
-        "resolution_rate": 61.2
-      },
-      {
         "ym": "2026-07",
-        "total": 549,
-        "resolved": 218.0,
-        "resolution_rate": 39.7
+        "total": 713,
+        "resolved": 454.0,
+        "resolution_rate": 63.7
       },
       {
         "ym": "2026-08",
-        "total": 20,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
+        "total": 453,
+        "resolved": 222.0,
+        "resolution_rate": 49.0
       }
     ],
     "worst_stale": [],
-    "composite_score": 71.4,
-    "grade": "C"
+    "composite_score": 75.3,
+    "grade": "B"
   },
   {
-    "district": "พระโขนง",
-    "total_tickets": 1131,
-    "resolved_tickets": 614,
-    "resolution_rate": 54.3,
-    "median_resolution_days": 4.0,
-    "avg_satisfaction": 4.34,
+    "district": "ตลิ่งชัน",
+    "total_tickets": 1080,
+    "resolved_tickets": 618,
+    "resolution_rate": 57.2,
+    "median_resolution_days": 3.0,
+    "avg_satisfaction": 4.6,
     "stale_tickets": 0,
-    "reopen_rate": 3.8,
+    "reopen_rate": 4.6,
     "top_types": [
       {
         "type": "ถนน",
         "count": 118
       },
       {
-        "type": "ความสะอาด",
-        "count": 111
+        "type": "ไฟฟ้า",
+        "count": 102
       },
       {
-        "type": "ไฟฟ้า",
-        "count": 92
+        "type": "ผิดกฎจราจร",
+        "count": 100
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 592,
-        "resolved": 373.0,
-        "resolution_rate": 63.0
-      },
-      {
         "ym": "2026-07",
-        "total": 509,
-        "resolved": 239.0,
-        "resolution_rate": 47.0
+        "total": 675,
+        "resolved": 442.0,
+        "resolution_rate": 65.5
       },
       {
         "ym": "2026-08",
-        "total": 30,
-        "resolved": 2.0,
-        "resolution_rate": 6.7
+        "total": 405,
+        "resolved": 176.0,
+        "resolution_rate": 43.5
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 76.0,
+    "grade": "A"
+  },
+  {
+    "district": "บึงกุ่ม",
+    "total_tickets": 1048,
+    "resolved_tickets": 567,
+    "resolution_rate": 54.1,
+    "median_resolution_days": 3.1,
+    "avg_satisfaction": 4.5,
+    "stale_tickets": 0,
+    "reopen_rate": 4.0,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 111
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 99
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 69
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 629,
+        "resolved": 409.0,
+        "resolution_rate": 65.0
+      },
+      {
+        "ym": "2026-08",
+        "total": 419,
+        "resolved": 158.0,
+        "resolution_rate": 37.7
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 74.5,
+    "grade": "B"
+  },
+  {
+    "district": "ภาษีเจริญ",
+    "total_tickets": 1010,
+    "resolved_tickets": 493,
+    "resolution_rate": 48.8,
+    "median_resolution_days": 4.4,
+    "avg_satisfaction": 4.5,
+    "stale_tickets": 0,
+    "reopen_rate": 5.0,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 112
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 102
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 94
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 635,
+        "resolved": 356.0,
+        "resolution_rate": 56.1
+      },
+      {
+        "ym": "2026-08",
+        "total": 375,
+        "resolved": 137.0,
+        "resolution_rate": 36.5
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 70.6,
+    "grade": "C"
+  },
+  {
+    "district": "ดอนเมือง",
+    "total_tickets": 997,
+    "resolved_tickets": 445,
+    "resolution_rate": 44.6,
+    "median_resolution_days": 3.0,
+    "avg_satisfaction": 4.48,
+    "stale_tickets": 0,
+    "reopen_rate": 2.1,
+    "top_types": [
+      {
+        "type": "ไฟฟ้า",
+        "count": 217
+      },
+      {
+        "type": "ถนน",
+        "count": 107
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 72
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 544,
+        "resolved": 309.0,
+        "resolution_rate": 56.8
+      },
+      {
+        "ym": "2026-08",
+        "total": 453,
+        "resolved": 136.0,
+        "resolution_rate": 30.0
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 71.7,
+    "grade": "C"
+  },
+  {
+    "district": "พระโขนง",
+    "total_tickets": 954,
+    "resolved_tickets": 506,
+    "resolution_rate": 53.0,
+    "median_resolution_days": 3.9,
+    "avg_satisfaction": 4.43,
+    "stale_tickets": 0,
+    "reopen_rate": 3.0,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 95
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 94
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 88
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 584,
+        "resolved": 357.0,
+        "resolution_rate": 61.1
+      },
+      {
+        "ym": "2026-08",
+        "total": 370,
+        "resolved": 149.0,
+        "resolution_rate": 40.3
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 73.5,
+    "grade": "B"
+  },
+  {
+    "district": "บางคอแหลม",
+    "total_tickets": 926,
+    "resolved_tickets": 606,
+    "resolution_rate": 65.4,
+    "median_resolution_days": 3.8,
+    "avg_satisfaction": 4.46,
+    "stale_tickets": 0,
+    "reopen_rate": 3.3,
+    "top_types": [
+      {
+        "type": "ไฟฟ้า",
+        "count": 124
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 115
+      },
+      {
+        "type": "ถนน",
+        "count": 80
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 596,
+        "resolved": 425.0,
+        "resolution_rate": 71.3
+      },
+      {
+        "ym": "2026-08",
+        "total": 330,
+        "resolved": 181.0,
+        "resolution_rate": 54.8
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 78.5,
+    "grade": "A"
+  },
+  {
+    "district": "สายไหม",
+    "total_tickets": 913,
+    "resolved_tickets": 538,
+    "resolution_rate": 58.9,
+    "median_resolution_days": 3.1,
+    "avg_satisfaction": 4.4,
+    "stale_tickets": 0,
+    "reopen_rate": 4.9,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 102
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 96
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 90
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 560,
+        "resolved": 384.0,
+        "resolution_rate": 68.6
+      },
+      {
+        "ym": "2026-08",
+        "total": 353,
+        "resolved": 154.0,
+        "resolution_rate": 43.6
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 75.6,
+    "grade": "B"
+  },
+  {
+    "district": "มีนบุรี",
+    "total_tickets": 911,
+    "resolved_tickets": 478,
+    "resolution_rate": 52.5,
+    "median_resolution_days": 3.1,
+    "avg_satisfaction": 4.4,
+    "stale_tickets": 0,
+    "reopen_rate": 1.3,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 97
+      },
+      {
+        "type": "ถนน",
+        "count": 95
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 85
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 533,
+        "resolved": 324.0,
+        "resolution_rate": 60.8
+      },
+      {
+        "ym": "2026-08",
+        "total": 378,
+        "resolved": 154.0,
+        "resolution_rate": 40.7
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 74.8,
+    "grade": "B"
+  },
+  {
+    "district": "สะพานสูง",
+    "total_tickets": 909,
+    "resolved_tickets": 511,
+    "resolution_rate": 56.2,
+    "median_resolution_days": 6.3,
+    "avg_satisfaction": 4.45,
+    "stale_tickets": 0,
+    "reopen_rate": 2.0,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 112
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 100
+      },
+      {
+        "type": "เสียง",
+        "count": 85
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 552,
+        "resolved": 363.0,
+        "resolution_rate": 65.8
+      },
+      {
+        "ym": "2026-08",
+        "total": 357,
+        "resolved": 148.0,
+        "resolution_rate": 41.5
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 73.0,
+    "grade": "B"
+  },
+  {
+    "district": "คลองสาน",
+    "total_tickets": 893,
+    "resolved_tickets": 393,
+    "resolution_rate": 44.0,
+    "median_resolution_days": 1.9,
+    "avg_satisfaction": 4.28,
+    "stale_tickets": 0,
+    "reopen_rate": 3.8,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 162
+      },
+      {
+        "type": "ถนน",
+        "count": 61
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 59
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 533,
+        "resolved": 266.0,
+        "resolution_rate": 49.9
+      },
+      {
+        "ym": "2026-08",
+        "total": 360,
+        "resolved": 127.0,
+        "resolution_rate": 35.3
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 70.9,
+    "grade": "C"
+  },
+  {
+    "district": "หลักสี่",
+    "total_tickets": 891,
+    "resolved_tickets": 478,
+    "resolution_rate": 53.6,
+    "median_resolution_days": 2.9,
+    "avg_satisfaction": 4.37,
+    "stale_tickets": 0,
+    "reopen_rate": 2.4,
+    "top_types": [
+      {
+        "type": "ไฟฟ้า",
+        "count": 118
+      },
+      {
+        "type": "ถนน",
+        "count": 101
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 70
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 530,
+        "resolved": 319.0,
+        "resolution_rate": 60.2
+      },
+      {
+        "ym": "2026-08",
+        "total": 361,
+        "resolved": 159.0,
+        "resolution_rate": 44.0
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 74.8,
+    "grade": "B"
+  },
+  {
+    "district": "จอมทอง",
+    "total_tickets": 879,
+    "resolved_tickets": 397,
+    "resolution_rate": 45.2,
+    "median_resolution_days": 4.1,
+    "avg_satisfaction": 4.54,
+    "stale_tickets": 0,
+    "reopen_rate": 3.2,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 90
+      },
+      {
+        "type": "ความสะอาด",
+        "count": 81
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 75
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 534,
+        "resolved": 296.0,
+        "resolution_rate": 55.4
+      },
+      {
+        "ym": "2026-08",
+        "total": 345,
+        "resolved": 101.0,
+        "resolution_rate": 29.3
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 70.5,
+    "grade": "C"
+  },
+  {
+    "district": "ดุสิต",
+    "total_tickets": 822,
+    "resolved_tickets": 447,
+    "resolution_rate": 54.4,
+    "median_resolution_days": 4.9,
+    "avg_satisfaction": 4.47,
+    "stale_tickets": 0,
+    "reopen_rate": 3.0,
+    "top_types": [
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 116
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 109
+      },
+      {
+        "type": "ถนน",
+        "count": 90
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 460,
+        "resolved": 304.0,
+        "resolution_rate": 66.1
+      },
+      {
+        "ym": "2026-08",
+        "total": 362,
+        "resolved": 143.0,
+        "resolution_rate": 39.5
       }
     ],
     "worst_stale": [],
@@ -1504,281 +1681,245 @@
     "grade": "B"
   },
   {
-    "district": "ดอนเมือง",
-    "total_tickets": 1130,
-    "resolved_tickets": 612,
-    "resolution_rate": 54.2,
+    "district": "หนองแขม",
+    "total_tickets": 718,
+    "resolved_tickets": 443,
+    "resolution_rate": 61.7,
     "median_resolution_days": 3.9,
-    "avg_satisfaction": 4.6,
+    "avg_satisfaction": 4.41,
     "stale_tickets": 0,
-    "reopen_rate": 2.3,
+    "reopen_rate": 4.5,
     "top_types": [
       {
-        "type": "ไฟฟ้า",
-        "count": 222
-      },
-      {
         "type": "ถนน",
-        "count": 98
+        "count": 60
       },
       {
         "type": "ความสะอาด",
-        "count": 94
+        "count": 54
+      },
+      {
+        "type": "ฝุ่นควัน&กลิ่น&PM2.5",
+        "count": 53
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 623,
-        "resolved": 405.0,
-        "resolution_rate": 65.0
-      },
-      {
         "ym": "2026-07",
-        "total": 485,
-        "resolved": 206.0,
-        "resolution_rate": 42.5
+        "total": 425,
+        "resolved": 299.0,
+        "resolution_rate": 70.4
       },
       {
         "ym": "2026-08",
-        "total": 22,
-        "resolved": 1.0,
-        "resolution_rate": 4.5
+        "total": 293,
+        "resolved": 144.0,
+        "resolution_rate": 49.1
       }
     ],
     "worst_stale": [],
-    "composite_score": 75.0,
-    "grade": "B"
+    "composite_score": 76.2,
+    "grade": "A"
   },
   {
-    "district": "คลองสาน",
-    "total_tickets": 1129,
-    "resolved_tickets": 515,
-    "resolution_rate": 45.6,
-    "median_resolution_days": 1.6,
-    "avg_satisfaction": 4.39,
+    "district": "ป้อมปราบศัตรูพ่าย",
+    "total_tickets": 702,
+    "resolved_tickets": 369,
+    "resolution_rate": 52.6,
+    "median_resolution_days": 3.5,
+    "avg_satisfaction": 4.05,
     "stale_tickets": 0,
-    "reopen_rate": 2.7,
+    "reopen_rate": 4.4,
     "top_types": [
       {
-        "type": "ผิดกฎจราจร",
-        "count": 282
+        "type": "ทางเท้า",
+        "count": 87
       },
       {
-        "type": "ทางเท้า",
-        "count": 88
+        "type": "ผิดกฎจราจร",
+        "count": 82
       },
       {
         "type": "ถนน",
-        "count": 74
+        "count": 44
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 622,
-        "resolved": 329.0,
-        "resolution_rate": 52.9
-      },
-      {
         "ym": "2026-07",
-        "total": 480,
-        "resolved": 184.0,
-        "resolution_rate": 38.3
+        "total": 460,
+        "resolved": 272.0,
+        "resolution_rate": 59.1
       },
       {
         "ym": "2026-08",
-        "total": 27,
-        "resolved": 2.0,
-        "resolution_rate": 7.4
+        "total": 242,
+        "resolved": 97.0,
+        "resolution_rate": 40.1
       }
     ],
     "worst_stale": [],
-    "composite_score": 72.8,
-    "grade": "B"
+    "composite_score": 71.5,
+    "grade": "C"
   },
   {
-    "district": "บึงกุ่ม",
-    "total_tickets": 1088,
-    "resolved_tickets": 626,
-    "resolution_rate": 57.5,
-    "median_resolution_days": 4.0,
-    "avg_satisfaction": 4.5,
+    "district": "ทวีวัฒนา",
+    "total_tickets": 650,
+    "resolved_tickets": 353,
+    "resolution_rate": 54.3,
+    "median_resolution_days": 2.5,
+    "avg_satisfaction": 4.46,
     "stale_tickets": 0,
     "reopen_rate": 3.2,
     "top_types": [
       {
-        "type": "ผิดกฎจราจร",
-        "count": 93
+        "type": "ถนน",
+        "count": 80
       },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 69
+      },
+      {
+        "type": "ไฟฟ้า",
+        "count": 49
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 398,
+        "resolved": 241.0,
+        "resolution_rate": 60.6
+      },
+      {
+        "ym": "2026-08",
+        "total": 252,
+        "resolved": 112.0,
+        "resolution_rate": 44.4
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 75.5,
+    "grade": "B"
+  },
+  {
+    "district": "บางบอน",
+    "total_tickets": 633,
+    "resolved_tickets": 300,
+    "resolution_rate": 47.4,
+    "median_resolution_days": 4.8,
+    "avg_satisfaction": 4.35,
+    "stale_tickets": 0,
+    "reopen_rate": 4.6,
+    "top_types": [
       {
         "type": "ถนน",
         "count": 88
       },
       {
-        "type": "อุปกรณ์ชำรุด",
-        "count": 84
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 511,
-        "resolved": 349.0,
-        "resolution_rate": 68.3
+        "type": "ต้นไม้",
+        "count": 46
       },
-      {
-        "ym": "2026-07",
-        "total": 544,
-        "resolved": 273.0,
-        "resolution_rate": 50.2
-      },
-      {
-        "ym": "2026-08",
-        "total": 33,
-        "resolved": 4.0,
-        "resolution_rate": 12.1
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 75.4,
-    "grade": "B"
-  },
-  {
-    "district": "มีนบุรี",
-    "total_tickets": 1077,
-    "resolved_tickets": 583,
-    "resolution_rate": 54.1,
-    "median_resolution_days": 3.2,
-    "avg_satisfaction": 4.38,
-    "stale_tickets": 0,
-    "reopen_rate": 1.9,
-    "top_types": [
       {
         "type": "ผิดกฎจราจร",
-        "count": 117
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 107
-      },
-      {
-        "type": "ถนน",
-        "count": 104
+        "count": 39
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 586,
-        "resolved": 369.0,
-        "resolution_rate": 63.0
-      },
-      {
         "ym": "2026-07",
-        "total": 459,
+        "total": 400,
         "resolved": 209.0,
-        "resolution_rate": 45.5
+        "resolution_rate": 52.3
       },
       {
         "ym": "2026-08",
-        "total": 32,
-        "resolved": 5.0,
-        "resolution_rate": 15.6
+        "total": 233,
+        "resolved": 91.0,
+        "resolution_rate": 39.1
       }
     ],
     "worst_stale": [],
-    "composite_score": 75.0,
-    "grade": "B"
+    "composite_score": 69.3,
+    "grade": "D"
   },
   {
-    "district": "สายไหม",
-    "total_tickets": 1037,
-    "resolved_tickets": 565,
-    "resolution_rate": 54.5,
-    "median_resolution_days": 3.1,
-    "avg_satisfaction": 4.39,
+    "district": "คันนายาว",
+    "total_tickets": 613,
+    "resolved_tickets": 327,
+    "resolution_rate": 53.3,
+    "median_resolution_days": 3.8,
+    "avg_satisfaction": 4.37,
     "stale_tickets": 0,
-    "reopen_rate": 3.0,
-    "top_types": [
-      {
-        "type": "ถนน",
-        "count": 123
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 99
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 96
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 500,
-        "resolved": 310.0,
-        "resolution_rate": 62.0
-      },
-      {
-        "ym": "2026-07",
-        "total": 498,
-        "resolved": 254.0,
-        "resolution_rate": 51.0
-      },
-      {
-        "ym": "2026-08",
-        "total": 39,
-        "resolved": 1.0,
-        "resolution_rate": 2.6
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 74.8,
-    "grade": "B"
-  },
-  {
-    "district": "บางคอแหลม",
-    "total_tickets": 1009,
-    "resolved_tickets": 647,
-    "resolution_rate": 64.1,
-    "median_resolution_days": 2.6,
-    "avg_satisfaction": 4.42,
-    "stale_tickets": 0,
-    "reopen_rate": 3.1,
+    "reopen_rate": 4.7,
     "top_types": [
       {
         "type": "ไฟฟ้า",
-        "count": 163
+        "count": 73
       },
       {
-        "type": "ความสะอาด",
-        "count": 118
+        "type": "ผิดกฎจราจร",
+        "count": 62
       },
       {
-        "type": "ทางเท้า",
-        "count": 71
+        "type": "อุปกรณ์ชำรุด",
+        "count": 43
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 476,
-        "resolved": 366.0,
-        "resolution_rate": 76.9
-      },
-      {
         "ym": "2026-07",
-        "total": 506,
-        "resolved": 279.0,
-        "resolution_rate": 55.1
+        "total": 363,
+        "resolved": 208.0,
+        "resolution_rate": 57.3
       },
       {
         "ym": "2026-08",
-        "total": 27,
-        "resolved": 2.0,
-        "resolution_rate": 7.4
+        "total": 250,
+        "resolved": 119.0,
+        "resolution_rate": 47.6
+      }
+    ],
+    "worst_stale": [],
+    "composite_score": 72.7,
+    "grade": "C"
+  },
+  {
+    "district": "ทุ่งครุ",
+    "total_tickets": 512,
+    "resolved_tickets": 335,
+    "resolution_rate": 65.4,
+    "median_resolution_days": 2.7,
+    "avg_satisfaction": 4.46,
+    "stale_tickets": 0,
+    "reopen_rate": 4.3,
+    "top_types": [
+      {
+        "type": "ถนน",
+        "count": 54
+      },
+      {
+        "type": "ต้นไม้",
+        "count": 52
+      },
+      {
+        "type": "อุปกรณ์ชำรุด",
+        "count": 37
+      }
+    ],
+    "monthly_trend": [
+      {
+        "ym": "2026-07",
+        "total": 309,
+        "resolved": 225.0,
+        "resolution_rate": 72.8
+      },
+      {
+        "ym": "2026-08",
+        "total": 203,
+        "resolved": 110.0,
+        "resolution_rate": 54.2
       }
     ],
     "worst_stale": [],
@@ -1786,567 +1927,126 @@
     "grade": "A"
   },
   {
-    "district": "หลักสี่",
-    "total_tickets": 993,
-    "resolved_tickets": 522,
-    "resolution_rate": 52.6,
-    "median_resolution_days": 3.1,
-    "avg_satisfaction": 4.34,
+    "district": "บางกอกใหญ่",
+    "total_tickets": 509,
+    "resolved_tickets": 265,
+    "resolution_rate": 52.1,
+    "median_resolution_days": 2.6,
+    "avg_satisfaction": 4.35,
     "stale_tickets": 0,
-    "reopen_rate": 2.7,
+    "reopen_rate": 4.5,
     "top_types": [
       {
-        "type": "ไฟฟ้า",
-        "count": 129
+        "type": "ทางเท้า",
+        "count": 56
       },
       {
         "type": "ถนน",
-        "count": 87
+        "count": 51
       },
       {
         "type": "ผิดกฎจราจร",
-        "count": 80
+        "count": 47
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 515,
-        "resolved": 304.0,
-        "resolution_rate": 59.0
-      },
-      {
         "ym": "2026-07",
-        "total": 461,
-        "resolved": 218.0,
-        "resolution_rate": 47.3
+        "total": 295,
+        "resolved": 167.0,
+        "resolution_rate": 56.6
       },
       {
         "ym": "2026-08",
-        "total": 17,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
+        "total": 214,
+        "resolved": 98.0,
+        "resolution_rate": 45.8
       }
     ],
     "worst_stale": [],
-    "composite_score": 74.0,
+    "composite_score": 73.4,
     "grade": "B"
   },
   {
-    "district": "สะพานสูง",
-    "total_tickets": 954,
-    "resolved_tickets": 438,
-    "resolution_rate": 45.9,
-    "median_resolution_days": 3.9,
-    "avg_satisfaction": 4.4,
-    "stale_tickets": 0,
-    "reopen_rate": 2.4,
-    "top_types": [
-      {
-        "type": "ถนน",
-        "count": 136
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 101
-      },
-      {
-        "type": "เสียง",
-        "count": 91
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 455,
-        "resolved": 264.0,
-        "resolution_rate": 58.0
-      },
-      {
-        "ym": "2026-07",
-        "total": 470,
-        "resolved": 172.0,
-        "resolution_rate": 36.6
-      },
-      {
-        "ym": "2026-08",
-        "total": 29,
-        "resolved": 2.0,
-        "resolution_rate": 6.9
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 70.9,
-    "grade": "C"
-  },
-  {
-    "district": "ดุสิต",
-    "total_tickets": 952,
-    "resolved_tickets": 552,
-    "resolution_rate": 58.0,
-    "median_resolution_days": 4.1,
+    "district": "ราษฎร์บูรณะ",
+    "total_tickets": 450,
+    "resolved_tickets": 252,
+    "resolution_rate": 56.0,
+    "median_resolution_days": 4.0,
     "avg_satisfaction": 4.57,
     "stale_tickets": 0,
-    "reopen_rate": 2.4,
-    "top_types": [
-      {
-        "type": "ไฟฟ้า",
-        "count": 200
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 117
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 83
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 506,
-        "resolved": 364.0,
-        "resolution_rate": 71.9
-      },
-      {
-        "ym": "2026-07",
-        "total": 427,
-        "resolved": 188.0,
-        "resolution_rate": 44.0
-      },
-      {
-        "ym": "2026-08",
-        "total": 19,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 76.2,
-    "grade": "B"
-  },
-  {
-    "district": "หนองแขม",
-    "total_tickets": 832,
-    "resolved_tickets": 540,
-    "resolution_rate": 64.9,
-    "median_resolution_days": 3.4,
-    "avg_satisfaction": 4.32,
-    "stale_tickets": 0,
-    "reopen_rate": 4.3,
+    "reopen_rate": 3.3,
     "top_types": [
       {
         "type": "ถนน",
-        "count": 67
+        "count": 53
+      },
+      {
+        "type": "ผิดกฎจราจร",
+        "count": 43
       },
       {
         "type": "ความสะอาด",
-        "count": 62
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 57
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 435,
-        "resolved": 344.0,
-        "resolution_rate": 79.1
-      },
-      {
-        "ym": "2026-07",
-        "total": 367,
-        "resolved": 195.0,
-        "resolution_rate": 53.1
-      },
-      {
-        "ym": "2026-08",
-        "total": 30,
-        "resolved": 1.0,
-        "resolution_rate": 3.3
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 77.7,
-    "grade": "A"
-  },
-  {
-    "district": "ป้อมปราบศัตรูพ่าย",
-    "total_tickets": 815,
-    "resolved_tickets": 415,
-    "resolution_rate": 50.9,
-    "median_resolution_days": 3.5,
-    "avg_satisfaction": 4.21,
-    "stale_tickets": 0,
-    "reopen_rate": 7.4,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 123
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 105
-      },
-      {
-        "type": "อุปกรณ์ชำรุด",
-        "count": 58
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 375,
-        "resolved": 231.0,
-        "resolution_rate": 61.6
-      },
-      {
-        "ym": "2026-07",
-        "total": 425,
-        "resolved": 182.0,
-        "resolution_rate": 42.8
-      },
-      {
-        "ym": "2026-08",
-        "total": 15,
-        "resolved": 2.0,
-        "resolution_rate": 13.3
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 70.0,
-    "grade": "C"
-  },
-  {
-    "district": "คันนายาว",
-    "total_tickets": 720,
-    "resolved_tickets": 370,
-    "resolution_rate": 51.4,
-    "median_resolution_days": 3.1,
-    "avg_satisfaction": 4.45,
-    "stale_tickets": 0,
-    "reopen_rate": 5.3,
-    "top_types": [
-      {
-        "type": "ไฟฟ้า",
-        "count": 82
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 58
-      },
-      {
-        "type": "ถนน",
-        "count": 57
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 371,
-        "resolved": 247.0,
-        "resolution_rate": 66.6
-      },
-      {
-        "ym": "2026-07",
-        "total": 325,
-        "resolved": 123.0,
-        "resolution_rate": 37.8
-      },
-      {
-        "ym": "2026-08",
-        "total": 24,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 72.6,
-    "grade": "C"
-  },
-  {
-    "district": "ทวีวัฒนา",
-    "total_tickets": 703,
-    "resolved_tickets": 392,
-    "resolution_rate": 55.8,
-    "median_resolution_days": 2.8,
-    "avg_satisfaction": 4.33,
-    "stale_tickets": 0,
-    "reopen_rate": 4.0,
-    "top_types": [
-      {
-        "type": "ถนน",
-        "count": 92
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 71
-      },
-      {
-        "type": "ต้นไม้",
-        "count": 54
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 330,
-        "resolved": 225.0,
-        "resolution_rate": 68.2
-      },
-      {
-        "ym": "2026-07",
-        "total": 354,
-        "resolved": 166.0,
-        "resolution_rate": 46.9
-      },
-      {
-        "ym": "2026-08",
-        "total": 19,
-        "resolved": 1.0,
-        "resolution_rate": 5.3
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 74.8,
-    "grade": "B"
-  },
-  {
-    "district": "ทุ่งครุ",
-    "total_tickets": 631,
-    "resolved_tickets": 409,
-    "resolution_rate": 64.8,
-    "median_resolution_days": 2.1,
-    "avg_satisfaction": 4.41,
-    "stale_tickets": 0,
-    "reopen_rate": 4.4,
-    "top_types": [
-      {
-        "type": "ถนน",
-        "count": 63
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 47
-      },
-      {
-        "type": "อุปกรณ์ชำรุด",
-        "count": 47
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 340,
-        "resolved": 252.0,
-        "resolution_rate": 74.1
-      },
-      {
-        "ym": "2026-07",
-        "total": 275,
-        "resolved": 154.0,
-        "resolution_rate": 56.0
-      },
-      {
-        "ym": "2026-08",
-        "total": 16,
-        "resolved": 3.0,
-        "resolution_rate": 18.8
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 79.3,
-    "grade": "A"
-  },
-  {
-    "district": "บางบอน",
-    "total_tickets": 594,
-    "resolved_tickets": 289,
-    "resolution_rate": 48.7,
-    "median_resolution_days": 4.2,
-    "avg_satisfaction": 4.36,
-    "stale_tickets": 0,
-    "reopen_rate": 3.7,
-    "top_types": [
-      {
-        "type": "ถนน",
-        "count": 85
-      },
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 45
-      },
-      {
-        "type": "ต้นไม้",
         "count": 39
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 223,
-        "resolved": 131.0,
-        "resolution_rate": 58.7
-      },
-      {
         "ym": "2026-07",
-        "total": 356,
+        "total": 257,
         "resolved": 158.0,
-        "resolution_rate": 44.4
+        "resolution_rate": 61.5
       },
       {
         "ym": "2026-08",
-        "total": 15,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
+        "total": 193,
+        "resolved": 94.0,
+        "resolution_rate": 48.7
       }
     ],
     "worst_stale": [],
-    "composite_score": 70.9,
-    "grade": "C"
-  },
-  {
-    "district": "บางกอกใหญ่",
-    "total_tickets": 539,
-    "resolved_tickets": 270,
-    "resolution_rate": 50.1,
-    "median_resolution_days": 3.0,
-    "avg_satisfaction": 4.41,
-    "stale_tickets": 0,
-    "reopen_rate": 5.6,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 57
-      },
-      {
-        "type": "ทางเท้า",
-        "count": 49
-      },
-      {
-        "type": "ไฟฟ้า",
-        "count": 44
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 269,
-        "resolved": 154.0,
-        "resolution_rate": 57.2
-      },
-      {
-        "ym": "2026-07",
-        "total": 250,
-        "resolved": 116.0,
-        "resolution_rate": 46.4
-      },
-      {
-        "ym": "2026-08",
-        "total": 20,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 71.9,
-    "grade": "C"
-  },
-  {
-    "district": "ราษฎร์บูรณะ",
-    "total_tickets": 504,
-    "resolved_tickets": 296,
-    "resolution_rate": 58.7,
-    "median_resolution_days": 3.2,
-    "avg_satisfaction": 4.5,
-    "stale_tickets": 0,
-    "reopen_rate": 2.2,
-    "top_types": [
-      {
-        "type": "ผิดกฎจราจร",
-        "count": 61
-      },
-      {
-        "type": "ถนน",
-        "count": 56
-      },
-      {
-        "type": "ความสะอาด",
-        "count": 43
-      }
-    ],
-    "monthly_trend": [
-      {
-        "ym": "2026-06",
-        "total": 261,
-        "resolved": 186.0,
-        "resolution_rate": 71.3
-      },
-      {
-        "ym": "2026-07",
-        "total": 225,
-        "resolved": 106.0,
-        "resolution_rate": 47.1
-      },
-      {
-        "ym": "2026-08",
-        "total": 18,
-        "resolved": 4.0,
-        "resolution_rate": 22.2
-      }
-    ],
-    "worst_stale": [],
-    "composite_score": 77.2,
-    "grade": "A"
+    "composite_score": 75.0,
+    "grade": "B"
   },
   {
     "district": "สัมพันธวงศ์",
-    "total_tickets": 431,
-    "resolved_tickets": 277,
-    "resolution_rate": 64.3,
-    "median_resolution_days": 1.8,
-    "avg_satisfaction": 4.15,
+    "total_tickets": 397,
+    "resolved_tickets": 269,
+    "resolution_rate": 67.8,
+    "median_resolution_days": 1.9,
+    "avg_satisfaction": 3.98,
     "stale_tickets": 0,
-    "reopen_rate": 4.9,
+    "reopen_rate": 4.8,
     "top_types": [
       {
-        "type": "ทางเท้า",
-        "count": 48
-      },
-      {
         "type": "หาบเร่แผงลอย",
-        "count": 46
+        "count": 41
       },
       {
-        "type": "ผิดกฎจราจร",
-        "count": 38
+        "type": "ความสะอาด",
+        "count": 40
+      },
+      {
+        "type": "ทางเท้า",
+        "count": 37
       }
     ],
     "monthly_trend": [
       {
-        "ym": "2026-06",
-        "total": 203,
-        "resolved": 145.0,
-        "resolution_rate": 71.4
-      },
-      {
         "ym": "2026-07",
-        "total": 217,
-        "resolved": 132.0,
-        "resolution_rate": 60.8
+        "total": 245,
+        "resolved": 178.0,
+        "resolution_rate": 72.7
       },
       {
         "ym": "2026-08",
-        "total": 11,
-        "resolved": 0.0,
-        "resolution_rate": 0.0
+        "total": 152,
+        "resolved": 91.0,
+        "resolution_rate": 59.9
       }
     ],
     "worst_stale": [],
-    "composite_score": 78.1,
+    "composite_score": 78.7,
     "grade": "A"
   }
 ]
