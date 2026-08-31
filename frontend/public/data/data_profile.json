@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T03:00:28.011091",
+  "generated_at": "2026-08-31T08:05:39.365484",
   "pipeline_version": "3.0",
   "stack": {
     "etl": "pandas (Bronze→Silver)",
@@ -15,44 +15,44 @@
     "validation_issues": []
   },
   "after_clean": {
-    "total_rows": 61761,
+    "total_rows": 69230,
     "unique_districts": 50,
-    "unique_orgs": 10422
+    "unique_orgs": 11442
   },
   "quality": {
     "null_coords_pct": 0.0,
-    "null_star_pct": 79.8,
+    "null_star_pct": 79.2,
     "state_distribution": {
-      "กำลังดำเนินการ": 30526,
-      "เสร็จสิ้น": 30223,
-      "รอรับเรื่อง": 1012
+      "เสร็จสิ้น": 35159,
+      "กำลังดำเนินการ": 33271,
+      "รอรับเรื่อง": 800
     },
     "grade_distribution": {
       "C": 15,
       "F": 2,
       "D": 8,
-      "B": 15,
-      "A": 10
+      "A": 10,
+      "B": 15
     }
   },
   "outputs": {
     "districts.json": {
-      "size_kb": 41.6
+      "size_kb": 41.5
     },
     "gallery.json": {
-      "size_kb": 318.3
+      "size_kb": 317.8
     },
     "monthly_trends.json": {
       "size_kb": 0.3
     },
     "orgs.json": {
-      "size_kb": 490.7
+      "size_kb": 533.0
     },
     "overview.json": {
       "size_kb": 2.1
     },
     "points.json": {
-      "size_kb": 285.6
+      "size_kb": 339.1
     }
   }
 }

@@ -1,20 +1,20 @@
 [
   {
     "ym": "2026-07",
-    "total": 37132,
-    "resolved": 21186.0,
+    "total": 37129,
+    "resolved": 21862.0,
     "stale": 0.0,
-    "avg_star": 4.34,
-    "pending": 15946.0,
-    "resolution_rate": 57.1
+    "avg_star": 4.33,
+    "pending": 15267.0,
+    "resolution_rate": 58.9
   },
   {
     "ym": "2026-08",
-    "total": 24629,
-    "resolved": 9037.0,
+    "total": 32101,
+    "resolved": 13297.0,
     "stale": 0.0,
-    "avg_star": 4.39,
-    "pending": 15592.0,
-    "resolution_rate": 36.7
+    "avg_star": 4.38,
+    "pending": 18804.0,
+    "resolution_rate": 41.4
   }
 ]

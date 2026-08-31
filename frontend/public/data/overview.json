@@ -1,98 +1,98 @@
 {
-  "total_tickets": 61761,
-  "resolved_tickets": 30223,
-  "resolution_rate": 48.9,
-  "pending_tickets": 31538,
+  "total_tickets": 69230,
+  "resolved_tickets": 35159,
+  "resolution_rate": 50.8,
+  "pending_tickets": 34071,
   "stale_tickets": 0,
   "stale_rate": 0.0,
-  "median_resolution_days": 3.3,
-  "avg_satisfaction": 4.36,
+  "median_resolution_days": 3.6,
+  "avg_satisfaction": 4.35,
   "avg_reopen_rate": 0.05,
-  "reopen_pct": 3.6,
+  "reopen_pct": 3.7,
   "data_range": {
     "from": "2026-07-01",
-    "to": "2026-08-24"
+    "to": "2026-08-31"
   },
   "top_problem_types": [
     {
       "type": "ผิดกฎจราจร",
-      "count": 7001,
-      "resolution_rate": 24.2,
-      "median_resolution_days": 3.2
+      "count": 7873,
+      "resolution_rate": 24.1,
+      "median_resolution_days": 3.4
     },
     {
       "type": "ถนน",
-      "count": 6766,
-      "resolution_rate": 38.4,
-      "median_resolution_days": 3.2
-    },
-    {
-      "type": "ไฟฟ้า",
-      "count": 4727,
-      "resolution_rate": 41.8,
-      "median_resolution_days": 5.1
+      "count": 7625,
+      "resolution_rate": 42.1,
+      "median_resolution_days": 3.5
     },
     {
       "type": "ทางเท้า",
-      "count": 4666,
-      "resolution_rate": 48.3,
-      "median_resolution_days": 3.8
+      "count": 5345,
+      "resolution_rate": 49.1,
+      "median_resolution_days": 3.9
+    },
+    {
+      "type": "ไฟฟ้า",
+      "count": 5268,
+      "resolution_rate": 45.6,
+      "median_resolution_days": 6.1
     },
     {
       "type": "ความสะอาด",
-      "count": 4623,
-      "resolution_rate": 74.1,
+      "count": 5125,
+      "resolution_rate": 76.0,
       "median_resolution_days": 2.2
     },
     {
       "type": "อุปกรณ์ชำรุด",
-      "count": 3372,
-      "resolution_rate": 52.6,
-      "median_resolution_days": 3.3
+      "count": 3493,
+      "resolution_rate": 54.3,
+      "median_resolution_days": 3.5
     },
     {
       "type": "ต้นไม้",
-      "count": 2667,
-      "resolution_rate": 70.5,
-      "median_resolution_days": 3.6
+      "count": 2922,
+      "resolution_rate": 73.1,
+      "median_resolution_days": 3.8
     },
     {
       "type": "เสียง",
-      "count": 2193,
-      "resolution_rate": 46.6,
-      "median_resolution_days": 5.7
-    },
-    {
-      "type": "อาคารสถานที่ชำรุด",
-      "count": 1920,
-      "resolution_rate": 30.9,
+      "count": 2448,
+      "resolution_rate": 49.2,
       "median_resolution_days": 6.0
     },
     {
+      "type": "อาคารสถานที่ชำรุด",
+      "count": 2135,
+      "resolution_rate": 31.3,
+      "median_resolution_days": 6.2
+    },
+    {
       "type": "ป้าย",
-      "count": 1737,
-      "resolution_rate": 73.2,
+      "count": 2010,
+      "resolution_rate": 75.2,
       "median_resolution_days": 0.8
     }
   ],
   "monthly_trends": [
     {
       "ym": "2026-07",
-      "total": 37132,
-      "resolved": 21186.0,
+      "total": 37129,
+      "resolved": 21862.0,
       "stale": 0.0,
-      "avg_star": 4.34,
-      "pending": 15946.0,
-      "resolution_rate": 57.1
+      "avg_star": 4.33,
+      "pending": 15267.0,
+      "resolution_rate": 58.9
     },
     {
       "ym": "2026-08",
-      "total": 24629,
-      "resolved": 9037.0,
+      "total": 32101,
+      "resolved": 13297.0,
       "stale": 0.0,
-      "avg_star": 4.39,
-      "pending": 15592.0,
-      "resolution_rate": 36.7
+      "avg_star": 4.38,
+      "pending": 18804.0,
+      "resolution_rate": 41.4
     }
   ]
 }
