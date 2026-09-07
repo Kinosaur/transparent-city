@@ -1,0 +1,54 @@
+name: Website problem
+description: Report a reproducible issue in the dashboard, accessibility, or translation.
+title: "bug: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for improving Transparent City. Please do not include a resident’s personal information, screenshots containing private details, or a claim about an individual person.
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+      placeholder: "https://transparent-city.vercel.app/en/map"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Choose …
+        3. Notice …
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop
+        - Phone
+        - Tablet
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: "Safari 18, Chrome 140, Firefox 142…"

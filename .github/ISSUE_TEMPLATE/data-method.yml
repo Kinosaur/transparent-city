@@ -1,0 +1,34 @@
+name: Data or methodology concern
+description: Flag an unclear definition, possible display error, coverage gap, or interpretation risk.
+title: "data: "
+labels: ["data", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Transparent City publishes a derived public-data snapshot. Please read the Methods page first, distinguish source data from your interpretation, and do not post personal information or unsupported allegations.
+  - type: input
+    id: page
+    attributes:
+      label: Relevant page, metric, or dataset field
+      placeholder: "Leaderboard routing note, stale ticket count, district grade…"
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: What seems wrong, unclear, or potentially misleading?
+      description: Explain the concern in a way someone else can check.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting source or reasoning
+      description: Link to public evidence or explain the reproducible calculation. Do not include private report content.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction or clarification

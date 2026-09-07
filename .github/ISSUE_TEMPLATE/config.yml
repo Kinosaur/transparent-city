@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Methods & data notes
+    url: https://transparent-city.vercel.app/en/methods
+    about: Read definitions, data coverage, and known limits before reporting a data concern.
+  - name: Community guidelines
+    url: https://github.com/Kinosaur/transparent-city/blob/main/CODE_OF_CONDUCT.md
+    about: Read the project’s standards for respectful, evidence-led participation.

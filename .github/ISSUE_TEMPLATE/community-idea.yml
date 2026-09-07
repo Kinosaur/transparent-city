@@ -1,0 +1,27 @@
+name: Community improvement
+description: Propose a resident-facing feature, civic brief, collaboration, or documentation improvement.
+title: "community: "
+labels: ["community", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. Please focus on a concrete resident need and avoid collecting or publishing personal information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What resident or community need would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your proposal
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: What would a useful outcome look like?
+    validations:
+      required: true
