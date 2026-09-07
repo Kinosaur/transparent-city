@@ -279,6 +279,8 @@ Automated publishing is intentionally **manual-only** while the historical raw-d
 
 Before automated publishing is re-enabled, every run must pass the versioned historical-coverage contract in [`backend/pipeline/data_contract.json`](backend/pipeline/data_contract.json). It requires the retained baseline months, at least 1.39M published tickets, 59 monthly trend points, and a current raw-data range. The raw archive will be kept in durable object storage, with cache used only to speed routine refreshes.
 
+Follow the [data release runbook](docs/DATA_RELEASE_RUNBOOK.md) for the safe backup → refresh → validate → publish sequence.
+
 ---
 
 ## Methodology & Data Integrity
