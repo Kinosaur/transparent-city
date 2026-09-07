@@ -33,6 +33,9 @@ type Dict = {
     below_avg: string
     routing_note: string
     methods_link: string
+    previous: string
+    next: string
+    page: string
   }
 }
 
@@ -116,6 +119,7 @@ function SortTh({
 }
 
 const MIN_TICKET_OPTIONS = [100, 500, 1000, 5000]
+const PAGE_SIZE = 100
 
 export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }, lang }: Props) {
   const [query,      setQuery]      = useState('')
@@ -147,6 +151,11 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
   }, [orgs, query, minTickets, sortKey, sortAsc, lang])
 
   const maxResRate = Math.max(...orgs.map((o) => o.resolution_rate ?? 0))
+  const [page, setPage] = useState(1)
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
+  const currentPage = Math.min(page, pageCount)
+  const firstRow = (currentPage - 1) * PAGE_SIZE
+  const rows = filtered.slice(firstRow, firstRow + PAGE_SIZE)
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-6">
@@ -166,7 +175,10 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
         <input
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setQuery(e.target.value)
+            setPage(1)
+          }}
           placeholder={d.search_placeholder}
           className="flex-1 px-4 py-2.5 rounded-xl bg-[--color-surface-900] border border-[--color-border] text-[--color-fg] placeholder:text-[--color-muted] text-sm outline-none focus-visible:border-[--color-teal-400]/50 focus-visible:ring-2 focus-visible:ring-[--color-teal-400]/20 transition-colors"
           aria-label={d.search_placeholder}
@@ -177,7 +189,10 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
             {MIN_TICKET_OPTIONS.map((n) => (
               <button
                 key={n}
-                onClick={() => setMinTickets(n)}
+                onClick={() => {
+                  setMinTickets(n)
+                  setPage(1)
+                }}
                 className={`px-3 py-2 rounded-lg text-xs font-medium transition-colors cursor-pointer ${
                   minTickets === n
                     ? 'bg-[--color-teal-400]/15 text-[--color-teal-400] border border-[--color-teal-400]/30'
@@ -194,8 +209,11 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
 
       {/* Count */}
       <p className="text-xs text-[--color-muted]">
-        {d.showing} <span className="text-[--color-fg] font-medium">{filtered.length.toLocaleString()}</span> {d.of}{' '}
-        {orgs.filter((o) => o.total_tickets >= minTickets).length.toLocaleString()} {d.agencies}
+        {d.showing}{' '}
+        <span className="text-[--color-fg] font-medium">
+          {filtered.length === 0 ? '0' : `${(firstRow + 1).toLocaleString()}–${Math.min(firstRow + PAGE_SIZE, filtered.length).toLocaleString()}`}
+        </span>{' '}
+        {d.of} {filtered.length.toLocaleString()} {d.agencies}
       </p>
 
       {/* Table */}
@@ -231,12 +249,12 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
                   </td>
                 </tr>
               ) : (
-                filtered.map((org, i) => (
+                rows.map((org, i) => (
                   <tr
                     key={org.organization}
                     className="border-b border-[--color-border] last:border-0 hover:bg-white/3 transition-colors"
                   >
-                    <td className="px-4 py-3 text-xs text-[--color-muted] tabular-nums">{i + 1}</td>
+                    <td className="px-4 py-3 text-xs text-[--color-muted] tabular-nums">{firstRow + i + 1}</td>
                     <td className="px-3 py-3 text-sm text-[--color-subtle] max-w-[220px]">
                       <span className="line-clamp-2 leading-snug">{organizationLabel(org.organization, lang)}</span>
                     </td>
@@ -287,6 +305,28 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
           </table>
         </div>
       </div>
+
+      {pageCount > 1 && (
+        <nav className="flex items-center justify-between gap-4" aria-label={d.org_name}>
+          <button
+            type="button"
+            onClick={() => setPage((value) => Math.max(1, value - 1))}
+            disabled={currentPage === 1}
+            className="min-h-10 rounded-lg border border-[--color-border] px-3 text-xs font-medium text-[--color-subtle] hover:text-[--color-fg] hover:border-[--color-border-hover] disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            {d.previous}
+          </button>
+          <p className="text-xs text-[--color-muted]" aria-live="polite">{d.page} {currentPage} {d.of} {pageCount}</p>
+          <button
+            type="button"
+            onClick={() => setPage((value) => Math.min(pageCount, value + 1))}
+            disabled={currentPage === pageCount}
+            className="min-h-10 rounded-lg border border-[--color-border] px-3 text-xs font-medium text-[--color-subtle] hover:text-[--color-fg] hover:border-[--color-border-hover] disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            {d.next}
+          </button>
+        </nav>
+      )}
     </div>
   )
 }

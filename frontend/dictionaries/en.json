@@ -98,7 +98,10 @@
     "above_avg": "above avg",
     "below_avg": "below avg",
     "routing_note": "Rows reflect source routing text and can include several organizations; they are not a single-agency verdict.",
-    "methods_link": "Read the methodology."
+    "methods_link": "Read the methodology.",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
   },
   "gallery": {
     "title": "Before / After",
