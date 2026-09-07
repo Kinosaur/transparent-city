@@ -1,10 +1,9 @@
 name: Update Traffy Data
 
-# Runs every Monday at 09:00 Bangkok time (02:00 UTC)
-# Also triggerable manually from the GitHub Actions tab
+# Publishing is temporarily manual-only while the historical data archive is
+# recovered. Re-enable the Monday schedule only after durable raw storage is
+# configured and a full recovery run has passed the coverage contract.
 on:
-  schedule:
-    - cron: '0 2 * * 1'
   workflow_dispatch:
     inputs:
       months:
@@ -33,15 +32,13 @@ jobs:
         run: pip install -r backend/requirements.txt
 
       # ── Cache strategy ──────────────────────────────────────────────────────
-      # CSVs are NOT committed to git (too large for a repo).
-      # We cache them in GitHub Actions cache between weekly runs so we don't
-      # re-download 49 files every Monday.
+      # CSVs are NOT committed to git (too large for a repo). GitHub Actions
+      # cache is an optimisation only; it is not durable storage. The coverage
+      # contract below prevents a cache miss from becoming a partial publish.
       #
       # Cache key: year + ISO week number.
-      # Why: A script-hash key never expires, so old CSVs would be served
-      # forever even after Traffy releases new months. A weekly key ensures
-      # the cache is invalidated once a week — perfectly aligned with this
-      # workflow's cron schedule.
+      # A weekly key refreshes the local cache but must never be treated as the
+      # canonical source of the historical archive.
       - name: Set cache key (year + ISO week)
         id: cache-key
         run: echo "key=traffy-csvs-$(date -u +%Y-W%V)" >> "$GITHUB_OUTPUT"
@@ -94,8 +91,9 @@ jobs:
           fi
 
       # ── Verify we have something to process ──────────────────────────────────
-      # This is the hard gate: if there are no CSVs at all (first run AND
-      # download failed), we fail the job rather than silently doing nothing.
+      # This is the availability gate. The validation step below also enforces
+      # the versioned historical-coverage contract, so a non-empty partial
+      # cache can never replace the published multi-year dataset.
       - name: Verify data availability
         run: |
           if ! ls backend/data/bangkok_*.csv 1>/dev/null 2>&1; then

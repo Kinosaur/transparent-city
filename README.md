@@ -270,7 +270,11 @@ git commit -m "data: update $(date +%Y-%m-%d)"
 git push   # Vercel auto-deploys
 ```
 
-**Automated:** GitHub Actions runs every Monday at 09:00 Bangkok time — downloads, validates, runs pipeline + tests, commits if data changed. If Traffy's API is unavailable, it falls back to cached CSVs and the site keeps serving last-known-good data.
+### Publication safety and recovery status
+
+Automated publishing is intentionally **manual-only** while the historical raw-data archive is recovered. GitHub Actions cache is an optimisation, not a durable data store; a cache miss must never be allowed to replace the published multi-year dataset with a short snapshot.
+
+Before automated publishing is re-enabled, every run must pass the versioned historical-coverage contract in [`backend/pipeline/data_contract.json`](backend/pipeline/data_contract.json). It requires the retained baseline months, at least 1.2M published tickets, 50 monthly trend points, and a current raw-data range. The raw archive will be kept in durable object storage, with cache used only to speed routine refreshes.
 
 ---
 

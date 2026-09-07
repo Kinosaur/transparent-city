@@ -22,8 +22,14 @@ from pathlib import Path
 
 import pytest
 
+import sys
+
 # Point at the committed frontend data (what the site actually serves)
 DATA_DIR = Path(__file__).parent.parent.parent / "frontend" / "public" / "data"
+PIPELINE_DIR = Path(__file__).parent.parent / "pipeline"
+sys.path.insert(0, str(PIPELINE_DIR))
+
+from data_contract import load_contract, output_contract_violations
 
 BANGKOK_50 = {
     "พระนคร", "ดุสิต", "หนองจอก", "บางรัก", "บางเขน", "ลาดกระบัง", "ยานนาวา",
@@ -80,9 +86,22 @@ def points():
         return json.load(f)
 
 
+@pytest.fixture(scope="session")
+def data_profile():
+    path = DATA_DIR / "data_profile.json"
+    assert path.exists(), "data_profile.json not found — run the pipeline first"
+    with open(path) as f:
+        return json.load(f)
+
+
 # ─── overview.json tests ───────────────────────────────────────────────────────
 
 class TestOverview:
+
+    def test_historical_coverage_contract(self, overview, data_profile):
+        """A structurally valid short snapshot must never be publishable."""
+        violations = output_contract_violations(overview, data_profile, load_contract())
+        assert not violations, "Historical coverage contract failed: " + "; ".join(violations)
 
     def test_has_required_keys(self, overview):
         required = [

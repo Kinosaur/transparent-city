@@ -33,6 +33,8 @@ import duckdb
 import numpy as np
 import pandas as pd
 
+from data_contract import input_contract_violations
+
 # ─── Logging ──────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
@@ -159,6 +161,10 @@ def validate_inputs(files: list[str]) -> dict:
         else:
             log.info("  Time series complete: %s → %s", all_ym[0], all_ym[-1])
 
+    for violation in input_contract_violations(months_present):
+        issues.append(f"Data contract: {violation}")
+        log.error("  Data contract: %s", violation)
+
     log.info("   ✓ Validation — %d issue(s)", len(issues))
     return {"file_stats": file_stats, "issues": issues}
 
@@ -173,9 +179,12 @@ with timed_step("Bronze: ingest CSVs"):
 
     if not files:
         log.error("No CSV files found. Run download.py first.")
-        sys.exit(0)
+        sys.exit(1)
 
     validation_report = validate_inputs(files)
+    if validation_report["issues"]:
+        log.error("Input validation failed; refusing to generate publishable outputs.")
+        sys.exit(1)
 
     dfs, load_errors = [], []
     for f in files:

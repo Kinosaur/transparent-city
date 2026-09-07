@@ -30,6 +30,8 @@ from pathlib import Path
 
 from dateutil.relativedelta import relativedelta
 
+from data_contract import input_contract_violations, output_contract_violations
+
 # ─── Paths ────────────────────────────────────────────────────────────────────
 REPO_ROOT = Path(__file__).parent.parent.parent
 DATA_DIR  = REPO_ROOT / "backend" / "data"
@@ -145,6 +147,15 @@ def check_inputs() -> int:
         fail(f"Data is {months_behind} months behind — GitHub Actions may not be running")
         errors += 1
 
+    # 1e. Historical coverage contract — this is intentionally stricter than
+    # gap detection above. It protects the published corpus from a cache miss
+    # or a partial refresh while allowing the documented legacy inventory to be
+    # improved over time.
+    contract_violations = input_contract_violations(set(months_present))
+    for violation in contract_violations:
+        fail(f"Data contract: {violation}")
+        errors += 1
+
     return errors
 
 
@@ -255,6 +266,11 @@ def check_outputs() -> int:
         ok(f"data_profile.json: generated at {profile.get('generated_at', 'unknown')}")
     else:
         warn("data_profile.json not found — run the pipeline to generate it")
+        profile = None
+
+    for violation in output_contract_violations(ov, profile):
+        fail(f"Data contract: {violation}")
+        errors += 1
 
     # ── File sizes ────────────────────────────────────────────────────────────
     print()
