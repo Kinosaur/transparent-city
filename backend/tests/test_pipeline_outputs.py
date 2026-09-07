@@ -18,6 +18,7 @@ These are sometimes called "data contract tests" or "pipeline invariant tests".
 """
 
 import json
+import os
 from pathlib import Path
 
 import pytest
@@ -25,7 +26,10 @@ import pytest
 import sys
 
 # Point at the committed frontend data (what the site actually serves)
-DATA_DIR = Path(__file__).parent.parent.parent / "frontend" / "public" / "data"
+DATA_DIR = Path(os.environ.get(
+    "TRANSPARENT_CITY_DATA_DIR",
+    Path(__file__).parent.parent.parent / "frontend" / "public" / "data",
+))
 PIPELINE_DIR = Path(__file__).parent.parent / "pipeline"
 sys.path.insert(0, str(PIPELINE_DIR))
 

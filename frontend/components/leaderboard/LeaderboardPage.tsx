@@ -80,6 +80,39 @@ function SortIcon({ active, asc }: { active: boolean; asc: boolean }) {
   )
 }
 
+function SortTh({
+  col,
+  label,
+  sortKey,
+  sortAsc,
+  onSort,
+}: {
+  col: SortKey
+  label: string
+  sortKey: SortKey
+  sortAsc: boolean
+  onSort: (key: SortKey) => void
+}) {
+  const active = sortKey === col
+  return (
+    <th
+      className="p-0 text-right text-xs font-medium uppercase tracking-wider whitespace-nowrap"
+      aria-sort={active ? (sortAsc ? 'ascending' : 'descending') : 'none'}
+    >
+      <button
+        type="button"
+        onClick={() => onSort(col)}
+        className={`w-full px-3 py-3 cursor-pointer select-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[--color-teal-400] ${
+          active ? 'text-[--color-teal-400]' : 'text-[--color-muted] hover:text-[--color-fg]'
+        }`}
+      >
+        {label}
+        <SortIcon active={active} asc={sortAsc} />
+      </button>
+    </th>
+  )
+}
+
 const MIN_TICKET_OPTIONS = [100, 500, 1000, 5000]
 
 export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }, lang }: Props) {
@@ -110,23 +143,6 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
     })
     return rows
   }, [orgs, query, minTickets, sortKey, sortAsc, lang])
-
-  function SortTh({ col, label }: { col: SortKey; label: string }) {
-    const active = sortKey === col
-    return (
-      <th
-        onClick={() => handleSort(col)}
-        className={`px-3 py-3 text-right text-xs font-medium uppercase tracking-wider cursor-pointer select-none whitespace-nowrap transition-colors ${
-          active ? 'text-[--color-teal-400]' : 'text-[--color-muted] hover:text-[--color-fg]'
-        }`}
-        aria-sort={active ? (sortAsc ? 'ascending' : 'descending') : 'none'}
-        role="columnheader"
-      >
-        {label}
-        <SortIcon active={active} asc={sortAsc} />
-      </th>
-    )
-  }
 
   const maxResRate = Math.max(...orgs.map((o) => o.resolution_rate ?? 0))
 
@@ -183,11 +199,11 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
               <tr className="border-b border-[--color-border]">
                 <th className="px-4 py-3 text-left text-xs font-medium text-[--color-muted] uppercase tracking-wider w-8">#</th>
                 <th className="px-3 py-3 text-left text-xs font-medium text-[--color-muted] uppercase tracking-wider">{d.org_name}</th>
-                <SortTh col="total_tickets"            label={d.total_tickets} />
-                <SortTh col="resolution_rate"          label={d.resolution_rate} />
-                <SortTh col="median_resolution_days"   label={d.median_days} />
-                <SortTh col="avg_satisfaction"         label={d.avg_satisfaction} />
-                <SortTh col="reopen_rate"              label={d.reopen_rate} />
+                <SortTh col="total_tickets" label={d.total_tickets} sortKey={sortKey} sortAsc={sortAsc} onSort={handleSort} />
+                <SortTh col="resolution_rate" label={d.resolution_rate} sortKey={sortKey} sortAsc={sortAsc} onSort={handleSort} />
+                <SortTh col="median_resolution_days" label={d.median_days} sortKey={sortKey} sortAsc={sortAsc} onSort={handleSort} />
+                <SortTh col="avg_satisfaction" label={d.avg_satisfaction} sortKey={sortKey} sortAsc={sortAsc} onSort={handleSort} />
+                <SortTh col="reopen_rate" label={d.reopen_rate} sortKey={sortKey} sortAsc={sortAsc} onSort={handleSort} />
               </tr>
               {/* BKK avg reference row */}
               <tr className="border-b border-[--color-border] bg-[--color-teal-400]/5">

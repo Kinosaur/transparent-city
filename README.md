@@ -274,7 +274,7 @@ git push   # Vercel auto-deploys
 
 Automated publishing is intentionally **manual-only** while the historical raw-data archive is recovered. GitHub Actions cache is an optimisation, not a durable data store; a cache miss must never be allowed to replace the published multi-year dataset with a short snapshot.
 
-Before automated publishing is re-enabled, every run must pass the versioned historical-coverage contract in [`backend/pipeline/data_contract.json`](backend/pipeline/data_contract.json). It requires the retained baseline months, at least 1.2M published tickets, 50 monthly trend points, and a current raw-data range. The raw archive will be kept in durable object storage, with cache used only to speed routine refreshes.
+Before automated publishing is re-enabled, every run must pass the versioned historical-coverage contract in [`backend/pipeline/data_contract.json`](backend/pipeline/data_contract.json). It requires the retained baseline months, at least 1.39M published tickets, 59 monthly trend points, and a current raw-data range. The raw archive will be kept in durable object storage, with cache used only to speed routine refreshes.
 
 ---
 

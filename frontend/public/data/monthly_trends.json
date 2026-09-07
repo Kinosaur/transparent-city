@@ -1,20 +1,533 @@
 [
   {
-    "ym": "2026-07",
-    "total": 37129,
-    "resolved": 21862.0,
+    "ym": "2021-09",
+    "total": 2,
+    "resolved": 2.0,
     "stale": 0.0,
-    "avg_star": 4.33,
-    "pending": 15267.0,
-    "resolution_rate": 58.9
+    "avg_star": 4.0,
+    "pending": 0.0,
+    "resolution_rate": 100.0
+  },
+  {
+    "ym": "2021-12",
+    "total": 8,
+    "resolved": 8.0,
+    "stale": 0.0,
+    "avg_star": 3.83,
+    "pending": 0.0,
+    "resolution_rate": 100.0
+  },
+  {
+    "ym": "2022-01",
+    "total": 21,
+    "resolved": 19.0,
+    "stale": 2.0,
+    "avg_star": 4.5,
+    "pending": 2.0,
+    "resolution_rate": 90.5
+  },
+  {
+    "ym": "2022-02",
+    "total": 40,
+    "resolved": 36.0,
+    "stale": 4.0,
+    "avg_star": 3.57,
+    "pending": 4.0,
+    "resolution_rate": 90.0
+  },
+  {
+    "ym": "2022-03",
+    "total": 30,
+    "resolved": 25.0,
+    "stale": 5.0,
+    "avg_star": 3.33,
+    "pending": 5.0,
+    "resolution_rate": 83.3
+  },
+  {
+    "ym": "2022-04",
+    "total": 17,
+    "resolved": 16.0,
+    "stale": 1.0,
+    "avg_star": 3.38,
+    "pending": 1.0,
+    "resolution_rate": 94.1
+  },
+  {
+    "ym": "2022-05",
+    "total": 2135,
+    "resolved": 1974.0,
+    "stale": 161.0,
+    "avg_star": 3.68,
+    "pending": 161.0,
+    "resolution_rate": 92.5
+  },
+  {
+    "ym": "2022-06",
+    "total": 61429,
+    "resolved": 55892.0,
+    "stale": 5537.0,
+    "avg_star": 3.71,
+    "pending": 5537.0,
+    "resolution_rate": 91.0
+  },
+  {
+    "ym": "2022-07",
+    "total": 40617,
+    "resolved": 36165.0,
+    "stale": 4452.0,
+    "avg_star": 3.8,
+    "pending": 4452.0,
+    "resolution_rate": 89.0
+  },
+  {
+    "ym": "2022-08",
+    "total": 26861,
+    "resolved": 24202.0,
+    "stale": 2659.0,
+    "avg_star": 3.78,
+    "pending": 2659.0,
+    "resolution_rate": 90.1
+  },
+  {
+    "ym": "2022-09",
+    "total": 22275,
+    "resolved": 20426.0,
+    "stale": 1849.0,
+    "avg_star": 3.86,
+    "pending": 1849.0,
+    "resolution_rate": 91.7
+  },
+  {
+    "ym": "2022-10",
+    "total": 13494,
+    "resolved": 12257.0,
+    "stale": 1237.0,
+    "avg_star": 3.87,
+    "pending": 1237.0,
+    "resolution_rate": 90.8
+  },
+  {
+    "ym": "2022-11",
+    "total": 11442,
+    "resolved": 10266.0,
+    "stale": 1176.0,
+    "avg_star": 3.88,
+    "pending": 1176.0,
+    "resolution_rate": 89.7
+  },
+  {
+    "ym": "2022-12",
+    "total": 11286,
+    "resolved": 10092.0,
+    "stale": 1194.0,
+    "avg_star": 3.89,
+    "pending": 1194.0,
+    "resolution_rate": 89.4
+  },
+  {
+    "ym": "2023-01",
+    "total": 18535,
+    "resolved": 16911.0,
+    "stale": 1624.0,
+    "avg_star": 3.84,
+    "pending": 1624.0,
+    "resolution_rate": 91.2
+  },
+  {
+    "ym": "2023-02",
+    "total": 18612,
+    "resolved": 16837.0,
+    "stale": 1775.0,
+    "avg_star": 3.9,
+    "pending": 1775.0,
+    "resolution_rate": 90.5
+  },
+  {
+    "ym": "2023-03",
+    "total": 18099,
+    "resolved": 16159.0,
+    "stale": 1940.0,
+    "avg_star": 3.86,
+    "pending": 1940.0,
+    "resolution_rate": 89.3
+  },
+  {
+    "ym": "2023-04",
+    "total": 17600,
+    "resolved": 15649.0,
+    "stale": 1951.0,
+    "avg_star": 3.9,
+    "pending": 1951.0,
+    "resolution_rate": 88.9
+  },
+  {
+    "ym": "2023-05",
+    "total": 21702,
+    "resolved": 18865.0,
+    "stale": 2837.0,
+    "avg_star": 3.9,
+    "pending": 2837.0,
+    "resolution_rate": 86.9
+  },
+  {
+    "ym": "2023-06",
+    "total": 26355,
+    "resolved": 22948.0,
+    "stale": 3407.0,
+    "avg_star": 3.88,
+    "pending": 3407.0,
+    "resolution_rate": 87.1
+  },
+  {
+    "ym": "2023-07",
+    "total": 26578,
+    "resolved": 23189.0,
+    "stale": 3389.0,
+    "avg_star": 3.9,
+    "pending": 3389.0,
+    "resolution_rate": 87.2
+  },
+  {
+    "ym": "2023-08",
+    "total": 24196,
+    "resolved": 20990.0,
+    "stale": 3206.0,
+    "avg_star": 3.94,
+    "pending": 3206.0,
+    "resolution_rate": 86.7
+  },
+  {
+    "ym": "2023-09",
+    "total": 25158,
+    "resolved": 21853.0,
+    "stale": 3305.0,
+    "avg_star": 3.92,
+    "pending": 3305.0,
+    "resolution_rate": 86.9
+  },
+  {
+    "ym": "2023-10",
+    "total": 27991,
+    "resolved": 24212.0,
+    "stale": 3779.0,
+    "avg_star": 3.91,
+    "pending": 3779.0,
+    "resolution_rate": 86.5
+  },
+  {
+    "ym": "2023-11",
+    "total": 27832,
+    "resolved": 24014.0,
+    "stale": 3818.0,
+    "avg_star": 3.89,
+    "pending": 3818.0,
+    "resolution_rate": 86.3
+  },
+  {
+    "ym": "2023-12",
+    "total": 22670,
+    "resolved": 19712.0,
+    "stale": 2958.0,
+    "avg_star": 3.8,
+    "pending": 2958.0,
+    "resolution_rate": 87.0
+  },
+  {
+    "ym": "2024-01",
+    "total": 25319,
+    "resolved": 21788.0,
+    "stale": 3531.0,
+    "avg_star": 3.84,
+    "pending": 3531.0,
+    "resolution_rate": 86.1
+  },
+  {
+    "ym": "2024-02",
+    "total": 22922,
+    "resolved": 19342.0,
+    "stale": 3580.0,
+    "avg_star": 3.89,
+    "pending": 3580.0,
+    "resolution_rate": 84.4
+  },
+  {
+    "ym": "2024-03",
+    "total": 24050,
+    "resolved": 20136.0,
+    "stale": 3914.0,
+    "avg_star": 3.88,
+    "pending": 3914.0,
+    "resolution_rate": 83.7
+  },
+  {
+    "ym": "2024-04",
+    "total": 19493,
+    "resolved": 16421.0,
+    "stale": 3072.0,
+    "avg_star": 3.91,
+    "pending": 3072.0,
+    "resolution_rate": 84.2
+  },
+  {
+    "ym": "2024-05",
+    "total": 27190,
+    "resolved": 22189.0,
+    "stale": 5001.0,
+    "avg_star": 3.91,
+    "pending": 5001.0,
+    "resolution_rate": 81.6
+  },
+  {
+    "ym": "2024-06",
+    "total": 27312,
+    "resolved": 21692.0,
+    "stale": 5620.0,
+    "avg_star": 3.87,
+    "pending": 5620.0,
+    "resolution_rate": 79.4
+  },
+  {
+    "ym": "2024-07",
+    "total": 27899,
+    "resolved": 22143.0,
+    "stale": 5756.0,
+    "avg_star": 3.92,
+    "pending": 5756.0,
+    "resolution_rate": 79.4
+  },
+  {
+    "ym": "2024-08",
+    "total": 28671,
+    "resolved": 22253.0,
+    "stale": 6418.0,
+    "avg_star": 3.88,
+    "pending": 6418.0,
+    "resolution_rate": 77.6
+  },
+  {
+    "ym": "2024-09",
+    "total": 26622,
+    "resolved": 20282.0,
+    "stale": 6340.0,
+    "avg_star": 3.97,
+    "pending": 6340.0,
+    "resolution_rate": 76.2
+  },
+  {
+    "ym": "2024-10",
+    "total": 25565,
+    "resolved": 19771.0,
+    "stale": 5794.0,
+    "avg_star": 4.03,
+    "pending": 5794.0,
+    "resolution_rate": 77.3
+  },
+  {
+    "ym": "2024-11",
+    "total": 26561,
+    "resolved": 20112.0,
+    "stale": 6449.0,
+    "avg_star": 4.06,
+    "pending": 6449.0,
+    "resolution_rate": 75.7
+  },
+  {
+    "ym": "2024-12",
+    "total": 24689,
+    "resolved": 18510.0,
+    "stale": 6179.0,
+    "avg_star": 3.98,
+    "pending": 6179.0,
+    "resolution_rate": 75.0
+  },
+  {
+    "ym": "2025-01",
+    "total": 28294,
+    "resolved": 20412.0,
+    "stale": 7882.0,
+    "avg_star": 4.09,
+    "pending": 7882.0,
+    "resolution_rate": 72.1
+  },
+  {
+    "ym": "2025-02",
+    "total": 27185,
+    "resolved": 18812.0,
+    "stale": 8373.0,
+    "avg_star": 4.09,
+    "pending": 8373.0,
+    "resolution_rate": 69.2
+  },
+  {
+    "ym": "2025-03",
+    "total": 49247,
+    "resolved": 37736.0,
+    "stale": 11511.0,
+    "avg_star": 4.34,
+    "pending": 11511.0,
+    "resolution_rate": 76.6
+  },
+  {
+    "ym": "2025-04",
+    "total": 34190,
+    "resolved": 23832.0,
+    "stale": 10358.0,
+    "avg_star": 4.18,
+    "pending": 10358.0,
+    "resolution_rate": 69.7
+  },
+  {
+    "ym": "2025-05",
+    "total": 36972,
+    "resolved": 24660.0,
+    "stale": 12312.0,
+    "avg_star": 4.07,
+    "pending": 12312.0,
+    "resolution_rate": 66.7
+  },
+  {
+    "ym": "2025-06",
+    "total": 29288,
+    "resolved": 20184.0,
+    "stale": 9104.0,
+    "avg_star": 4.1,
+    "pending": 9104.0,
+    "resolution_rate": 68.9
+  },
+  {
+    "ym": "2025-07",
+    "total": 30166,
+    "resolved": 19691.0,
+    "stale": 10475.0,
+    "avg_star": 4.08,
+    "pending": 10475.0,
+    "resolution_rate": 65.3
+  },
+  {
+    "ym": "2025-08",
+    "total": 28057,
+    "resolved": 18285.0,
+    "stale": 9772.0,
+    "avg_star": 4.11,
+    "pending": 9772.0,
+    "resolution_rate": 65.2
+  },
+  {
+    "ym": "2025-09",
+    "total": 29397,
+    "resolved": 19616.0,
+    "stale": 9781.0,
+    "avg_star": 4.08,
+    "pending": 9781.0,
+    "resolution_rate": 66.7
+  },
+  {
+    "ym": "2025-10",
+    "total": 30892,
+    "resolved": 20655.0,
+    "stale": 10237.0,
+    "avg_star": 4.15,
+    "pending": 10237.0,
+    "resolution_rate": 66.9
+  },
+  {
+    "ym": "2025-11",
+    "total": 27177,
+    "resolved": 17909.0,
+    "stale": 9268.0,
+    "avg_star": 4.18,
+    "pending": 9268.0,
+    "resolution_rate": 65.9
+  },
+  {
+    "ym": "2025-12",
+    "total": 22855,
+    "resolved": 15465.0,
+    "stale": 7390.0,
+    "avg_star": 4.18,
+    "pending": 7390.0,
+    "resolution_rate": 67.7
+  },
+  {
+    "ym": "2026-01",
+    "total": 29326,
+    "resolved": 20727.0,
+    "stale": 8599.0,
+    "avg_star": 4.15,
+    "pending": 8599.0,
+    "resolution_rate": 70.7
+  },
+  {
+    "ym": "2026-02",
+    "total": 28748,
+    "resolved": 17612.0,
+    "stale": 11136.0,
+    "avg_star": 4.21,
+    "pending": 11136.0,
+    "resolution_rate": 61.3
+  },
+  {
+    "ym": "2026-03",
+    "total": 29684,
+    "resolved": 14820.0,
+    "stale": 14864.0,
+    "avg_star": 4.27,
+    "pending": 14864.0,
+    "resolution_rate": 49.9
+  },
+  {
+    "ym": "2026-04",
+    "total": 27309,
+    "resolved": 16497.0,
+    "stale": 10812.0,
+    "avg_star": 4.19,
+    "pending": 10812.0,
+    "resolution_rate": 60.4
+  },
+  {
+    "ym": "2026-05",
+    "total": 28712,
+    "resolved": 13103.0,
+    "stale": 15609.0,
+    "avg_star": 4.28,
+    "pending": 15609.0,
+    "resolution_rate": 45.6
+  },
+  {
+    "ym": "2026-06",
+    "total": 33725,
+    "resolved": 21772.0,
+    "stale": 1347.0,
+    "avg_star": 4.26,
+    "pending": 11953.0,
+    "resolution_rate": 64.6
+  },
+  {
+    "ym": "2026-07",
+    "total": 37122,
+    "resolved": 22630.0,
+    "stale": 0.0,
+    "avg_star": 4.32,
+    "pending": 14492.0,
+    "resolution_rate": 61.0
   },
   {
     "ym": "2026-08",
-    "total": 32101,
-    "resolved": 13297.0,
+    "total": 32781,
+    "resolved": 16540.0,
     "stale": 0.0,
-    "avg_star": 4.38,
-    "pending": 18804.0,
-    "resolution_rate": 41.4
+    "avg_star": 4.36,
+    "pending": 16241.0,
+    "resolution_rate": 50.5
+  },
+  {
+    "ym": "2026-09",
+    "total": 6833,
+    "resolved": 1575.0,
+    "stale": 0.0,
+    "avg_star": 4.46,
+    "pending": 5258.0,
+    "resolution_rate": 23.0
   }
 ]

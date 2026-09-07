@@ -161,13 +161,13 @@ def check_inputs() -> int:
 
 # ─── Check 2: Pipeline JSON outputs ───────────────────────────────────────────
 
-def check_outputs() -> int:
+def check_outputs(out_dir: Path = OUT_DIR) -> int:
     """Validate the JSON files that the pipeline writes to frontend/public/data/."""
-    print("\n📊  Checking pipeline JSON outputs in", OUT_DIR)
+    print("\n📊  Checking pipeline JSON outputs in", out_dir)
     errors = 0
 
     # ── overview.json ─────────────────────────────────────────────────────────
-    overview_path = OUT_DIR / "overview.json"
+    overview_path = out_dir / "overview.json"
     if not overview_path.exists():
         fail("overview.json not found — has the pipeline been run?")
         return 1
@@ -194,7 +194,7 @@ def check_outputs() -> int:
         ok(f"overview.json: resolution rate {res_rate}% (expected 50–95%)")
 
     # ── districts.json ────────────────────────────────────────────────────────
-    districts_path = OUT_DIR / "districts.json"
+    districts_path = out_dir / "districts.json"
     if not districts_path.exists():
         fail("districts.json not found")
         errors += 1
@@ -229,7 +229,7 @@ def check_outputs() -> int:
             errors += 1
 
     # ── orgs.json ─────────────────────────────────────────────────────────────
-    orgs_path = OUT_DIR / "orgs.json"
+    orgs_path = out_dir / "orgs.json"
     if not orgs_path.exists():
         fail("orgs.json not found")
         errors += 1
@@ -242,7 +242,7 @@ def check_outputs() -> int:
             ok(f"orgs.json: {len(orgs)} organizations")
 
     # ── gallery.json ──────────────────────────────────────────────────────────
-    gallery_path = OUT_DIR / "gallery.json"
+    gallery_path = out_dir / "gallery.json"
     if not gallery_path.exists():
         fail("gallery.json not found")
         errors += 1
@@ -259,7 +259,7 @@ def check_outputs() -> int:
             ok(f"gallery.json: {len(gallery)} items, all have photo pairs ✓")
 
     # ── data_profile.json (optional but useful) ───────────────────────────────
-    profile_path = OUT_DIR / "data_profile.json"
+    profile_path = out_dir / "data_profile.json"
     if profile_path.exists():
         with open(profile_path) as f:
             profile = json.load(f)
@@ -275,7 +275,7 @@ def check_outputs() -> int:
     # ── File sizes ────────────────────────────────────────────────────────────
     print()
     print("  Output file sizes:")
-    for p in sorted(OUT_DIR.glob("*.json")):
+    for p in sorted(out_dir.glob("*.json")):
         size_kb = p.stat().st_size / 1024
         print(f"    {p.name:<35} {size_kb:>8.1f} KB")
 
@@ -288,6 +288,10 @@ def main():
     parser = argparse.ArgumentParser(description="Traffy Fondue data quality checker")
     parser.add_argument("--inputs",  action="store_true", help="Check raw CSV files")
     parser.add_argument("--outputs", action="store_true", help="Check pipeline JSON outputs")
+    parser.add_argument(
+        "--output-dir", type=Path,
+        help="Directory containing JSON outputs (defaults to frontend/public/data)",
+    )
     args = parser.parse_args()
 
     # Default: check both if neither flag given
@@ -297,7 +301,7 @@ def main():
     if args.inputs or check_both:
         total_errors += check_inputs()
     if args.outputs or check_both:
-        total_errors += check_outputs()
+        total_errors += check_outputs(args.output_dir or OUT_DIR)
 
     print()
     if total_errors == 0:
