@@ -141,7 +141,7 @@ jobs:
             echo "✅ No data changes — existing data is already current."
           else
             DATE=$(date -u +%Y-%m-%d)
-            git commit -m "data: weekly update ${DATE} [skip ci]"
+            git commit -m "data: manual update ${DATE} [skip ci]"
             git push
             echo "data_changed=true" >> "$GITHUB_OUTPUT"
             echo "✅ Pushed updated data to GitHub."
@@ -229,5 +229,5 @@ jobs:
             fi
 
             echo ""
-            echo "Next scheduled run: Monday 09:00 Bangkok time (02:00 UTC)"
+            echo "Publishing is manual-only. Run this workflow only after a complete, validated data refresh."
           } >> "$GITHUB_STEP_SUMMARY"

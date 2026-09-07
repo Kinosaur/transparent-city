@@ -1,6 +1,6 @@
 # Transparent City — Data Engineering Backend
 
-A production-style data pipeline that ingests ~1.2M Bangkok civic complaint tickets from the [Traffy Fondue](https://www.traffy.in.th/) open data API, transforms them, and exports JSON consumed by the Next.js frontend.
+A production-style data pipeline that ingests 1.4M Bangkok civic complaint tickets from the [Traffy Fondue](https://www.traffy.in.th/) open data API, transforms them, and exports JSON consumed by the Next.js frontend.
 
 Built as a **portfolio project** demonstrating core data engineering skills: pipeline design, data quality, SQL analytics, testing, and CI/CD automation.
 
@@ -12,13 +12,13 @@ Built as a **portfolio project** demonstrating core data engineering skills: pip
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Data Sources                                 │
 │  Traffy Fondue Public API                                           │
-│  publicapi.traffy.in.th  (51 monthly CSVs, Sep 2021 → present)     │
+│  publicapi.traffy.in.th  (60 monthly CSVs, Sep 2021 → present)     │
 └──────────────────────────────┬──────────────────────────────────────┘
                                │  download.py
                                ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │  BRONZE  —  Raw Storage                                             │
-│  backend/data/bangkok_YYYY-MM.csv  (51 files, ~2.5 GB total)       │
+│  backend/data/bangkok_YYYY-MM.csv  (60 files, ~2.4 GB total)       │
 │  manifest.json  (tracks what was downloaded and when)              │
 └──────────────────────────────┬──────────────────────────────────────┘
                                │  process.py  (pandas)
@@ -60,9 +60,9 @@ Built as a **portfolio project** demonstrating core data engineering skills: pip
 |---|---|---|
 | **Python** | Orchestration, ETL | Readable, rich data ecosystem |
 | **pandas** | Bronze→Silver (messy ETL) | Best for row-level transformations, timestamp parsing, coordinate normalization |
-| **DuckDB** | Silver→Gold (analytics) | In-process SQL engine; no server needed. Window functions and CTEs make complex aggregations readable and fast. Runs 1.2M rows in <1s. |
+| **DuckDB** | Silver→Gold (analytics) | In-process SQL engine; no server needed. Window functions and CTEs make complex aggregations readable and fast. Runs 1.4M rows in seconds. |
 | **pytest** | Pipeline testing | Tests the JSON *outputs* as data contracts — catches silent wrong results |
-| **GitHub Actions** | Orchestration & CI | Weekly cron + automated quality gates; no Airflow server needed at this scale |
+| **GitHub Actions** | Orchestration & CI | Manual refresh workflow with hard historical-coverage gates; no Airflow server needed at this scale |
 
 ---
 
@@ -70,7 +70,7 @@ Built as a **portfolio project** demonstrating core data engineering skills: pip
 
 Traffy Fondue is Bangkok's civic complaint platform, built by [NECTEC](https://www.nectec.or.th/). Citizens report problems (potholes, broken lights, flooding) via LINE or web. AI routes each ticket to the responsible agency.
 
-### CSV Schema (24 columns, stable across all 51 files)
+### CSV Schema (24 columns, stable across all 60 files)
 
 | Column | Type | Notes |
 |---|---|---|
@@ -105,7 +105,7 @@ Traffy Fondue is Bangkok's civic complaint platform, built by [NECTEC](https://w
 - `0.00000,0.00000` means no location; not an actual point in the Gulf of Guinea
 - ~70% of tickets have no star rating — only satisfied/dissatisfied citizens tend to rate
 - Early files (2021-09 through 2022-04) have 1–21 rows — Traffy was in pilot phase
-- Several months are missing from the time series (2022-02, 2022-03, 2022-05, 2022-06) — data was never published for those months
+- November 2021 is unavailable from the source archive and is intentionally left absent rather than estimated or backfilled
 - The `organization` field is a comma-separated routing chain, not a single agency
 
 ---
@@ -178,8 +178,8 @@ export TRAFFY_EMAIL="you@example.com"
 export TRAFFY_ORG="Your Organisation"
 export TRAFFY_PURPOSE="research"
 
-python backend/pipeline/download.py --all   # first run (~51 files)
-python backend/pipeline/download.py         # weekly updates (last 2 months)
+python backend/pipeline/download.py --all   # first run (~60 files)
+python backend/pipeline/download.py         # manual refresh of the latest 2 months
 
 # 4. Run pipeline
 python backend/pipeline/process.py
@@ -196,25 +196,25 @@ cp backend/public/data/*.json frontend/public/data/
 
 ---
 
-## CI/CD
+## Manual refresh workflow
 
-GitHub Actions runs every Monday at 09:00 Bangkok time:
+GitHub Actions is intentionally manual-only while the historical raw archive is operated from durable backup:
 
-1. Restores cached CSVs (cache key: ISO year + week number)
+1. Restores cached CSVs when available (cache is not the canonical archive)
 2. Downloads the latest 2 months from Traffy
 3. Validates CSV schema — fails immediately on schema drift
 4. Runs the full pipeline
 5. Runs pytest — **never commits if tests fail**
-6. Commits and pushes if data changed → Vercel auto-deploys
+6. Commits and pushes approved data changes → Vercel auto-deploys
 7. Writes a rich job summary to the Actions UI
 
 ---
 
 ## What I Would Add With More Time
 
-- **Incremental pipeline** — process only newly downloaded months; currently reprocesses all 51 files on every run
+- **Incremental pipeline** — process only newly downloaded months; currently reprocesses all 60 files on every run
 - **Data warehouse** — load into DuckDB persistent file or BigQuery for historical querying
 - **dbt** — model the Silver→Gold transforms as version-controlled SQL with auto-generated docs and lineage graphs
 - **Streaming** — Traffy also exposes a real-time feed; a streaming layer (Kafka → Flink) could power live updates
-- **Alerting** — Slack/email notification when the weekly run fails or data quality drops below threshold
+- **Alerting** — email notification when a manual refresh fails or data quality drops below threshold
 - **Docker** — containerize the pipeline so it runs identically everywhere

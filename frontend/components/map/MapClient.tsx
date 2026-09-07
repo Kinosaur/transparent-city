@@ -82,6 +82,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
   const [showChoropleth, setShowChoropleth] = useState(true)
   const [ready, setReady] = useState(false)
   const [selected, setSelected] = useState<MapPoint | null>(null)
+  const visibleCount = filter === 'all' ? points.length : points.filter((point) => point.flag === filter).length
 
   // District lookup
   const districtMap = useRef<Map<string, DistrictData>>(
@@ -210,6 +211,11 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
     if (!ready || !leafletMap.current) return
     ;(async () => {
       const L = (await import('leaflet')).default
+      await Promise.all([
+        import('leaflet.markercluster'),
+        import('leaflet.markercluster/dist/MarkerCluster.css'),
+        import('leaflet.markercluster/dist/MarkerCluster.Default.css'),
+      ])
       clusterRef.current?.remove()
 
       const visible = filter === 'all' ? points : points.filter((p) => p.flag === filter)
@@ -247,6 +253,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
     <div className="absolute bottom-4 left-4 z-[1000] w-72 rounded-xl border border-white/10 bg-[#0f0f1a]/95 backdrop-blur-md p-4 shadow-2xl">
       <button
         onClick={() => setSelected(null)}
+        aria-label={lang === 'th' ? 'ปิดรายละเอียดตั๋ว' : 'Close ticket details'}
         className="absolute top-3 right-3 text-zinc-500 hover:text-[--color-fg] text-xs"
       >✕</button>
       <p className="text-xs text-zinc-500 font-mono mb-2">{selected.ticket_id}</p>
@@ -286,11 +293,12 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
       {/* Controls */}
       <div className="absolute top-4 left-4 z-[1000] flex flex-col gap-2">
         {/* Filter pills */}
-        <div className="flex gap-1.5 flex-wrap">
+        <div className="flex gap-1.5 flex-wrap" role="group" aria-label={dict.map.title}>
           {(['all', 'stale', 'low_sat'] as MapFilter[]).map((f) => (
             <button
               key={f}
               onClick={() => setFilter(f)}
+              aria-pressed={filter === f}
               className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${
                 filter === f
                   ? 'bg-teal-500 border-teal-500 text-[--color-fg]'
@@ -306,6 +314,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
         <div className="flex gap-1.5 items-center flex-wrap">
           <button
             onClick={() => setShowChoropleth((v) => !v)}
+            aria-pressed={showChoropleth}
             className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${
               showChoropleth
                 ? 'bg-purple-500/20 border-purple-500/50 text-purple-300'
@@ -330,6 +339,12 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
 
       {/* Map container */}
       <div ref={mapRef} className="w-full h-full" />
+
+      {ready && visibleCount === 0 && (
+        <p className="absolute left-4 top-24 z-[1000] rounded-lg border border-white/10 bg-[#0f0f1a]/90 px-3 py-2 text-xs text-zinc-300">
+          {dict.map.no_results}
+        </p>
+      )}
 
       {/* Ticket popup panel */}
       {PopupPanel}

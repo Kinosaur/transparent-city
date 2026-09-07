@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import { getDictionary, hasLocale } from './dictionaries'
@@ -13,12 +14,16 @@ import TopTypesChart from '@/components/TopTypesChart'
 export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promise<Metadata> {
   const { lang } = await params
   const isTh = lang === 'th'
+  const data = loadOverview()
+  const ticketCount = data.total_tickets.toLocaleString('en-US')
+  const resolutionRate = data.resolution_rate.toFixed(1)
+  const medianDays = data.median_resolution_days.toFixed(1)
   const title = isTh
     ? 'ภาพรวมกรุงเทพฯ — เมืองโปร่งใส'
     : 'Bangkok Overview — Transparent City'
   const description = isTh
-    ? 'สถิติตั๋วร้องเรียนกรุงเทพฯ จาก Traffy Fondue: 1.14 ล้านตั๋ว, อัตราการแก้ไข 78.5%, เวลาแก้ไขเฉลี่ย 5.5 วัน'
-    : 'Bangkok civic complaint statistics from Traffy Fondue: 1.14M tickets, 78.5% resolution rate, 5.5-day median fix time.'
+    ? `สถิติตั๋วร้องเรียนกรุงเทพฯ จาก Traffy Fondue: ${ticketCount} ตั๋ว, อัตราการแก้ไข ${resolutionRate}%, เวลาแก้ไขเฉลี่ย ${medianDays} วัน`
+    : `Bangkok civic complaint statistics from Traffy Fondue: ${ticketCount} tickets, ${resolutionRate}% resolution rate, ${medianDays}-day median fix time.`
   const ogImage = `https://transparent-city.vercel.app/api/og?page=overview&lang=${lang}`
   return {
     title,
@@ -65,6 +70,9 @@ export default async function OverviewPage({ params }: PageProps<'/[lang]'>) {
             {dict.overview.data_as_of} {formatDate(data.data_range.from, lang)} {dict.overview.to}{' '}
             {formatDate(data.data_range.to, lang)}
           </span>
+          <Link href={`/${lang}/methods`} className="ml-1 text-sm text-[--color-teal-400] hover:underline underline-offset-4">
+            {dict.overview.methods_link}
+          </Link>
         </p>
       </div>
 

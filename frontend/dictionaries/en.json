@@ -12,10 +12,11 @@
   },
   "overview": {
     "title": "Bangkok Overview",
-    "subtitle": "Real-time statistics from the Traffy Fondue platform",
+    "subtitle": "Latest published statistics from the Traffy Fondue platform",
     "provocative_label": "tickets still unresolved",
     "data_as_of": "Data from",
-    "to": "to"
+    "to": "to",
+    "methods_link": "Methods"
   },
   "kpi": {
     "total_tickets": "Total Tickets",
@@ -95,7 +96,9 @@
     "agencies": "agencies",
     "days": "days",
     "above_avg": "above avg",
-    "below_avg": "below avg"
+    "below_avg": "below avg",
+    "routing_note": "Rows reflect source routing text and can include several organizations; they are not a single-agency verdict.",
+    "methods_link": "Read the methodology."
   },
   "gallery": {
     "title": "Before / After",
@@ -135,6 +138,7 @@
   "footer": {
     "source": "Data source",
     "credit": "Data from Traffy Fondue (traffy.in.th) — Bangkok's civic reporting platform",
-    "disclaimer": "This is a community project. Not affiliated with or endorsed by the government."
+    "disclaimer": "This is a community project. Not affiliated with or endorsed by the government.",
+    "methods": "Methods & data notes"
   }
 }

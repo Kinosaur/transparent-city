@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import Link from 'next/link'
 import { getDictionary, hasLocale } from './dictionaries'
 import Header from '@/components/Header'
 import MobileNav from '@/components/MobileNav'
@@ -23,6 +24,9 @@ export default async function LocaleLayout({
       <footer className="border-t border-[--color-border] py-6 px-4 text-center text-xs text-[--color-muted] mb-16 md:mb-0">
         <p>{dict.footer.credit}</p>
         <p className="mt-1 opacity-60">{dict.footer.disclaimer}</p>
+        <Link href={`/${lang}/methods`} className="inline-block mt-3 text-[--color-teal-400] hover:underline underline-offset-4">
+          {dict.footer.methods}
+        </Link>
       </footer>
       <MobileNav lang={lang} dict={dict} />
     </div>

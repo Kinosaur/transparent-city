@@ -60,8 +60,8 @@ const PAGE: Record<string, { en: string; th: string; sub_en: string; sub_th: str
   overview: {
     en: 'Bangkok Overview',
     th: 'ภาพรวมกรุงเทพฯ',
-    sub_en: 'Real-time KPIs, monthly trends & top problem types',
-    sub_th: 'สถิติเรียลไทม์ แนวโน้มรายเดือน และประเภทปัญหา',
+    sub_en: 'Published KPIs, monthly trends & top problem types',
+    sub_th: 'สถิติที่เผยแพร่ แนวโน้มรายเดือน และประเภทปัญหา',
   },
   districts: {
     en: 'District Report Card',

@@ -31,6 +31,8 @@ type Dict = {
     days: string
     above_avg: string
     below_avg: string
+    routing_note: string
+    methods_link: string
   }
 }
 
@@ -153,6 +155,11 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
         <h1 className="text-3xl sm:text-4xl font-bold text-[--color-fg] tracking-tight">{d.title}</h1>
         <p className="mt-2 text-[--color-subtle]">{d.subtitle}</p>
       </div>
+
+      <p className="rounded-xl border border-[--color-warn]/25 bg-[--color-warn]/[0.07] px-4 py-3 text-xs leading-5 text-[--color-subtle]">
+        {d.routing_note}{' '}
+        <a href={`/${lang}/methods`} className="font-medium text-[--color-teal-400] hover:underline underline-offset-4">{d.methods_link}</a>
+      </p>
 
       {/* Controls */}
       <div className="flex flex-col sm:flex-row gap-3">

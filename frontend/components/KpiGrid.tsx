@@ -40,6 +40,7 @@ function KpiCard({
   accent,
   icon,
   progress,
+  progressLabel,
 }: {
   label: string
   value: string
@@ -47,6 +48,7 @@ function KpiCard({
   accent?: keyof typeof accentMap
   icon: React.ReactNode
   progress?: number
+  progressLabel?: string
 }) {
   const colors = accent ? accentMap[accent] : { text: 'text-[--color-fg]', bar: 'bg-[--color-fg]' }
 
@@ -69,6 +71,7 @@ function KpiCard({
           aria-valuenow={Math.round(progress)}
           aria-valuemin={0}
           aria-valuemax={100}
+          aria-label={progressLabel ?? label}
         >
           <div
             className={`h-full rounded-full ${colors.bar} opacity-70`}
@@ -133,6 +136,7 @@ export default function KpiGrid({ data, dict, lang }: Props) {
         value={`${resRate.toFixed(1)}%`}
         accent="good"
         progress={resProgress}
+        progressLabel={`${dict.kpi.resolution_rate}: ${resRate.toFixed(1)}%`}
         icon={
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4" aria-hidden>
             <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -145,6 +149,7 @@ export default function KpiGrid({ data, dict, lang }: Props) {
         suffix={dict.kpi.days}
         accent="teal"
         progress={daysProgress}
+        progressLabel={`${dict.kpi.median_resolution_days}: ${medDays.toFixed(1)} ${dict.kpi.days}`}
         icon={
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4" aria-hidden>
             <circle cx="12" cy="12" r="10" />
@@ -158,6 +163,7 @@ export default function KpiGrid({ data, dict, lang }: Props) {
         suffix={dict.kpi.out_of_5}
         accent="warn"
         progress={starProgress}
+        progressLabel={`${dict.kpi.avg_satisfaction}: ${avgStar.toFixed(2)} ${dict.kpi.out_of_5}`}
         icon={
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4" aria-hidden>
             <path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />

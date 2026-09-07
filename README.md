@@ -1,6 +1,6 @@
 # เมืองโปร่งใส — Transparent City Bangkok
 
-**End-to-end civic data platform — from 51 raw CSVs to a live public dashboard.**
+**End-to-end civic data platform — from 60 raw CSVs to a live public dashboard.**
 
 > เพราะเมืองที่ดี ต้องเริ่มจากการตั้งคำถามที่ถูก
 > *A better city starts with asking the right questions.*
@@ -20,9 +20,9 @@
 
 ## What This Is
 
-1,225,135 civic complaint tickets. 50 Bangkok districts. One transparent dashboard.
+1,399,238 civic complaint tickets. 50 Bangkok districts. One transparent dashboard.
 
-Transparent City ingests [Traffy Fondue](https://www.traffy.in.th/) open data — Bangkok's LINE-based civic reporting platform — and turns it into a public accountability tool. Citizens can see which districts fix problems fastest, which agencies are falling behind, and which neighbourhoods have complaints sitting unresolved for months.
+Transparent City ingests [Traffy Fondue](https://www.traffy.in.th/) open data — Bangkok's LINE-based civic reporting platform — and turns it into a public civic-data tool. Residents can explore district comparisons, unresolved complaints, public source-routing patterns, and service trends with their limitations made visible.
 
 Available in **Thai 🇹🇭** and **English 🇬🇧**.
 
@@ -32,15 +32,15 @@ Available in **Thai 🇹🇭** and **English 🇬🇧**.
 
 | Metric | Value |
 |--------|-------|
-| Total tickets | **1,225,135** |
-| Resolved | **939,439 (76.7%)** |
-| Stale (90+ days inactive) | **238,981 (19.5%)** |
-| Median resolution time | **5.2 days** |
+| Total tickets | **1,399,238** |
+| Resolved | **1,059,891 (75.7%)** |
+| Stale (90+ days inactive) | **292,750 (20.9%)** |
+| Median resolution time | **5.6 days** |
 | Average satisfaction | **3.99 / 5.0** |
 | Districts tracked | **50** |
-| Routing organisations | **~12,500** |
-| Dataset range | **Sep 2021 → May 2026** |
-| Raw data size | **~2.5 GB (51 CSVs)** |
+| Reportable organisations | **13,932** (10+ tickets) |
+| Dataset range | **Sep 2021 → Sep 2026** |
+| Raw data size | **~2.4 GB (60 CSVs)** |
 
 ---
 
@@ -50,9 +50,9 @@ This is a portfolio project built to demonstrate a full data engineering and fro
 
 ### Data Engineering
 - **Medallion architecture** — Bronze (raw CSVs) → Silver (cleaned pandas DataFrame) → Gold (DuckDB SQL aggregations → JSON)
-- **In-process SQL analytics** — DuckDB window functions (`ROW_NUMBER`, `CORR`, `MEDIAN`, `QUALIFY`), CTEs, and unnest over 1.2M rows in under a second
+- **In-process SQL analytics** — DuckDB window functions (`ROW_NUMBER`, `CORR`, `MEDIAN`, `QUALIFY`), CTEs, and unnest over 1.4M rows in seconds
 - **Data quality** — schema validation on ingest, `nan_to_none` guard on all JSON serialisation, pytest suite treating outputs as data contracts
-- **Pipeline automation** — GitHub Actions weekly cron with CSV caching, graceful API-unavailability fallback, and a rich job summary UI
+- **Safe data refreshes** — a manual GitHub Actions workflow with a versioned historical-coverage contract; cache is used only as an optimisation
 - **Exploratory analysis** — 6 SQL-driven findings on the dataset (district momentum, recency bias trap, seasonal peaks, stale hotspot clustering, satisfaction vs speed correlation)
 
 ### Frontend / Full-Stack
@@ -78,6 +78,7 @@ This is a portfolio project built to demonstrate a full data engineering and fro
 | **Rankings** | `/en/leaderboard` | Agency leaderboard — sortable by resolution rate, speed, satisfaction, reopen rate |
 | **Gallery** | `/en/gallery` | Before/after photo pairs of resolved civic issues |
 | **Map** | `/en/map` | Stale ticket clusters, low-satisfaction hotspots, district choropleth |
+| **Methods** | `/en/methods` | Data source, definitions, limits, and community participation |
 
 Every district card is **deep-linkable** — `/en/districts?district=chatuchak` loads Chatuchak's card with its own social preview image.
 
@@ -88,11 +89,11 @@ Every district card is **deep-linkable** — `/en/districts?district=chatuchak` 
 ```
 Traffy Fondue Public API  (publicapi.traffy.in.th)
          │
-         │  download.py  (~51 monthly CSVs, Sep 2021 → present)
+         │  download.py  (~60 monthly CSVs, Sep 2021 → present)
          ▼
 ┌─────────────────────────────────────────────────────┐
 │  BRONZE — Raw Storage                               │
-│  backend/data/bangkok_YYYY-MM.csv  (~2.5 GB total)  │
+│  backend/data/bangkok_YYYY-MM.csv  (~2.4 GB total)  │
 │  manifest.json  (download audit trail)              │
 └─────────────────────────────────────────────────────┘
          │  process.py  — pandas
@@ -121,6 +122,8 @@ Traffy Fondue Public API  (publicapi.traffy.in.th)
 
 See [`backend/README.md`](backend/README.md) for the full schema, grading algorithm, SQL patterns, and data quirks.
 
+Read the [project case study](docs/CASE_STUDY.md) for the product decisions, historical-data recovery, and portfolio narrative. Community members can start with [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ---
 
 ## Tech Stack
@@ -134,9 +137,9 @@ See [`backend/README.md`](backend/README.md) for the full schema, grading algori
 | Mapping | Leaflet + react-leaflet-cluster | Clusters 25k map points without janking the browser |
 | i18n | Native `[lang]` routing | TH / EN with dictionary files; no extra library needed |
 | ETL | Python + pandas | Best for row-level transforms and timestamp/coordinate parsing |
-| Analytics SQL | DuckDB | In-process SQL; window functions on 1.2M rows in <1s, no server needed |
+| Analytics SQL | DuckDB | In-process SQL; window functions on 1.4M rows in seconds, no server needed |
 | Testing | pytest | Treats Gold JSON outputs as data contracts |
-| CI/CD | GitHub Actions | Weekly cron + CSV cache + auto-deploy on data change |
+| CI/CD | GitHub Actions | Manual refresh workflow + historical-coverage gates + auto-deploy on approved data changes |
 | Hosting | Vercel | Zero-config deploys on push |
 
 ---
@@ -177,7 +180,7 @@ See [`backend/analysis/README.md`](backend/analysis/README.md) for full findings
 │   │   └── README.md            # Key findings + SQL patterns
 │   ├── tests/
 │   │   └── test_pipeline_outputs.py  # pytest data-contract tests
-│   ├── data/                    # Raw CSVs — gitignored (~2.5 GB)
+│   ├── data/                    # Raw CSVs — gitignored (~2.4 GB)
 │   ├── public/data/             # Pipeline outputs — intermediate
 │   ├── README.md                # Pipeline deep-dive (schema, grading, SQL patterns)
 │   └── requirements.txt
@@ -202,7 +205,7 @@ See [`backend/analysis/README.md`](backend/analysis/README.md) for full findings
 │       └── bangkok-districts.geojson
 │
 └── .github/workflows/
-    └── update-data.yml          # Weekly cron: download → validate → pipeline
+    └── update-data.yml          # Manual refresh: download → validate → pipeline
                                  #              → pytest → commit → Vercel deploy
 ```
 
@@ -219,7 +222,7 @@ python3 -m venv .venv && source .venv/bin/activate
 # 2. Install dependencies
 pip install -r backend/requirements.txt
 
-# 3. Download all historical CSVs (one-time, ~51 files, ~2.5 GB)
+# 3. Download all historical CSVs (one-time, ~60 files, ~2.4 GB)
 export TRAFFY_NAME="Your Name"
 export TRAFFY_EMAIL="you@example.com"
 export TRAFFY_ORG="Your Organisation"
@@ -316,7 +319,7 @@ Weights are renormalised when a metric is missing (e.g. a district with no rated
 
 ## Data Source & Credit
 
-Data sourced from **[Traffy Fondue](https://www.traffy.in.th/)** — Bangkok's civic reporting platform, operated by [NECTEC](https://www.nectec.or.th/). Every ticket links back to its original Traffy entry. This is an independent community project, not affiliated with any government body.
+Data sourced from **[Traffy Fondue](https://www.traffy.in.th/)** — Bangkok's civic reporting platform, operated by [NECTEC](https://www.nectec.or.th/). The dashboard publishes derived, aggregated views of the source snapshot. This is an independent community project, not affiliated with any government body.
 
 ---
 

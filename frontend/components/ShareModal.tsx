@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useId, useRef, useState } from 'react'
 import Image from 'next/image'
 import { Copy, Check, Share2, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -25,6 +25,44 @@ export default function ShareModal({
   lang,
 }: ShareModalProps) {
   const [copied, setCopied] = useState(false)
+  const modalRef = useRef<HTMLDivElement>(null)
+  const closeButtonRef = useRef<HTMLButtonElement>(null)
+  const previousFocusRef = useRef<HTMLElement | null>(null)
+  const titleId = useId()
+
+  useEffect(() => {
+    if (!isOpen) return
+    previousFocusRef.current = document.activeElement as HTMLElement
+    closeButtonRef.current?.focus()
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault()
+        onClose()
+        return
+      }
+      if (event.key !== 'Tab' || !modalRef.current) return
+      const focusable = modalRef.current.querySelectorAll<HTMLElement>(
+        'button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      )
+      if (focusable.length === 0) return
+      const first = focusable[0]
+      const last = focusable[focusable.length - 1]
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault()
+        last.focus()
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault()
+        first.focus()
+      }
+    }
+
+    document.addEventListener('keydown', onKeyDown)
+    return () => {
+      document.removeEventListener('keydown', onKeyDown)
+      previousFocusRef.current?.focus()
+    }
+  }, [isOpen, onClose])
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(shareUrl)
@@ -59,6 +97,7 @@ export default function ShareModal({
             exit={{ opacity: 0 }}
             onClick={onClose}
             className="fixed inset-0 bg-black/40 backdrop-blur-sm z-40"
+            aria-hidden="true"
           />
 
           {/* Modal */}
@@ -69,15 +108,17 @@ export default function ShareModal({
             transition={{ duration: 0.2 }}
             className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-md px-4"
           >
-            <div className="rounded-xl border border-border bg-surface-900 shadow-xl overflow-hidden">
+            <div ref={modalRef} role="dialog" aria-modal="true" aria-labelledby={titleId} className="rounded-xl border border-border bg-surface-900 shadow-xl overflow-hidden">
               {/* Header */}
               <div className="flex items-center justify-between px-6 py-4 border-b border-border">
-                <h2 className="text-lg font-semibold text-fg flex items-center gap-2">
+                <h2 id={titleId} className="text-lg font-semibold text-fg flex items-center gap-2">
                   <Share2 size={18} />
                   {lang === 'th' ? 'แชร์' : 'Share'}
                 </h2>
                 <button
                   onClick={onClose}
+                  ref={closeButtonRef}
+                  aria-label={lang === 'th' ? 'ปิดหน้าต่างแชร์' : 'Close share dialog'}
                   className="p-1 hover:bg-surface-800 rounded-lg transition-colors"
                 >
                   <X size={20} />
