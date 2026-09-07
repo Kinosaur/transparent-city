@@ -9,7 +9,8 @@ Usage:
 
 Registration fields:
   The primary download endpoint requires name/org/purpose/email.
-  Set them via environment variables or they fall back to the defaults below.
+  Set all of them via environment variables. They are deliberately never
+  stored in the repository.
 
   export TRAFFY_NAME="Your Name"
   export TRAFFY_ORG="Your Organisation"
@@ -40,13 +41,12 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 # ─── Registration fields ──────────────────────────────────────────────────────
-# The Traffy download endpoint logs who downloaded the data.
-# Provide your own details via environment variables (recommended),
-# or edit the defaults here.
-TRAFFY_NAME    = os.environ.get("TRAFFY_NAME",    "Transparent City")
-TRAFFY_ORG     = os.environ.get("TRAFFY_ORG",     "Community Project")
-TRAFFY_PURPOSE = os.environ.get("TRAFFY_PURPOSE", "civic transparency research")
-TRAFFY_EMAIL   = os.environ.get("TRAFFY_EMAIL",   "kaungkhantlin999@gmail.com")
+# The Traffy download endpoint logs who downloaded the data. These must be
+# supplied by the person performing a manual refresh; never commit them.
+TRAFFY_NAME    = os.environ.get("TRAFFY_NAME", "")
+TRAFFY_ORG     = os.environ.get("TRAFFY_ORG", "")
+TRAFFY_PURPOSE = os.environ.get("TRAFFY_PURPOSE", "")
+TRAFFY_EMAIL   = os.environ.get("TRAFFY_EMAIL", "")
 
 # ─── Download endpoints ───────────────────────────────────────────────────────
 # PRIMARY: discovered May 2026 — requires registration fields, works for all months
@@ -198,6 +198,20 @@ def main():
                         help="List all available files without downloading")
     args = parser.parse_args()
 
+    missing_registration = [
+        key for key, value in {
+            "TRAFFY_NAME": TRAFFY_NAME,
+            "TRAFFY_ORG": TRAFFY_ORG,
+            "TRAFFY_PURPOSE": TRAFFY_PURPOSE,
+            "TRAFFY_EMAIL": TRAFFY_EMAIL,
+        }.items() if not value
+    ]
+    if missing_registration:
+        parser.error(
+            "Traffy registration is required for a manual refresh. Set: "
+            + ", ".join(missing_registration)
+        )
+
     if args.list:
         list_available()
         return
@@ -218,7 +232,7 @@ def main():
     manifest = load_manifest()
 
     print(f"Downloading {len(months)} month(s) into {DATA_DIR}/")
-    print(f"  Registration: {TRAFFY_NAME} / {TRAFFY_ORG} / {TRAFFY_EMAIL}")
+    print(f"  Registration: {TRAFFY_NAME} / {TRAFFY_ORG} / email configured")
     print()
 
     ok = 0

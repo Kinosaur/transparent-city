@@ -29,6 +29,28 @@ type Dict = {
     popup_type: string
     loading: string
     no_results: string
+    snapshot_label: string
+    no_api_key: string
+    methods_link: string
+    sample_title: string
+    sample_all: string
+    sample_stale: string
+    sample_low_sat: string
+    map_api_detail: string
+    marker_legend: string
+    marker_stale: string
+    marker_low_sat: string
+    popup_resolution_time: string
+    popup_status: string
+    status_stale: string
+    status_low_sat: string
+    district_detail: string
+    district_resolution: string
+    district_stale: string
+    district_speed: string
+    open_district: string
+    close_panel: string
+    district_select: string
   }
 }
 
@@ -36,6 +58,7 @@ type Props = {
   points: MapPoint[]
   districts: DistrictData[]
   geojson: Record<string, unknown>
+  totalStale: number
   dict: Dict
   lang: Locale
 }

@@ -8,6 +8,10 @@ Use this checklist whenever you refresh Transparent City data. The goal is simpl
 - A local checkout with the Python virtual environment and frontend dependencies installed.
 - Traffy registration values in environment variables; never paste them into Git or an issue.
 
+For a GitHub Actions refresh, save the same four values as repository secrets:
+`TRAFFY_NAME`, `TRAFFY_ORG`, `TRAFFY_PURPOSE`, and `TRAFFY_EMAIL`. They are
+required only for the manual download step, never for site visitors.
+
 ## 1. Start from a recoverable source archive
 
 1. Confirm the Google Drive backup completed successfully.

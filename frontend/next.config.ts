@@ -1,12 +1,16 @@
 import type { NextConfig } from "next";
 
+// React's development tooling uses eval for source-mapped stack traces.
+// Keep production strict; this relaxation exists only on a local dev server.
+const developmentEval = process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : '';
+
 const cspDirectives = [
   "default-src 'self'",
   "base-uri 'self'",
   "object-src 'none'",
   "frame-ancestors 'none'",
   "form-action 'self'",
-  "script-src 'self' 'unsafe-inline'",
+  `script-src 'self' 'unsafe-inline'${developmentEval}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://storage.googleapis.com https://*.basemaps.cartocdn.com https://*.tile.openstreetmap.org https://transparent-city.vercel.app",
   "font-src 'self' data: https://fonts.gstatic.com",

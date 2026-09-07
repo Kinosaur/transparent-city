@@ -72,12 +72,18 @@ jobs:
         id: download
         continue-on-error: true
         env:
-          TRAFFY_NAME:    ${{ secrets.TRAFFY_NAME    || 'Transparent City' }}
-          TRAFFY_ORG:     ${{ secrets.TRAFFY_ORG     || 'Community Project' }}
-          TRAFFY_PURPOSE: ${{ secrets.TRAFFY_PURPOSE || 'civic transparency research' }}
-          TRAFFY_EMAIL:   ${{ secrets.TRAFFY_EMAIL   || 'kaungkhantlin999@gmail.com' }}
+          TRAFFY_NAME:    ${{ secrets.TRAFFY_NAME }}
+          TRAFFY_ORG:     ${{ secrets.TRAFFY_ORG }}
+          TRAFFY_PURPOSE: ${{ secrets.TRAFFY_PURPOSE }}
+          TRAFFY_EMAIL:   ${{ secrets.TRAFFY_EMAIL }}
         run: |
           MONTHS=${{ github.event.inputs.months || '2' }}
+          for required in TRAFFY_NAME TRAFFY_ORG TRAFFY_PURPOSE TRAFFY_EMAIL; do
+            if [ -z "${!required}" ]; then
+              echo "❌ Missing required GitHub Actions secret: ${required}"
+              exit 1
+            fi
+          done
           echo "▶ Downloading $MONTHS months of data from Traffy..."
           python backend/pipeline/download.py --months "$MONTHS"
 

@@ -1,8 +1,9 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import Link from 'next/link'
 import type { MapPoint, DistrictData, Locale } from '@/lib/types'
-import { districtName } from '@/lib/districts-en'
+import { districtName, toSlug } from '@/lib/districts-en'
 import { problemTypeLabel } from '@/lib/labels'
 
 type MapFilter = 'all' | 'stale' | 'low_sat'
@@ -25,6 +26,28 @@ type Dict = {
     popup_type: string
     loading: string
     no_results: string
+    snapshot_label: string
+    no_api_key: string
+    methods_link: string
+    sample_title: string
+    sample_all: string
+    sample_stale: string
+    sample_low_sat: string
+    map_api_detail: string
+    marker_legend: string
+    marker_stale: string
+    marker_low_sat: string
+    popup_resolution_time: string
+    popup_status: string
+    status_stale: string
+    status_low_sat: string
+    district_detail: string
+    district_resolution: string
+    district_stale: string
+    district_speed: string
+    open_district: string
+    close_panel: string
+    district_select: string
   }
 }
 
@@ -32,6 +55,7 @@ type Props = {
   points: MapPoint[]
   districts: DistrictData[]
   geojson: Record<string, unknown>
+  totalStale: number
   dict: Dict
   lang: Locale
 }
@@ -44,25 +68,25 @@ const BKK_ZOOM = 11
 function choroplethColor(value: number | null, metric: ChoroplethMetric): string {
   if (value === null) return '#1e1e35'
   if (metric === 'resolution_rate') {
-    if (value >= 85) return '#166534'
-    if (value >= 75) return '#15803d'
-    if (value >= 65) return '#4ade80'
-    if (value >= 55) return '#fbbf24'
-    return '#f87171'
+    if (value >= 85) return '#0b4f6c'
+    if (value >= 75) return '#1d7a8c'
+    if (value >= 65) return '#49a2a6'
+    if (value >= 55) return '#f0b429'
+    return '#d64545'
   }
   if (metric === 'stale_rate') {
-    if (value <= 10) return '#166534'
-    if (value <= 20) return '#15803d'
-    if (value <= 30) return '#4ade80'
-    if (value <= 40) return '#fbbf24'
-    return '#f87171'
+    if (value <= 10) return '#0b4f6c'
+    if (value <= 20) return '#1d7a8c'
+    if (value <= 30) return '#49a2a6'
+    if (value <= 40) return '#f0b429'
+    return '#d64545'
   }
   // median_resolution_days — lower is better
-  if (value <= 3) return '#166534'
-  if (value <= 7) return '#15803d'
-  if (value <= 14) return '#4ade80'
-  if (value <= 21) return '#fbbf24'
-  return '#f87171'
+  if (value <= 3) return '#0b4f6c'
+  if (value <= 7) return '#1d7a8c'
+  if (value <= 14) return '#49a2a6'
+  if (value <= 21) return '#f0b429'
+  return '#d64545'
 }
 
 function pointColor(flag: string): string {
@@ -71,7 +95,7 @@ function pointColor(flag: string): string {
 
 // ─── Component ────────────────────────────────────────────────────────────────
 
-export default function MapClient({ points, districts, geojson, dict, lang }: Props) {
+export default function MapClient({ points, districts, geojson, totalStale, dict, lang }: Props) {
   const mapRef = useRef<HTMLDivElement>(null)
   const leafletMap = useRef<import('leaflet').Map | null>(null)
   const clusterRef = useRef<import('leaflet').LayerGroup | null>(null)
@@ -82,13 +106,31 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
   const [showChoropleth, setShowChoropleth] = useState(true)
   const [ready, setReady] = useState(false)
   const [selected, setSelected] = useState<MapPoint | null>(null)
+  const [selectedDistrict, setSelectedDistrict] = useState<DistrictData | null>(null)
   const visibleCount = filter === 'all' ? points.length : points.filter((point) => point.flag === filter).length
+  const staleSampleCount = points.filter((point) => point.flag === 'stale').length
+  const lowSatSampleCount = points.filter((point) => point.flag === 'low_sat').length
 
   // District lookup
   const districtMap = useRef<Map<string, DistrictData>>(
     new Map(districts.map((d) => [d.district, d]))
   )
   const initAbortRef = useRef<AbortController | null>(null)
+
+  function focusDistrict(district: DistrictData) {
+    setSelected(null)
+    setSelectedDistrict(district)
+
+    choroplethRef.current?.eachLayer((candidate) => {
+      const layer = candidate as import('leaflet').Layer & {
+        feature?: { properties?: { district?: string } }
+        getBounds?: () => import('leaflet').LatLngBounds
+      }
+      if (layer.feature?.properties?.district === district.district && layer.getBounds) {
+        leafletMap.current?.fitBounds(layer.getBounds(), { padding: [32, 32], maxZoom: 13 })
+      }
+    })
+  }
 
   // ── Init Leaflet ────────────────────────────────────────────────────────────
   useEffect(() => {
@@ -164,8 +206,11 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
   // ── Choropleth layer ────────────────────────────────────────────────────────
   useEffect(() => {
     if (!ready || !leafletMap.current) return
+    let cancelled = false
+    const map = leafletMap.current
     ;(async () => {
       const L = (await import('leaflet')).default
+      if (cancelled || leafletMap.current !== map) return
       choroplethRef.current?.remove()
 
       if (!showChoropleth) return
@@ -199,16 +244,29 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
              ${dict.map.metric_speed}: ${d.median_resolution_days?.toFixed(1) ?? '—'} d`,
             { sticky: true, className: 'leaflet-tooltip-dark' }
           )
+          layer.on('click', () => {
+            focusDistrict(d)
+          })
         },
-      }).addTo(leafletMap.current!)
+      }).addTo(map)
 
+      if (cancelled || leafletMap.current !== map) {
+        layer.remove()
+        return
+      }
       choroplethRef.current = layer as unknown as import('leaflet').GeoJSON
     })()
+
+    return () => {
+      cancelled = true
+    }
   }, [ready, showChoropleth, metric, geojson, lang, dict])
 
   // ── Cluster layer ───────────────────────────────────────────────────────────
   useEffect(() => {
     if (!ready || !leafletMap.current) return
+    let cancelled = false
+    const map = leafletMap.current
     ;(async () => {
       const L = (await import('leaflet')).default
       await Promise.all([
@@ -216,6 +274,7 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
         import('leaflet.markercluster/dist/MarkerCluster.css'),
         import('leaflet.markercluster/dist/MarkerCluster.Default.css'),
       ])
+      if (cancelled || leafletMap.current !== map) return
       clusterRef.current?.remove()
 
       const visible = filter === 'all' ? points : points.filter((p) => p.flag === filter)
@@ -239,13 +298,25 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
           fillOpacity: 0.85,
           weight: 0,
         })
-        marker.on('click', () => setSelected(pt))
+        marker.on('click', () => {
+          setSelectedDistrict(null)
+          setSelected(pt)
+        })
         layer.addLayer(marker)
       })
 
-      layer.addTo(leafletMap.current!)
+      if (cancelled || leafletMap.current !== map) return
+      layer.addTo(map)
+      if (cancelled || leafletMap.current !== map) {
+        layer.remove()
+        return
+      }
       clusterRef.current = layer
     })()
+
+    return () => {
+      cancelled = true
+    }
   }, [ready, filter, points])
 
   // ── Popup panel ─────────────────────────────────────────────────────────────
@@ -264,7 +335,9 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
       <div className="space-y-1">
         {selected.days_open !== null && (
           <div className="flex justify-between text-xs">
-            <span className="text-zinc-500">{dict.map.popup_days_open}</span>
+            <span className="text-zinc-500">
+              {selected.flag === 'stale' ? dict.map.popup_days_open : dict.map.popup_resolution_time}
+            </span>
             <span className={`font-semibold ${selected.flag === 'stale' ? 'text-red-400' : 'text-[--color-fg]'}`}>
               {selected.days_open}d
             </span>
@@ -277,21 +350,76 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
           </div>
         )}
         <div className="flex justify-between text-xs">
-          <span className="text-zinc-500">{dict.map.popup_type}</span>
+          <span className="text-zinc-500">{dict.map.popup_status}</span>
           <span className={`text-xs font-medium px-1.5 py-0.5 rounded ${
             selected.flag === 'stale' ? 'bg-red-400/10 text-red-400' : 'bg-amber-400/10 text-amber-400'
           }`}>
-            {selected.flag === 'stale' ? dict.map.filter_stale : dict.map.filter_low_sat}
+            {selected.flag === 'stale' ? dict.map.status_stale : dict.map.status_low_sat}
           </span>
         </div>
       </div>
     </div>
   ) : null
 
+  const DistrictPanel = selectedDistrict ? (
+    <section
+      aria-label={dict.map.district_detail}
+      className="absolute bottom-4 left-4 z-[1000] w-72 rounded-xl border border-white/10 bg-[#0f0f1a]/95 p-4 shadow-2xl backdrop-blur-md"
+    >
+      <button
+        onClick={() => setSelectedDistrict(null)}
+        aria-label={dict.map.close_panel}
+        className="absolute right-3 top-3 text-xs text-zinc-500 hover:text-[--color-fg]"
+      >✕</button>
+      <p className="pr-5 text-sm font-semibold text-[--color-fg]">{districtName(selectedDistrict.district, lang)}</p>
+      <p className="mt-1 text-xs text-zinc-500">{dict.map.district_detail}</p>
+      <dl className="mt-3 grid grid-cols-3 gap-2 text-center text-xs">
+        <div className="rounded-lg bg-white/5 px-1 py-2">
+          <dt className="text-zinc-500">{dict.map.district_resolution}</dt>
+          <dd className="mt-1 font-semibold text-emerald-300">{selectedDistrict.resolution_rate?.toFixed(1) ?? '—'}%</dd>
+        </div>
+        <div className="rounded-lg bg-white/5 px-1 py-2">
+          <dt className="text-zinc-500">{dict.map.district_stale}</dt>
+          <dd className="mt-1 font-semibold text-amber-300">
+            {selectedDistrict.total_tickets > 0 ? ((selectedDistrict.stale_tickets / selectedDistrict.total_tickets) * 100).toFixed(1) : '—'}%
+          </dd>
+        </div>
+        <div className="rounded-lg bg-white/5 px-1 py-2">
+          <dt className="text-zinc-500">{dict.map.district_speed}</dt>
+          <dd className="mt-1 font-semibold text-[--color-fg]">{selectedDistrict.median_resolution_days?.toFixed(1) ?? '—'}d</dd>
+        </div>
+      </dl>
+      <Link
+        href={`/${lang}/districts?district=${toSlug(districtName(selectedDistrict.district, 'en'))}`}
+        className="mt-3 block rounded-lg bg-teal-400 px-3 py-2 text-center text-xs font-semibold text-[#062524] transition-colors hover:bg-teal-300"
+      >
+        {dict.map.open_district}
+      </Link>
+    </section>
+  ) : null
+
+  const sampleDescription = filter === 'stale'
+    ? dict.map.sample_stale
+      .replace('{shown}', staleSampleCount.toLocaleString())
+      .replace('{total}', totalStale.toLocaleString())
+    : filter === 'low_sat'
+      ? dict.map.sample_low_sat.replace('{shown}', lowSatSampleCount.toLocaleString())
+      : dict.map.sample_all
+        .replace('{stale}', staleSampleCount.toLocaleString())
+        .replace('{low}', lowSatSampleCount.toLocaleString())
+
   return (
     <div className="relative w-full h-full">
       {/* Controls */}
-      <div className="absolute top-4 left-4 z-[1000] flex flex-col gap-2">
+      <div className="absolute top-4 left-4 z-[1000] flex w-[min(23rem,calc(100%-2rem))] flex-col gap-2">
+        <section aria-live="polite" className="rounded-xl border border-white/10 bg-[#0f0f1a]/95 p-3 shadow-xl backdrop-blur-md">
+          <p className="text-xs font-semibold text-[--color-fg]">{dict.map.sample_title}</p>
+          <p className="mt-1 text-xs leading-5 text-zinc-400">{sampleDescription}</p>
+          <details className="mt-2 text-xs text-zinc-500">
+            <summary className="cursor-pointer text-teal-300 hover:text-teal-200">{dict.map.no_api_key}</summary>
+            <p className="mt-2 leading-5">{dict.map.map_api_detail}</p>
+          </details>
+        </section>
         {/* Filter pills */}
         <div className="flex gap-1.5 flex-wrap" role="group" aria-label={dict.map.title}>
           {(['all', 'stale', 'low_sat'] as MapFilter[]).map((f) => (
@@ -335,6 +463,24 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
             </select>
           )}
         </div>
+
+        <label className="sr-only" htmlFor="map-district-select">{dict.map.district_select}</label>
+        <select
+          id="map-district-select"
+          value={selectedDistrict?.district ?? ''}
+          onChange={(event) => {
+            const district = districtMap.current.get(event.target.value)
+            if (district) focusDistrict(district)
+          }}
+          className="w-full rounded-lg border border-white/10 bg-[#0f0f1a]/90 px-2 py-1.5 text-xs text-zinc-300 outline-none"
+        >
+          <option value="">{dict.map.district_select}</option>
+          {[...districts]
+            .sort((a, b) => districtName(a.district, lang).localeCompare(districtName(b.district, lang), lang))
+            .map((district) => (
+              <option key={district.district} value={district.district}>{districtName(district.district, lang)}</option>
+            ))}
+        </select>
       </div>
 
       {/* Map container */}
@@ -348,17 +494,36 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
 
       {/* Ticket popup panel */}
       {PopupPanel}
+      {DistrictPanel}
 
       {/* Legend */}
       {showChoropleth && (
         <div className="absolute bottom-4 right-4 z-[1000] rounded-xl border border-white/10 bg-[#0f0f1a]/90 backdrop-blur p-3 text-xs">
           <p className="text-zinc-400 mb-2 font-medium">{dict.map.choropleth_label}</p>
-          {[
-            { color: '#166534', label: metric === 'median_resolution_days' ? '≤3d' : metric === 'stale_rate' ? '≤10%' : '≥85%' },
-            { color: '#4ade80', label: metric === 'median_resolution_days' ? '≤14d' : metric === 'stale_rate' ? '≤30%' : '≥65%' },
-            { color: '#fbbf24', label: metric === 'median_resolution_days' ? '≤21d' : metric === 'stale_rate' ? '≤40%' : '≥55%' },
-            { color: '#f87171', label: metric === 'median_resolution_days' ? '>21d' : metric === 'stale_rate' ? '>40%' : '<55%' },
-          ].map(({ color, label }) => (
+          {(metric === 'median_resolution_days'
+            ? [
+                { color: '#0b4f6c', label: '≤3d' },
+                { color: '#1d7a8c', label: '3.1–7d' },
+                { color: '#49a2a6', label: '7.1–14d' },
+                { color: '#f0b429', label: '14.1–21d' },
+                { color: '#d64545', label: '>21d' },
+              ]
+            : metric === 'stale_rate'
+              ? [
+                  { color: '#0b4f6c', label: '≤10%' },
+                  { color: '#1d7a8c', label: '10.1–20%' },
+                  { color: '#49a2a6', label: '20.1–30%' },
+                  { color: '#f0b429', label: '30.1–40%' },
+                  { color: '#d64545', label: '>40%' },
+                ]
+              : [
+                  { color: '#0b4f6c', label: '≥85%' },
+                  { color: '#1d7a8c', label: '75–84.9%' },
+                  { color: '#49a2a6', label: '65–74.9%' },
+                  { color: '#f0b429', label: '55–64.9%' },
+                  { color: '#d64545', label: '<55%' },
+                ]
+          ).map(({ color, label }) => (
             <div key={label} className="flex items-center gap-2 mb-1">
               <span className="w-3 h-3 rounded-sm inline-block" style={{ background: color }} />
               <span className="text-zinc-400">{label}</span>
@@ -366,6 +531,12 @@ export default function MapClient({ points, districts, geojson, dict, lang }: Pr
           ))}
         </div>
       )}
+
+      <div className="absolute bottom-4 left-4 z-[999] rounded-xl border border-white/10 bg-[#0f0f1a]/90 p-3 text-xs backdrop-blur-md">
+        <p className="mb-2 font-medium text-zinc-300">{dict.map.marker_legend}</p>
+        <div className="flex items-center gap-2 text-zinc-400"><span className="h-2.5 w-2.5 rounded-full bg-red-400" />{dict.map.marker_stale}</div>
+        <div className="mt-1 flex items-center gap-2 text-zinc-400"><span className="h-2.5 w-2.5 rounded-full bg-amber-400 ring-1 ring-amber-100/60" />{dict.map.marker_low_sat}</div>
+      </div>
     </div>
   )
 }
