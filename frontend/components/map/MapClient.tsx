@@ -64,6 +64,7 @@ type Props = {
 
 const BKK_CENTER: [number, number] = [13.756, 100.502]
 const BKK_ZOOM = 11
+const CARTO_BASEMAP_KEY = process.env.NEXT_PUBLIC_CARTO_BASEMAPS_API_KEY
 
 function choroplethColor(value: number | null, metric: ChoroplethMetric): string {
   if (value === null) return '#1e1e35'
@@ -179,9 +180,23 @@ export default function MapClient({ points, districts, geojson, totalStale, dict
         // Move zoom to bottom-right so it doesn't clash with our filter controls
         L.control.zoom({ position: 'bottomright' }).addTo(map)
 
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-          attribution: '© OpenStreetMap contributors © CARTO',
-          subdomains: 'abcd',
+        const basemap = CARTO_BASEMAP_KEY
+          ? {
+              url: `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(CARTO_BASEMAP_KEY)}`,
+              attribution: '© OpenStreetMap contributors © CARTO',
+              subdomains: 'abcd',
+            }
+          : {
+              // Keep the map usable without CARTO's watermark while a deployment
+              // is waiting for its public basemap key to be configured.
+              url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+              attribution: '© OpenStreetMap contributors',
+              subdomains: 'abc',
+            }
+
+        L.tileLayer(basemap.url, {
+          attribution: basemap.attribution,
+          subdomains: basemap.subdomains,
           maxZoom: 19,
         }).addTo(map)
 
