@@ -158,7 +158,14 @@
     "district_speed": "เวลาแก้ไขกลาง",
     "open_district": "ดูรายงานเขตฉบับเต็ม",
     "close_panel": "ปิดรายละเอียด",
-    "district_select": "ค้นหาเขตของคุณ"
+    "district_select": "เลือกเขต",
+    "controls_title": "ตัวควบคุมแผนที่",
+    "reports_label": "แสดงรายงาน",
+    "district_context": "ภาพรวมรายเขต",
+    "district_metric": "ระบายสีเขตตาม",
+    "district_jump": "ไปยังเขตที่ต้องการ",
+    "legend_title": "วิธีอ่านแผนที่",
+    "data_notes": "เกี่ยวกับข้อมูลนี้"
   },
   "footer": {
     "source": "แหล่งข้อมูล",

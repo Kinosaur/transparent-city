@@ -158,7 +158,14 @@
     "district_speed": "Median fix",
     "open_district": "Open full district report",
     "close_panel": "Close details",
-    "district_select": "Find your district"
+    "district_select": "Select a district",
+    "controls_title": "Map controls",
+    "reports_label": "Show reports",
+    "district_context": "District context",
+    "district_metric": "Colour districts by",
+    "district_jump": "Jump to a district",
+    "legend_title": "How to read this map",
+    "data_notes": "About this data"
   },
   "footer": {
     "source": "Data source",

@@ -48,6 +48,13 @@ type Dict = {
     open_district: string
     close_panel: string
     district_select: string
+    controls_title: string
+    reports_label: string
+    district_context: string
+    district_metric: string
+    district_jump: string
+    legend_title: string
+    data_notes: string
   }
 }
 
@@ -177,8 +184,8 @@ export default function MapClient({ points, districts, geojson, totalStale, dict
           return
         }
 
-        // Move zoom to bottom-right so it doesn't clash with our filter controls
-        L.control.zoom({ position: 'bottomright' }).addTo(map)
+        // Keep zoom controls away from the information panels at the bottom.
+        L.control.zoom({ position: 'topright' }).addTo(map)
 
         const basemap = CARTO_BASEMAP_KEY
           ? {
@@ -336,7 +343,7 @@ export default function MapClient({ points, districts, geojson, totalStale, dict
 
   // ── Popup panel ─────────────────────────────────────────────────────────────
   const PopupPanel = selected ? (
-    <div className="absolute bottom-4 left-4 z-[1000] w-72 rounded-xl border border-white/10 bg-[#0f0f1a]/95 backdrop-blur-md p-4 shadow-2xl">
+    <div className="absolute bottom-3 left-3 right-3 z-[1000] rounded-2xl border border-white/10 bg-[#0f0f1a]/95 p-4 shadow-2xl backdrop-blur-md sm:bottom-auto sm:left-auto sm:right-16 sm:top-4 sm:w-72">
       <button
         onClick={() => setSelected(null)}
         aria-label={lang === 'th' ? 'ปิดรายละเอียดตั๋ว' : 'Close ticket details'}
@@ -379,7 +386,7 @@ export default function MapClient({ points, districts, geojson, totalStale, dict
   const DistrictPanel = selectedDistrict ? (
     <section
       aria-label={dict.map.district_detail}
-      className="absolute bottom-4 left-4 z-[1000] w-72 rounded-xl border border-white/10 bg-[#0f0f1a]/95 p-4 shadow-2xl backdrop-blur-md"
+      className="absolute bottom-3 left-3 right-3 z-[1000] rounded-2xl border border-white/10 bg-[#0f0f1a]/95 p-4 shadow-2xl backdrop-blur-md sm:bottom-auto sm:left-auto sm:right-16 sm:top-4 sm:w-72"
     >
       <button
         onClick={() => setSelectedDistrict(null)}
@@ -423,80 +430,151 @@ export default function MapClient({ points, districts, geojson, totalStale, dict
         .replace('{stale}', staleSampleCount.toLocaleString())
         .replace('{low}', lowSatSampleCount.toLocaleString())
 
+  const legendRanges = metric === 'median_resolution_days'
+    ? [
+        { color: '#0b4f6c', label: '≤3d' },
+        { color: '#1d7a8c', label: '3.1–7d' },
+        { color: '#49a2a6', label: '7.1–14d' },
+        { color: '#f0b429', label: '14.1–21d' },
+        { color: '#d64545', label: '>21d' },
+      ]
+    : metric === 'stale_rate'
+      ? [
+          { color: '#0b4f6c', label: '≤10%' },
+          { color: '#1d7a8c', label: '10.1–20%' },
+          { color: '#49a2a6', label: '20.1–30%' },
+          { color: '#f0b429', label: '30.1–40%' },
+          { color: '#d64545', label: '>40%' },
+        ]
+      : [
+          { color: '#0b4f6c', label: '≥85%' },
+          { color: '#1d7a8c', label: '75–84.9%' },
+          { color: '#49a2a6', label: '65–74.9%' },
+          { color: '#f0b429', label: '55–64.9%' },
+          { color: '#d64545', label: '<55%' },
+        ]
+
+  const LegendContent = ({ showTitle = true }: { showTitle?: boolean }) => (
+    <>
+      {showTitle && <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-zinc-500">{dict.map.legend_title}</p>}
+      {showChoropleth && (
+        <div className={showTitle ? 'mt-3 border-b border-white/10 pb-3' : 'border-b border-white/10 pb-3'}>
+          <p className="mb-2 text-[11px] font-medium text-zinc-300">{dict.map.choropleth_label}</p>
+          <div className="grid grid-cols-5 gap-1">
+            {legendRanges.map(({ color, label }) => (
+              <div key={label} className="min-w-0">
+                <span className="block h-2.5 w-full rounded-sm" style={{ background: color }} />
+                <span className="mt-1 block text-center text-[9px] leading-3 text-zinc-500">{label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+      <div className={showChoropleth ? 'mt-3' : showTitle ? 'mt-3' : ''}>
+        <p className="mb-2 text-[11px] font-medium text-zinc-300">{dict.map.marker_legend}</p>
+        <div className="flex items-start gap-2 text-[11px] leading-4 text-zinc-400"><span className="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-red-400" />{dict.map.marker_stale}</div>
+        <div className="mt-1.5 flex items-start gap-2 text-[11px] leading-4 text-zinc-400"><span className="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-amber-400 ring-1 ring-amber-100/60" />{dict.map.marker_low_sat}</div>
+      </div>
+    </>
+  )
+
   return (
     <div className="relative w-full h-full">
-      {/* Controls */}
-      <div className="absolute top-4 left-4 z-[1000] flex w-[min(23rem,calc(100%-2rem))] flex-col gap-2">
-        <section aria-live="polite" className="rounded-xl border border-white/10 bg-[#0f0f1a]/95 p-3 shadow-xl backdrop-blur-md">
-          <p className="text-xs font-semibold text-[--color-fg]">{dict.map.sample_title}</p>
-          <p className="mt-1 text-xs leading-5 text-zinc-400">{sampleDescription}</p>
-          <details className="mt-2 text-xs text-zinc-500">
-            <summary className="cursor-pointer text-teal-300 hover:text-teal-200">{dict.map.no_api_key}</summary>
+      {/* Map controls */}
+      <section
+        aria-label={dict.map.controls_title}
+        className="absolute left-3 top-3 z-[1000] w-[min(22rem,calc(100%-1.5rem))] overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f1a]/95 shadow-2xl shadow-black/30 backdrop-blur-md sm:left-4 sm:top-4"
+      >
+        <div className="border-b border-white/10 bg-white/[0.03] px-4 py-3">
+          <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-teal-300">{dict.map.controls_title}</p>
+          <p aria-live="polite" className="mt-1 text-xs leading-5 text-zinc-300">{sampleDescription}</p>
+        </div>
+
+        <div className="space-y-4 p-4">
+          <fieldset>
+            <legend className="mb-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-zinc-500">{dict.map.reports_label}</legend>
+            <div className="grid grid-cols-3 gap-1.5" role="group" aria-label={dict.map.reports_label}>
+              {(['all', 'stale', 'low_sat'] as MapFilter[]).map((f) => (
+                <button
+                  key={f}
+                  onClick={() => setFilter(f)}
+                  aria-pressed={filter === f}
+                  className={`min-h-10 rounded-lg border px-2 py-1.5 text-left text-[11px] font-semibold leading-4 transition-colors ${
+                    filter === f
+                      ? 'border-teal-400/60 bg-teal-400/15 text-teal-100 shadow-[inset_0_0_0_1px_rgba(45,212,191,0.08)]'
+                      : 'border-white/10 bg-white/[0.03] text-zinc-400 hover:border-white/20 hover:bg-white/[0.07] hover:text-zinc-100'
+                  }`}
+                >
+                  {f === 'all' ? dict.map.filter_all : f === 'stale' ? dict.map.filter_stale : dict.map.filter_low_sat}
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <div className="border-t border-white/10 pt-3">
+            <div className="flex items-center justify-between gap-3">
+              <div>
+                <p className="text-sm font-semibold text-[--color-fg]">{dict.map.district_context}</p>
+                <p className="mt-0.5 text-[11px] text-zinc-500">{dict.map.choropleth_label}</p>
+              </div>
+              <button
+                onClick={() => setShowChoropleth((value) => !value)}
+                aria-pressed={showChoropleth}
+                className={`relative inline-flex h-7 w-12 shrink-0 items-center rounded-full border transition-colors ${
+                  showChoropleth ? 'border-teal-400/60 bg-teal-400/25' : 'border-white/10 bg-white/5'
+                }`}
+              >
+                <span className={`h-5 w-5 rounded-full bg-white shadow-sm transition-transform ${showChoropleth ? 'translate-x-5' : 'translate-x-1'}`} />
+                <span className="sr-only">{dict.map.choropleth_label}</span>
+              </button>
+            </div>
+            {showChoropleth && (
+              <label className="mt-3 block text-[11px] font-medium text-zinc-400">
+                {dict.map.district_metric}
+                <select
+                  value={metric}
+                  onChange={(event) => setMetric(event.target.value as ChoroplethMetric)}
+                  className="mt-1.5 block w-full rounded-lg border border-white/10 bg-[#171726] px-3 py-2 text-xs text-zinc-200 outline-none transition-colors hover:border-white/20 focus:border-teal-400/60"
+                >
+                  <option value="resolution_rate">{dict.map.metric_resolution}</option>
+                  <option value="stale_rate">{dict.map.metric_stale}</option>
+                  <option value="median_resolution_days">{dict.map.metric_speed}</option>
+                </select>
+              </label>
+            )}
+          </div>
+
+          <label className="block border-t border-white/10 pt-3 text-[11px] font-medium text-zinc-400" htmlFor="map-district-select">
+            {dict.map.district_jump}
+            <select
+              id="map-district-select"
+              value={selectedDistrict?.district ?? ''}
+              onChange={(event) => {
+                const district = districtMap.current.get(event.target.value)
+                if (district) {
+                  focusDistrict(district)
+                } else {
+                  setSelectedDistrict(null)
+                  leafletMap.current?.setView(BKK_CENTER, BKK_ZOOM)
+                }
+              }}
+              className="mt-1.5 block w-full rounded-lg border border-white/10 bg-[#171726] px-3 py-2 text-xs text-zinc-200 outline-none transition-colors hover:border-white/20 focus:border-teal-400/60"
+            >
+              <option value="">{dict.map.district_select}</option>
+              {[...districts]
+                .sort((a, b) => districtName(a.district, lang).localeCompare(districtName(b.district, lang), lang))
+                .map((district) => (
+                  <option key={district.district} value={district.district}>{districtName(district.district, lang)}</option>
+                ))}
+            </select>
+          </label>
+
+          <details className="border-t border-white/10 pt-3 text-xs text-zinc-500">
+            <summary className="cursor-pointer font-medium text-teal-300 transition-colors hover:text-teal-200">{dict.map.data_notes}</summary>
             <p className="mt-2 leading-5">{dict.map.map_api_detail}</p>
           </details>
-        </section>
-        {/* Filter pills */}
-        <div className="flex gap-1.5 flex-wrap" role="group" aria-label={dict.map.title}>
-          {(['all', 'stale', 'low_sat'] as MapFilter[]).map((f) => (
-            <button
-              key={f}
-              onClick={() => setFilter(f)}
-              aria-pressed={filter === f}
-              className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${
-                filter === f
-                  ? 'bg-teal-500 border-teal-500 text-[--color-fg]'
-                  : 'bg-[#0f0f1a]/80 border-white/10 text-zinc-400 hover:text-[--color-fg]'
-              }`}
-            >
-              {f === 'all' ? dict.map.filter_all : f === 'stale' ? dict.map.filter_stale : dict.map.filter_low_sat}
-            </button>
-          ))}
         </div>
-
-        {/* Choropleth toggle + metric selector */}
-        <div className="flex gap-1.5 items-center flex-wrap">
-          <button
-            onClick={() => setShowChoropleth((v) => !v)}
-            aria-pressed={showChoropleth}
-            className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${
-              showChoropleth
-                ? 'bg-purple-500/20 border-purple-500/50 text-purple-300'
-                : 'bg-[#0f0f1a]/80 border-white/10 text-zinc-400 hover:text-[--color-fg]'
-            }`}
-          >
-            {dict.map.choropleth_label}
-          </button>
-          {showChoropleth && (
-            <select
-              value={metric}
-              onChange={(e) => setMetric(e.target.value as ChoroplethMetric)}
-              className="px-2 py-1 rounded-lg text-xs bg-[#0f0f1a]/90 border border-white/10 text-zinc-300 outline-none"
-            >
-              <option value="resolution_rate">{dict.map.metric_resolution}</option>
-              <option value="stale_rate">{dict.map.metric_stale}</option>
-              <option value="median_resolution_days">{dict.map.metric_speed}</option>
-            </select>
-          )}
-        </div>
-
-        <label className="sr-only" htmlFor="map-district-select">{dict.map.district_select}</label>
-        <select
-          id="map-district-select"
-          value={selectedDistrict?.district ?? ''}
-          onChange={(event) => {
-            const district = districtMap.current.get(event.target.value)
-            if (district) focusDistrict(district)
-          }}
-          className="w-full rounded-lg border border-white/10 bg-[#0f0f1a]/90 px-2 py-1.5 text-xs text-zinc-300 outline-none"
-        >
-          <option value="">{dict.map.district_select}</option>
-          {[...districts]
-            .sort((a, b) => districtName(a.district, lang).localeCompare(districtName(b.district, lang), lang))
-            .map((district) => (
-              <option key={district.district} value={district.district}>{districtName(district.district, lang)}</option>
-            ))}
-        </select>
-      </div>
+      </section>
 
       {/* Map container */}
       <div ref={mapRef} className="w-full h-full" />
@@ -511,47 +589,16 @@ export default function MapClient({ points, districts, geojson, totalStale, dict
       {PopupPanel}
       {DistrictPanel}
 
-      {/* Legend */}
-      {showChoropleth && (
-        <div className="absolute bottom-4 right-4 z-[1000] rounded-xl border border-white/10 bg-[#0f0f1a]/90 backdrop-blur p-3 text-xs">
-          <p className="text-zinc-400 mb-2 font-medium">{dict.map.choropleth_label}</p>
-          {(metric === 'median_resolution_days'
-            ? [
-                { color: '#0b4f6c', label: '≤3d' },
-                { color: '#1d7a8c', label: '3.1–7d' },
-                { color: '#49a2a6', label: '7.1–14d' },
-                { color: '#f0b429', label: '14.1–21d' },
-                { color: '#d64545', label: '>21d' },
-              ]
-            : metric === 'stale_rate'
-              ? [
-                  { color: '#0b4f6c', label: '≤10%' },
-                  { color: '#1d7a8c', label: '10.1–20%' },
-                  { color: '#49a2a6', label: '20.1–30%' },
-                  { color: '#f0b429', label: '30.1–40%' },
-                  { color: '#d64545', label: '>40%' },
-                ]
-              : [
-                  { color: '#0b4f6c', label: '≥85%' },
-                  { color: '#1d7a8c', label: '75–84.9%' },
-                  { color: '#49a2a6', label: '65–74.9%' },
-                  { color: '#f0b429', label: '55–64.9%' },
-                  { color: '#d64545', label: '<55%' },
-                ]
-          ).map(({ color, label }) => (
-            <div key={label} className="flex items-center gap-2 mb-1">
-              <span className="w-3 h-3 rounded-sm inline-block" style={{ background: color }} />
-              <span className="text-zinc-400">{label}</span>
-            </div>
-          ))}
+      {/* Map legend */}
+      <aside aria-label={dict.map.legend_title} className="absolute bottom-4 right-4 z-[1000] hidden w-52 rounded-2xl border border-white/10 bg-[#0f0f1a]/95 p-3 shadow-xl shadow-black/25 backdrop-blur-md sm:block">
+        <LegendContent />
+      </aside>
+      <details className="absolute bottom-10 right-3 z-[1000] w-52 rounded-xl border border-white/10 bg-[#0f0f1a]/95 px-3 py-2 shadow-xl shadow-black/25 backdrop-blur-md sm:hidden">
+        <summary className="cursor-pointer text-[11px] font-semibold text-teal-200">{dict.map.legend_title}</summary>
+        <div className="mt-3">
+          <LegendContent showTitle={false} />
         </div>
-      )}
-
-      <div className="absolute bottom-4 left-4 z-[999] rounded-xl border border-white/10 bg-[#0f0f1a]/90 p-3 text-xs backdrop-blur-md">
-        <p className="mb-2 font-medium text-zinc-300">{dict.map.marker_legend}</p>
-        <div className="flex items-center gap-2 text-zinc-400"><span className="h-2.5 w-2.5 rounded-full bg-red-400" />{dict.map.marker_stale}</div>
-        <div className="mt-1 flex items-center gap-2 text-zinc-400"><span className="h-2.5 w-2.5 rounded-full bg-amber-400 ring-1 ring-amber-100/60" />{dict.map.marker_low_sat}</div>
-      </div>
+      </details>
     </div>
   )
 }

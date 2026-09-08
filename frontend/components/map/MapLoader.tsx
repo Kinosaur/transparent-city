@@ -51,6 +51,13 @@ type Dict = {
     open_district: string
     close_panel: string
     district_select: string
+    controls_title: string
+    reports_label: string
+    district_context: string
+    district_metric: string
+    district_jump: string
+    legend_title: string
+    data_notes: string
   }
 }
 

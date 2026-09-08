@@ -48,22 +48,23 @@ export default async function MapPage({ params }: PageProps<'/[lang]/map'>) {
 
   return (
     <div className="flex flex-col" style={{ height: 'calc(100vh - 56px)' }}>
-      {/* Slim header */}
-      <div className="px-4 sm:px-6 lg:px-8 py-4 shrink-0">
-        <h1 className="text-2xl font-bold text-[--color-fg]">{dict.map.title}</h1>
-        <p className="text-sm text-[--color-subtle] mt-0.5">{dict.map.subtitle}</p>
-        <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[--color-subtle]">
-          <span className="rounded-full border border-[--color-border] bg-[--color-surface] px-2.5 py-1">
-            {dict.map.snapshot_label}: {overview.data_range.to}
-          </span>
-          <span className="rounded-full border border-teal-400/20 bg-teal-400/5 px-2.5 py-1 text-teal-300">
-            {dict.map.no_api_key}
-          </span>
-          <Link href={`/${lang}/methods`} className="text-[--color-teal-400] hover:underline underline-offset-4">
-            {dict.map.methods_link}
-          </Link>
+      {/* Page context */}
+      <header className="shrink-0 border-b border-[--color-border] bg-[--color-surface-950]/80 px-4 py-4 backdrop-blur sm:px-6 lg:px-8">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h1 className="text-2xl font-bold tracking-tight text-[--color-fg]">{dict.map.title}</h1>
+            <p className="mt-0.5 text-sm text-[--color-subtle]">{dict.map.subtitle}</p>
+          </div>
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <span className="rounded-full border border-[--color-border] bg-[--color-surface-900] px-2.5 py-1 text-[--color-subtle]">
+              {dict.map.snapshot_label}: {overview.data_range.to}
+            </span>
+            <Link href={`/${lang}/methods`} className="rounded-full px-1 py-1 font-medium text-[--color-teal-400] hover:underline hover:underline-offset-4">
+              {dict.map.methods_link}
+            </Link>
+          </div>
         </div>
-      </div>
+      </header>
 
       {/* Full-height map */}
       <div className="relative flex-1 min-h-0">
