@@ -7,7 +7,7 @@ import type { Locale } from '@/lib/types'
 type Props = {
   lang: Locale
   dict: {
-    site: { name: string; tagline: string }
+    site: { name: string; tagline: string; skip_to_content: string }
     nav: { overview: string; districts: string; leaderboard: string; gallery: string; map: string }
   }
 }
@@ -74,6 +74,7 @@ export default function Header({ lang, dict }: Props) {
               <Link
                 key={href}
                 href={href}
+                aria-current={isActive ? 'page' : undefined}
                 className={`relative px-3 py-1.5 rounded-md text-sm whitespace-nowrap transition-all duration-200 font-medium ${isActive ? '' : inactiveClass}`}
                 style={isActive ? { color: '#2dd4bf', backgroundColor: 'rgba(45,212,191,0.1)' } : {}}
               >

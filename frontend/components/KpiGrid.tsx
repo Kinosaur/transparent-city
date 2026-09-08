@@ -1,30 +1,4 @@
-'use client'
-
-import { useEffect, useRef, useState } from 'react'
 import type { OverviewData, Locale } from '@/lib/types'
-
-function useCountUp(target: number, decimals = 0, duration = 1200) {
-  const [value, setValue] = useState(0)
-  const frame = useRef<number | null>(null)
-
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      frame.current = requestAnimationFrame(() => setValue(target))
-      return () => { if (frame.current) cancelAnimationFrame(frame.current) }
-    }
-    const start = performance.now()
-    function tick(now: number) {
-      const p = Math.min((now - start) / duration, 1)
-      const eased = 1 - Math.pow(1 - p, 3)
-      setValue(parseFloat((eased * target).toFixed(decimals)))
-      if (p < 1) frame.current = requestAnimationFrame(tick)
-    }
-    frame.current = requestAnimationFrame(tick)
-    return () => { if (frame.current) cancelAnimationFrame(frame.current) }
-  }, [target, decimals, duration])
-
-  return value
-}
 
 const accentMap = {
   teal: { text: 'text-[--color-teal-400]', bar: 'bg-[--color-teal-400]' },
@@ -104,10 +78,10 @@ type Props = {
 }
 
 export default function KpiGrid({ data, dict, lang }: Props) {
-  const total   = useCountUp(data.total_tickets, 0)
-  const resRate = useCountUp(data.resolution_rate, 1)
-  const medDays = useCountUp(data.median_resolution_days, 1)
-  const avgStar = useCountUp(data.avg_satisfaction, 2)
+  const total = data.total_tickets
+  const resRate = data.resolution_rate
+  const medDays = data.median_resolution_days
+  const avgStar = data.avg_satisfaction
 
   const fmt = (n: number) =>
     lang === 'th'

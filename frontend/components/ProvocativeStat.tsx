@@ -1,6 +1,3 @@
-'use client'
-
-import { useEffect, useRef, useState } from 'react'
 import type { Locale } from '@/lib/types'
 
 type Props = {
@@ -11,36 +8,11 @@ type Props = {
   lang: Locale
 }
 
-function useCountUp(target: number, duration = 1400) {
-  const [value, setValue] = useState(0)
-  const frame = useRef<number | null>(null)
-
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      frame.current = requestAnimationFrame(() => setValue(target))
-      return () => { if (frame.current) cancelAnimationFrame(frame.current) }
-    }
-    const start = performance.now()
-    function tick(now: number) {
-      const elapsed = now - start
-      const progress = Math.min(elapsed / duration, 1)
-      const eased = 1 - Math.pow(1 - progress, 3)
-      setValue(Math.round(eased * target))
-      if (progress < 1) frame.current = requestAnimationFrame(tick)
-    }
-    frame.current = requestAnimationFrame(tick)
-    return () => { if (frame.current) cancelAnimationFrame(frame.current) }
-  }, [target, duration])
-
-  return value
-}
-
 export default function ProvocativeStat({ count, label, rateLabel, rate, lang }: Props) {
-  const displayed = useCountUp(count)
   const formatted =
     lang === 'th'
-      ? displayed.toLocaleString('th-TH')
-      : displayed.toLocaleString('en-US')
+      ? count.toLocaleString('th-TH')
+      : count.toLocaleString('en-US')
 
   return (
     <div className="relative overflow-hidden rounded-xl border border-[--color-bad]/30 bg-[--color-bad]/5 px-6 py-5">

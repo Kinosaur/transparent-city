@@ -57,12 +57,16 @@ export default function DistrictSelector({
       <button
         onClick={() => setOpen((o) => !o)}
         className="w-full flex items-center justify-between gap-3 px-4 py-3 rounded-xl border border-[--color-border] bg-[--color-surface-900] hover:border-[--color-border-hover] transition-colors text-left"
+        aria-expanded={open}
+        aria-haspopup="listbox"
+        aria-controls="district-options"
+        aria-label={selected ? districtName(selected.district, lang) : placeholder}
       >
         <span className={selected ? 'text-[--color-fg] font-medium' : 'text-[--color-muted]'}>
           {selected ? districtName(selected.district, lang) : placeholder}
         </span>
         {selected && (
-          <span className={`text-xs font-bold ${gradeColor[selected.grade] ?? ''}`}>
+          <span className={`rounded-md bg-white/5 px-1.5 py-0.5 text-xs font-bold ${gradeColor[selected.grade] ?? ''}`}>
             {selected.grade}
           </span>
         )}
@@ -84,15 +88,21 @@ export default function DistrictSelector({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={searchPlaceholder}
+              aria-label={searchPlaceholder}
+              onKeyDown={(e) => {
+                if (e.key === 'Escape') setOpen(false)
+              }}
               className="w-full bg-transparent text-sm text-[--color-fg] placeholder-zinc-500 outline-none"
             />
           </div>
           {/* List */}
-          <ul className="max-h-72 overflow-y-auto py-1 bg-[--color-surface-800]/98">
+          <ul id="district-options" role="listbox" className="max-h-72 overflow-y-auto py-1 bg-[--color-surface-800]/98">
             {filtered.map((d) => (
               <li key={d.district}>
                 <button
                   onClick={() => { onSelect(d); setOpen(false); setQuery('') }}
+                  role="option"
+                  aria-selected={selected?.district === d.district}
                   className={`w-full flex items-center justify-between px-4 py-2.5 text-sm hover:bg-white/8 transition-colors ${
                     selected?.district === d.district
                       ? 'text-[--color-teal-400] bg-white/5'

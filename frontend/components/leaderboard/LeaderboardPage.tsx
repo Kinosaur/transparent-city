@@ -61,13 +61,14 @@ function DeltaBadge({
 }) {
   if (val === null) return <span className="text-[--color-muted] text-xs">—</span>
   const diff = val - bkk
-  const better = higherIsBetter ? diff > 0 : diff < 0
-  const worse  = higherIsBetter ? diff < 0 : diff > 0
+  const displayDiff = Number(diff.toFixed(1))
+  const better = higherIsBetter ? displayDiff > 0 : displayDiff < 0
+  const worse  = higherIsBetter ? displayDiff < 0 : displayDiff > 0
   const color  = better ? 'text-[--color-good]' : worse ? 'text-[--color-bad]' : 'text-[--color-muted]'
-  const sign   = diff > 0 ? '+' : ''
+  const sign = displayDiff > 0 ? '+' : displayDiff < 0 ? '−' : '±'
   return (
-    <span className={`text-xs ${color}`}>
-      {sign}{Math.abs(diff).toFixed(1)}{suffix}
+    <span className={`text-xs ${color}`} aria-label={`${sign}${Math.abs(displayDiff).toFixed(1)}${suffix ?? ''} compared with Bangkok average`}>
+      {sign}{Math.abs(displayDiff).toFixed(1)}{suffix}
     </span>
   )
 }
@@ -119,7 +120,51 @@ function SortTh({
 }
 
 const MIN_TICKET_OPTIONS = [100, 500, 1000, 5000]
-const PAGE_SIZE = 100
+const PAGE_SIZE = 50
+
+function MobileAgencyCard({
+  org,
+  rank,
+  bkkAvg,
+  d,
+  lang,
+}: {
+  org: OrgData
+  rank: number
+  bkkAvg: BkkAvg
+  d: Dict['leaderboard']
+  lang: Locale
+}) {
+  const metrics = [
+    { label: d.resolution_rate, value: org.resolution_rate === null ? '—' : `${org.resolution_rate.toFixed(1)}%`, val: org.resolution_rate, bkk: bkkAvg.resolution_rate, higherIsBetter: true, suffix: '%' },
+    { label: d.median_days, value: org.median_resolution_days === null ? '—' : `${org.median_resolution_days.toFixed(1)} ${d.days}`, val: org.median_resolution_days, bkk: bkkAvg.median_resolution_days, higherIsBetter: false, suffix: ` ${d.days}` },
+    { label: d.avg_satisfaction, value: org.avg_satisfaction === null ? '—' : org.avg_satisfaction.toFixed(2), val: org.avg_satisfaction, bkk: bkkAvg.avg_satisfaction, higherIsBetter: true },
+    { label: d.reopen_rate, value: org.reopen_rate === null ? '—' : `${org.reopen_rate.toFixed(1)}%`, val: org.reopen_rate, bkk: bkkAvg.reopen_rate, higherIsBetter: false, suffix: '%' },
+  ]
+
+  return (
+    <article className="rounded-xl border border-[--color-border] bg-[--color-surface-900] p-4">
+      <div className="flex items-start gap-3">
+        <span className="mt-0.5 shrink-0 text-xs tabular-nums text-[--color-muted]">#{rank}</span>
+        <div className="min-w-0 flex-1">
+          <p className="text-sm font-medium leading-snug text-[--color-fg]">{organizationLabel(org.organization, lang)}</p>
+          <p className="mt-1 text-xs text-[--color-muted]">{org.total_tickets.toLocaleString()} {d.total_tickets.toLowerCase()}</p>
+        </div>
+      </div>
+      <dl className="mt-4 grid grid-cols-2 gap-x-4 gap-y-3">
+        {metrics.map((metric) => (
+          <div key={metric.label}>
+            <dt className="text-[11px] leading-tight text-[--color-muted]">{metric.label}</dt>
+            <dd className="mt-1 flex items-baseline gap-1.5 text-sm font-medium tabular-nums text-[--color-fg]">
+              {metric.value}
+              <DeltaBadge val={metric.val} bkk={metric.bkk} higherIsBetter={metric.higherIsBetter} suffix={metric.suffix} />
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </article>
+  )
+}
 
 export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }, lang }: Props) {
   const [query,      setQuery]      = useState('')
@@ -216,8 +261,16 @@ export default function LeaderboardPage({ orgs, bkkAvg, dict: { leaderboard: d }
         {d.of} {filtered.length.toLocaleString()} {d.agencies}
       </p>
 
-      {/* Table */}
-      <div className="rounded-xl border border-[--color-border] bg-[--color-surface-900] overflow-hidden">
+      <div className="space-y-3 sm:hidden">
+        {filtered.length === 0 ? (
+          <div className="rounded-xl border border-dashed border-[--color-border-hover] px-4 py-12 text-center text-sm text-[--color-muted]">{d.no_results}</div>
+        ) : rows.map((org, i) => (
+          <MobileAgencyCard key={org.organization} org={org} rank={firstRow + i + 1} bkkAvg={bkkAvg} d={d} lang={lang} />
+        ))}
+      </div>
+
+      {/* Desktop table */}
+      <div className="hidden overflow-hidden rounded-xl border border-[--color-border] bg-[--color-surface-900] sm:block">
         <div className="overflow-x-auto">
           <table className="w-full min-w-[640px]" role="grid">
             <thead>

@@ -53,6 +53,8 @@ type Dict = {
     stale_label: string
     comparison_subtitle: string
     bkk_prefix: string
+    explore_title: string
+    explore_body: string
   }
 }
 
@@ -81,6 +83,9 @@ export default function DistrictPage({ districts, bkkAvg, dict, lang, initialDis
   }
 
   const sorted = [...districts].sort((a, b) => a.district.localeCompare(b.district, 'th'))
+  const featured = [...districts]
+    .sort((a, b) => b.total_tickets - a.total_tickets)
+    .slice(0, 6)
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
@@ -129,9 +134,25 @@ export default function DistrictPage({ districts, bkkAvg, dict, lang, initialDis
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15 }}
-            className="flex items-center justify-center h-48 rounded-xl border border-dashed border-white/10 text-[--color-muted]"
+            className="rounded-xl border border-dashed border-white/10 p-5 sm:p-6"
           >
-            {dict.districts.select_prompt}
+            <div className="max-w-2xl">
+              <p className="text-sm font-semibold text-[--color-fg]">{dict.districts.explore_title}</p>
+              <p className="mt-1 text-sm text-[--color-muted]">{dict.districts.explore_body}</p>
+              <div className="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                {featured.map((district) => (
+                  <button
+                    key={district.district}
+                    type="button"
+                    onClick={() => handleSelect(district)}
+                    className="flex min-h-11 items-center justify-between gap-3 rounded-lg border border-[--color-border] bg-[--color-surface-900] px-3 text-left text-sm transition-colors hover:border-[--color-teal-400]/45 hover:bg-white/5"
+                  >
+                    <span className="min-w-0 truncate text-[--color-fg]">{districtName(district.district, lang)}</span>
+                    <span className="shrink-0 text-xs tabular-nums text-[--color-muted]">{district.total_tickets.toLocaleString()} {dict.districts.tickets}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

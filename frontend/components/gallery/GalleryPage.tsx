@@ -26,6 +26,8 @@ type Dict = {
     no_results: string
     showing: string
     photos: string
+    tap_to_compare: string
+    clear_filters: string
   }
 }
 
@@ -60,11 +62,11 @@ function GalleryCard({ item, d, lang }: { item: GalleryItem; d: Dict['gallery'];
       <button
         onClick={() => setFlipped((f) => !f)}
         className="relative aspect-[4/3] w-full overflow-hidden bg-[--color-surface-800]"
-        aria-label={flipped ? d.before : d.after}
+        aria-label={`${d.tap_to_compare}: ${flipped ? d.after : d.before}, ${problemTypeLabel(item.type, lang)}, ${districtName(item.district, lang)}`}
       >
         <Image
           src={flipped ? item.photo_after : item.photo}
-          alt={problemTypeLabel(item.type, lang)}
+          alt={`${flipped ? d.after : d.before}: ${problemTypeLabel(item.type, lang)} — ${districtName(item.district, lang)}`}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-opacity duration-300"
@@ -76,8 +78,8 @@ function GalleryCard({ item, d, lang }: { item: GalleryItem; d: Dict['gallery'];
           {flipped ? d.after : d.before}
         </span>
         {/* Flip hint */}
-        <span className="absolute bottom-2 right-2 px-2 py-0.5 rounded-full text-[10px] bg-black/50 text-[--color-fg]/70 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
-          {flipped ? d.before : d.after} →
+        <span className="absolute bottom-2 right-2 rounded-full bg-black/50 px-2 py-0.5 text-[10px] text-[--color-fg]/80 backdrop-blur-sm opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100">
+          {d.tap_to_compare}
         </span>
       </button>
 
@@ -137,10 +139,12 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
 
       {/* Filters */}
       <div className="flex flex-wrap gap-3">
+        <label className="sr-only" htmlFor="gallery-type-filter">{d.filter_type}</label>
         <select
+          id="gallery-type-filter"
           value={typeFilter}
           onChange={(e) => { setTypeFilter(e.target.value); setPage(1) }}
-          className="px-3 py-2 rounded-xl bg-[--color-surface-900] border border-[--color-border] text-sm text-[--color-fg] outline-none focus:border-[--color-teal-400]/50 transition-colors min-w-[160px]"
+          className="min-h-11 w-full rounded-xl border border-[--color-border] bg-[--color-surface-900] px-3 py-2 text-sm text-[--color-fg] outline-none transition-colors focus:border-[--color-teal-400]/50 sm:w-auto sm:min-w-[160px]"
         >
           <option value="">{d.all_types}</option>
           {types.map((t) => (
@@ -148,10 +152,12 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
           ))}
         </select>
 
+        <label className="sr-only" htmlFor="gallery-district-filter">{d.filter_district}</label>
         <select
+          id="gallery-district-filter"
           value={districtFilter}
           onChange={(e) => { setDistrictFilter(e.target.value); setPage(1) }}
-          className="px-3 py-2 rounded-xl bg-[--color-surface-900] border border-[--color-border] text-sm text-[--color-fg] outline-none focus:border-[--color-teal-400]/50 transition-colors min-w-[140px]"
+          className="min-h-11 w-full rounded-xl border border-[--color-border] bg-[--color-surface-900] px-3 py-2 text-sm text-[--color-fg] outline-none transition-colors focus:border-[--color-teal-400]/50 sm:w-auto sm:min-w-[160px]"
         >
           <option value="">{d.all_districts}</option>
           {districts.map((dist) => (
@@ -162,7 +168,8 @@ export default function GalleryPage({ items, dict: { gallery: d }, lang }: Props
         {(typeFilter || districtFilter) && (
           <button
             onClick={resetFilters}
-            className="px-3 py-2 rounded-xl text-sm text-[--color-muted] hover:text-[--color-fg] border border-[--color-border] transition-colors"
+            className="min-h-11 min-w-11 rounded-xl border border-[--color-border] px-3 py-2 text-sm text-[--color-muted] transition-colors hover:text-[--color-fg]"
+            aria-label={d.clear_filters}
           >
             ✕
           </button>

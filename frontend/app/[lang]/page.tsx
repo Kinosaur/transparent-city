@@ -64,16 +64,16 @@ export default async function OverviewPage({ params }: PageProps<'/[lang]'>) {
         <h1 className="text-3xl sm:text-4xl font-bold text-[--color-fg] tracking-tight">
           {dict.overview.title}
         </h1>
-        <p className="mt-2 text-[--color-subtle]">
-          {dict.overview.subtitle} ·{' '}
+        <p className="mt-2 text-[--color-subtle]">{dict.overview.subtitle}</p>
+        <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
           <span className="text-[--color-muted]">
             {dict.overview.data_as_of} {formatDate(data.data_range.from, lang)} {dict.overview.to}{' '}
             {formatDate(data.data_range.to, lang)}
           </span>
-          <Link href={`/${lang}/methods`} className="ml-1 text-sm text-[--color-teal-400] hover:underline underline-offset-4">
+          <Link href={`/${lang}/methods`} className="text-[--color-teal-400] hover:underline underline-offset-4">
             {dict.overview.methods_link}
           </Link>
-        </p>
+        </div>
       </div>
 
       {/* Provocative stat */}

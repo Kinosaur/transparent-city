@@ -1,7 +1,8 @@
 {
   "site": {
     "name": "Transparent City",
-    "tagline": "A better city starts with asking the right questions"
+    "tagline": "A better city starts with asking the right questions",
+    "skip_to_content": "Skip to main content"
   },
   "nav": {
     "overview": "Overview",
@@ -75,7 +76,9 @@
     "trend_3mo": "Trend (3mo)",
     "stale_label": "Stale (90d+)",
     "comparison_subtitle": "District vs Bangkok average",
-    "bkk_prefix": "BKK"
+    "bkk_prefix": "BKK",
+    "explore_title": "Start with a district",
+    "explore_body": "Choose one of Bangkok's most-reported districts, or use the selector above to find another."
   },
   "leaderboard": {
     "title": "Agency Leaderboard",
@@ -119,7 +122,9 @@
     "load_more": "Load more",
     "no_results": "No photos match your filters.",
     "showing": "Showing",
-    "photos": "photos"
+    "photos": "photos",
+    "tap_to_compare": "Tap photo to compare",
+    "clear_filters": "Clear filters"
   },
   "map": {
     "title": "Explore Map",
